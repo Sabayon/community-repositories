@@ -1,0 +1,3 @@
+app-admin/puppet-agent puppetdb
+net-analyzer/nagios-plugins mysql nagios-dns nagios-ntp nagios-ping nagios-ssh postgres radius samba smart snmp sudo ups
+net-misc/openssh -hpn ldap

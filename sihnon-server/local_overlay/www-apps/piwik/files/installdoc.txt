@@ -1,0 +1,22 @@
+To setup Piwik navigate to:
+http://${VHOST_HOSTNAME}/
+
+Install and upgrade instructions can be found here:
+http://piwik.org/docs/installation-optimization/
+
+For general information please read:
+http://piwik.org/docs/
+
+To setup a MySQL database modify the following SQL:
+CREATE USER 'piwik'@'%' IDENTIFIED BY  'very_secret_password';
+
+GRANT USAGE ON * . * TO  'piwik'@'%' IDENTIFIED BY  'very_secret_password' WITH
+MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0
+MAX_USER_CONNECTIONS 0 ;
+
+CREATE DATABASE IF NOT EXISTS  `piwik` ;
+
+GRANT ALL PRIVILEGES ON  `piwik` . * TO  'piwik'@'%';
+
+You might want to retighten permissions on the config/ directory once you have
+completed the setup.

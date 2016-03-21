@@ -1,0 +1,9 @@
+app-admin/puppet-agent puppetdb
+app-admin/puppetserver puppetdb
+dev-db/phppgadmin vhosts
+dev-db/phpmyadmin vhosts
+www-apps/cgit highlight vhosts
+www-apps/dokuwiki gd vhosts
+www-apps/gitlabhq mysql
+www-apps/piwik vhosts
+www-apps/wordpress -akismet -themes vhosts
