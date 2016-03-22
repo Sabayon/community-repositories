@@ -1,0 +1,3 @@
+# Yubikey packages
+sys-auth/ykpers -consolekit
+dev-python/pyside webkit
