@@ -16,12 +16,17 @@ BUILD_ARGS=(
     "net-analyzer/nagios-plugins"
     "net-misc/openssh"
     "net-misc/pssh"
+    "sys-auth/nss_ldap"
+    "sys-auth/nss_updatedb"
+    #"sys-auth/pam_ccreds" # Currently broken
+    "sys-auth/pam_ldap"
     "sys-fs/zfs-auto-snapshot"
     "--remove app-admin/puppet"
     "--remove app-emulation/virt-what"
     "--remove dev-ruby/facter"
     "--remove dev-ruby/hiera"
     "--layman gentoo-zh"
+    "--layman swegener"
 )
 
 build_all "${BUILD_ARGS[@]}"
