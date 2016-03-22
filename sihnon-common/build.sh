@@ -16,6 +16,7 @@ BUILD_ARGS=(
     "net-analyzer/nagios-plugins"
     "net-misc/openssh"
     "net-misc/pssh"
+    "sys-auth/google-authenticator"
     "sys-auth/nss_ldap"
     "sys-auth/nss_updatedb"
     #"sys-auth/pam_ccreds" # Currently broken
