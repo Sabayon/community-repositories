@@ -1,5 +1,4 @@
 #!/bin/bash
-
 . /vagrant/scripts/functions.sh
 
 export REPOSITORY_DESCRIPTION="Community Repository"
@@ -15,4 +14,3 @@ BUILD_ARGS=(
   "--layman games-overlay"
 )
 
-build_all "${BUILD_ARGS[@]}"

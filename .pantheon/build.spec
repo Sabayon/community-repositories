@@ -14,4 +14,3 @@ BUILD_ARGS=(
   "--remove dev-libs/libdbusmenu"
 )
 
-build_all "${BUILD_ARGS[@]}"

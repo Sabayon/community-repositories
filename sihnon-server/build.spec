@@ -21,4 +21,3 @@ BUILD_ARGS=(
     "--layman gitlab"
 )
 
-build_all "${BUILD_ARGS[@]}"

@@ -12,4 +12,4 @@ BUILD_ARGS=(
     "--layman jkolo"
 )
 
-build_all "${BUILD_ARGS[@]}"
+

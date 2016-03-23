@@ -30,4 +30,3 @@ BUILD_ARGS=(
     "--layman swegener"
 )
 
-build_all "${BUILD_ARGS[@]}"
