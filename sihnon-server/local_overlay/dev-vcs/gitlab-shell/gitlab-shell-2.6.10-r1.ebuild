@@ -16,7 +16,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm"
 
-DEPEND="$(ruby_implementation_depend ruby20)
+DEPEND="$(ruby_implementation_depend ruby21)
 	dev-vcs/git
 	virtual/ssh
 	dev-db/redis"
