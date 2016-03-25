@@ -1,0 +1,49 @@
+repository:
+  description: Sihnon common packages
+
+build:
+  emerge:
+    # Make it easier to see why dependencies are being pulled in
+    default_args: -t
+
+    # Install each package separately
+    split_install: 1
+
+    # Use sihnon overlay
+    remote_overlay: https://github.com/optiz0r/gentoo-overlay.git
+
+  equo:
+    package:
+      remove:
+        # These packages conflict with puppet-agent
+        - app-admin/puppet
+        - app-emulation/virt-what
+        - dev-ruby/facter
+        - dev-ruby/hiera
+
+  # Use ebuilds from the following layman overlays
+  overlays:
+    - gentoo-zh
+    - swegener
+
+  # Packages to be built in this repo
+  target:
+    - app-admin/librarian-puppet::sihnon
+    - app-admin/puppet-agent::gentoo
+    - app-admin/puppet-lint::gentoo
+    - app-vim/puppet-syntax::gentoo
+    - dev-ruby/hiera-eyaml-gpg::gentoo
+    - dev-ruby/puppet-syntax::sihnon
+    - dev-ruby/puppet_forge::sihnon
+    - dev-util/jenkins-bin::gentoo
+    - net-analyzer/nagios-plugins::gentoo
+    - net-misc/openssh::gentoo
+    - net-misc/pssh::gentoo
+    - sys-auth/google-authenticator::gentoo
+    - sys-auth/nss_ldap::gentoo
+    - sys-auth/nss_updatedb::swegener
+      #- sys-auth/pam_ccreds::barzog-overlay
+    - sys-auth/pam_ldap::gentoo
+    - sys-fs/zfs-auto-snapshot::gentoo-zh
+
+# vim: set ts=2 shiftwidth=2 expandtab :
