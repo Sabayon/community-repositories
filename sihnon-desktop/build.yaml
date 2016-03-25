@@ -1,0 +1,26 @@
+repository:
+  description: Sihnon desktop packages
+
+build:
+  emerge:
+    # Make it easier to see why dependencies are being pulled in
+    default_args: -t
+
+    # Install each package separately
+    split_install: 1
+
+    # Use sihnon overlay
+    remote_overlay: https://github.com/optiz0r/gentoo-overlay.git
+
+  # Use ebuilds from the following layman overlays
+  overlays:
+    - jkolo
+
+  # Packages to be built in this repo
+  target:
+    - app-crypt/yubico-piv-tool
+    - app-crypt/yubikey-neo-manager
+    - app-crypt/yubikey-piv-manager
+    - sys-auth/ykpers
+
+# vim: set ts=2 shiftwidth=2 expandtab :
