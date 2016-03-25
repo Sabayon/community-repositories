@@ -1,0 +1,75 @@
+## Most of the configurations are optional, just build.target and repository.description are required.
+repository:
+# REPOSITORY Definition. It contains the description and option regarding your entropy repository.
+   description: My testing repository # REQUIRED!!!
+   # This is your repository description.
+   maintenance:
+     clean_cache: 1
+     #USE WITH CAUTION! it will wipe your cache and it is VERY slow! it's like starting the building process for the first time.
+     keep_previous_versions: 1
+     # Set this value to the numbers of package versions that you want to keep.
+     # e.g. if you have different versions of app/foo: app/foo-1, app/foo-2, this is the number of them you may want to keep in your repository.
+     # When there are more version than the number specified, the older gets removed automatically. Defaults to 1
+     remove:
+       - app-foo/bar
+       - app-misc/baz-1.2
+     # Packages that you may want to remove manually from the repository
+build:
+# BUILD Definition. It contains description and options regarding your emerge build.
+  overlays:
+    - mrueg
+    - games-overlay
+  # Adds the specified overlays with layman before build
+  target: # REQUIRED!!!
+    - app-text/tree
+    - dev-lang/php
+  # The packages you wish to compile and be added to the entropy repository
+  equo:
+    package:
+      install:
+        - app-text/tree
+        - app-misc/foo
+      # List here the packages that you might want installed with Entropy official repositories before starting the build
+      remove:
+        - whatever
+      # List here the packages that you might want removed before the build
+    repository: main
+    # You can build against main (sabayonlinux.org) or weekly. It is strongly encouraged to keep default
+    dependency_install:
+      enable: 1
+      # Enable/disable equo to install package dependencies (automatically detected)
+      install_atoms: 1
+      # Require to install the atoms of the dependencies, not their version
+      dependency_scan_depth: 2 #DEPENDENCY_SCAN_DEPTH
+      # How much have to deep the dependency scanner to get your deps
+      install_version : 0
+      # Install versions instead of atoms with equo. Discouraged
+      split_install: 1
+      # Install packages calling equo install separately
+  ## Advanced options below:
+  docker:
+    image: sabayon/builder-amd64
+    # Docker image to use as building environment. defaults to sabayon/builder-amd64
+    entropy_image: sabayon/eit-amd64
+    # Docker image to use as repository environment. defaults to sabayon/eit-amd64
+  emerge:
+  # Gentoo users will recognize those options, if not familiar, leave as default
+    default_args: -t
+    # Emerge default arguments.
+    # You can specify further options to give to emerge here
+    split_install: 1
+    # If set to 1, calls emerge for each package instead in one single call.
+    features: parallel -userpriv
+    # features to enable/disable to your build
+    profile: 3
+    # Gentoo Profile to use
+    jobs: 4
+    # Package compilation/installations in parallel (this is NOT MAKEOPTS's -j)
+    preserved_rebuild: 0
+    # Run emerge of preserved libs after build
+    skip_sync: 1
+    # skip portage sync
+    webrsync: 1
+    # uses webrsync instead of emerge --sync
+    remote_overlay: https://github.com/my/repo
+    # Specify a github/bitbucket/whatever.git repository to clone and use as local_overlay during the build (it overrides local_overlay which can be used in the git repo)
