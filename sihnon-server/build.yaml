@@ -1,0 +1,36 @@
+repository:
+  description: Sihnon server packages
+
+build:
+  emerge:
+    # Make it easier to see why dependencies are being pulled in
+    default_args: -t
+
+    # Install each package separately
+    split_install: 1
+
+    # Use sihnon overlay
+    remote_overlay: https://github.com/optiz0r/gentoo-overlay.git
+
+  # Use ebuilds from the following layman overlays
+  overlays:
+    - awesome
+    - gitlab
+
+  # Packages to be built in this repo
+  target:
+    - app-admin/puppetdb
+    - app-admin/puppetserver
+    - app-backup/backuppc
+    - dev-db/phppgadmin
+    - dev-db/phpmyadmin
+    - www-apps/cgit
+    - www-apps/dokuwiki
+    - www-apps/gitlabhq
+    - www-apps/piwik
+    - www-apps/wordpress
+    - www-misc/shellinabox
+    - www-servers/gitlab-workhorse
+
+# vim: set ts=2 shiftwidth=2 expandtab :
+
