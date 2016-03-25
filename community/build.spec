@@ -8,6 +8,8 @@ BUILD_ARGS=(
   "games-strategy/megaglest::games-overlay"
   "app-emulation/shashlik-bin::anyc"
   "media-gfx/sweethome3d-bin::activehome"
+  "app-emulation/wine-staging::wine-a-holics"
+  "--layman wine-a-holics"
   "--layman activehome"
   "--layman and3k-sunrise"
   "--layman anyc"
