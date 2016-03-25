@@ -25,6 +25,9 @@ build:
     - dev-lang/php
   # The packages you wish to compile and be added to the entropy repository
   equo:
+    repositories:
+      - community
+    # Use enman to add the repositories before the build
     package:
       install:
         - app-text/tree
