@@ -7,9 +7,11 @@ build:
     - and3k-sunrise
     - anyc
     - games-overlay
+    - jorgicio
   target:
     - app-text/cherrytree::and3k-sunrise
     - games-strategy/megaglest::games-overlay
     - app-emulation/shashlik-bin::anyc
     - media-gfx/sweethome3d-bin::activehome
     - app-emulation/wine-staging::wine-a-holics
+    - dev-util/eclipse-sdk-bin::jorgicio
