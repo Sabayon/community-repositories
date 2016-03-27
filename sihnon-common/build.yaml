@@ -3,9 +3,6 @@ repository:
 
 build:
   emerge:
-    # Make it easier to see why dependencies are being pulled in
-    default_args: -t
-
     # Install each package separately
     split_install: 1
 
