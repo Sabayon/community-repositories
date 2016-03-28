@@ -45,6 +45,9 @@ build:
       # Require to install the atoms of the dependencies, not their version
       dependency_scan_depth: 2 #DEPENDENCY_SCAN_DEPTH
       # How much have to deep the dependency scanner to get your deps
+      prune_virtuals: 1
+      # Remove packages that satisfy a virtual dependency from the list of packages
+      # to install using entropy. 
       install_version : 0
       # Install versions instead of atoms with equo. Discouraged
       split_install: 1
