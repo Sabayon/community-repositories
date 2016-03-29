@@ -8,7 +8,9 @@ build:
     - anyc
     - games-overlay
     - jorgicio
+    - fuverlay
   target:
+    - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
     - games-strategy/megaglest::games-overlay
     - app-emulation/shashlik-bin::anyc
