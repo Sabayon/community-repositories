@@ -28,6 +28,8 @@ build:
     repositories:
       - community
     # Use enman to add the repositories before the build
+    enman_self: 0
+    # Disable adding your repository with enman as default
     package:
       install:
         - app-text/tree
@@ -47,7 +49,7 @@ build:
       # How much have to deep the dependency scanner to get your deps
       prune_virtuals: 1
       # Remove packages that satisfy a virtual dependency from the list of packages
-      # to install using entropy. 
+      # to install using entropy.
       install_version : 0
       # Install versions instead of atoms with equo. Discouraged
       split_install: 1
