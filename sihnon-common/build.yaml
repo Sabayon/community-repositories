@@ -21,10 +21,12 @@ build:
   # Use ebuilds from the following layman overlays
   overlays:
     - gentoo-zh
+    - hacking-gentoo
     - swegener
 
   # Packages to be built in this repo
   target:
+    - app-admin/lastpass-cli
     - app-admin/librarian-puppet::sihnon
     - app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
@@ -33,13 +35,20 @@ build:
     - dev-ruby/puppet-syntax::sihnon
     - dev-ruby/puppet_forge::sihnon
     - dev-util/jenkins-bin::gentoo
+    - dev-vcs/vcsh
+    - mcollective-plugin/mcollective-actionpolicy-auth-master
+    - mcollective-plugin/mcollective-plugin-update-system
+    - mcollective-plugin/mcollective-puppet-agent
+    - mcollective-plugin/mcollective-puppetca-agent
+    - mcollective-plugin/mcollective-puppetenvsh-agent
+    - mcollective-plugin/mcollective-service-agent-master
     - net-analyzer/nagios-plugins::gentoo
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
     - sys-auth/google-authenticator::gentoo
     - sys-auth/nss_ldap::gentoo
     - sys-auth/nss_updatedb::swegener
-      #- sys-auth/pam_ccreds::barzog-overlay
+    #- sys-auth/pam_ccreds::barzog-overlay
     - sys-auth/pam_ldap::gentoo
     - sys-fs/zfs-auto-snapshot::gentoo-zh
 
