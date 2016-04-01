@@ -19,6 +19,6 @@ export SKIP_PORTAGE_SYNC=1
 export EQUO_MIRRORSORT=0
 
 # Debug what env vars are being passed to the builder
-printenv
+printenv | sort
 
 build_all ${BUILD_ARGS}
