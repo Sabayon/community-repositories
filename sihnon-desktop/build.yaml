@@ -1,6 +1,10 @@
 repository:
   description: Sihnon desktop packages
 
+  remove:
+      # Available in sabayonlinux.org
+    - sys-auth/ykpers
+
 build:
   emerge:
     # Install each package separately
@@ -18,6 +22,5 @@ build:
     - app-crypt/yubico-piv-tool
     - app-crypt/yubikey-neo-manager
     - app-crypt/yubikey-piv-manager
-    - sys-auth/ykpers
 
 # vim: set ts=2 shiftwidth=2 expandtab :
