@@ -1,4 +1,4 @@
 # Yubikey packages
 sys-auth/ykpers -consolekit
 # Temporarily disable while we work out what's breaking the build host
-#dev-python/pyside webkit
+dev-python/pyside webkit
