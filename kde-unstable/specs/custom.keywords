@@ -1,0 +1,421 @@
+# required by kde-plasma/libkscreen-9999::kde
+# required by kde-plasma/kscreen-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kwayland-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-desktop-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kidletime-9999 **
+# required by kde-plasma/plasma-nm-9999::kde[modemmanager]
+# required by kde-plasma/plasma-meta-9999::kde[networkmanager]
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/modemmanager-qt-9999 **
+# required by kde-plasma/plasma-sdk-5.5.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kconfigwidgets-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde[geolocation]
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/networkmanager-qt-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kwayland-integration-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/khelpcenter-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/bluedevil-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/libksysguard-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kwidgetsaddons-9999 **
+# required by kde-frameworks/kdesu-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kpty-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kdeplasma-addons-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kauth-9999 **
+# required by kde-frameworks/kded-9999::kde
+# required by kde-plasma/bluedevil-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde[bluetooth]
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kdbusaddons-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kjobwidgets-9999 **
+# required by kde-plasma/plasma-meta-9999::kde[pulseaudio]
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-pa-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/libkscreen-9999 **
+# required by kde-frameworks/kemoticons-9999::kde
+# required by kde-frameworks/kdelibs4support-9999::kde
+# required by kde-plasma/ksysguard-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kservice-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kdesu-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/polkit-kde-agent-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kinfocenter-9999 **
+# required by kde-frameworks/kdelibs4support-9999::kde
+# required by kde-plasma/ksysguard-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kdesignerplugin-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/krunner-9999 **
+# required by kde-plasma/plasma-mediacenter-5.5.5::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-workspace-9999 **
+# required by dev-util/kdevplatform-5.0.9999::sabayon
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kitemviews-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/knotifyconfig-9999 **
+# required by kde-apps/kio-extras-15.12.3::gentoo
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kded-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kpackage-9999 **
+# required by kde-plasma/bluedevil-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde[bluetooth]
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/bluez-qt-9999 **
+# required by kde-frameworks/knotifications-9999::kde
+# required by kde-plasma/ksysguard-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kcodecs-9999 **
+# required by kde-plasma/plasma-sdk-5.5.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kdeclarative-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kmenuedit-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kjsembed-9999 **
+# required by kde-plasma/kinfocenter-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/solid-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-nm-9999 **
+# required by kde-frameworks/krunner-9999::kde
+# required by kde-plasma/milou-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/threadweaver-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/ktextwidgets-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kcoreaddons-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kactivities-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/ksysguard-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/sonnet-9999 **
+# required by kde-plasma/kdeplasma-addons-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/knewstuff-9999 **
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/attica-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kparts-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kxmlrpcclient-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/milou-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/ksshaskpass-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/plasma-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/khotkeys-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-gtk-config-9999 **
+# required by dev-util/kdevplatform-5.0.9999::sabayon
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kcmutils-9999 **
+# required by dev-util/kdevelop-5.0.9999::sabayon
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/ki18n-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kcrash-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kconfig-9999 **
+# required by kde-plasma/plasma-meta-9999::kde[sddm]
+# required by @selected
+# required by @world (argument)
+=kde-plasma/sddm-kcm-9999 **
+# required by kde-plasma/kde-gtk-config-9999::kde
+# required by kde-plasma/systemsettings-9999::kde[gtk]
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/karchive-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde[handbook]
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kdoctools-9999 **
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/ktexteditor-9999 **
+# required by kde-frameworks/baloo-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kfilemetadata-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kdecoration-9999 **
+# required by kde-plasma/khotkeys-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kdelibs4support-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/user-manager-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kscreenlocker-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kemoticons-9999 **
+# required by kde-plasma/plasma-meta-9999::kde[gtk]
+# required by @selected
+# required by @world (argument)
+=kde-plasma/breeze-gtk-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kpeople-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kwin-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kxmlgui-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kscreen-9999 **
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/breeze-9999 **
+# required by kde-frameworks/kjsembed-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kjs-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kwrited-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kinit-9999 **
+# required by kde-apps/konsole-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/knotifications-9999 **
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/oxygen-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kitemmodels-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/baloo-9999 **
+# required by kde-plasma/kactivitymanagerd-5.5.0::gentoo
+# required by kde-frameworks/kactivities-9999::kde
+# required by kde-frameworks/kactivities-stats-9999::kde
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kwindowsystem-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/powerdevil-9999 **
+# required by kde-frameworks/ktexteditor-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kio-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kcompletion-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/systemsettings-9999 **
+# required by kde-apps/konsole-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kguiaddons-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kgamma-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-meta-9999 **
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kglobalaccel-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/breeze-icons-9999 **
+# required by kde-plasma/breeze-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/frameworkintegration-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kwallet-pam-9999 **
+# required by kde-plasma/kdeplasma-addons-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kross-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kwallet-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/khtml-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kunitconversion-9999 **
+# required by kde-plasma/plasma-workspace-wallpapers-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde[wallpapers]
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/extra-cmake-modules-9999 **
+# required by dev-util/kdevelop-5.0.9999::sabayon
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kiconthemes-9999 **
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kactivities-stats-9999 **
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-workspace-wallpapers-9999 **
+# required by kde-frameworks/kio-9999::kde
+# required by kde-frameworks/kxmlrpcclient-9999::kde
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-frameworks/kbookmarks-9999 **
+
+
+
+
+
+
+# needed for kdevelop
+=dev-util/kdevelop-9999 **
+=dev-util/kdevplatform-9999 **

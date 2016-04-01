@@ -3,6 +3,13 @@ repository:
 build:
   emerge:
     split_install: 1
+  equo:
+    package:
+      remove:
+        # These packages conflict with plasma-desktop-9999
+        - kde-plasma/kactivitymanagerd
+        - kde-plasma/kactivities-workspace
+        - kde-apps/kapptemplate #conflicts with kdevelop
   overlays:
     - kde
   target:
