@@ -1,0 +1,10 @@
+repository:
+   description: KDE Unstable repository
+build:
+  emerge:
+    split_install: 1
+  overlays:
+    - kde
+  target:
+    - kde-plasma/plasma-meta::kde
+    - dev-util/kdevelop::kde
