@@ -1,8 +1,10 @@
 repository:
    description: Sabayon Community SCR
+   maintenance:
+     remove: 
+       - app-emulation/wine-staging
 build:
   overlays:
-    - wine-a-holics
     - activehome
     - and3k-sunrise
     - anyc
@@ -15,5 +17,4 @@ build:
     - games-strategy/megaglest::games-overlay
     - app-emulation/shashlik-bin::anyc
     - media-gfx/sweethome3d-bin::activehome
-    - app-emulation/wine-staging::wine-a-holics
     - dev-util/eclipse-sdk-bin::jorgicio
