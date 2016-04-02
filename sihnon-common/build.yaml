@@ -31,9 +31,17 @@ build:
     - app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
     - app-vim/puppet-syntax::gentoo
+    - dev-libs/sihnon-php-lib::sihnon
     - dev-ruby/hiera-eyaml-gpg::gentoo
+    - dev-ruby/hiera-puppet-helper::sihnon
     - dev-ruby/puppet-syntax::sihnon
     - dev-ruby/puppet_forge::sihnon
+    - dev-ruby/puppetlabs_spec_helper::sihnon
+    - dev-ruby/rspec-puppet::sihnon
+    - dev-ruby/rspec-puppet-utils::sihnon
+    - dev-ruby/simplecov::gentoo
+    - dev-ruby/simplecov-html::gentoo
+    - dev-ruby/simplecov-rcov::sihnon
     - dev-util/jenkins-bin::gentoo
     - dev-vcs/vcsh::gentoo
     - mcollective-plugin/mcollective-actionpolicy-auth-master::sihnon
