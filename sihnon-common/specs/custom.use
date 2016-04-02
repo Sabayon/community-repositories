@@ -1,3 +1,5 @@
 app-admin/puppet-agent puppetdb
 net-analyzer/nagios-plugins mysql nagios-dns nagios-ntp nagios-ping nagios-ssh postgres radius samba smart snmp sudo ups
 net-misc/openssh -hpn ldap
+media-tv/tvheadend libav satip xmltv -ffmpeg
+media-tv/xmltv uk_bleb uk_rt

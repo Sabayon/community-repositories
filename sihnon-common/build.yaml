@@ -50,7 +50,12 @@ build:
     - mcollective-plugin/mcollective-puppetca-agent::sihnon
     - mcollective-plugin/mcollective-puppetenvsh-agent::sihnon
     - mcollective-plugin/mcollective-service-agent-master::sihnon
+    - media-tv/tvheadend
+    - media-tv/xmltv
     - net-analyzer/nagios-plugins::gentoo
+    # Blocked by media-video/subliminal-0.7.4. Needs bumping to 1.1.1 which eliminates the
+    # need to mask babelfish and guessit
+    #- net-misc/flexget::sihnon
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
     - sys-auth/google-authenticator::gentoo
