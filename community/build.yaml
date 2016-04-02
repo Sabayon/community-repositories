@@ -12,6 +12,7 @@ build:
     - jorgicio
     - fuverlay
     - stuff
+    - gamarouns
   target:
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
@@ -20,3 +21,4 @@ build:
     - media-gfx/sweethome3d-bin::activehome
     - dev-util/eclipse-sdk-bin::jorgicio
     - sys-fs/google-drive-ocamlfuse::stuff
+    - dev-libs/intel-beignet::gamarouns 
