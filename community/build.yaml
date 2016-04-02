@@ -11,6 +11,7 @@ build:
     - games-overlay
     - jorgicio
     - fuverlay
+    - stuff
   target:
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
@@ -18,3 +19,4 @@ build:
     - app-emulation/shashlik-bin::anyc
     - media-gfx/sweethome3d-bin::activehome
     - dev-util/eclipse-sdk-bin::jorgicio
+    - sys-fs/google-drive-ocamlfuse::stuff
