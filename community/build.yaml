@@ -13,6 +13,7 @@ build:
     - fuverlay
     - stuff
     - gamarouns
+    - science
   target:
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
@@ -22,3 +23,5 @@ build:
     - dev-util/eclipse-sdk-bin::jorgicio
     - sys-fs/google-drive-ocamlfuse::stuff
     - dev-libs/intel-beignet::gamarouns 
+    - sci-libs/calculix-cgx::science
+    - sci-libs/calculix-ccx::science
