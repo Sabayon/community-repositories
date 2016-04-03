@@ -12,7 +12,7 @@ build:
     - jorgicio
     - fuverlay
     - stuff
-    - gamarouns
+    - mrueg
     - science
   target:
     - net-im/telegram-bin::fuverlay
@@ -22,6 +22,6 @@ build:
     - media-gfx/sweethome3d-bin::activehome
     - dev-util/eclipse-sdk-bin::jorgicio
     - sys-fs/google-drive-ocamlfuse::stuff
-    - dev-libs/intel-beignet::gamarouns 
+    - dev-libs/intel-beignet::mrueg
     - sci-libs/calculix-cgx::science
     - sci-libs/calculix-ccx::science
