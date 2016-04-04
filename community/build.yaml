@@ -13,6 +13,7 @@ build:
     - fuverlay
     - mrueg
     - science
+    - sublime-text
   target:
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
@@ -23,3 +24,5 @@ build:
     - dev-libs/intel-beignet::mrueg
     - sci-libs/calculix-cgx::science
     - sci-libs/calculix-ccx::science
+    - app-editors/sublime-text::sublime-text
+    - app-eselect/eselect-sublime::sublime-text
