@@ -1,16 +1,21 @@
 repository:
    description: Sabayon Community SCR
 build:
+  emerge:
+    # Install each package separately
+    split_install: 1
   overlays:
     - activehome
     - and3k-sunrise
     - anyc
     - games-overlay
+    - go-overlay
     - jorgicio
     - fuverlay
     - mrueg
     - science
   target:
+    - www-apps/gogs::go-overlay
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
     - games-strategy/megaglest::games-overlay
