@@ -15,20 +15,20 @@ Each repository has the following structure:
     my-testing-repo/build.yaml #REQUIRED
 `
 
-* my-testing-repo/build.yaml -- It's the Build spec that defines what to compile and how. Probably this is the only file you will need. ([example build.yaml](https://github.com/Sabayon/community-repositories/blob/master/build-example.yaml))
-* my-testing-repo/local_overlay/ -- is the location of your the local overlay (if necessary)
-* my-testing-repo/specs -- Create it to customize the building process. It can contain custom files for make.conf, uses, envs, masks, unmasks and keywords for package compilation options
+* **build.yaml** -- It's the Build spec that defines what to compile and how. Probably this is the only file you will need. ([example build.yaml](https://github.com/Sabayon/community-repositories/blob/master/build-example.yaml))
+* **local_overlay/** -- This folder is the local overlay (if necessary, otherwise if you already have a gentoo overlay, you can specify [the git url](https://github.com/Sabayon/community-repositories/blob/master/build-example.yaml#L82)
+* **specs/** -- Create this folder to customize the building process. It can contain custom files for make.conf, uses, envs, masks, unmasks and keywords for package compilation options
 
 the `specs` folder is structured like this and it's merely optional.
 
 as long as you create those files they are used:
 
-- custom.unmask: that's the place for custom unmasks
-- custom.mask:  contain your custom masks
-- custom.use:  contain your custom use flags
-- custom.env:  contain your custom env specifications
-- custom.keywords: contain your custom keywords
-- make.conf:  it will replace the make.conf on the container with the provided one.
+- **custom.unmask**: that's the place for custom unmasks
+- **custom.mask**:  contain your custom masks
+- **custom.use**:  contain your custom use flags
+- **custom.env**:  contain your custom env specifications
+- **custom.keywords**: contain your custom keywords
+- **make.conf**:  it will replace the make.conf on the container with the provided one.
 
 
 ## Package requests or Repository requests
