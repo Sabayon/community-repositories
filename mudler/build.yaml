@@ -1,0 +1,10 @@
+repository:
+   description: mudler's repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+  overlays:
+    - go-overlay
+  target:
+    - www-apps/gogs::go-overlay
