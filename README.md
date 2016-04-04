@@ -4,22 +4,20 @@
 
 Here are defined the repositories specfile that are being built by the builder machine.
 
-## Folder structure of a repository
+## Structure of a repository
 
-The directory structure represent the building specfile required to compile the repository.
+Each repository has the following structure:
 
 `
 
-    my-testing-repo/local_overlay/
-    my-testing-repo/specs/
-    my-testing-repo/build.sh
-    my-testing-repo/clean.sh
+    my-testing-repo/local_overlay/ #OPTIONAL
+    my-testing-repo/specs/ # OPTIONAL
+    my-testing-repo/build.yaml #REQUIRED
 `
 
-* my-testing-repo/build.sh -- It's the Build spec that defines what to compile and how. Probably this is the only file you will need
+* my-testing-repo/build.yaml -- It's the Build spec that defines what to compile and how. Probably this is the only file you will need. ([example build.yaml](https://github.com/Sabayon/community-repositories/blob/master/build-example.yaml))
 * my-testing-repo/local_overlay/ -- is the location of your the local overlay (if necessary)
 * my-testing-repo/specs -- Create it to customize the building process. It can contain custom files for make.conf, uses, envs, masks, unmasks and keywords for package compilation options
-* my-testing-repo/clean.sh -- Cleanup cruft that is scheduled, you can stick with defaults.
 
 the `specs` folder is structured like this and it's merely optional.
 
