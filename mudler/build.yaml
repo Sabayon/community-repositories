@@ -13,7 +13,6 @@ build:
     - dev-go/gox::go-overlay
     - dev-go/goxc::go-overlay
     - dev-go/ffjson::go-overlay
-    - dev-vcs/hub::go-overlay
     - net-misc/bat::go-overlay
     - net-p2p/cloud-torrent::go-overlay
     - x11-misc/noti::go-overlay
