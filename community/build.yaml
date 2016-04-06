@@ -28,4 +28,4 @@ build:
     - app-editors/sublime-text::sublime-text
     - app-eselect/eselect-sublime::sublime-text
     - media-tv/peerflix::jorgicio
-    - x11-misc/mugshot
+    - x11-misc/mugshot::y2kbadbug
