@@ -1,6 +1,12 @@
 repository:
   description: Sihnon server packages
 
+  maintenance:
+    remove:
+      # www-apacge/mpm_itk depdendency is missing and breaking the build
+      # Remove from the repository and re-add once clean
+      - app-backup/backuppc
+
 build:
   emerge:
     # Install each package separately
@@ -20,7 +26,7 @@ build:
   target:
     - app-admin/puppetdb
     - app-admin/puppetserver
-    - app-backup/backuppc
+    #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
     - media-video/motion
