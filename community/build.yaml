@@ -14,6 +14,7 @@ build:
     - mrueg
     - science
     - sublime-text
+    - y2kbadbug
   target:
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
@@ -27,3 +28,4 @@ build:
     - app-editors/sublime-text::sublime-text
     - app-eselect/eselect-sublime::sublime-text
     - media-tv/peerflix::jorgicio
+    - x11-misc/mugshot
