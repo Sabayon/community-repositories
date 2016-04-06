@@ -12,6 +12,7 @@ build:
     - jorgicio
     - fuverlay
     - mrueg
+    - necromancy-overlay
     - science
     - sublime-text
     - y2kbadbug
@@ -27,5 +28,6 @@ build:
     - sci-libs/calculix-ccx::science
     - app-editors/sublime-text::sublime-text
     - app-eselect/eselect-sublime::sublime-text
+    - media-sound/vkaudiosaver::necromancy-overlay
     - media-tv/peerflix::jorgicio
     - x11-misc/mugshot::y2kbadbug
