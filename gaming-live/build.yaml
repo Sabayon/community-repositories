@@ -1,0 +1,8 @@
+repository:
+   description: Gaming live repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+  target:
+    - =media-libs/mesa-9999
