@@ -16,6 +16,10 @@ build:
     - science
     - sublime-text
     - y2kbadbug
+  equo:
+    package:
+      install:
+        - dev-libs/ocl-icd
   target:
     - net-im/telegram-bin::fuverlay
     - app-text/cherrytree::and3k-sunrise
