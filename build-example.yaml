@@ -23,7 +23,11 @@ build:
   target: # REQUIRED!!!
     - app-text/tree
     - dev-lang/php
-  # The packages you wish to compile and be added to the entropy repository
+  injected_target:
+    - app-text/tree
+    - dev-lang/php
+  # The packages you wish to compile and be added to the entropy repository, you can optionally specify packages that 
+  # needs to be compiled with the -B flag (injected and thus won't be installed in the container)
   equo:
     repositories:
       - community
