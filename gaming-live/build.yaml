@@ -7,3 +7,4 @@ build:
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
   target:
     - =media-libs/mesa-9999
+    - =x11-libs/libdrm-9999
