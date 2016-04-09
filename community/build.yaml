@@ -9,6 +9,7 @@ build:
     - and3k-sunrise
     - anyc
     - games-overlay
+    - gamerlay
     - jorgicio
     - fuverlay
     - mrueg
@@ -35,3 +36,4 @@ build:
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
     - x11-misc/mugshot::y2kbadbug
+    - games-fps/redeclipse::gamerlay
