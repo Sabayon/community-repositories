@@ -7,3 +7,4 @@ build:
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
   target:
     - =sys-kernel/genkernel-next-9999
+    - =app-admin/calamares-9999
