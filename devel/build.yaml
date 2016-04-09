@@ -1,0 +1,9 @@
+repository:
+   description: Devel channel repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+    default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
+  target:
+    - =sys-kernel/genkernel-next-9999
