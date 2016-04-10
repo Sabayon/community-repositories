@@ -37,3 +37,4 @@ build:
     - media-tv/peerflix::jorgicio
     - x11-misc/mugshot::y2kbadbug
     - games-fps/redeclipse::gamerlay
+    - app-misc/neofetch
