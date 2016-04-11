@@ -26,7 +26,7 @@ build:
   injected_target:
     - app-text/tree
     - dev-lang/php
-  # The packages you wish to compile and be added to the entropy repository, you can optionally specify packages that 
+  # The packages you wish to compile and be added to the entropy repository, you can optionally specify packages that
   # needs to be compiled with the -B flag (injected and thus won't be installed in the container)
   equo:
     repositories:
@@ -42,6 +42,12 @@ build:
       remove:
         - whatever
       # List here the packages that you might want removed before the build
+      mask:
+        - whatever
+      # List here the packages that you might want masked before the build
+      unmask:
+        - whatever
+      # List here the packages that you might want masked before the build
     repository: main
     # You can build against main (sabayonlinux.org) or weekly. It is strongly encouraged to keep default
     dependency_install:
