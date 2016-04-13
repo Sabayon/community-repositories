@@ -3,6 +3,7 @@ repository:
    maintenance:
      remove: 
        - www-client/w3m
+       - kde-apps/kapptemplate #conflicts with kdevelop
 build:
   emerge:
     # Install each package separately
@@ -14,6 +15,7 @@ build:
     - games-overlay
     - gamerlay
     - jorgicio
+    - kde
     - fuverlay
     - mrueg
     - ROKO__
@@ -43,3 +45,4 @@ build:
     - x11-misc/mugshot::y2kbadbug
     - games-fps/redeclipse::gamerlay
     - app-misc/neofetch
+    - =dev-util/kdevelop-5.0.9999::kde
