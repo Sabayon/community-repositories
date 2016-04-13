@@ -1,5 +1,8 @@
 repository:
    description: Sabayon Community SCR
+   maintenance:
+     remove: 
+       - www-client/w3m
 build:
   emerge:
     # Install each package separately
