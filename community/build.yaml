@@ -47,5 +47,4 @@ build:
     - x11-misc/mugshot::y2kbadbug
     - www-apps/hugo::go-overlay
     - games-fps/redeclipse::gamerlay
-    - app-misc/neofetch
     - =dev-util/kdevelop-5.0.9999::kde
