@@ -5,7 +5,10 @@ build:
     # Install each package separately
     split_install: 1
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
+  overlays:
+    - kde
   target:
     - =sys-kernel/genkernel-next-9999
     - =app-admin/calamares-9999
     - sys-kernel/linux-sabayon
+    - =sys-libs/kpmcore-9999::kde
