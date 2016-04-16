@@ -9,9 +9,7 @@ build:
         # These packages conflict with plasma-desktop-9999
         - kde-plasma/kactivitymanagerd
         - kde-plasma/kactivities-workspace
-        - kde-apps/kapptemplate #conflicts with kdevelop
   overlays:
     - kde
   target:
     - kde-plasma/plasma-meta::kde
-    - dev-util/kdevelop::kde

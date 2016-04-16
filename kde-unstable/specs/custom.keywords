@@ -412,6 +412,18 @@
 =kde-frameworks/kbookmarks-9999 **
 
 
+# required by kde-plasma/plasma-meta-9999::kde[handbook]
+# required by @selected
+# required by @world (argument)
+=kde-apps/khelpcenter-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/plasma-integration-9999 **
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kactivitymanagerd-9999 **
 
 
 
