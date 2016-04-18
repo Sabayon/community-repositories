@@ -46,3 +46,4 @@ build:
     - games-fps/redeclipse::gamerlay
     - =dev-util/kdevelop-5.0.9999::kde
     - app-emulation/genymotion
+    - net-im/qtox-bin
