@@ -45,3 +45,4 @@ build:
     - www-apps/hugo::go-overlay
     - games-fps/redeclipse::gamerlay
     - =dev-util/kdevelop-5.0.9999::kde
+    - app-emulation/genymotion
