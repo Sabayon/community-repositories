@@ -47,3 +47,4 @@ build:
     - =dev-util/kdevelop-5.0.9999::kde
     - app-emulation/genymotion
     - net-im/qtox-bin
+    - app-misc/neofetch
