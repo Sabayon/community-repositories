@@ -431,3 +431,54 @@
 # needed for kdevelop
 =dev-util/kdevelop-9999 **
 =dev-util/kdevplatform-9999 **
+
+
+#QT
+
+=dev-qt/qtsvg-9999 **
+=dev-qt/qtimageformats-9999 **
+=dev-qt/qtchooser-9999 **
+=dev-qt/qttranslations-9999 **
+=dev-qt/qtpositioning-9999 **
+=dev-qt/qtnetwork-9999 **
+=dev-qt/qtx11extras-9999 **
+=dev-qt/qttest-9999 **
+=dev-qt/qtscript-9999 **
+=dev-qt/qdoc-9999 **
+=dev-qt/qtspeech-9999 **
+=dev-qt/linguist-tools-9999 **
+=dev-qt/qtquickcontrols-9999 **
+=dev-qt/qdbusviewer-9999 **
+=dev-qt/qtwebengine-9999 **
+=dev-qt/qtwidgets-9999 **
+=dev-qt/qtpaths-9999 **
+=dev-qt/qtdeclarative-9999 **
+=dev-qt/qtlocation-9999 **
+=dev-qt/qtxmlpatterns-9999 **
+=dev-qt/qtquick1-9999 **
+=dev-qt/qtsensors-9999 **
+=dev-qt/designer-9999 **
+=dev-qt/qtsql-9999 **
+=dev-qt/qtopengl-9999 **
+=dev-qt/linguist-9999 **
+=dev-qt/assistant-9999 **
+=dev-qt/qtwebchannel-9999 **
+=dev-qt/qdbus-9999 **
+=dev-qt/qtwebkit-9999 **
+=dev-qt/qtgraphicaleffects-9999 **
+=dev-qt/qtconcurrent-9999 **
+=dev-qt/qt-creator-9999 **
+=dev-qt/qtgui-9999 **
+=dev-qt/qtdiag-9999 **
+=dev-qt/qthelp-9999 **
+=dev-qt/qtwayland-9999 **
+=dev-qt/qtserialport-9999 **
+=dev-qt/qtmultimedia-9999 **
+=dev-qt/pixeltool-9999 **
+=dev-qt/qtcore-9999 **
+=dev-qt/qt3d-9999 **
+=dev-qt/qtbluetooth-9999 **
+=dev-qt/qtwebsockets-9999 **
+=dev-qt/qtxml-9999 **
+=dev-qt/qtdbus-9999 **
+=dev-qt/qtprintsupport-9999 **
