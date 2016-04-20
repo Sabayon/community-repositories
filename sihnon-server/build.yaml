@@ -34,7 +34,7 @@ build:
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
-    - net-wireless/unifi::barzog-overlay
+    - net-wireless/unifi
     - sys-apps/entropybroker::emery
     - www-apps/cgit
     - www-apps/dokuwiki
