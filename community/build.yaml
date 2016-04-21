@@ -17,7 +17,7 @@ build:
     - mrueg
     - ROKO__
     - science
-    - shypixie
+    - ShyPixie
     - sublime-text
     - y2kbadbug
   equo:
@@ -49,4 +49,4 @@ build:
     - app-emulation/genymotion
     - net-im/qtox-bin
     - app-misc/neofetch
-    - =x11-terms/altyo-9999-r1::shypixie
+    - x11-terms/altyo::ShyPixie
