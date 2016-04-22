@@ -18,7 +18,7 @@ build:
   # Use ebuilds from the following layman overlays
   overlays:
     - awesome
-    - barzof-overlay
+    - barzog-overlay
     - emery
     - gitlab
 
