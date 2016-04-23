@@ -23,8 +23,6 @@ build:
     package:
       install:
         - dev-libs/ocl-icd
-      mask:
-        - www-client/w3m::sabayonlinux.org
       remove:
         - kde-apps/kapptemplate #conflicts with kdevelop
   target:
