@@ -37,7 +37,6 @@ build:
     - sci-libs/calculix-ccx::science
     - app-editors/sublime-text::sublime-text
     - app-eselect/eselect-sublime::sublime-text
-    - media-sound/banshee
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
     - x11-misc/mugshot::y2kbadbug
