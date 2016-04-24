@@ -61,3 +61,4 @@ build:
     - dev-qt/qtxml::qt
     - dev-qt/qtdbus::qt
     - dev-qt/qtprintsupport::qt
+    - =dev-util/kdevelop-5.0.9999::kde
