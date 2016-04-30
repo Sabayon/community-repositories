@@ -46,12 +46,12 @@ build:
     - dev-ruby/simplecov-rcov::sihnon
     - dev-util/jenkins-bin::gentoo
     - dev-vcs/vcsh::gentoo
-    - mcollective-plugin/mcollective-actionpolicy-auth-master::sihnon
-    - mcollective-plugin/mcollective-plugin-update-system::sihnon
+    - mcollective-plugin/mcollective-actionpolicy-auth-master::hacking-gentoo
+    - mcollective-plugin/mcollective-plugin-update-system::hacking-gentoo
     - mcollective-plugin/mcollective-puppet-agent::sihnon
     - mcollective-plugin/mcollective-puppetca-agent::sihnon
     - mcollective-plugin/mcollective-puppetenvsh-agent::sihnon
-    - mcollective-plugin/mcollective-service-agent-master::sihnon
+    - mcollective-plugin/mcollective-service-agent-master::hacking-gentoo
     - media-tv/tvheadend
     - media-tv/xmltv
     - net-analyzer/nagios-plugins::gentoo
