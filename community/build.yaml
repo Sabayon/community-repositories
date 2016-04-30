@@ -11,6 +11,7 @@ build:
     - games-overlay
     - gamerlay
     - go-overlay
+    - graaff
     - jorgicio
     - fuverlay
     - mrueg
@@ -43,3 +44,4 @@ build:
     - net-im/qtox-bin
     - app-misc/neofetch
     - x11-terms/altyo
+    - sys-fs/zfstools::graaff
