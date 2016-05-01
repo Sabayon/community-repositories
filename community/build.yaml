@@ -24,24 +24,24 @@ build:
       install:
         - dev-libs/ocl-icd
   target:
-    - net-im/telegram-bin::fuverlay
-    - app-text/cherrytree::and3k-sunrise
-    - games-strategy/megaglest::games-overlay
-    - app-emulation/shashlik-bin::anyc
-    - media-gfx/sweethome3d-bin::activehome
-    - dev-util/eclipse-sdk-bin::jorgicio
-    - dev-libs/intel-beignet::mrueg
-    - sci-libs/calculix-cgx::science
-    - sci-libs/calculix-ccx::science
     - app-editors/sublime-text::sublime-text
+    - app-emulation/genymotion
+    - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
+    - app-misc/neofetch
+    - app-text/cherrytree::and3k-sunrise
+    - dev-libs/intel-beignet::mrueg
+    - dev-util/eclipse-sdk-bin::jorgicio
+    - games-fps/redeclipse::gamerlay
+    - games-strategy/megaglest::games-overlay
+    - media-gfx/sweethome3d-bin::activehome
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
-    - x11-misc/mugshot::y2kbadbug
-    - www-apps/hugo::go-overlay
-    - games-fps/redeclipse::gamerlay
-    - app-emulation/genymotion
     - net-im/qtox-bin
-    - app-misc/neofetch
-    - x11-terms/altyo
+    - net-im/telegram-bin::fuverlay
+    - sci-libs/calculix-ccx::science
+    - sci-libs/calculix-cgx::science
     - sys-fs/zfstools::graaff
+    - www-apps/hugo::go-overlay
+    - x11-misc/mugshot::y2kbadbug
+    - x11-terms/altyo
