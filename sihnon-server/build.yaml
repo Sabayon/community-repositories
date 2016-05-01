@@ -15,6 +15,10 @@ build:
     # Use sihnon overlay
     remote_overlay: https://github.com/optiz0r/gentoo-overlay.git
 
+  equo:
+    repositories:
+      - sihnon-common
+
   # Use ebuilds from the following layman overlays
   overlays:
     - awesome
@@ -29,6 +33,7 @@ build:
     #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
+    - dev-vcs/gitlab-shell::gitlab
     - media-video/motion
     - =net-irc/quassel-core-9999::sihnon
     - net-nds/phpldapadmin::gentoo
@@ -43,7 +48,7 @@ build:
     - www-apps/wordpress
     - www-misc/motioneye::sihnon
     - www-misc/shellinabox
-    - www-servers/gitlab-workhorse
+    - www-servers/gitlab-workhorse::gitlab
 
 # vim: set ts=2 shiftwidth=2 expandtab :
 
