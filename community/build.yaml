@@ -39,6 +39,7 @@ build:
     - media-tv/peerflix::jorgicio
     - net-im/qtox-bin
     - net-im/telegram-bin::fuverlay
+    - net-misc/megasync::jorgicio
     - sci-libs/calculix-ccx::science
     - sci-libs/calculix-cgx::science
     - sys-fs/zfstools::graaff
