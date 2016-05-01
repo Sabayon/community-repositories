@@ -43,7 +43,7 @@ build:
     - sys-apps/entropybroker::emery
     - www-apps/cgit
     - www-apps/dokuwiki
-    - www-apps/gitlabhq
+    #- www-apps/gitlabhq::gitlab
     - www-apps/piwik
     - www-apps/wordpress
     - www-misc/motioneye::sihnon
