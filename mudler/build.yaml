@@ -1,5 +1,8 @@
 repository:
    description: mudler's repository
+   maintenance:
+     remove:
+       - www-apps/gogs
 build:
   emerge:
     # Install each package separately
@@ -17,3 +20,4 @@ build:
     - net-p2p/cloud-torrent::go-overlay
     - x11-misc/noti::go-overlay
     - www-apps/gotty::go-overlay
+    - dev-go/go-bindata::go-overlay
