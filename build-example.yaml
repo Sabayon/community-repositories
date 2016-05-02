@@ -32,6 +32,9 @@ build:
     repositories:
       - community
     # Use enman to add the repositories before the build
+    remove_repositories:
+      - pentesting
+    # Use enman to remove the repositories before the build
     enman_self: 0
     # Disable adding your repository with enman as default
     package:
