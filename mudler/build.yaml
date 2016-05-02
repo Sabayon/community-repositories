@@ -1,8 +1,5 @@
 repository:
    description: mudler's repository
-   maintenance:
-     remove:
-       - www-apps/gogs
 build:
   emerge:
     # Install each package separately
