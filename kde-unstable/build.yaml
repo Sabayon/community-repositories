@@ -3,6 +3,7 @@ repository:
 build:
   emerge:
     split_install: 1
+    default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
   equo:
     package:
       remove:
@@ -13,4 +14,4 @@ build:
     - kde
   target:
     - kde-plasma/plasma-meta::kde
-    - =dev-util/kdevelop-5.0.9999::kde
+    - =dev-util/kdevelop-9999::kde
