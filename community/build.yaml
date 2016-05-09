@@ -8,6 +8,7 @@ build:
     - activehome
     - and3k-sunrise
     - anyc
+    - dev-zero
     - games-overlay
     - gamerlay
     - go-overlay
@@ -40,6 +41,7 @@ build:
     - net-im/qtox-bin
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
+    - net-print/cloudprint::dev-zero
     - sci-libs/calculix-ccx::science
     - sci-libs/calculix-cgx::science
     - sys-fs/zfstools::graaff
