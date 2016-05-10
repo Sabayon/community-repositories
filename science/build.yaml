@@ -1,0 +1,12 @@
+repository:
+   description: Sabayon Science Repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+  overlays:
+    - science
+  target:
+    - sci-mathematics/scilab::science
+    - sci-libs/calculix-ccx::science
+    - sci-libs/calculix-cgx::science
