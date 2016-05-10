@@ -17,7 +17,6 @@ build:
     - fuverlay
     - mrueg
     - ROKO__
-    - science
     - sublime-text
     - y2kbadbug
   equo:
@@ -42,8 +41,6 @@ build:
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
     - net-print/cloudprint::dev-zero
-    - sci-libs/calculix-ccx::science
-    - sci-libs/calculix-cgx::science
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - x11-misc/mugshot::y2kbadbug
