@@ -18,6 +18,7 @@ build:
     - mrueg
     - ROKO__
     - sublime-text
+    - weuxel
     - y2kbadbug
   equo:
     package:
@@ -40,6 +41,7 @@ build:
     - net-im/qtox-bin
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
+    - net-misc/cjdns::weuxel
     - net-print/cloudprint::dev-zero
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
