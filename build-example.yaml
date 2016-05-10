@@ -94,3 +94,6 @@ build:
     # uses webrsync instead of emerge --sync
     remote_overlay: https://github.com/my/repo
     # Specify a github/bitbucket/whatever.git repository to clone and use as local_overlay during the build (it overrides local_overlay which can be used in the git repo)
+    remove:
+      - app-misc/foo
+    # Remove an atom with emerge
