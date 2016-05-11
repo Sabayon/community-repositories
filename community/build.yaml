@@ -45,6 +45,7 @@ build:
     - net-misc/megasync::jorgicio
     - net-misc/cjdns::weuxel
     - net-print/cloudprint::dev-zero
+    - sys-apps/sift::go-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - x11-misc/mugshot::y2kbadbug
