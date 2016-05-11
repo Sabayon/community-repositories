@@ -10,6 +10,7 @@ build:
     - anyc
     - bgo-overlay
     - dev-zero
+    - furikake
     - games-overlay
     - gamerlay
     - go-overlay
@@ -39,6 +40,7 @@ build:
     - games-strategy/megaglest::games-overlay
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
+    - media-sound/nuvolaplayer::furikake
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
     - net-im/qtox-bin
