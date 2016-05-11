@@ -8,6 +8,7 @@ build:
     - activehome
     - and3k-sunrise
     - anyc
+    - bgo-overlay
     - dev-zero
     - games-overlay
     - gamerlay
@@ -29,6 +30,7 @@ build:
     - app-emulation/genymotion
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
+    - app-misc/fet::bgo-overlay
     - app-misc/neofetch
     - app-text/cherrytree::and3k-sunrise
     - dev-libs/intel-beignet::mrueg
