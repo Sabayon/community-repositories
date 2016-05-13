@@ -14,6 +14,7 @@ build:
     - dev-zero
     - eva
     - furikake
+    - fw-overlay
     - games-overlay
     - gamerlay
     - go-overlay
@@ -50,6 +51,7 @@ build:
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
+    - dev-util/idea::fw-overlay
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-simulation/vegastrike::vortex
