@@ -27,6 +27,7 @@ build:
     - roslin
     - sublime-text
     - tmacedo
+    - vortex
     - weuxel
     - y2kbadbug
   equo:
@@ -51,6 +52,7 @@ build:
     - dev-util/eclipse-sdk-bin::jorgicio
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
+    - games-simulation/vegastrike::vortex
     - games-strategy/megaglest::games-overlay
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
