@@ -92,8 +92,9 @@ build:
     # skip portage sync
     webrsync: 1
     # uses webrsync instead of emerge --sync
-    remote_overlay: https://github.com/my/repo
-    # Specify a github/bitbucket/whatever.git repository to clone and use as local_overlay during the build (it overrides local_overlay which can be used in the git repo)
+    remote_overlay:
+      - git://github.com/my/repo
+    # Specify a list of git-clonable repositories that will be added before the build. 
     remove:
       - app-misc/foo
     # Remove an atom with emerge
