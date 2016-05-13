@@ -23,6 +23,7 @@ build:
     - mrueg
     - robbat2
     - ROKO__
+    - roslin
     - sublime-text
     - weuxel
     - y2kbadbug
@@ -45,6 +46,7 @@ build:
     - app-text/cherrytree::and3k-sunrise
     - dev-libs/intel-beignet::mrueg
     - dev-util/eclipse-sdk-bin::jorgicio
+    - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-strategy/megaglest::games-overlay
     - media-gfx/sweethome3d-bin::activehome
