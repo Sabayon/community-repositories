@@ -11,7 +11,8 @@ build:
     split_install: 1
 
     # Use sihnon overlay
-    remote_overlay: https://github.com/optiz0r/gentoo-overlay.git
+    remote_overlay:
+      - https://github.com/optiz0r/gentoo-overlay.git
 
   # Use ebuilds from the following layman overlays
   overlays:
