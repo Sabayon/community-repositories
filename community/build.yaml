@@ -12,6 +12,7 @@ build:
     - bgo-overlay
     - c2p-overlay
     - dev-zero
+    - eva
     - furikake
     - games-overlay
     - gamerlay
@@ -33,6 +34,7 @@ build:
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
     - app-dicts/artha::bgo-overlay
+    - app-editors/gedit-latex::eva
     - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
     - app-emulation/genymotion
