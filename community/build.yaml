@@ -20,6 +20,7 @@ build:
     - graaff
     - jorgicio
     - fuverlay
+    - k_f
     - mrueg
     - robbat2
     - ROKO__
@@ -45,6 +46,7 @@ build:
     - app-misc/neofetch
     - app-text/cherrytree::and3k-sunrise
     - dev-libs/intel-beignet::mrueg
+    - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
