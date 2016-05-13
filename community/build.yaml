@@ -19,6 +19,7 @@ build:
     - jorgicio
     - fuverlay
     - mrueg
+    - robbat2
     - ROKO__
     - sublime-text
     - weuxel
@@ -29,6 +30,7 @@ build:
         - dev-libs/ocl-icd
   target:
     - app-arch/peazip::c2p-overlay
+    - app-arch/rarcrack::robbat2
     - app-editors/sublime-text::sublime-text
     - app-emulation/genymotion
     - app-emulation/shashlik-bin::anyc
