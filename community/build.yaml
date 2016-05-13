@@ -9,6 +9,7 @@ build:
     - and3k-sunrise
     - anyc
     - bgo-overlay
+    - c2p-overlay
     - dev-zero
     - furikake
     - games-overlay
@@ -27,6 +28,7 @@ build:
       install:
         - dev-libs/ocl-icd
   target:
+    - app-arch/peazip::c2p-overlay
     - app-editors/sublime-text::sublime-text
     - app-emulation/genymotion
     - app-emulation/shashlik-bin::anyc
