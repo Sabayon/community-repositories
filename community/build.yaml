@@ -31,6 +31,7 @@ build:
   target:
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
+    - app-dicts/artha::bgo-overlay
     - app-editors/sublime-text::sublime-text
     - app-emulation/genymotion
     - app-emulation/shashlik-bin::anyc
