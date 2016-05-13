@@ -26,6 +26,7 @@ build:
     - ROKO__
     - roslin
     - sublime-text
+    - tmacedo
     - weuxel
     - y2kbadbug
   equo:
@@ -56,6 +57,7 @@ build:
     - media-sound/nuvolaplayer::furikake
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
+    - net-im/hipchat::tmacedo
     - net-im/qtox-bin
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
