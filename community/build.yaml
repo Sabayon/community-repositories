@@ -26,6 +26,7 @@ build:
     - robbat2
     - ROKO__
     - roslin
+    - Spring
     - sublime-text
     - tmacedo
     - vortex
@@ -61,6 +62,7 @@ build:
     - games-strategy/megaglest::games-overlay
     - games-strategy/unknown-horizons::gamerlay
     - games-strategy/zod-engine::games-overlay
+    - games-util/springlobby::Spring
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
