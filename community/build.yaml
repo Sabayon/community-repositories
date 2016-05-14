@@ -14,6 +14,7 @@ build:
     - c2p-overlay
     - dev-zero
     - eva
+    - flavour
     - furikake
     - fw-overlay
     - games-overlay
@@ -55,6 +56,7 @@ build:
     - app-eselect/eselect-sublime::sublime-text
     - app-misc/fet
     - app-misc/neofetch
+    - app-office/archi::flavour
     - app-text/cherrytree::and3k-sunrise
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
