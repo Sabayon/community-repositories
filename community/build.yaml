@@ -31,6 +31,7 @@ build:
     - ROKO__
     - roslin
     - Spring
+    - stefantalpalaru
     - sublime-text
     - tmacedo
     - vortex
@@ -79,6 +80,7 @@ build:
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
     - net-misc/cjdns::weuxel
+    - net-misc/streamtuner2::stefantalpalaru
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
     - sys-apps/sift::go-overlay
