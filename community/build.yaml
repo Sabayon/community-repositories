@@ -56,7 +56,7 @@ build:
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
-    - dev-util/idea::fw-overlay
+#    - dev-util/idea::fw-overlay http://scrinfra.sabayonlinux.org/logs/2016-05-14/community.1463189666.log hide until https://github.com/Sabayon/entropy/commit/67a645fabe4dcc99a63c7999eaf989cfbc11de51 gets into an entropy release
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
