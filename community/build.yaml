@@ -59,6 +59,7 @@ build:
     - games-simulation/vegastrike::vortex
     - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest::games-overlay
+    - games-strategy/unknown-horizons::gamerlay
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
