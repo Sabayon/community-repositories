@@ -64,6 +64,7 @@ build:
     - games-strategy/unknown-horizons::gamerlay
     - games-strategy/zod-engine::games-overlay
     - games-util/springlobby::Spring
+    - media-gfx/lightzone
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
