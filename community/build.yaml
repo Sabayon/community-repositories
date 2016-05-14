@@ -54,6 +54,7 @@ build:
     - dev-util/idea::fw-overlay
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
+    - games-puzzle/osmos::gamerlay
     - games-simulation/vegastrike::vortex
     - games-strategy/megaglest::games-overlay
     - media-gfx/sweethome3d-bin::activehome
