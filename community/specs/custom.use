@@ -1,3 +1,4 @@
+games-simulation/vegastrike -ffmpeg
 x11-libs/vte vala
 x11-misc/mugshot webcam
 #www-client/w3m fbcon imlib
