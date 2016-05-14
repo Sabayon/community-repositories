@@ -4,12 +4,13 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
+  remote_overlay:
+    - rsync://gentoo.zugaina.org/bgo-overlay
   overlays:
     - activehome
     - and3k-sunrise
     - anyc
     - belak
-    - bgo-overlay
     - c2p-overlay
     - dev-zero
     - eva
@@ -42,7 +43,7 @@ build:
   target:
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
-    - app-dicts/artha::bgo-overlay
+    - app-dicts/artha
     - app-editors/gedit-latex::eva
     - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
@@ -50,7 +51,7 @@ build:
     - app-emulation/RemoteBox::gentoo-htpc
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
-    - app-misc/fet::bgo-overlay
+    - app-misc/fet
     - app-misc/neofetch
     - app-text/cherrytree::and3k-sunrise
     - dev-libs/intel-beignet::mrueg
