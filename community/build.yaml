@@ -23,6 +23,7 @@ build:
     - fuverlay
     - k_f
     - mrueg
+    - ohnobinki_overlay
     - robbat2
     - ROKO__
     - roslin
@@ -74,6 +75,7 @@ build:
     - net-misc/megasync::jorgicio
     - net-misc/cjdns::weuxel
     - net-print/cloudprint::dev-zero
+    - net-print/samsung-unified-linux-driver::ohnobinki_overlay
     - sys-apps/sift::go-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
