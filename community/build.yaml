@@ -60,6 +60,7 @@ build:
     - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest::games-overlay
     - games-strategy/unknown-horizons::gamerlay
+    - games-strategy/zod-engine::games-overlay
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
