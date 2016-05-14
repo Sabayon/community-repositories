@@ -31,6 +31,7 @@ build:
     - vortex
     - weuxel
     - y2kbadbug
+    - zugaina
   equo:
     package:
       install:
@@ -56,6 +57,7 @@ build:
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
     - games-simulation/vegastrike::vortex
+    - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest::games-overlay
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
