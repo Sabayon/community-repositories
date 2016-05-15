@@ -1,0 +1,8 @@
+repository:
+   description: Testing repository
+build:
+  target:
+    - x11-apps/neofetch::fsociety
+  emerge:
+    remote_overlay:
+       - https://github.com/z1lt0id/fs0ciety.git
