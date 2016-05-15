@@ -1,3 +1,4 @@
+app-arch/peazip gtk
 games-simulation/vegastrike -ffmpeg
 x11-libs/vte vala
 x11-misc/mugshot webcam
