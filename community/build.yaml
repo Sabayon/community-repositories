@@ -4,8 +4,8 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
-    remote_overlay:
-      - rsync://gentoo.zugaina.org/bgo-overlay
+#    remote_overlay:
+#      - rsync://gentoo.zugaina.org/bgo-overlay
   overlays:
     - activehome
     - and3k-sunrise
@@ -13,6 +13,7 @@ build:
     - belak
     - c2p-overlay
     - dev-zero
+    - ephemeral
     - eva
     - flavour
     - furikake
@@ -71,6 +72,7 @@ build:
     - games-strategy/unknown-horizons::gamerlay
     - games-strategy/zod-engine::games-overlay
     - games-util/springlobby::Spring
+    - gnome-extra/gnome-encfs::ephemeral
     - media-gfx/lightzone
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
