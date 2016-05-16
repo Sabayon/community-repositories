@@ -29,6 +29,7 @@ build:
     - k_f
     - mozilla
     - mrueg
+    - nikai
     - ohnobinki_overlay
     - robbat2
     - ROKO__
@@ -38,7 +39,6 @@ build:
     - sublime-text
     - TAJJADA
     - tmacedo
-    - vortex
     - weuxel
     - y2kbadbug
     - zugaina
@@ -69,8 +69,9 @@ build:
 #    - dev-util/idea::fw-overlay http://scrinfra.sabayonlinux.org/logs/2016-05-14/community.1463189666.log hide until https://github.com/Sabayon/entropy/commit/67a645fabe4dcc99a63c7999eaf989cfbc11de51 gets into an entropy release
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
-    - games-puzzle/osmos::gamerlay
-    - games-simulation/vegastrike::vortex
+    - games-puzzle/osmos::gamerlay 
+    - =games-simulation/vegastrike-data-9999::LocalOverlay
+    - =games-simulation/vegastrike-9999::nikai
     - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest::games-overlay
     - games-strategy/unknown-horizons::gamerlay
