@@ -36,6 +36,7 @@ build:
     - Spring
     - stefantalpalaru
     - sublime-text
+    - TAJJADA
     - tmacedo
     - vortex
     - weuxel
@@ -60,6 +61,8 @@ build:
     - app-misc/neofetch
     - app-office/archi::flavour
     - app-text/cherrytree::and3k-sunrise
+    - dev-embedded/arduino::TAJJADA
+    - dev-embedded/arduino-ide::TAJJADA
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
