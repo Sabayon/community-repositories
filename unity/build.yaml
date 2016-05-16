@@ -1,0 +1,13 @@
+repository:
+   description: Sabayon Unity SCR
+build:
+  emerge:
+    split_install: 1
+    profile: xenial/amd64
+
+  overlays:
+    - unity-gentoo
+  
+  target:
+      - unity-base/unity-build-env
+      - unity-base/unity-meta
