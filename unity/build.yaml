@@ -3,7 +3,7 @@ repository:
 build:
   emerge:
     split_install: 1
-    profile: xenial/amd64
+    profile: unity-gentoo:xenial/amd64
 
   overlays:
     - unity-gentoo
