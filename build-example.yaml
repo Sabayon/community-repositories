@@ -94,7 +94,14 @@ build:
     # uses webrsync instead of emerge --sync
     remote_overlay:
       - git://github.com/my/repo
-    # Specify a list of git-clonable repositories that will be added before the build. 
+      - myoverlay|git|https://github.com/foo/bar
+    remove_remote_overlay:
+      - myoverlay
+    remove_layman_overlay:
+      - plab
+      - foobar
+    # Specify a list of portage overlays that will be added before the build. 
+    # You can also remove them, please use the name of the overlay name (repo_name) always.
     remove:
       - app-misc/foo
     # Remove an atom with emerge
