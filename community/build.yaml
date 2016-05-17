@@ -10,6 +10,7 @@ build:
   overlays:
     - activehome
     - and3k-sunrise
+    - angelos
     - anyc
     - belak
     - c2p-overlay
@@ -88,6 +89,7 @@ build:
     - net-im/qtox-bin
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
+    - net-misc/miraclecast::angelos
     - net-misc/cjdns::weuxel
     - net-misc/streamtuner2::stefantalpalaru
     - net-print/cloudprint::dev-zero
