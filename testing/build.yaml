@@ -5,4 +5,4 @@ build:
     - x11-apps/neofetch::fsociety
   emerge:
     remote_overlay:
-       - https://github.com/z1lt0id/fs0ciety.git
+       - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
