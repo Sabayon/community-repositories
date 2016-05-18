@@ -14,7 +14,7 @@ build:
 
     # Use sihnon overlay
     remote_overlay:
-      - https://github.com/optiz0r/gentoo-overlay.git
+      - sihnon|git|https://github.com/optiz0r/gentoo-overlay.git
 
   equo:
     repositories:
@@ -40,7 +40,7 @@ build:
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
-    - net-wireless/unifi
+    - net-wireless/unifi::sihnon
     - sys-apps/entropybroker::emery
     - www-apps/cgit
     - www-apps/dokuwiki
