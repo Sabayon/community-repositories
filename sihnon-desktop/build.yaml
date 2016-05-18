@@ -12,7 +12,7 @@ build:
 
     # Use sihnon overlay
     remote_overlay:
-      - https://github.com/optiz0r/gentoo-overlay.git
+      - sihnon|git|https://github.com/optiz0r/gentoo-overlay.git
 
   # Use ebuilds from the following layman overlays
   overlays:
