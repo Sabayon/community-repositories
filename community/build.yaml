@@ -62,6 +62,7 @@ build:
     - app-misc/neofetch
     - app-office/archi::flavour
     - app-text/cherrytree::and3k-sunrise
+    - app-text/voikko
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
     - dev-libs/intel-beignet::mrueg
