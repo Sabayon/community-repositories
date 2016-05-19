@@ -12,6 +12,7 @@ build:
     - and3k-sunrise
     - angelos
     - anyc
+    - axs
     - belak
     - c2p-overlay
     - dev-zero
@@ -38,6 +39,7 @@ build:
     - Spring
     - stefantalpalaru
     - sublime-text
+    - swegener
     - TAJJADA
     - tmacedo
     - weuxel
@@ -65,6 +67,7 @@ build:
     - app-text/voikko
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
+    - dev-embedded/stlink::swegener
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
@@ -81,6 +84,7 @@ build:
     - games-util/springlobby::Spring
     - gnome-extra/gnome-encfs::ephemeral
     - media-gfx/lightzone
+    - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
