@@ -7,6 +7,7 @@ build:
     remote_overlay:
       - rsync://gentoo.zugaina.org/bgo-overlay
       - https://github.com/Sabayon/community
+      - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
   overlays:
     - activehome
     - and3k-sunrise
@@ -28,6 +29,7 @@ build:
     - graaff
     - jorgicio
     - fuverlay
+    - lmiphay
     - k_f
     - mozilla
     - mrueg
@@ -61,7 +63,7 @@ build:
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
     - app-misc/fet
-    - app-misc/neofetch
+    - app-misc/neofetch::fsociety
     - app-office/archi::flavour
     - app-text/cherrytree::and3k-sunrise
     - app-text/voikko
@@ -71,10 +73,10 @@ build:
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
-#    - dev-util/idea::fw-overlay http://scrinfra.sabayonlinux.org/logs/2016-05-14/community.1463189666.log hide until https://github.com/Sabayon/entropy/commit/67a645fabe4dcc99a63c7999eaf989cfbc11de51 gets into an entropy release
+    - dev-util/idea::fw-overlay
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
-    - games-puzzle/osmos::gamerlay 
+    - games-puzzle/osmos::gamerlay
     - =games-simulation/vegastrike-data-9999::LocalOverlay
     - =games-simulation/vegastrike-9999::nikai
     - games-sports/maniadrive-bin::zugaina
@@ -92,6 +94,7 @@ build:
     - media-tv/peerflix::jorgicio
     - net-im/hipchat::tmacedo
     - net-im/qtox-bin
+    - net-im/slack::lmiphay
     - net-im/telegram-bin::fuverlay
     - net-misc/megasync::jorgicio
     - net-misc/miraclecast::angelos
