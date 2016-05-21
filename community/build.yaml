@@ -6,7 +6,7 @@ build:
     split_install: 1
     remote_overlay:
       - rsync://gentoo.zugaina.org/bgo-overlay
-      - https://github.com/Sabayon/community
+      - sabayon-community|git|https://github.com/Sabayon/community.git
       - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
   overlays:
     - activehome
