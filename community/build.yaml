@@ -38,6 +38,7 @@ build:
     - robbat2
     - ROKO__
     - roslin
+    - sinustrom
     - Spring
     - stefantalpalaru
     - sublime-text
@@ -65,6 +66,7 @@ build:
     - app-misc/fet
     - app-misc/neofetch::fsociety
     - app-office/archi::flavour
+    - app-office/jstock::sinustrom
     - app-text/cherrytree::and3k-sunrise
     - app-text/voikko
     - dev-embedded/arduino::TAJJADA
@@ -73,7 +75,7 @@ build:
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
-    - dev-util/idea::fw-overlay
+    #- dev-util/idea::fw-overlay
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
