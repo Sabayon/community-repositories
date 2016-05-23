@@ -6,6 +6,8 @@ repository:
       # www-apacge/mpm_itk depdendency is missing and breaking the build
       # Remove from the repository and re-add once clean
       - app-backup/backuppc
+      # Blocks mysql
+      - dev-db/mariadb-galera
 
 build:
   emerge:
@@ -19,6 +21,13 @@ build:
   equo:
     repositories:
       - sihnon-common
+
+    dependency_install:
+      prune_virtuals: 1
+
+    package:
+      mask:
+        - dev-db/mariadb-galera
 
   # Use ebuilds from the following layman overlays
   overlays:
@@ -44,7 +53,7 @@ build:
     - sys-apps/entropybroker::emery
     - www-apps/cgit
     - www-apps/dokuwiki
-    #- www-apps/gitlabhq::gitlab
+    - www-apps/gitlabhq::gitlab
     - www-apps/piwik
     - www-apps/wordpress
     - www-misc/motioneye::sihnon
