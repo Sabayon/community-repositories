@@ -15,8 +15,8 @@ fi
 load_env_from_yaml build.yaml
 
 # Speed up test runs by disabling slow syncs and mirror sorts
-export SKIP_PORTAGE_SYNC=1
-export EQUO_MIRRORSORT=0
+export SKIP_PORTAGE_SYNC="${SKIP_PORTAGE_SYNC:-1}"
+export EQUO_MIRRORSORT="${EQUO_MIRRORSORT:-0}"
 
 # Debug what env vars are being passed to the builder
 printenv | sort
