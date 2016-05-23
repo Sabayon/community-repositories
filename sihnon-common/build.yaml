@@ -11,6 +11,9 @@ build:
       - sihnon|git|https://github.com/optiz0r/gentoo-overlay.git
 
   equo:
+    dependency_install:
+      prune_virtuals: 1
+
     package:
       remove:
         # These packages conflict with puppet-agent
