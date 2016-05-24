@@ -90,6 +90,7 @@ build:
     - media-gfx/lightzone
     - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
+    - media-gfx/yed::c2p-overlay
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
     - media-sound/vkaudiosaver::ROKO__
