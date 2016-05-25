@@ -21,12 +21,12 @@ build:
     - eva
     - flavour
     - furikake
-    - fw-overlay
     - games-overlay
     - gamerlay
     - gentoo-htpc
     - go-overlay
     - graaff
+    - hossie
     - jorgicio
     - fuverlay
     - lmiphay
@@ -75,7 +75,7 @@ build:
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
-    #- dev-util/idea::fw-overlay
+    - dev-util/idea-community::hossie
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
