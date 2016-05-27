@@ -5,9 +5,9 @@ build:
     # Install each package separately
     split_install: 1
     remote_overlay:
-      - bgo-overlay|rsync|rsync://gentoo.zugaina.org/bgo-overlay
-      - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
-      - sabayon-community|git|https://github.com/Sabayon/community.git
+       - bgo-overlay|rsync|rsync://gentoo.zugaina.org/bgo-overlay
+       - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
+       - sabayon-community|git|https://github.com/Sabayon/community.git
   overlays:
     - activehome
     - and3k-sunrise
