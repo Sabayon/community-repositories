@@ -35,6 +35,7 @@ build:
     - mrueg
     - nikai
     - ohnobinki_overlay
+    - pentoo
     - robbat2
     - ROKO__
     - roslin
@@ -99,6 +100,7 @@ build:
     - net-im/qtox-bin
     - net-im/slack::lmiphay
     - net-im/telegram-bin::fuverlay
+    - net-mail/davmail-bin::pentoo
     - net-misc/megasync::jorgicio
     - net-misc/miraclecast::angelos
     - net-misc/cjdns::weuxel
