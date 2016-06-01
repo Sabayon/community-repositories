@@ -1,0 +1,2 @@
+# As per README, np-hardass contains potentially dangerous ebuilds, mask all
+/::np-hardass-overlay

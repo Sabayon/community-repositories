@@ -7,6 +7,7 @@ build:
     remote_overlay:
        - bgo-overlay|rsync|rsync://gentoo.zugaina.org/bgo-overlay
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
+       - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
        - sabayon-community|git|https://github.com/Sabayon/community.git
   overlays:
     - activehome
@@ -103,6 +104,7 @@ build:
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync::jorgicio
     - net-misc/miraclecast::angelos
+    - =net-misc/gopenvpn-9999::np-hardass-overlay
     - net-misc/cjdns::weuxel
     - net-misc/streamtuner2::stefantalpalaru
     - net-print/cloudprint::dev-zero
