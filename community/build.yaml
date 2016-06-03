@@ -81,6 +81,7 @@ build:
     - dev-tex/mimetex::k_f
     - dev-util/eclipse-sdk-bin::jorgicio
     - dev-util/idea-community::hossie
+    - games-action/meritous::sunrise
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
