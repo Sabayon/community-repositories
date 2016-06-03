@@ -44,6 +44,7 @@ build:
     - Spring
     - stefantalpalaru
     - sublime-text
+    - sunrise
     - swegener
     - TAJJADA
     - tmacedo
@@ -55,6 +56,7 @@ build:
       install:
         - dev-libs/ocl-icd
   target:
+    - app-admin/cpu-g::sunrise
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
     - app-dicts/artha
