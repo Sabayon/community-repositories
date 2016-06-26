@@ -42,6 +42,7 @@ build:
     - roslin
     - sinustrom
     - Spring
+    - steam-overlay
     - stefantalpalaru
     - sublime-text
     - sunrise
@@ -79,6 +80,7 @@ build:
     - dev-embedded/stlink::swegener
     - dev-libs/intel-beignet::mrueg
     - dev-tex/mimetex::k_f
+    - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::jorgicio
     - dev-util/idea-community::hossie
     - games-action/meritous::sunrise
