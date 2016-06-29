@@ -30,6 +30,7 @@ build:
     - graaff
     - hossie
     - jorgicio
+    - jtriley
     - k_f
     - lmiphay
     - mozilla
@@ -96,6 +97,7 @@ build:
     - games-util/springlobby::Spring
     - gnome-extra/gnome-encfs::ephemeral
     - media-gfx/lightzone
+    - media-gfx/phatch::jtriley
     - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
     - media-gfx/yed::c2p-overlay
