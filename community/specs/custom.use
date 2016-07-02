@@ -1,5 +1,6 @@
 app-arch/peazip gtk -qt4
 games-simulation/vegastrike -ffmpeg
+>=media-sound/sox-14.4.2 ladspa
 x11-libs/vte vala
 x11-misc/mugshot webcam
 #www-client/w3m fbcon imlib
