@@ -86,6 +86,8 @@ build:
     - dev-util/eclipse-sdk-bin::jorgicio
     - dev-util/idea-community::hossie
     - games-action/meritous::sunrise
+    - games-arcade/fretsonfire
+    - games-arcade/mars-bin
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
@@ -95,6 +97,7 @@ build:
     - games-strategy/megaglest::games-overlay
     - games-strategy/unknown-horizons::gamerlay
     - games-strategy/zod-engine::games-overlay
+    - games-util/fteqcc-xonotic-9999::gamerlay
     - games-util/springlobby::Spring
     - gnome-extra/gnome-encfs::ephemeral
     - media-gfx/lightzone
