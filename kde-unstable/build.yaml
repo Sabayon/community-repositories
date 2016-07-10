@@ -13,5 +13,6 @@ build:
   overlays:
     - kde
   target:
+    - kde-apps/kdepim-meta::kde
     - kde-plasma/plasma-meta::kde
     - =dev-util/kdevelop-9999::kde
