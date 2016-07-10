@@ -101,7 +101,7 @@ build:
     - games-strategy/zod-engine::games-overlay
     - games-util/fteqcc-xonotic-9999::gamerlay
     - games-util/springlobby::Spring
-    - games-util/wiithon::dev-zero
+    - games-util/wiithon::localOverlay
     - gnome-extra/gnome-encfs::ephemeral
     - media-gfx/lightzone
     - media-gfx/phatch::jtriley
