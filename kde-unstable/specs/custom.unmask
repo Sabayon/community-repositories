@@ -1,0 +1,6 @@
+# required by kde-apps/kdepim-meta::kde (argument)
+# /var/lib/layman/kde/profiles/package.mask/kde-apps-16.04.3:
+# Johannes Huber <johu@gentoo.org> (7 Jul 2016)
+# KDE Applications 16.04.3 mask
+# Not released yet.
+=kde-apps/kdepim-meta-16.04.3

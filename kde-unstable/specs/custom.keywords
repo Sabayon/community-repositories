@@ -434,3 +434,53 @@
 =dev-util/kdevelop-pg-qt-9999 **
 =dev-util/kdevelop-5.0.9999 **
 
+# Needed for kdepim-meta
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kcalcore-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/incidenceeditor-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kidentitymanagement-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/pimcommon-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kdepim-kioslaves-16.04.49.9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kcalutils-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/akonadi-mime-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/akregator-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kmbox-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/blogilo-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kdepim-addons-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/calendarsupport-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/akonadi-search-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/ktnef-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/mailcommon-9999 **
+# required by kde-apps/kdepim-meta-16.04.3::kde
+# required by kde-apps/kdepim-meta::kde (argument)
+=kde-apps/kdepim-runtime-9999 **
+
