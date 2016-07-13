@@ -63,7 +63,6 @@ build:
     - =app-crypt/gnupg-2.1.13
 
   emerge:
-    features: -userpriv
     skip_sync: 0
     remove:
       - kde-apps/akonadiconsole:4
