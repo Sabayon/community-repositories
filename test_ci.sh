@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export VAGRANT_DIR="${VAGRANT_DIR:-$(pwd)/buildpspec}"
+export VAGRANT_DIR="${VAGRANT_DIR:-$(pwd)/buildspec}"
 export DEVKIT_DIR="${VAGRANT_DIR:-$(pwd)/devkit}"
 
 export COMMIT_RANGE="${1}"
