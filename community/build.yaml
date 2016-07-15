@@ -116,6 +116,7 @@ build:
     - media-video/flowblade::Armageddon
     - net-im/hipchat::tmacedo
     - net-im/qtox-bin
+    - net-im/skypeforlinux::ROKO__
     - net-im/slack::lmiphay
     - net-im/telegram-bin::fuverlay
     - net-mail/davmail-bin::pentoo
