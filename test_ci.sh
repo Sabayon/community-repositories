@@ -11,7 +11,7 @@ pip install shyaml
 
 [ -e ${DEVKIT_DIR} ] && rm -rf ${DEVKIT_DIR}
 
-git clone git@github.com:Sabayon/devkit.git ${DEVKIT_DIR}
+git clone https://github.com/Sabayon/devkit.git ${DEVKIT_DIR}
 
 pushd ${DEVKIT_DIR}
 
@@ -22,7 +22,7 @@ popd
 
 [ -d ${VAGRANT_DIR} ] && rm -rf ${VAGRANT_DIR}
 
-git clone git@github.com:Sabayon/community-buildspec.git ${VAGRANT_DIR}
+git clone https://github.com/Sabayon/community-buildspec.git ${VAGRANT_DIR}
 
 . ${VAGRANT_DIR}/scripts/functions.sh
 
