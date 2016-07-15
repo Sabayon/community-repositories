@@ -8,4 +8,4 @@ dependencies:
     - docker pull sabayon/eit-amd64
 test:
   override:
-    - ./test_ci.sh $CIRCLE_COMPARE_URL || exit 0
+    - sudo ./test_ci.sh $CIRCLE_COMPARE_URL || exit 0
