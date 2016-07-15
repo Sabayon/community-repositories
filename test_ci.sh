@@ -19,9 +19,14 @@ SPECFILE=($(git diff-tree --name-status -r --no-commit-id ${COMMIT_RANGE} | awk 
 # install required deps
 pip install shyaml
 
-[ -e ${DEVKIT_DIR} ] && rm -rf ${DEVKIT_DIR}
-
-git clone https://github.com/Sabayon/devkit.git ${DEVKIT_DIR}
+if [ -d ${DEVKIT_DIR} ]; then
+  pushd ${DEVKIT_DIR}
+  git fetch --all
+  git reset --hard origin/master
+  popd
+else
+  git clone https://github.com/Sabayon/devkit.git ${DEVKIT_DIR} || exit 1
+fi
 
 pushd ${DEVKIT_DIR}
 
@@ -30,9 +35,14 @@ pushd ${DEVKIT_DIR}
 
 popd
 
-[ -d ${VAGRANT_DIR} ] && rm -rf ${VAGRANT_DIR}
-
-git clone https://github.com/Sabayon/community-buildspec.git ${VAGRANT_DIR}
+if [ -d ${VAGRANT_DIR} ]; then
+  pushd ${VAGRANT_DIR}
+  git fetch --all
+  git reset --hard origin/master
+  popd
+else
+  git clone https://github.com/Sabayon/community-buildspec.git ${VAGRANT_DIR} || exit 1
+fi
 
 . ${VAGRANT_DIR}/scripts/functions.sh
 
@@ -49,6 +59,8 @@ do
 
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+
+
 for i in "${SPECFILE[@]}"
 do
    :

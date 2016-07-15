@@ -1,9 +1,14 @@
 machine:
   services:
     - docker
+  environment:
+    VAGRANT_DIR: "$(pwd)/buildspec"
+    DEVKIT_DIR: "$(pwd)/devkit"
 
 dependencies:
   override:
+    - git clone https://github.com/Sabayon/devkit.git ${DEVKIT_DIR}
+    - git clone https://github.com/Sabayon/community-buildspec.git ${VAGRANT_DIR}
     - docker pull sabayon/builder-amd64
     - docker pull sabayon/eit-amd64
 test:
