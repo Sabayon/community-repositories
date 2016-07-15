@@ -5,7 +5,7 @@ services:
   - docker
 
 script:
-- ./test_ci.sh ${TRAVIS_COMMIT_RANGE/.../..} || exit 0
+- ./test_ci.sh $TRAVIS_COMMIT_RANGE || exit 0
 
 notifications:
   irc: "chat.freenode.net#sabayon-infra"

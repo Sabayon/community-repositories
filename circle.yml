@@ -1,0 +1,11 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker pull sabayon/builder-amd64
+    - docker pull sabayon/eit-amd64
+test:
+  override:
+    - ./test_ci.sh $CIRCLE_COMPARE_URL || exit 0

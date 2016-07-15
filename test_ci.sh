@@ -3,10 +3,20 @@
 export VAGRANT_DIR="${VAGRANT_DIR:-$(pwd)/buildpspec}"
 export DEVKIT_DIR="${VAGRANT_DIR:-$(pwd)/devkit}"
 
-SPECFILE=$(git diff-tree --name-status -r --no-commit-id ${1} | awk "{print \$2 }")
+export COMMIT_RANGE="${1}"
 
-echo "Building ${SPECFILE}"
+# If given in a github form, it will be extracted commit range
+if [[ $COMMIT_RANGE == *https://* ]]; then
+  echo "Extracting commit range"
+  COMMIT_RANGE=$(echo $COMMIT_RANGE | rev | cut -d / -f 1 | rev)
+fi
 
+COMMIT_RANGE=${COMMIT_RANGE/.../..}
+echo "Range: $COMMIT_RANGE"
+
+SPECFILE=($(git diff-tree --name-status -r --no-commit-id ${COMMIT_RANGE} | awk "{print \$2 }" | grep build.yaml)) #Get build.yaml changed
+
+# install required deps
 pip install shyaml
 
 [ -e ${DEVKIT_DIR} ] && rm -rf ${DEVKIT_DIR}
@@ -27,19 +37,37 @@ git clone https://github.com/Sabayon/community-buildspec.git ${VAGRANT_DIR}
 . ${VAGRANT_DIR}/scripts/functions.sh
 
 #cd ${VAGRANT_DIR}
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+echo "Will be built:"
+for i in "${SPECFILE[@]}"
+do
+   :
+   echo " ----> ${i}"
+ done
 
-if [ ! -e "$SPECFILE" ]; then
-    echo "You must specify a specfile!"
-    exit 1
-fi
 
-load_env_from_yaml ${SPECFILE}
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+for i in "${SPECFILE[@]}"
+do
+   :
+    echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+    echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+    echo "Building ${i}"
+    echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+    echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 
-# Speed up test runs by disabling slow syncs and mirror sorts
-export SKIP_PORTAGE_SYNC="${SKIP_PORTAGE_SYNC:-1}"
-export EQUO_MIRRORSORT="${EQUO_MIRRORSORT:-0}"
+    load_env_from_yaml $i
 
-# Debug what env vars are being passed to the builder
-printenv | sort
+    # Speed up test runs by disabling slow syncs and mirror sorts
+    export SKIP_PORTAGE_SYNC="${SKIP_PORTAGE_SYNC:-1}"
+    export EQUO_MIRRORSORT="${EQUO_MIRRORSORT:-0}"
 
-build_all ${BUILD_ARGS}
+    # Debug what env vars are being passed to the builder
+    printenv | sort
+
+    build_all ${BUILD_ARGS}
+
+    # do whatever on $i
+done
