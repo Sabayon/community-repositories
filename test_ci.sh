@@ -46,7 +46,6 @@ fi
 
 . ${VAGRANT_DIR}/scripts/functions.sh
 
-#cd ${VAGRANT_DIR}
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "Will be built:"
@@ -59,7 +58,6 @@ do
 
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-
 
 for i in "${SPECFILE[@]}"
 do
@@ -80,6 +78,4 @@ do
     printenv | sort
 
     build_all ${BUILD_ARGS}
-
-    # do whatever on $i
 done
