@@ -4,7 +4,7 @@ build:
   overlays:
     - kde
   target:
-    - =kde-apps/kdepim-meta-16.04.3::kde
+    - kde-apps/kdepim-meta::kde
 
   equo:
     package:
