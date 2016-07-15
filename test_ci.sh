@@ -2,7 +2,7 @@
 
 export VAGRANT_DIR="${VAGRANT_DIR:-$(pwd)/buildspec}"
 export DEVKIT_DIR="${DEVKIT_DIR:-$(pwd)/devkit}"
-
+export DOCKER_COMMIT_IMAGE=${DOCKER_COMMIT_IMAGE:-false}
 export COMMIT_RANGE="${1}"
 
 # If given in a github form, it will be extracted commit range
