@@ -4,22 +4,22 @@ build:
   overlays:
     - kde
   target:
-    - =kde-apps/kdepim-meta-16.04.3::kde
+    - kde-apps/kdepim-meta::kde
 
-  emerge:
-    skip_sync: 0
-    remove:
-      - kde-apps/akonadiconsole:4
-      - kde-apps/kdepim-runtime:4
-      - kde-apps/akregator:4
-      - kde-apps/kdepim-common-libs:4
-      - kde-apps/ktnef:4
-      - kde-apps/calendarjanitor:4
-      - kde-apps/konsolekalendar:4
-      - kde-apps/kleopatra:4
-      - kde-apps/kaddressbook:4
-      - kde-apps/blogilo:4
-      - net-libs/libkgapi:4
-      - kde-base/baloo:4
-      - kde-apps/kontact:4
-      - kde-apps/kdepimlibs:4
+  equo:
+    package:
+      mask:
+        - kde-apps/akonadiconsole:4
+        - kde-apps/kdepim-runtime:4
+        - kde-apps/akregator:4
+        - kde-apps/kdepim-common-libs:4
+        - kde-apps/ktnef:4
+        - kde-apps/calendarjanitor:4
+        - kde-apps/konsolekalendar:4
+        - kde-apps/kleopatra:4
+        - kde-apps/kaddressbook:4
+        - kde-apps/blogilo:4
+        - net-libs/libkgapi:4
+        - kde-base/baloo:4
+        - kde-apps/kontact:4
+        - kde-apps/kdepimlibs:4
