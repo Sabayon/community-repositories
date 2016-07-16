@@ -70,10 +70,6 @@ do
 
     load_env_from_yaml $i
 
-    # Speed up test runs by disabling slow syncs and mirror sorts
-    export SKIP_PORTAGE_SYNC="${SKIP_PORTAGE_SYNC:-1}"
-    export EQUO_MIRRORSORT="${EQUO_MIRRORSORT:-0}"
-
     # Debug what env vars are being passed to the builder
     printenv | sort
 
