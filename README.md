@@ -1,6 +1,6 @@
 # Community Repositories
 
-[![Join the chat at https://gitter.im/Sabayon/community-repositories](https://badges.gitter.im/Sabayon/community-repositories.svg)](https://gitter.im/Sabayon/community-repositories?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![CircleCI](https://circleci.com/gh/Sabayon/community-repositories.svg?style=svg)](https://circleci.com/gh/Sabayon/community-repositories)[![Join the chat at https://gitter.im/Sabayon/community-repositories](https://badges.gitter.im/Sabayon/community-repositories.svg)](https://gitter.im/Sabayon/community-repositories?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Here are defined the repositories specfile that are being built by the builder machine.
 
