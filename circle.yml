@@ -1,7 +1,11 @@
 machine:
   services:
     - docker
-
+  environment:
+    CHECK_BUILD_DIFFS: false
+    GENMETADATA_PHASE: false
+    CLEAN_PHASE: false
+    DEPLOY_PHASE: false
 dependencies:
   override:
     - docker pull sabayon/builder-amd64
