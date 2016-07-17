@@ -12,3 +12,4 @@ build:
     - sci-libs/calculix-ccx::science
     - sci-libs/calculix-cgx::science
     - sci-biology/stampy::science
+    - sci-chemistry/gromacs::science
