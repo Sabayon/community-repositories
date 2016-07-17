@@ -15,3 +15,6 @@ test:
     - git clone https://github.com/Sabayon/devkit.git devkit
     - git clone https://github.com/Sabayon/community-buildspec.git buildspec
     - sudo ./test_ci.sh $CIRCLE_COMPARE_URL
+  post:
+    - cp -Rfv buildspec/artifacts $CIRCLE_ARTIFACTS
+    - cp -Rfv buildspec/logs $CIRCLE_ARTIFACTS
