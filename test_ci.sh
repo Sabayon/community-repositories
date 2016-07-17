@@ -69,11 +69,12 @@ do
     echo "[${REPOSITORY_NAME}]: ${i}"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+    if [ -e "$REPOSITORY_NAME/build.yaml" ]; then
+      load_env_from_yaml $REPOSITORY_NAME/build.yaml
 
-    load_env_from_yaml $REPOSITORY_NAME/build.yaml
+      # Debug what env vars are being passed to the builder
+      printenv | sort
 
-    # Debug what env vars are being passed to the builder
-    printenv | sort
-
-    build_all ${BUILD_ARGS}
+      build_all ${BUILD_ARGS}
+    fi
 done
