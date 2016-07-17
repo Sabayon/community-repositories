@@ -5,9 +5,8 @@ machine:
 dependencies:
   override:
     - docker pull sabayon/builder-amd64
-    - docker pull sabayon/eit-amd64
 test:
   override:
     - git clone https://github.com/Sabayon/devkit.git devkit
     - git clone https://github.com/Sabayon/community-buildspec.git buildspec
-    - sudo ./test_ci.sh $CIRCLE_COMPARE_URL || exit 0
+    - sudo ./test_ci.sh $CIRCLE_COMPARE_URL
