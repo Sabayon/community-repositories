@@ -48,7 +48,7 @@ fi
 
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-echo "Will be built:"
+echo "Changed files:"
 for i in "${SPECFILE[@]}"
 do
    :
@@ -63,7 +63,9 @@ for i in "${SPECFILE[@]}"
 do
    :
 
-    export REPOSITORY_NAME=$(echo "$i" | cut -d "/" -f2)
+    IFS='/' read -r -a repo_name <<< "$i"
+    export REPOSITORY_NAME=${repo_name[0]}
+
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "[${REPOSITORY_NAME}]: ${i}"
