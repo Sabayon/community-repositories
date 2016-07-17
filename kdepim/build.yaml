@@ -28,3 +28,8 @@ build:
         - kde-apps/kalarm:4
         - kde-apps/kmail:4
         - net-libs/libkgapi:4
+  emerge:
+    remove:
+      - kde-apps/kmail:4
+      - kde-apps/korganizer:4
+      - kde-apps/kalarm:4
