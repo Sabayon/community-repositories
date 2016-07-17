@@ -63,7 +63,7 @@ for i in "${SPECFILE[@]}"
 do
    :
 
-    export REPOSITORY_NAME=$(dirname ${i})
+    export REPOSITORY_NAME=$(echo "$i" | cut -d "/" -f2)
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "[${REPOSITORY_NAME}]: ${i}"
