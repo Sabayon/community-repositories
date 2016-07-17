@@ -70,11 +70,13 @@ do
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     if [ -e "$REPOSITORY_NAME/build.yaml" ]; then
-      load_env_from_yaml $REPOSITORY_NAME/build.yaml
+      pushd "$REPOSITORY_NAME"
+      load_env_from_yaml build.yaml
 
       # Debug what env vars are being passed to the builder
       printenv | sort
 
       build_all ${BUILD_ARGS}
+      popd
     fi
 done
