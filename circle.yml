@@ -6,6 +6,7 @@ machine:
     GENMETADATA_PHASE: false
     CLEAN_PHASE: false
     DEPLOY_PHASE: false
+    DOCKERHUB_PUSH: 1
 dependencies:
   override:
     - docker pull sabayon/builder-amd64
