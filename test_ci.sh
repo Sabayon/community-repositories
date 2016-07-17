@@ -14,7 +14,7 @@ fi
 COMMIT_RANGE=${COMMIT_RANGE/.../..}
 echo "Range: $COMMIT_RANGE"
 
-SPECFILE=($(git diff-tree --name-status -r --no-commit-id ${COMMIT_RANGE} | awk "{print \$2 }" | grep build.yaml)) #Get build.yaml changed
+SPECFILE=($(git diff-tree --name-status -r --no-commit-id ${COMMIT_RANGE} | awk "{print \$2 }")) #Get build.yaml changed
 
 # install required deps
 pip install shyaml
@@ -70,7 +70,7 @@ do
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 
-    load_env_from_yaml $i
+    load_env_from_yaml $REPOSITORY_NAME/build.yaml
 
     # Debug what env vars are being passed to the builder
     printenv | sort
