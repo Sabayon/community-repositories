@@ -39,6 +39,7 @@ build:
     - nikai
     - ohnobinki_overlay
     - pentoo
+    - poly-c
     - robbat2
     - ROKO__
     - roslin
@@ -133,3 +134,4 @@ build:
     - x11-drivers/wizardpen::jorgicio
     - x11-misc/mugshot::y2kbadbug
     - x11-terms/altyo
+    - x11-wm/lumina::poly-c
