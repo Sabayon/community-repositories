@@ -5,7 +5,6 @@ build:
     - kde
   target:
     - kde-apps/kdepim-meta::kde
-
   equo:
     package:
       install:
