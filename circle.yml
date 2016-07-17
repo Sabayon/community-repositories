@@ -1,3 +1,8 @@
+general:
+  artifacts:
+    - "buildspec/artifacts" # relative to the build directory
+    - "buildspec/logs" # relative to the build directory
+
 machine:
   services:
     - docker
@@ -15,6 +20,3 @@ test:
     - git clone https://github.com/Sabayon/devkit.git devkit
     - git clone https://github.com/Sabayon/community-buildspec.git buildspec
     - sudo ./test_ci.sh $CIRCLE_COMPARE_URL
-  post:
-    - [ -d "buildspec/artifacts" ] && cp -Rfv buildspec/artifacts $CIRCLE_ARTIFACTS
-    - [ -d "buildspec/logs" ] && cp -Rfv buildspec/logs $CIRCLE_ARTIFACTS
