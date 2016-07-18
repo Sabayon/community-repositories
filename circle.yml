@@ -13,4 +13,4 @@ test:
   override:
     - git clone https://github.com/Sabayon/devkit.git devkit
     - git clone https://github.com/Sabayon/community-buildspec.git buildspec
-    - sudo DOCKERHUB_PUSH=1 DEPLOY_PHASE=false CLEAN_PHASE=false GENMETADATA_PHASE=false CHECK_BUILD_DIFFS=false ./test_ci.sh $CIRCLE_COMPARE_URL
+    - if [[ ! -z $CIRCLE_PR_NUMBER ]] ; then sudo ./test_ci.sh master; else sudo ./test_ci.sh $CIRCLE_COMPARE_URL; fi

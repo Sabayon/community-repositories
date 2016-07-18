@@ -43,6 +43,7 @@ build:
     - robbat2
     - ROKO__
     - roslin
+    - salfter
     - sinustrom
     - Spring
     - steam-overlay
@@ -79,6 +80,7 @@ build:
     - app-office/archi::flavour
     - app-office/jstock::sinustrom
     - app-text/cherrytree::and3k-sunrise
+    - app-text/gimagereader::salfter
     - app-text/voikko
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
@@ -91,6 +93,7 @@ build:
     - games-action/meritous::sunrise
     - games-arcade/fretsonfire
     - games-arcade/mars-bin
+    - games-arcade/mars-game::gamerlay
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
