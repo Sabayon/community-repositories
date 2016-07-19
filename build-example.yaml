@@ -4,6 +4,7 @@ repository:
    description: My testing repository # REQUIRED!!!
    # This is your repository description.
    maintenance:
+     check_diffs: 0 # disable diffs checking from binhost. Result: always inject stuff into repository
      clean_cache: 1
      #USE WITH CAUTION! it will wipe your cache and it is VERY slow! it's like starting the building process for the first time.
      keep_previous_versions: 1
@@ -100,7 +101,7 @@ build:
     remove_layman_overlay:
       - plab
       - foobar
-    # Specify a list of portage overlays that will be added before the build. 
+    # Specify a list of portage overlays that will be added before the build.
     # You can also remove them, please use the name of the overlay name (repo_name) always.
     remove:
       - app-misc/foo
