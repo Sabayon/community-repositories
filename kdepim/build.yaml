@@ -1,7 +1,5 @@
 repository:
    description: kdepim repository
-   maintenance:
-     check_diffs: 0
 build:
   overlays:
     - kde
