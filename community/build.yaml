@@ -27,6 +27,7 @@ build:
     - gamerlay
     - games-overlay
     - gentoo-htpc
+    - genealogy
     - go-overlay
     - graaff
     - hossie
@@ -76,6 +77,7 @@ build:
     - app-eselect/eselect-sublime::sublime-text
     - app-i18n/virtaal::bgo-overlay
     - app-misc/fet
+    - app-misc/gramps::genealogy
     - app-misc/neofetch::fsociety
     - app-office/archi::flavour
     - app-office/jstock::sinustrom
