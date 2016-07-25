@@ -2,6 +2,8 @@
 
 export VAGRANT_DIR="${VAGRANT_DIR:-$(pwd)/buildspec}"
 export DEVKIT_DIR="${DEVKIT_DIR:-$(pwd)/devkit}"
+export SARK_DIR="${SARK_DIR:-$(pwd)/sark}"
+
 export DOCKER_COMMIT_IMAGE=${DOCKER_COMMIT_IMAGE:-false}
 export COMMIT_RANGE="${1}"
 
@@ -35,6 +37,22 @@ pushd ${DEVKIT_DIR}
 
 popd
 
+if [ -d ${SARK_DIR} ]; then
+  pushd ${SARK_DIR}
+  git fetch --all
+  git reset --hard origin/master
+  popd
+else
+  git clone https://github.com/Sabayon/sabayon-sark ${SARK_DIR} || exit 1
+fi
+
+pushd ${SARK_DIR}
+
+  make
+  make install
+
+popd
+
 if [ -d ${VAGRANT_DIR} ]; then
   pushd ${VAGRANT_DIR}
   git fetch --all
@@ -44,7 +62,7 @@ else
   git clone https://github.com/Sabayon/community-buildspec.git ${VAGRANT_DIR} || exit 1
 fi
 
-. ${VAGRANT_DIR}/scripts/functions.sh
+. /sbin/sark-functions.sh
 
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"

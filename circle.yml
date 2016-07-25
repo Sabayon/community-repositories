@@ -13,4 +13,5 @@ test:
   override:
     - git clone https://github.com/Sabayon/devkit.git devkit
     - git clone https://github.com/Sabayon/community-buildspec.git buildspec
+    - git clone https://github.com/Sabayon/sabayon-sark sark
     - if [[ ! -z $CIRCLE_PR_NUMBER ]] ; then sudo ./test_ci.sh master; else sudo ./test_ci.sh $CIRCLE_COMPARE_URL; fi
