@@ -21,6 +21,7 @@ build:
     - dev-zero
     - ephemeral
     - eva
+    - fkmclane
     - flavour
     - furikake
     - fuverlay
@@ -119,6 +120,7 @@ build:
     - media-sound/nuvolaplayer::furikake
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
+    - media-tv/plex-media-server
     - media-video/flowblade::Armageddon
     - net-im/hipchat::tmacedo
     - net-im/qtox-bin
