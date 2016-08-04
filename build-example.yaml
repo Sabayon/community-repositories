@@ -37,6 +37,8 @@ build:
       - pentesting
     # Use enman to remove the repositories before the build
     enman_self: 0
+    # Disable disk cache
+    no_cache: 1
     # Disable adding your repository with enman as default
     package:
       install:
