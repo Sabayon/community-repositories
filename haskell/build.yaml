@@ -1,0 +1,15 @@
+repository:
+   description: Haskell repository
+   maintenance:
+build:
+  overlays:
+    - haskell
+  target:
+    - dev-haskell/stack
+  equo:
+    package:
+      install:
+        - dev-lang/perl
+        - dev-libs/gmp
+    repository: weekly
+
