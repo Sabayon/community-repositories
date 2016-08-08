@@ -7,9 +7,9 @@ build:
   target:
     - dev-haskell/stack
   equo:
-    package:
-      install:
-        - dev-lang/perl
-        - dev-libs/gmp
+    # Don't use entropy for dependencies, as it will pull Haskell libraries compiled against the wrong version of GHC.
+    dependency_install:
+        enable: 0
+
     repository: weekly
 
