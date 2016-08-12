@@ -1,0 +1,9 @@
+repository:
+   description: MATE Unstable repository
+build:
+  emerge:
+    split_install: 1
+  overlays:
+    - gentoo-mate
+  target:
+    - mate-base/mate::gentoo-mate
