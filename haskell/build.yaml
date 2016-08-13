@@ -1,0 +1,15 @@
+repository:
+   description: Haskell repository
+   maintenance:
+build:
+  overlays:
+    - haskell
+  target:
+    - dev-haskell/stack
+  equo:
+    # Don't use entropy for dependencies, as it will pull Haskell libraries compiled against the wrong version of GHC.
+    dependency_install:
+        enable: 0
+
+    repository: weekly
+
