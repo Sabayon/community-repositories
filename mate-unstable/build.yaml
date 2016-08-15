@@ -1,6 +1,7 @@
 repository:
    description: MATE Unstable repository
 build:
+  qa_checks: 1
   emerge:
     split_install: 1
   overlays:
