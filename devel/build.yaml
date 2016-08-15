@@ -1,6 +1,7 @@
 repository:
    description: Devel channel repository
 build:
+  qa_checks: 1
   emerge:
     # Install each package separately
     split_install: 1
