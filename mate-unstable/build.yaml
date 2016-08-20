@@ -7,4 +7,5 @@ build:
   overlays:
     - gentoo-mate
   target:
-    - mate-base/mate::gentoo-mate
+    - mate-base/mate::gentoo-mate[-gtk3]
+    - mate-base/mate::gentoo-mate[gtk3]
