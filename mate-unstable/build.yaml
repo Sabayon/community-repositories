@@ -4,6 +4,7 @@ build:
   qa_checks: 1
   emerge:
     split_install: 1
+    default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
   overlays:
     - gentoo-mate
   target:
