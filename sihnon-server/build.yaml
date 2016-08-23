@@ -35,6 +35,7 @@ build:
     - barzog-overlay
     - emery
     - fkmclane
+    - flavour
     - gitlab
 
   # Packages to be built in this repo
@@ -45,6 +46,7 @@ build:
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
     - dev-libs/libgit2::gentoo
+    - dev-util/gitlab-ci-multi-runner-bin
     - dev-vcs/gitlab-shell::sihnon
     - media-video/motion
     - =net-irc/quassel-core-9999::sihnon
