@@ -1,0 +1,52 @@
+repository:
+   description: MATE Unstable GTK3 repository
+build:
+  qa_checks: 1
+  emerge:
+    split_install: 1
+    default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
+  overlays:
+    - gentoo-mate
+  target:
+    - media-libs/libmatemixer::gentoo-mate[gtk3]
+    - media-gfx/eom::gentoo-mate[-python,gtk3]
+    - mate-extra/mate-system-monitor::gentoo-mate[gtk3]
+    - mate-extra/mate-polkit::gentoo-mate[gtk3]
+    - mate-extra/mate-power-manager::gentoo-mate[gtk3]
+    - mate-extra/mate-user-share::gentoo-mate[gtk3]
+    - mate-extra/mate-screensaver::gentoo-mate[gtk3]
+    - mate-extra/mate-sensors-applet::gentoo-mate[gtk3]
+    - mate-extra/mate-netbook::gentoo-mate[gtk3]
+    - mate-extra/mate-utils::gentoo-mate[gtk3]
+    - mate-extra/mate-user-guide::gentoo-mate[gtk3]
+    - mate-extra/caja-extensions::gentoo-mate[gtk3]
+    - mate-extra/caja-dropbox::gentoo-mate[gtk3]
+    - mate-extra/mate-media::gentoo-mate[gtk3]
+    - mate-extra/mate-indicator-applet::gentoo-mate[gtk3]
+    - app-editors/pluma::gentoo-mate[-python,gtk3]
+    - x11-wm/marco::gentoo-mate[gtk3]
+    - mate-base/mate-panel::gentoo-mate[gtk3]
+    - mate-base/mate-menus::gentoo-mate[-python,gtk3]
+    - mate-base/mate-applets::gentoo-mate[gtk3]
+    - mate-base/mate-common::gentoo-mate[gtk3]
+    - mate-base/caja::gentoo-mate[gtk3]
+    - mate-base/mate-settings-daemon::gentoo-mate[gtk3]
+    - mate-base/mate-applets-meta::gentoo-mate[gtk3]
+    - mate-base/mate-desktop::gentoo-mate[gtk3]
+    - mate-base/mate-session-manager::gentoo-mate[gtk3]
+    - mate-base/mate-control-center::gentoo-mate[gtk3]
+    - mate-base/libmatekbd::gentoo-mate[gtk3]
+    - dev-libs/libmateweather::gentoo-mate[-python,gtk3]
+    - net-analyzer/mate-netspeed::gentoo-mate[gtk3]
+    - dev-python/python-caja::gentoo-mate[gtk3]
+    - x11-misc/mozo::gentoo-mate[gtk3]
+    - x11-misc/mate-notification-daemon::gentoo-mate[gtk3]
+    - x11-terms/mate-terminal::gentoo-mate[gtk3]
+    - app-text/atril::gentoo-mate[gtk3]
+    - x11-themes/mate-icon-theme::gentoo-mate[gtk3]
+    - x11-themes/mate-themes-meta::gentoo-mate[gtk3]
+    - x11-themes/mate-icon-theme-faenza::gentoo-mate[gtk3]
+    - x11-themes/mate-backgrounds::gentoo-mate[gtk3]
+    - x11-themes/mate-themes::gentoo-mate[gtk3]
+    - app-arch/engrampa::gentoo-mate[gtk3]
+    - mate-base/mate::gentoo-mate[gtk3]
