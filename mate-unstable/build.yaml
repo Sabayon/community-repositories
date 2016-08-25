@@ -8,6 +8,7 @@ build:
   overlays:
     - gentoo-mate
   target:
+    - mate-base/mate::gentoo-mate[-gtk3]
     - media-libs/libmatemixer::gentoo-mate[-gtk3]
     - media-gfx/eom::gentoo-mate[-gtk3]
     - mate-extra/mate-system-monitor::gentoo-mate[-gtk3]
@@ -49,4 +50,3 @@ build:
     - x11-themes/mate-backgrounds::gentoo-mate[-gtk3]
     - x11-themes/mate-themes::gentoo-mate[-gtk3]
     - app-arch/engrampa::gentoo-mate[-gtk3]
-    - mate-base/mate::gentoo-mate[-gtk3]
