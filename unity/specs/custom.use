@@ -1,0 +1,23 @@
+# required by unity-base/gnome-control-center-signon-0.1.8_p0_p01_p20160201::unity-gentoo
+# required by unity-base/unity-control-center-15.04.0_p0_p01_p20160705::unity-gentoo
+# required by unity-indicators/indicator-bluetooth-0.0.6_p0_p01_p20160526::unity-gentoo
+# required by unity-indicators/unity-indicators-meta-16.04::unity-gentoo[bluetooth]
+# required by unity-base/unity-meta-16.04::unity-gentoo
+# required by unity-base/unity-meta (argument)
+>=net-im/pidgin-2.11.0 idn networkmanager zephyr
+# required by unity-base/compiz-0.9.12.2_p0_p01_p2016080103::unity-gentoo
+# required by unity-extra/unity-tweak-tool-0.0.7_p_p02::unity-gentoo
+# required by unity-base/unity-meta-16.04::unity-gentoo
+# required by unity-base/unity-meta (argument)
+>=x11-base/xorg-server-1.17.4 dmx
+# required by unity-base/unity-control-center-15.04.0_p0_p01_p20160705::unity-gentoo
+# required by unity-indicators/indicator-bluetooth-0.0.6_p0_p01_p20160526::unity-gentoo
+# required by unity-indicators/unity-indicators-meta-16.04::unity-gentoo[bluetooth]
+# required by unity-base/unity-meta-16.04::unity-gentoo
+# required by unity-base/unity-meta (argument)
+>=unity-base/unity-settings-daemon-15.04.1_p0_p01_p20160701 input_devices_wacom
+# required by unity-indicators/indicator-keyboard-0.0.0_p0_p01_p20151125::unity-gentoo
+# required by unity-indicators/unity-indicators-meta-16.04::unity-gentoo[keyboard]
+# required by unity-base/unity-meta-16.04::unity-gentoo
+# required by unity-base/unity-meta (argument)
+>=app-i18n/ibus-1.5.14 vala
