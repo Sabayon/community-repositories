@@ -47,7 +47,7 @@ build:
     - dev-db/phpmyadmin
     - dev-libs/libgit2::gentoo
     - dev-util/gitlab-ci-multi-runner-bin
-    - dev-vcs/gitlab-shell::sihnon
+    - dev-vcs/gitlab-shell::gitlab
     - media-video/motion
     - =net-irc/quassel-core-9999::sihnon
     - net-nds/phpldapadmin::gentoo
