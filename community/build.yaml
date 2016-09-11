@@ -30,7 +30,6 @@ build:
     - genealogy
     - go-overlay
     - graaff
-    - hossie
     - jorgicio
     - jtriley
     - k_f
@@ -47,6 +46,7 @@ build:
     - salfter
     - sinustrom
     - Spring
+    - ssnb
     - steam-overlay
     - stefantalpalaru
     - sublime-text
@@ -91,7 +91,7 @@ build:
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::jorgicio
-    - dev-util/idea-community::hossie
+    - dev-util/idea-community::ssnb
     - games-action/meritous::sunrise
     - games-arcade/fretsonfire
     - games-arcade/mars-bin
