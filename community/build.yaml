@@ -76,7 +76,7 @@ build:
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
     - app-i18n/virtaal::LocalOverlay
-    - app-misc/fet
+    - app-misc/fet::LocalOverlay
     - app-misc/gramps::genealogy
     - app-misc/neofetch::fsociety
     - app-office/archi::flavour
