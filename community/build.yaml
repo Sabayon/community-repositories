@@ -114,7 +114,6 @@ build:
     - media-gfx/phatch::jtriley
     - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
-    - media-gfx/yed::c2p-overlay
     - media-gfx/xaralx::sunrise
     - media-sound/guitarix2::jorgicio
     - media-sound/nuvolaplayer::furikake
