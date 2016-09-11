@@ -5,7 +5,6 @@ build:
     # Install each package separately
     split_install: 1
     remote_overlay:
-       - bgo-overlay|rsync|rsync://gentoo.zugaina.org/bgo-overlay
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
        - sabayon-community|git|https://github.com/Sabayon/community.git
@@ -76,7 +75,7 @@ build:
     - app-emulation/RemoteBox::gentoo-htpc
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
-    - app-i18n/virtaal::bgo-overlay
+    - app-i18n/virtaal::LocalOverlay
     - app-misc/fet
     - app-misc/gramps::genealogy
     - app-misc/neofetch::fsociety
@@ -84,7 +83,7 @@ build:
     - app-office/jstock::sinustrom
     - app-text/cherrytree::and3k-sunrise
     - app-text/gimagereader::salfter
-    - app-text/voikko
+    - app-text/voikko::LocalOverlay
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
     - dev-embedded/stlink::swegener
