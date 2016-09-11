@@ -88,6 +88,7 @@ build:
     - dev-embedded/arduino-ide::TAJJADA
     - dev-embedded/stlink::swegener
     - dev-libs/intel-beignet::mrueg
+    - dev-python/json-py::LocalOverlay
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::jorgicio
