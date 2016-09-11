@@ -66,6 +66,7 @@ build:
     - app-admin/cpu-g::sunrise
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
+    - app-backup/areca::LocalOverlay
     - app-dicts/artha
     - app-editors/gedit-latex::eva
     - app-editors/scribes::belak
