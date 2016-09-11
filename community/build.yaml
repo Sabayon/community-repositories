@@ -79,6 +79,7 @@ build:
     - app-misc/fet::LocalOverlay
     - app-misc/gramps::genealogy
     - app-misc/neofetch::fsociety
+    - app-misc/zotero::LocalOverlay
     - app-office/archi::flavour
     - app-office/jstock::sinustrom
     - app-text/cherrytree::and3k-sunrise
