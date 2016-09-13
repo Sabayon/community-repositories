@@ -101,8 +101,6 @@ build:
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
-    - =games-simulation/vegastrike-data-9999::LocalOverlay
-    - =games-simulation/vegastrike-9999::LocalOverlay
     - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest::games-overlay
     - games-strategy/unknown-horizons::gamerlay
