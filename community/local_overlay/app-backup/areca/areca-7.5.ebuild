@@ -54,7 +54,7 @@ src_prepare() {
     rm activation.jar
     rm jakarta-oro-2.0.8.jar
     rm jsch.jar
-    java-pkg_jar-from swt-3.7 swt.jar
+    java-pkg_jar-from swt-4.2 swt.jar
     java-pkg_jar-from commons-codec
     java-pkg_jar-from commons-net
     java-pkg_jar-from sun-javamail
