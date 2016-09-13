@@ -2,13 +2,16 @@ repository:
   description: Sihnon server packages
 
   maintenance:
+    # 2016-09-13 temporary, work around docker image corruption
+    clean_cache: 1
+
     remove:
       # www-apacge/mpm_itk depdendency is missing and breaking the build
       # Remove from the repository and re-add once clean
       - app-backup/backuppc
       # Blocks mysql
       - dev-db/mariadb-galera
-
+      
 build:
   emerge:
     # Install each package separately
