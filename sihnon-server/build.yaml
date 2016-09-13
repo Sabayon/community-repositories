@@ -36,10 +36,10 @@ build:
   overlays:
     - awesome
     - barzog-overlay
-    - emery
     - fkmclane
     - flavour
     - gitlab
+    - mrueg
 
   # Packages to be built in this repo
   target:
@@ -49,7 +49,7 @@ build:
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
     - dev-libs/libgit2::gentoo
-    - dev-util/gitlab-ci-multi-runner-bin
+    - dev-util/gitlab-ci-multi-runner
     - dev-vcs/gitlab-shell::gitlab
     - media-video/motion
     - =net-irc/quassel-core-9999::sihnon
@@ -57,7 +57,7 @@ build:
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
     - net-wireless/unifi
-    - sys-apps/entropybroker::emery
+    - sys-apps/entropybroker::sihnon
     - www-apps/cgit
     - www-apps/dokuwiki
     - www-apps/gitlabhq::gitlab
