@@ -1,5 +1,9 @@
 repository:
   description: Sihnon desktop packages
+      #
+  # 2016-09-14 temporarily start clean
+  maintenance:
+    clean_cache: 1
 
   remove:
       # Available in sabayonlinux.org
