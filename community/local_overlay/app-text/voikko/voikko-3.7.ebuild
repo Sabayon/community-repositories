@@ -13,8 +13,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="sci-misc/malaga
-	>=sci-misc/suomi-malaga-1.4
+DEPEND="app-misc/malaga
+	>=dev-libs/suomi-malaga-1.4
 	virtual/libiconv"
 RDEPEND="${DEPEND}"
 
