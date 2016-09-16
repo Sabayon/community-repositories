@@ -30,6 +30,7 @@ build:
     - genealogy
     - go-overlay
     - graaff
+    - haarp
     - jorgicio
     - jtriley
     - k_f
@@ -136,6 +137,7 @@ build:
     - net-misc/streamtuner2::stefantalpalaru
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
+    - sci-geosciences/googleearth::haarp
     - sys-apps/sift::go-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
