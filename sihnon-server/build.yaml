@@ -55,6 +55,7 @@ build:
     - net-wireless/eyefiserver::sihnon
     - net-wireless/unifi
     - sys-apps/entropybroker::sihnon
+    - www-apache/mod_proxy_html::gentoo
     - www-apps/cgit
     - www-apps/dokuwiki
     - www-apps/gitlabhq::gitlab
