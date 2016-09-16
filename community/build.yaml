@@ -107,6 +107,7 @@ build:
     - games-strategy/megaglest::games-overlay
     - games-strategy/unknown-horizons::gamerlay
     - games-strategy/zod-engine::games-overlay
+    - games-util/desurium::gamerlay
     - games-util/fteqcc-xonotic-9999::gamerlay
     - games-util/springlobby::Spring
     - games-util/wiithon::LocalOverlay
