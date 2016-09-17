@@ -17,6 +17,7 @@ build:
     - axs
     - belak
     - c2p-overlay
+    - didactic-duck
     - dev-zero
     - ephemeral
     - eva
