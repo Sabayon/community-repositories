@@ -1,0 +1,17 @@
+=pantheon-base/wingpanel-indicator-datetime-9999 **
+# required by pantheon-base/wingpanel-2.0.1::elementary
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+=pantheon-base/wingpanel-indicator-notifications-9999 **
+# required by pantheon-base/wingpanel-2.0.1::elementary[network]
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+=pantheon-base/wingpanel-indicator-network-9999 **
+# required by pantheon-base/wingpanel-2.0.1::elementary
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+=pantheon-base/wingpanel-indicator-session-9999 **
+# required by pantheon-base/wingpanel-2.0.1::elementary[bluetooth]
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+=pantheon-base/wingpanel-indicator-bluetooth-9999 **
+# required by pantheon-base/wingpanel-2.0.1::elementary[accessibility]
+# required by pantheon-base/wingpanel-indicator-bluetooth-9999::elementary
+=pantheon-base/wingpanel-indicator-accessibility-9999 **
+
