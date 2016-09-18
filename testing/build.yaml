@@ -4,10 +4,6 @@ build:
   emerge:
     remote_overlay:
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
-  overlays:
-    - elementary  
   target:
-    - =pantheon-base/plank-0.10.2::elementary
-    - pantheon-base/pantheon-shell::elementary 
     - x11-apps/neofetch::fsociety
 
