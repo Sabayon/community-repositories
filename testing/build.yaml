@@ -5,8 +5,8 @@ build:
     remote_overlay:
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
   overlays:
-    - pantheon  
+    - elementary  
   target:
-    - pantheon-base/pantheon-shell::pantheon 
+    - pantheon-base/pantheon-shell::elementary 
     - x11-apps/neofetch::fsociety
 
