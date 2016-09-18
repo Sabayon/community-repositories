@@ -16,3 +16,4 @@ pantheon-base/wingpanel-indicator-bluetooth **
 # required by pantheon-base/wingpanel-indicator-bluetooth-9999::elementary
 pantheon-base/wingpanel-indicator-accessibility **
 
+x11-wm/gala **
