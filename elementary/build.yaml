@@ -1,0 +1,12 @@
+repository:
+   description: Elementary repository
+build:
+  overlays:
+    - elementary  
+  target:
+    - x11-misc/lightdm::elementary
+    - net-misc/networkmanager::elementary
+    - pantheon-base/wingpanel::elementary
+    - =pantheon-base/plank-0.10.2::elementary
+    - pantheon-base/pantheon-shell::elementary 
+

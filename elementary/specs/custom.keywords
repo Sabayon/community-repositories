@@ -1,0 +1,18 @@
+net-misc/networkmanager ~amd64
+pantheon-base/wingpanel-indicator-datetime **
+# required by pantheon-base/wingpanel-2.0.1::elementary
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+pantheon-base/wingpanel-indicator-notifications **
+# required by pantheon-base/wingpanel-2.0.1::elementary[network]
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+pantheon-base/wingpanel-indicator-network **
+# required by pantheon-base/wingpanel-2.0.1::elementary
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+pantheon-base/wingpanel-indicator-session **
+# required by pantheon-base/wingpanel-2.0.1::elementary[bluetooth]
+# required by pantheon-base/wingpanel-indicator-accessibility-9999::elementary
+pantheon-base/wingpanel-indicator-bluetooth **
+# required by pantheon-base/wingpanel-2.0.1::elementary[accessibility]
+# required by pantheon-base/wingpanel-indicator-bluetooth-9999::elementary
+pantheon-base/wingpanel-indicator-accessibility **
+
