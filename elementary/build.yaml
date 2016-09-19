@@ -1,6 +1,8 @@
 repository:
    description: Elementary repository
 build:
+  emerge:
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -sandbox
   overlays:
     - elementary  
   target:
