@@ -4,10 +4,15 @@ repository:
      clean_cache: 1
 build:
   emerge:
-    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -sandbox
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -sandbox -usersandbox
     split_install: 1
   overlays:
     - elementary  
+  equo:
+    package:
+      remove:
+        - x11-misc/lightdm-qt4
+        - x11-misc/lightdm-base
   target:
     - x11-misc/lightdm::elementary
     - net-misc/networkmanager::elementary
