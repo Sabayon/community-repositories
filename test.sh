@@ -1,11 +1,11 @@
 #!/bin/bash
 
-if [ ! -e /vagrant/scripts/functions.sh ]; then
+if [ ! -e /sbin/sark-functions.sh ]; then
     echo "Must be run from within the community-buildspec vagrant box"
     exit 1
 fi
 
-. /vagrant/scripts/functions.sh
+. /sbin/sark-functions.sh
 
 if [ ! -e build.yaml ]; then
     echo "Must be run from a repository directory containing a build.yaml"
