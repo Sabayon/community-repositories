@@ -46,6 +46,7 @@ build:
     - dev-ruby/hiera-puppet-helper::sihnon
     - dev-ruby/puppet-syntax::sihnon
     - dev-ruby/puppet_forge::sihnon
+    - dev-ruby/puppetdb-termini
     - dev-ruby/puppetlabs_spec_helper::sihnon
     - dev-ruby/rspec-puppet::sihnon
     - dev-ruby/rspec-puppet-utils::sihnon
