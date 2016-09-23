@@ -1,7 +1,5 @@
 repository:
    description: Elementary repository  
-   maintenance:
-     clean_cache: 1
 build:
   emerge:
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -sandbox -usersandbox
