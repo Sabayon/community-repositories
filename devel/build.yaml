@@ -10,7 +10,6 @@ build:
   overlays:
     - kde
   target:
-    - =sys-libs/kpmcore-9999::kde
     - =sys-kernel/genkernel-next-9999
     - =app-admin/calamares-9999
     - sys-kernel/linux-sabayon[dracut]
