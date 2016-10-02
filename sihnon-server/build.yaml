@@ -14,10 +14,6 @@ build:
     # Install each package separately
     split_install: 1
 
-    # Use sihnon overlay
-    remote_overlay:
-      - sihnon|git|https://github.com/optiz0r/gentoo-overlay.git
-
   equo:
     repositories:
       - sihnon-common
@@ -37,6 +33,7 @@ build:
     - flavour
     - gitlab
     - mrueg
+    - sihnon
 
   # Packages to be built in this repo
   target:

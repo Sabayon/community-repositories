@@ -10,10 +10,6 @@ build:
     # Install each package separately
     split_install: 1
 
-    # Use sihnon overlay
-    remote_overlay:
-      - sihnon|git|https://github.com/optiz0r/gentoo-overlay.git
-
   equo:
     dependency_install:
       prune_virtuals: 1
@@ -30,6 +26,7 @@ build:
   overlays:
     - gentoo-zh
     - hacking-gentoo
+    - sihnon
     - swegener
 
   # Packages to be built in this repo
