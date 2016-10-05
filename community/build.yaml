@@ -5,6 +5,7 @@ build:
     # Install each package separately
     split_install: 1
     remote_overlay:
+       - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
        - sabayon-community|git|https://github.com/Sabayon/community.git
@@ -139,7 +140,11 @@ build:
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
     - sci-geosciences/googleearth::haarp
+    - sys-apps/flatpak::flatpak-overlay
     - sys-apps/sift::go-overlay
+    - sys-app/xdg-desktop-portal::flatpak-overlay
+    - sys-app/xdg-desktop-portal-gtk::flatpak-overlay
+    - sys-fs/ostree::flatpak-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - x11-drivers/wizardpen::jorgicio
