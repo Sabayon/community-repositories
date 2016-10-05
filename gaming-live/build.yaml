@@ -5,6 +5,9 @@ build:
     # Install each package separately
     split_install: 1
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
+  overlays:
+    - steam-overlay
   target:
     - =media-libs/mesa-9999
     - =x11-libs/libdrm-9999
+    - games-util/steam-meta::steam-overlay
