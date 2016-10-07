@@ -5,3 +5,5 @@ games-simulation/vegastrike -ffmpeg
 x11-libs/vte vala
 x11-misc/mugshot webcam
 #www-client/w3m fbcon imlib
+sys-apps/flatpak archive
+sys-apps/xdg-desktop-portal-gtk -wayland
