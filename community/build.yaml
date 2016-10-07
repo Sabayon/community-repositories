@@ -48,7 +48,6 @@ build:
     - roslin
     - salfter
     - sinustrom
-    - soft
     - Spring
     - ssnb
     - steam-overlay
@@ -91,7 +90,6 @@ build:
     - app-office/jstock::sinustrom
     - app-text/cherrytree::and3k-sunrise
     - app-text/gimagereader::salfter
-    - app-text/voikko::LocalOverlay
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
     - dev-embedded/stlink::swegener
