@@ -1,6 +1,10 @@
 repository:
    description: Sabayon Science Repository
 build:
+  equo:
+    package:
+      install:
+        - sci-libs/lapack-reference
   emerge:
     # Install each package separately
     split_install: 1
