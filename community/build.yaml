@@ -17,6 +17,7 @@ build:
     - Armageddon
     - axs
     - belak
+    - brother-overlay
     - c2p-overlay
     - didactic-duck
     - dev-zero
@@ -115,6 +116,7 @@ build:
     - games-util/springlobby::Spring
     - games-util/wiithon::LocalOverlay
     - gnome-extra/gnome-encfs::ephemeral
+    - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/lightzone
     - media-gfx/phatch::jtriley
     - media-gfx/Slic3r-bin::axs
