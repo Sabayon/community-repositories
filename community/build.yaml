@@ -33,6 +33,7 @@ build:
     - go-overlay
     - graaff
     - haarp
+    - hamper-overlay
     - jorgicio
     - jtriley
     - k_f
@@ -72,6 +73,7 @@ build:
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
     - app-backup/areca::LocalOverlay
+    - app-crypt/veracrypt
     - app-dicts/artha
     - app-editors/gedit-latex::eva
     - app-editors/scribes::belak
