@@ -2,6 +2,7 @@ app-arch/peazip gtk -qt4
 app-misc/gramps python_single_target_python3_4
 games-simulation/vegastrike -ffmpeg
 >=media-sound/sox-14.4.2 ladspa
+net-misc/curl threads
 x11-libs/vte vala
 x11-misc/mugshot webcam
 #www-client/w3m fbcon imlib
