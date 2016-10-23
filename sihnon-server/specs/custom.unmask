@@ -1,0 +1,4 @@
+# Was masked due to lack of php[xlst], no longer the case
+# Will fix upstream, but more expedient to do so here.
+dev-php/phing
+net-analyzer/icinga-web

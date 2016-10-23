@@ -46,6 +46,8 @@ build:
     - dev-util/gitlab-ci-multi-runner
     - dev-vcs/gitlab-shell
     - media-video/motion
+    - net-analyzer/icinga
+    - net-analyzer/icinga-web
     - =net-irc/quassel-core-9999::sihnon
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
@@ -55,6 +57,7 @@ build:
     - www-apps/cgit
     - www-apps/dokuwiki
     - www-apps/gitlabhq::gitlab
+    - www-apps/icingaweb2
     - www-apps/piwik
     - www-apps/wordpress
     - www-misc/motioneye::sihnon
