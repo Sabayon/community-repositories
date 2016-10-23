@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -e /sbin/sark-functions.sh ]; then
-    echo "Must be run from within the community-buildspec vagrant box"
+    echo "sabayon-sark package must be installed"
     exit 1
 fi
 
