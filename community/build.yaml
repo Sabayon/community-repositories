@@ -100,6 +100,7 @@ build:
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::jorgicio
     - dev-util/idea-community::ssnb
+    - dev-util/pycharm-community
     - games-action/meritous::sunrise
     - games-arcade/fretsonfire
     - games-arcade/mars-bin
