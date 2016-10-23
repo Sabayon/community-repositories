@@ -6,7 +6,7 @@ build:
     - haskell
   target:
     - app-emacs/ghc-mod
-    - app-portage/haskport
+    - app-portage/hackport
     - dev-haskell/hasktags
     - dev-haskell/hdevtools
     - dev-haskell/hlint
