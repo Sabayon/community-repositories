@@ -5,7 +5,13 @@ build:
   overlays:
     - haskell
   target:
+    - app-emacs/ghc-mod
+    - app-portage/hackport
+    - dev-haskell/hasktags
+    - dev-haskell/hdevtools
+    - dev-haskell/hlint
     - dev-haskell/stack
+    - dev-lang/ghc
   equo:
     # Don't use entropy for dependencies, as it will pull Haskell libraries compiled against the wrong version of GHC.
     dependency_install:
