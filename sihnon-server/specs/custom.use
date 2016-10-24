@@ -6,6 +6,7 @@ dev-db/phpmyadmin vhosts
 media-video/motion -ffmpeg libav mysql
 net-analyzer/icinga apache2 contrib eventhandler idoutils mysql perl plugins vim-syntax web
 net-analyzer/icinga-web -pnp apache2 mysql
+net-irc/quasselcore postgresql syslog
 net-nds/phpldapadmin vhosts
 # Run headless on servers
 net-p2p/deluge -gtk
