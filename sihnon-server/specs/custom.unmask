@@ -2,3 +2,5 @@
 # Will fix upstream, but more expedient to do so here.
 dev-php/phing
 net-analyzer/icinga-web
+# https://bugs.gentoo.org/show_bug.cgi?id=475120
+=media-video/motion-4.0
