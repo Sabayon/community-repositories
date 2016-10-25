@@ -1,2 +1,4 @@
 dev-db/mariadb-galera
 dev-db/mysql-connector-c
+# Blocks icinga
+net-analyzer/nagios-core
