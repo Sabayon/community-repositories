@@ -48,7 +48,7 @@ build:
     - media-video/motion
     - net-analyzer/icinga
     - net-analyzer/icinga-web
-    - net-irc/quassel-core
+    - net-irc/quassel-core::sabayon-distro
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
