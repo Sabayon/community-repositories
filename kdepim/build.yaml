@@ -8,6 +8,7 @@ build:
       install:
         - app-crypt/pinentry
   emerge:
+    features: splitdebug
     remove:
       - kde-apps/kmail:4
       - kde-apps/korganizer:4
