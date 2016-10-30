@@ -37,6 +37,7 @@ build:
     - gitlab
     - mrueg
     - sihnon
+    - raw
 
   # Packages to be built in this repo
   target:
