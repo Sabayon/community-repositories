@@ -2,15 +2,12 @@ repository:
   description: Sihnon server packages
 
   maintenance:
-    remove:
-      - net-irc/quassel-core
+     clean_cache: 1
       
 build:
   emerge:
     # Install each package separately
     split_install: 1
-    remove:
-      - =net-irc/quassel-core-9999
 
   equo:
     repositories:
@@ -24,7 +21,6 @@ build:
         - dev-db/mariadb-galera
       remove:
         - net-analyzer/nagios-core
-        - =net-irc/quassel-core-9999
 
   # Use ebuilds from the following layman overlays
   overlays:
