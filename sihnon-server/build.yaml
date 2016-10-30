@@ -15,8 +15,8 @@ build:
     split_install: 1
 
   equo:
-    #repositories:
-      #- sihnon-common
+    repositories:
+      - sihnon-common
 
     dependency_install:
       prune_virtuals: 1
