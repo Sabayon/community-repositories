@@ -3,11 +3,7 @@ repository:
 
   maintenance:
     remove:
-      # www-apacge/mpm_itk depdendency is missing and breaking the build
-      # Remove from the repository and re-add once clean
-      - app-backup/backuppc
-      # Blocks mysql
-      - dev-db/mariadb-galera
+      - =net-irc/quassel-core-9999
       
 build:
   emerge:
