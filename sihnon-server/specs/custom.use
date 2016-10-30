@@ -11,7 +11,7 @@ net-analyzer/icinga-web -pnp apache2 mysql
 net-irc/quasselcore postgres syslog
 net-nds/phpldapadmin vhosts
 # Run headless on servers
-net-p2p/deluge -gtk
+net-p2p/deluge -gtk -libnotify
 www-apps/cgit highlight vhosts
 www-apps/dokuwiki gd vhosts
 www-apps/gitlabhq mysql
