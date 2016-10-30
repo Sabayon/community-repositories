@@ -3,7 +3,7 @@ repository:
 
   maintenance:
     remove:
-      - =net-irc/quassel-core-9999
+      - net-irc/quassel-core
       
 build:
   emerge:
