@@ -9,6 +9,8 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
+    remove:
+      - =net-irc/quassel-core-9999
 
   equo:
     repositories:
