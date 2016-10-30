@@ -24,6 +24,9 @@ build:
     package:
       mask:
         - dev-db/mariadb-galera
+      remove:
+        - net-analyzer/nagios-core
+        - =net-irc/quassel-core-9999
 
   # Use ebuilds from the following layman overlays
   overlays:
