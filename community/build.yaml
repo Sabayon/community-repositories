@@ -39,6 +39,7 @@ build:
     - jtriley
     - k_f
     - lmiphay
+    - miramir
     - mozilla
     - mrueg
     - ohnobinki_overlay
@@ -100,6 +101,7 @@ build:
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::jorgicio
     - dev-util/idea-community::ssnb
+    - dev-util/phpstorm
     - dev-util/pycharm-community
     - games-action/meritous::sunrise
     - games-arcade/fretsonfire
