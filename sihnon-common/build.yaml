@@ -35,6 +35,7 @@ build:
     - app-admin/librarian-puppet::sihnon
     - app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
+    - app-admin/vault
     - app-vim/puppet-syntax::gentoo
     - dev-libs/sihnon-php-lib::sihnon
     - dev-libs/sihnon-js-lib::sihnon
