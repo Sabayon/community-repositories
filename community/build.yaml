@@ -19,6 +19,7 @@ build:
     - belak
     - brother-overlay
     - c2p-overlay
+    - Drauthius
     - didactic-duck
     - dev-zero
     - ephemeral
@@ -95,6 +96,7 @@ build:
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
     - dev-embedded/stlink::swegener
+    - dev-lang/haxe
     - =dev-libs/intel-beignet-9999::mrueg
     - dev-python/json-py::LocalOverlay
     - dev-tex/mimetex::k_f
