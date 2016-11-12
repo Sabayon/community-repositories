@@ -1,0 +1,20 @@
+repository:
+  description: Perl packages including from perl-experimental overlay
+
+build:
+  emerge:
+    split_install: 1
+
+  equo:
+    dependency_install:
+      prune_virtuals: 1
+
+  # Use ebuilds from the following layman overlays
+  overlays:
+    - perl-experimental
+
+  # Packages to be built in this repo
+  target:
+    - dev-perl/Dist-Zilla
+
+# vim: set ts=2 shiftwidth=2 expandtab :
