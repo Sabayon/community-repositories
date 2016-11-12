@@ -16,5 +16,47 @@ build:
   # Packages to be built in this repo
   target:
     - dev-perl/Dist-Zilla
+    - dev-perl/Dist-Zilla-App-Command-cover
+    - dev-perl/Dist-Zilla-App-Command-dumpphases
+    - dev-perl/Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective
+    - dev-perl/Dist-Zilla-Plugin-Authority
+    - dev-perl/Dist-Zilla-Plugin-AutoVersion-Relative
+    - dev-perl/Dist-Zilla-Plugin-Bootstrap-lib
+    - dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
+    - dev-perl/Dist-Zilla-Plugin-CheckExtraTests
+    - dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
+    - dev-perl/Dist-Zilla-Plugin-Config-Git
+    - dev-perl/Dist-Zilla-Plugin-Git
+    - dev-perl/Dist-Zilla-Plugin-GithubMeta
+    - dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith
+    - dev-perl/Dist-Zilla-Plugin-MetaProvides
+    - dev-perl/Dist-Zilla-Plugin-MetaProvides-Class
+    - dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile
+    - dev-perl/Dist-Zilla-Plugin-MetaProvides-Package
+    - dev-perl/Dist-Zilla-Plugin-MinimumPerl
+    - dev-perl/Dist-Zilla-Plugin-ModuleInstall
+    - dev-perl/Dist-Zilla-Plugin-PerlTidy
+    - dev-perl/Dist-Zilla-Plugin-PodWeaver
+    - dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod
+    - dev-perl/Dist-Zilla-Plugin-ReadmeFromPod
+    - dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny
+    - dev-perl/Dist-Zilla-Plugin-Repository
+    - dev-perl/Dist-Zilla-Plugin-TaskWeaver
+    - dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes
+    - dev-perl/Dist-Zilla-Plugin-Test-Compile
+    - dev-perl/Dist-Zilla-Plugin-Test-DistManifest
+    - dev-perl/Dist-Zilla-Plugin-Test-EOL
+    - dev-perl/Dist-Zilla-Plugin-Test-Kwalitee
+    - dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion
+    - dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic
+    - dev-perl/Dist-Zilla-Plugin-Test-Portability
+    - dev-perl/Dist-Zilla-Plugin-Twitter
+    - dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL
+    - dev-perl/Dist-Zilla-PluginBundle-RJBS
+    - dev-perl/Dist-Zilla-Role-Bootstrap
+    - dev-perl/Dist-Zilla-Role-Tempdir
+    - dev-perl/Dist-Zilla-Util-EmulatePhase
+    - dev-perl/Dist-Zilla-Util-Test-KENTNL
+
 
 # vim: set ts=2 shiftwidth=2 expandtab :
