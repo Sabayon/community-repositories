@@ -17,6 +17,7 @@ build:
     - Armageddon
     - axs
     - belak
+    - bobwya
     - brother-overlay
     - c2p-overlay
     - Drauthius
@@ -132,6 +133,7 @@ build:
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
+    - media-video/filebot
     - media-video/flowblade::Armageddon
     - net-im/hipchat::tmacedo
     - net-im/qtox-bin
