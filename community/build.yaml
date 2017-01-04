@@ -122,6 +122,7 @@ build:
     - games-util/springlobby::Spring
     - games-util/wiithon::LocalOverlay
     - gnome-extra/gnome-encfs::ephemeral
+    - mail-mta/citadel::sunrise
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/lightzone
     - media-gfx/phatch::jtriley
