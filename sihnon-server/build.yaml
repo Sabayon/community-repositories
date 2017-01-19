@@ -43,6 +43,7 @@ build:
     - media-video/motion
     - net-analyzer/icinga
     - net-analyzer/icinga-web
+    - net-dns/bind-dyndb-ldap
     - net-irc/quassel-core::sabayon-distro
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
