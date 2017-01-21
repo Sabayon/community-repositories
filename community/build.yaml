@@ -37,6 +37,7 @@ build:
     - graaff
     - haarp
     - hamper-overlay
+    - lmiphay
     - jorgicio
     - jtriley
     - k_f
@@ -122,6 +123,7 @@ build:
     - games-util/springlobby::Spring
     - games-util/wiithon::LocalOverlay
     - gnome-extra/gnome-encfs::ephemeral
+    - kde-misc/nowdock-panel::lmiphay
     - mail-mta/citadel::sunrise
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/lightzone
