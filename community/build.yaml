@@ -71,9 +71,6 @@ build:
     package:
       install:
         - dev-libs/ocl-icd
-      remove:
-        - dev-util/idea-community:15
-        - games-arcade/fretsonfire
   target:
     - app-admin/cpu-g::sunrise
     - app-arch/peazip::c2p-overlay
