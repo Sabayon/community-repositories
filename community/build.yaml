@@ -20,6 +20,7 @@ build:
     - bobwya
     - brother-overlay
     - c2p-overlay
+    - cynede
     - Drauthius
     - didactic-duck
     - dev-zero
@@ -160,6 +161,7 @@ build:
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - x11-drivers/wizardpen::jorgicio
+    - x11-misc/discord
     - x11-misc/mugshot::y2kbadbug
     - x11-terms/altyo
     - x11-wm/lumina::poly-c
