@@ -32,7 +32,7 @@ build:
 
   # Packages to be built in this repo
   target:
-    - >=app-admin/puppetdb-4.3.0-r1
+    - ">=app-admin/puppetdb-4.3.0-r1"
     - app-admin/puppetserver
     #- app-backup/backuppc
     - dev-db/phppgadmin
