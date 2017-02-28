@@ -39,6 +39,10 @@ build:
     - dev-db/phpmyadmin
     - dev-libs/libgit2::gentoo
     - dev-util/gitlab-ci-multi-runner
+    - dev-ruby/oxidized
+    - dev-ruby/oxidized-fetch
+    - dev-ruby/oxidized-script
+    - dev-ruby/oxidized-web
     - dev-vcs/gitlab-shell
     - media-video/motion
     - net-analyzer/icinga
