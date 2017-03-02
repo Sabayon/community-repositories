@@ -64,6 +64,7 @@ build:
     - swegener
     - TAJJADA
     - tmacedo
+    - trash
     - weuxel
     - y2kbadbug
     - zugaina
@@ -157,6 +158,7 @@ build:
     - sys-fs/ostree::flatpak-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
+    - x11-apps/disper::trash
     - x11-drivers/wizardpen::jorgicio
     - x11-misc/discord
     - x11-misc/mugshot::y2kbadbug
