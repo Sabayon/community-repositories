@@ -27,6 +27,7 @@ build:
     - flavour
     - gitlab
     - mrueg
+    - pentoo
     - sihnon
     - raw
 
