@@ -72,6 +72,7 @@ build:
     - net-misc/lldpd::gentoo
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
+    - net-wireless/rtl-sdr::gentoo
     - sys-auth/google-authenticator::gentoo
     - sys-auth/nss_ldap::gentoo
     - sys-auth/nss_updatedb::swegener
