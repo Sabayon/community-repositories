@@ -8,6 +8,7 @@ machine:
     - docker
   environment:
     PRETEND: 1
+    QA_CHECKS: 1
 dependencies:
   override:
     - docker pull sabayon/builder-amd64
