@@ -6,6 +6,8 @@ general:
 machine:
   services:
     - docker
+  environment:
+    PRETEND: 1
 dependencies:
   override:
     - docker pull sabayon/builder-amd64
