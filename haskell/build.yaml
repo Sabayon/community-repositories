@@ -10,6 +10,7 @@ build:
     - dev-haskell/hasktags
     - dev-haskell/hdevtools
     - dev-haskell/hlint
+    - dev-haskell/optparse-simple
     - dev-haskell/stack
     - dev-lang/ghc
   equo:
