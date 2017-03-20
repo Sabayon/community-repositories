@@ -10,9 +10,10 @@ build:
     - dev-haskell/hasktags
     - dev-haskell/hdevtools
     - dev-haskell/hlint
+    - dev-haskell/hpack
     - dev-haskell/optparse-simple
     - dev-haskell/stack
-      dev-haskell/yaml
+    - dev-haskell/yaml
     - dev-lang/ghc
   equo:
     # Don't use entropy for dependencies, as it will pull Haskell libraries compiled against the wrong version of GHC.
