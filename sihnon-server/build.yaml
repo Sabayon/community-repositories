@@ -50,6 +50,7 @@ build:
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
     - net-irc/quassel-core::sabayon-distro
+    - net-misc/memcached::gentoo
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
