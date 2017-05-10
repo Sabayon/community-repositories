@@ -9,6 +9,7 @@ build:
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
        - sabayon-community|git|https://github.com/Sabayon/community.git
+       - tlp-portage|git|https://github.com/dywisor/tlp-portage.git
   overlays:
     - activehome
     - and3k-sunrise
@@ -86,6 +87,7 @@ build:
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
     - app-i18n/virtaal::LocalOverlay
+    - app-laptop/tlp::tlp-portage
     - app-misc/double-commander
     - app-misc/fet::LocalOverlay
     - app-misc/gramps::genealogy
