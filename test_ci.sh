@@ -3,7 +3,8 @@
 export VAGRANT_DIR="${VAGRANT_DIR:-$(pwd)/buildspec}"
 export DEVKIT_DIR="${DEVKIT_DIR:-$(pwd)/devkit}"
 export SARK_DIR="${SARK_DIR:-$(pwd)/sark}"
-
+export PRETEND=1
+export QA_CHECKS=1
 export DOCKER_COMMIT_IMAGE=${DOCKER_COMMIT_IMAGE:-false}
 export COMMIT_RANGE="${1}"
 
