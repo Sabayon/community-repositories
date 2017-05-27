@@ -1,0 +1,18 @@
+repository:
+  description: Ruby Packages (unstable)
+
+build:
+  emerge:
+    split_install: 1
+
+  equo:
+    dependency_install:
+      prune_virtuals: 1
+
+  # Packages to be built in this repo
+  target:
+    - "dev-lang/ruby:2.2"
+    - "dev-lang/ruby:2.3"
+
+
+# vim: set ts=2 shiftwidth=2 expandtab :

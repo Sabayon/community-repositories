@@ -1,0 +1,7 @@
+dev-lang/ruby ~amd64
+dev-ruby/* ~amd64
+dev-ruby/rdoc ~amd64
+dev-ruby/test-unit ~amd64
+dev-ruby/power_assert ~amd64
+dev-ruby/rake ~amd64
+virtual/rubygems ~amd64

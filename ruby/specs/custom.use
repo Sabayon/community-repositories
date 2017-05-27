@@ -1,0 +1,3 @@
+# RUBY_TARGETS="ruby21 ruby22 ruby23"
+dev-ruby/* ruby_targets_ruby21 ruby_targets_ruby22 ruby_targets_ruby23
+virtual/rubygems ruby_targets_ruby21 ruby_targets_ruby22 ruby_targets_ruby23
