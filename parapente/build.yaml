@@ -1,0 +1,81 @@
+repository:
+   description: parapente packages
+build:
+  overlays:
+    - kde
+  target:
+    - =kde-apps/kdepim-meta-16.04.3::kde
+    - =kde-apps/akonadi-16.04.3::kde
+    - =kde-apps/akonadiconsole-16.04.3::kde
+    - =kde-apps/akonadi-calendar-16.04.3::kde
+    - =kde-apps/akonadi-contact-16.04.3::kde
+    - =kde-apps/akonadi-mime-16.04.3::kde
+    - =kde-apps/akonadi-notes-16.04.3::kde
+    - =kde-apps/akonadi-search-16.04.3::kde
+    - =kde-apps/akonadi-socialutils-16.04.3::kde
+    - =kde-apps/akregator-16.04.3::kde
+    - =kde-apps/blogilo-16.04.3::kde
+    - =kde-apps/calendarjanitor-16.04.3::kde
+    - =kde-apps/calendarsupport-16.04.3::kde
+    - =kde-apps/eventviews-16.04.3::kde
+    - =kde-apps/gpgmepp-16.04.3::kde
+    - =kde-apps/grantleetheme-16.04.3::kde
+    - =kde-apps/incidenceeditor-16.04.3::kde
+    - =kde-apps/kaddressbook-16.04.3::kde
+    - =kde-apps/kalarmcal-16.04.3::kde
+    - =kde-apps/kblog-16.04.3::kde
+    - =kde-apps/kcalcore-16.04.3::kde
+    - =kde-apps/kcalutils-16.04.3::kde
+    - =kde-apps/kcontacts-16.04.3::kde
+    - =kde-apps/kdepim-16.04.3::kde
+    - =kde-apps/kdepim-addons-16.04.3::kde
+    - =kde-apps/kdepim-apps-libs-16.04.3::kde
+    - =kde-apps/kdepim-kioslaves-16.04.3::kde
+    - =kde-apps/kdepim-runtime-16.04.3::kde
+    - =kde-apps/kdgantt2-16.04.3::kde
+    - =kde-apps/kholidays-16.04.3::kde
+    - =kde-apps/kidentitymanagement-16.04.3::kde
+    - =kde-apps/kimap-16.04.3::kde
+    - =kde-apps/kldap-16.04.3::kde
+    - =kde-apps/kleopatra-16.04.3::kde
+    - =kde-apps/kmailtransport-16.04.3::kde
+    - =kde-apps/kmbox-16.04.3::kde
+    - =kde-apps/kmime-16.04.3::kde
+    - =kde-apps/knotes-16.04.3::kde
+    - =kde-apps/konsolekalendar-16.04.3::kde
+    - =kde-apps/kontactinterface-16.04.3::kde
+    - =kde-apps/kpimtextedit-16.04.3::kde
+    - =kde-apps/ktnef-16.04.3::kde
+    - =kde-apps/libgravatar-16.04.3::kde
+    - =kde-apps/libkdepim-16.04.3::kde
+    - =kde-apps/libkleo-16.04.3::kde
+    - =kde-apps/libksieve-16.04.3::kde
+    - =kde-apps/libktnef-16.04.3::kde
+    - =kde-apps/mailcommon-16.04.3::kde
+    - =kde-apps/mailimporter-16.04.3::kde
+    - =kde-apps/messagelib-16.04.3::kde
+    - =kde-apps/pimcommon-16.04.3::kde
+    - =kde-apps/syndication-16.04.3::kde
+    - =kde-apps/kdepim-l10n-16.04.3::kde
+    - =dev-libs/npth-1.2
+    - =dev-libs/xapian-1.4.0
+    - =dev-libs/libgcrypt-1.7.1
+    - =app-crypt/gnupg-2.1.13
+
+  emerge:
+    skip_sync: 0
+    remove:
+      - kde-apps/akonadiconsole:4
+      - kde-apps/kdepim-runtime:4
+      - kde-apps/akregator:4
+      - kde-apps/kdepim-common-libs:4
+      - kde-apps/ktnef:4
+      - kde-apps/calendarjanitor:4
+      - kde-apps/konsolekalendar:4
+      - kde-apps/kleopatra:4
+      - kde-apps/kaddressbook:4
+      - kde-apps/blogilo:4
+      - net-libs/libkgapi:4
+      - kde-base/baloo:4
+      - kde-apps/kontact:4
+      - kde-apps/kdepimlibs:4

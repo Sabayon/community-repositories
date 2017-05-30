@@ -1,0 +1,4 @@
+kde-apps/kdepim-meta nls
+kde-apps/akonadi tools
+kde-apps/kdepim kdepim_features_kalarm kdepim_features_kmail kdepim_features_korganizer kontact
+kde-apps/kdepim-addons kdepim_features_akregator kdepim_features_kaddressbook kdepim_features_kmail kdepim_features_korganizer
