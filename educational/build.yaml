@@ -1,0 +1,10 @@
+repository:
+   description: Educational Repository , Webapps for Educational, University,Eleaning
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+  overlays:
+    - gentoo
+  target:
+    - www-apps/moodle
