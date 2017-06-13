@@ -55,6 +55,7 @@ build:
     - ROKO__
     - roslin
     - salfter
+    - sk-overlay
     - sinustrom
     - Spring
     - ssnb
@@ -129,6 +130,7 @@ build:
     - kde-misc/nowdock-panel::lmiphay
     - mail-mta/citadel::sunrise
     - media-gfx/brother-dcp145c-bin::brother-overlay
+    - media-gfx/font-manager::sk-overlay
     - media-gfx/lightzone
     - media-gfx/phatch::jtriley
     - media-gfx/Slic3r-bin::axs
