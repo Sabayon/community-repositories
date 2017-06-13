@@ -99,6 +99,7 @@ build:
     - app-office/onlyoffice::jorgicio
     - app-text/cherrytree::and3k-sunrise
     - app-text/gimagereader::salfter
+    - app-text/gist::sk-overlay
     - dev-embedded/arduino::TAJJADA
     - dev-embedded/arduino-ide::TAJJADA
     - dev-embedded/stlink::swegener
