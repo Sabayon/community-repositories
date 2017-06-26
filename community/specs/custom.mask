@@ -2,4 +2,4 @@
 */*::np-hardass-overlay
 
 # live ebuilds that get pulled in unintentionally
-=media-gfx/font-manager-9999
+>=media-gfx/font-manager-9999
