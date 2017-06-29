@@ -1,5 +1,7 @@
 repository:
-   description: Sabayon Science Repository
+  description: Sabayon Science Repository
+  maintenance:
+    clean_cache: 1
 build:
   equo:
     package:
