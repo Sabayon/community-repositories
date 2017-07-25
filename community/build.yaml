@@ -4,6 +4,7 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
+    preserved_rebuild: 1
     remote_overlay:
        - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
        - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
