@@ -13,6 +13,7 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
+    preserved_rebuild: 1
 
   # Use ebuilds from the following layman overlays
   overlays:

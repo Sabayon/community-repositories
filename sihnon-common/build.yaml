@@ -9,6 +9,7 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
+    preserved_rebuild: 1
 
   equo:
     dependency_install:
