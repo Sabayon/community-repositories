@@ -38,14 +38,11 @@ build:
     #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
-    - dev-libs/libgit2::gentoo
     - dev-util/gitlab-ci-multi-runner
     - dev-ruby/oxidized
     - dev-ruby/oxidized-fetch
     - dev-ruby/oxidized-script
     - dev-ruby/oxidized-web
-    - dev-vcs/gitlab-shell
-    - media-video/motion
     - net-analyzer/icinga
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
@@ -56,16 +53,12 @@ build:
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
     - net-wireless/unifi
-    - sys-apps/entropybroker::sihnon
     - www-apps/cgit
     - www-apps/dokuwiki
-    - www-apps/gitlabhq::gitlab
     - www-apps/icingaweb2
     - www-apps/piwik
     - www-apps/wordpress
-    - www-misc/motioneye::sihnon
     - www-misc/shellinabox
-    - www-servers/gitlab-workhorse::gitlab
 
 # vim: set ts=2 shiftwidth=2 expandtab :
 
