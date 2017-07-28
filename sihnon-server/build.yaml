@@ -1,8 +1,7 @@
 repository:
   description: Sihnon server packages
-  # Workaround libdbi-drivers revdep issue
-  maintenance:
-    clean_cache: 1
+  #maintenance:
+  #  clean_cache: 1
 
 build:
   emerge:
