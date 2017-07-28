@@ -1,5 +1,7 @@
 dev-db/mariadb-galera
 dev-db/mysql-connector-c
+# Drops ruby<23
+dev-ruby/pry::fkmclane
 # Blocks icinga
 net-analyzer/nagios-core
 # Revert to stable
