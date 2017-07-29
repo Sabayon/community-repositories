@@ -17,13 +17,21 @@ repository:
      # Packages that you may want to remove manually from the repository
 build:
 # BUILD Definition. It contains description and options regarding your emerge build.
+  script:
+    pre:
+      - echo "This is executed before build"
+      - echo "This is executed also before build"
+    post:
+      - echo "This is executed after build"
+      - echo "This is executed also after the build"
+  verbose: 1 # More verbose
   qa_checks: 1 # Enables repoman checks
   overlays:
     - mrueg
     - games-overlay
   # Adds the specified overlays with layman before build
   target: # REQUIRED!!!
-    - app-text/tree
+    - '>app-text/tree-1::gentoo'
     - dev-lang/php
   injected_target:
     - app-text/tree
