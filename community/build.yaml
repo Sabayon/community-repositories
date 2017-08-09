@@ -25,6 +25,7 @@ build:
     - cynede
     - Drauthius
     - didactic-duck
+    - dlang
     - dev-zero
     - ephemeral
     - eva
@@ -173,4 +174,5 @@ build:
     - x11-misc/discord
     - x11-misc/mugshot::y2kbadbug
     - x11-terms/altyo
+    - x11-terms/tilix::dlang
     - x11-wm/lumina::poly-c
