@@ -9,4 +9,4 @@ x11-misc/mugshot webcam
 #www-client/w3m fbcon imlib
 sys-apps/flatpak archive
 sys-apps/xdg-desktop-portal-gtk -wayland
-x11-terms/tilix dmd-2_075
+x11-terms/tilix dmd-2_074
