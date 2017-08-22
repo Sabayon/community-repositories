@@ -41,7 +41,7 @@ build:
     - graaff
     - haarp
     - hamper-overlay
-    - lmiphay
+    - ikelos
     - jorgicio
     - jtriley
     - k_f
@@ -114,6 +114,7 @@ build:
     - dev-util/idea-community::ssnb
     - dev-util/phpstorm
     - dev-util/pycharm-community
+    - dev-util/pycharm-professional
     - games-action/meritous::sunrise
     - games-arcade/fretsonfire
     - games-arcade/mars-bin
