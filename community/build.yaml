@@ -140,6 +140,7 @@ build:
     - media-gfx/sweethome3d-bin::activehome
     - media-gfx/xaralx::sunrise
     - media-sound/guitarix2::jorgicio
+    - media-sound/lollypop::jorgicio
     - media-sound/nuvolaplayer::furikake
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/oscam::vdr-devel
