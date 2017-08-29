@@ -83,6 +83,7 @@ build:
     - app-arch/rarcrack::robbat2
     - app-crypt/veracrypt
     - app-dicts/artha
+    - app-editors/atom-bin::jorgicio
     - app-editors/gedit-latex::eva
     - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
