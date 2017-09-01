@@ -1,6 +1,7 @@
 app-arch/peazip gtk -qt4
 app-misc/double-commander gtk -qt4
 app-misc/gramps python_single_target_python3_4
+dev-libs/gtkd vte dmd-2_074
 games-simulation/vegastrike -ffmpeg
 >=media-sound/sox-14.4.2 ladspa
 media-tv/oscam -reader_irdeto
