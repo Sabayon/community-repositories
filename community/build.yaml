@@ -39,7 +39,6 @@ build:
     - genealogy
     - go-overlay
     - graaff
-    - haarp
     - hamper-overlay
     - ikelos
     - jorgicio
@@ -163,7 +162,7 @@ build:
     - net-misc/streamtuner2::stefantalpalaru
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
-    - sci-geosciences/googleearth::haarp
+    - sci-geosciences/googleearth
     - sys-apps/flatpak::flatpak-overlay
     - sys-apps/sift::go-overlay
     - sys-app/xdg-desktop-portal::flatpak-overlay
