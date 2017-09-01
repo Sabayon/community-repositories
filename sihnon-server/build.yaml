@@ -58,6 +58,7 @@ build:
     - www-apps/cgit
     - www-apps/dokuwiki
     - www-apps/icingaweb2
+    - www-apps/kibana-bin
     - www-apps/piwik
     - www-apps/wordpress
     - www-misc/shellinabox
