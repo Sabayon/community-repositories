@@ -68,7 +68,6 @@ build:
     - TAJJADA
     - tmacedo
     - trash
-    - vdr-devel
     - weuxel
     - y2kbadbug
     - zugaina
@@ -144,7 +143,6 @@ build:
     - media-sound/lollypop::jorgicio
     - media-sound/nuvolaplayer::furikake
     - media-sound/vkaudiosaver::ROKO__
-    - media-tv/oscam::vdr-devel
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
     - media-video/filebot
