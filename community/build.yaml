@@ -142,6 +142,7 @@ build:
     - media-sound/lollypop::jorgicio
     - media-sound/nuvolaplayer::furikake
     - media-sound/pulseaudio-equalizer::zyrenth
+    - media-sound/pulseeffects
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/emby-server::megacoffee
     - media-tv/peerflix::jorgicio
