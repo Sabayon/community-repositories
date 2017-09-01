@@ -33,6 +33,7 @@ build:
   # Packages to be built in this repo
   target:
     - app-admin/collectd
+    - app-admin/logstash-bin
     - app-crypt/dehydrated
     - app-admin/lastpass-cli
     - app-admin/librarian-puppet::sihnon
