@@ -13,6 +13,6 @@ build:
   target:
     - "dev-lang/ruby:2.2"
     - "dev-lang/ruby:2.3"
-
+    - dev-ruby/rubygems
 
 # vim: set ts=2 shiftwidth=2 expandtab :
