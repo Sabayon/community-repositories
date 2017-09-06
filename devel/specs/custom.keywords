@@ -1,4 +1,5 @@
 =sys-kernel/genkernel-next-9999 **
 =app-admin/calamares-9999 **
 =sys-libs/kpmcore-9999 **
-
+sys-devel/gcc **
+sys-devel/base-gcc **
