@@ -12,6 +12,7 @@ build:
        - sabayon-community|git|https://github.com/Sabayon/community.git
        - tlp|git|https://github.com/dywisor/tlp-portage.git
   overlays:
+    - 4nykey
     - activehome
     - and3k-sunrise
     - angelos
@@ -139,6 +140,7 @@ build:
     - media-gfx/phatch::jtriley
     - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
+    - media-gfx/ttfautohint::4nykey
     - media-gfx/xaralx::sunrise
     - media-sound/guitarix2::jorgicio
     - media-sound/lollypop::jorgicio
