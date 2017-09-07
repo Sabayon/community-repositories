@@ -1,5 +1,7 @@
 repository:
   description: Ruby Packages (unstable)
+   maintenance:
+     clean_cache: 1
 
 build:
   emerge:
