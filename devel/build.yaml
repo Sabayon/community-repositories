@@ -1,9 +1,12 @@
 repository:
    description: Devel channel repository
 build:
-  post_script:
-    - gcc-config x86_64-pc-linux-gnu-4.9.3-vanilla
-    - emerge sys-devel/gcc::sabayon-distro
+  script:
+    pre:
+      - gcc-config x86_64-pc-linux-gnu-4.9.3-vanilla
+    post:
+      - gcc-config x86_64-pc-linux-gnu-4.9.3-vanilla
+      - emerge sys-devel/gcc::sabayon-distro
   qa_checks: 1
   emerge:
     # Install each package separately
