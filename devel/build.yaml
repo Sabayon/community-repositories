@@ -6,7 +6,6 @@ build:
       - gcc-config x86_64-pc-linux-gnu-4.9.3-vanilla
     post:
       - gcc-config x86_64-pc-linux-gnu-4.9.3-vanilla
-      - emerge sys-devel/gcc::sabayon-distro
   qa_checks: 1
   emerge:
     # Install each package separately
@@ -19,4 +18,5 @@ build:
     - =sys-kernel/genkernel-next-9999
     - =app-admin/calamares-9999
     - sys-kernel/linux-sabayon[dracut]
+    - sys-devel/gcc::sabayon-distro
     - sys-devel/base-gcc::sabayon-distro
