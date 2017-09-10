@@ -18,5 +18,5 @@ build:
     - =sys-kernel/genkernel-next-9999
     - =app-admin/calamares-9999
     - sys-kernel/linux-sabayon[dracut]
-    - sys-devel/gcc::sabayon-distro
-    - sys-devel/base-gcc::sabayon-distro
+    - sys-devel/gcc::sabayon-distro[-gcj,-go]
+    - sys-devel/base-gcc::sabayon-distro[-gcj,-go]
