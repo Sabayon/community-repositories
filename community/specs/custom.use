@@ -11,4 +11,5 @@ x11-misc/mugshot webcam
 #www-client/w3m fbcon imlib
 sys-apps/flatpak archive
 sys-apps/xdg-desktop-portal-gtk -wayland
+www-client/palemoon -alsa
 x11-terms/tilix dmd-2_074
