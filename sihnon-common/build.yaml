@@ -43,6 +43,7 @@ build:
     - app-vim/puppet-syntax::gentoo
     - dev-libs/sihnon-php-lib::sihnon
     - dev-libs/sihnon-js-lib::sihnon
+    - dev-perl/Nagios-Plugin
     - dev-python/django-haystack::gentoo
     - dev-ruby/hiera-eyaml-gpg::gentoo
     - dev-ruby/hiera-puppet-helper::sihnon
