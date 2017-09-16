@@ -25,6 +25,7 @@ build:
 
   # Use ebuilds from the following layman overlays
   overlays:
+    - fkmclane
     - gentoo-zh
     - hacking-gentoo
     - sihnon
