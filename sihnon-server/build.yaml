@@ -36,7 +36,6 @@ build:
 
   # Packages to be built in this repo
   target:
-    - app-admin/puppetserver
     #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
@@ -45,6 +44,7 @@ build:
     - dev-ruby/oxidized-fetch
     - dev-ruby/oxidized-script
     - dev-ruby/oxidized-web
+    - dev-ruby/puppetdb-termini
     - net-analyzer/icinga
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
