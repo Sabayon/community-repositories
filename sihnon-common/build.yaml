@@ -15,14 +15,6 @@ build:
     dependency_install:
       prune_virtuals: 1
 
-    package:
-      remove:
-        # These packages conflict with puppet-agent
-        - app-admin/puppet
-        - app-emulation/virt-what
-        - dev-ruby/facter
-        - dev-ruby/hiera
-
   # Use ebuilds from the following layman overlays
   overlays:
     - fkmclane
