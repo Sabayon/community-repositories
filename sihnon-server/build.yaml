@@ -34,6 +34,9 @@ build:
     - sihnon
     - raw
 
+  injected_target:
+    - dev-ruby/puppetdb-termini
+
   # Packages to be built in this repo
   target:
     #- app-backup/backuppc
