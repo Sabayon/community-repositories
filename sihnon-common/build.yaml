@@ -10,6 +10,7 @@ build:
     # Install each package separately
     split_install: 1
     preserved_rebuild: 1
+    default_args: --accept-properties=-interactive -t --verbose --newuse --nospinner --oneshot --complete-graph --buildpkg --update
 
   equo:
     dependency_install:
