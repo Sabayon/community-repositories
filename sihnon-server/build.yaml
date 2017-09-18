@@ -1,14 +1,13 @@
 repository:
   description: Sihnon server packages
-  #maintenance:
-  #  clean_cache: 1
+  maintenance:
+    clean_cache: 1
 
 build:
   emerge:
     # Install each package separately
     split_install: 1
     preserved_rebuild: 1
-    default_args: --accept-properties=-interactive -t --verbose --newuse --nospinner --oneshot --complete-graph --buildpkg --update
 
   equo:
     repositories:
