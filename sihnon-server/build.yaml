@@ -22,6 +22,7 @@ build:
         - dev-db/mariadb-galera
       remove:
         - net-analyzer/nagios-core
+        - dev-ruby/asetus
 
   # Use ebuilds from the following layman overlays
   overlays:
