@@ -28,7 +28,7 @@ build:
     - app-admin/logstash-bin
     - app-crypt/dehydrated
     - app-admin/lastpass-cli
-    - app-admin/librarian-puppetp
+    - app-admin/librarianp::sihnon
     - app-admin/librarian-puppet::sihnon
     - app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
