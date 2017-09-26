@@ -9,5 +9,6 @@ build:
     - steam-overlay
   target:
     - =media-libs/mesa-9999
+    - =sys-devel/llvm-9999::gentoo
     - =x11-libs/libdrm-9999
     - games-util/steam-meta::steam-overlay
