@@ -5,7 +5,8 @@ build:
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -sandbox -usersandbox
     split_install: 1
   overlays:
-    - elementary  
+    - elementary 
+    - sabayon-distro
   equo:
     package:
       remove:
