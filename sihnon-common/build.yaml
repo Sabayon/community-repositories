@@ -71,10 +71,6 @@ build:
     - net-misc/pssh::gentoo
     - net-wireless/rtl-sdr::gentoo
     - sys-auth/google-authenticator::gentoo
-    - sys-auth/nss_ldap::gentoo
-    - sys-auth/nss_updatedb::swegener
-    #- sys-auth/pam_ccreds::barzog-overlay
-    - sys-auth/pam_ldap::gentoo
     - sys-auth/sssd
     - sys-fs/zfs-auto-snapshot::gentoo-zh
 
