@@ -5,4 +5,4 @@ net-misc/lldpd snmp
 net-misc/openssh -hpn ldap
 media-tv/tvheadend ffmpeg satip xmltv
 media-tv/xmltv uk_bleb uk_rt
-sys-auth/sssd augeas autofs netlink nfsv4 samba ssh sudo
+sys-auth/sssd autofs netlink nfsv4 samba ssh sudo
