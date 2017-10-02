@@ -4,8 +4,6 @@ dev-db/libdbi-drivers mysql
 dev-db/phppgadmin vhosts
 dev-db/phpmyadmin vhosts
 dev-qt/qtsql postgres
-# Required by icinga-web2
-media-gfx/imagemagick -openmp
 media-video/motion ffmpeg mysql
 net-analyzer/icinga apache2 contrib eventhandler idoutils mysql perl plugins vim-syntax web
 net-analyzer/icinga-web -pnp apache2 mysql
