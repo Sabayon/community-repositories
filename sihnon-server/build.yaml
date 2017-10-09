@@ -20,9 +20,6 @@ build:
     package:
       mask:
         - dev-db/mariadb-galera
-      remove:
-        - dev-db/libdbi-drivers
-        - net-analyzer/icinga
 
   # Use ebuilds from the following layman overlays
   overlays:
