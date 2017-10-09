@@ -48,6 +48,7 @@ build:
     - dev-ruby/oxidized-web
     - dev-ruby/puppetdb-termini
     - net-analyzer/icinga
+    - net-analyzer/icinga2
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
     - net-irc/quassel-core::sabayon-distro
