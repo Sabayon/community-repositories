@@ -15,6 +15,7 @@ build:
   overlays:
     - kde
   target:
+    - sys-apps/systemd::sabayon-distro
     - =sys-kernel/genkernel-next-9999
     - =app-admin/calamares-9999
     - sys-kernel/linux-sabayon[dracut]
