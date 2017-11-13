@@ -93,6 +93,7 @@ build:
     - app-eselect/eselect-sublime::sublime-text
     - app-i18n/virtaal::LocalOverlay
     - app-laptop/tlp
+    - app-misc/anki::sk-overlay
     - app-misc/double-commander
     - app-misc/fet::LocalOverlay
     - app-misc/gramps::genealogy
