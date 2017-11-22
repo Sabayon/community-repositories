@@ -6,8 +6,12 @@ build:
     split_install: 1
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
   overlays:
+    - netcrave 
     - steam-overlay
   target:
+    - sys-kernel/dkms::netcrave
+    - sys-kernel/amdgpu-pro-dkms::netcrave
+    - x11-drivers/amdgpu-pro::netcrave
     - =media-libs/mesa-9999
     - =sys-devel/llvm-9999::gentoo
     - =x11-libs/libdrm-9999
