@@ -91,7 +91,6 @@ build:
     - app-emulation/RemoteBox::gentoo-htpc
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
-    - app-i18n/virtaal::LocalOverlay
     - app-laptop/tlp
     - app-misc/anki::sk-overlay
     - app-misc/double-commander
