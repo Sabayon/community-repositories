@@ -159,6 +159,7 @@ build:
     - net-im/skypeforlinux::ROKO__
     - net-im/slack::lmiphay
     - net-im/telegram-bin::fuverlay
+    - net-im/zoom-bin::yurij-overlay
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync::jorgicio
     - net-misc/miraclecast::angelos
