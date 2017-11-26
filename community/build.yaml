@@ -108,7 +108,6 @@ build:
     - dev-embedded/stlink::swegener
     - dev-lang/haxe
     - =dev-libs/intel-beignet-9999::mrueg
-    - dev-python/json-py::LocalOverlay
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::jorgicio
