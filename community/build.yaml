@@ -17,7 +17,6 @@ build:
     - and3k-sunrise
     - angelos
     - anyc
-    - Armageddon
     - axs
     - belak
     - bobwya
@@ -151,7 +150,7 @@ build:
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
     - media-video/filebot
-    - media-video/flowblade::Armageddon
+    - media-video/flowblade
     - net-im/hipchat::tmacedo
     - net-im/qtox-bin
     - net-im/skypeforlinux::ROKO__
