@@ -63,7 +63,6 @@ build:
     - steam-overlay
     - stefantalpalaru
     - sublime-text
-    - sunrise
     - swegener
     - TAJJADA
     - tmacedo
@@ -77,7 +76,6 @@ build:
       install:
         - dev-libs/ocl-icd
   target:
-    - app-admin/cpu-g::sunrise
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
     - app-crypt/veracrypt
@@ -115,7 +113,6 @@ build:
     - dev-util/phpstorm
     - dev-util/pycharm-community
     - dev-util/pycharm-professional
-    - games-action/meritous::sunrise
     - games-arcade/fretsonfire
     - games-arcade/mars-bin
     - games-arcade/mars-game::gamerlay
@@ -131,7 +128,6 @@ build:
     - games-util/wiithon::LocalOverlay
     - gnome-extra/gnome-encfs::ephemeral
     - kde-misc/nowdock-panel::lmiphay
-    - mail-mta/citadel::sunrise
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/font-manager::sk-overlay
     - media-gfx/lightzone
@@ -140,7 +136,6 @@ build:
     - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
     - media-gfx/ttfautohint::4nykey
-    - media-gfx/xaralx::sunrise
     - media-sound/guitarix2::jorgicio
     - media-sound/lollypop::jorgicio
     - media-sound/nuvolaplayer::furikake
