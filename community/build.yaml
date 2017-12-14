@@ -146,7 +146,6 @@ build:
     - media-tv/plex-media-server
     - media-video/filebot
     - media-video/flowblade
-    - net-im/discord
     - net-im/hipchat::tmacedo
     - net-im/qtox-bin
     - net-im/skypeforlinux
