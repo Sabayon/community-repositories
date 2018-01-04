@@ -7,7 +7,6 @@ build:
     preserved_rebuild: 1
     remote_overlay:
        - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
-       - fsociety|git|https://github.com/z1lt0id/fs0ciety.git
        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
        - sabayon-community|git|https://github.com/Sabayon/community.git
        - tlp|git|https://github.com/dywisor/tlp-portage.git
@@ -93,7 +92,7 @@ build:
     - app-misc/double-commander
     - app-misc/fet::LocalOverlay
     - app-misc/gramps::genealogy
-    - app-misc/neofetch::fsociety
+    - app-misc/neofetch
     - app-office/archi::flavour
     - app-office/jstock::sinustrom
     - app-office/onlyoffice::jorgicio
