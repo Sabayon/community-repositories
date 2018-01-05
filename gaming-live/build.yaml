@@ -10,7 +10,7 @@ build:
     - oiledmachine
     - steam-overlay
   target:
-    - sys-kernel/dkms::netcrave
+    - sys-kernel/dkms
     - sys-kernel/amdgpu-pro-dkms
     - x11-drivers/amdgpu-pro
     - =media-libs/mesa-9999
