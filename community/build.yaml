@@ -157,6 +157,7 @@ build:
     - =net-misc/gopenvpn-9999::np-hardass-overlay
     - net-misc/cjdns::weuxel
     - net-misc/streamtuner2::stefantalpalaru
+    - net-misc/screamingfrogseospider::jorgicio
     - net-print/brother-genml1-bin::brother-overlay
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
