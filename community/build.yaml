@@ -61,6 +61,7 @@ build:
     - ssnb
     - steam-overlay
     - stefantalpalaru
+    - stuff
     - sublime-text
     - swegener
     - TAJJADA
@@ -142,6 +143,7 @@ build:
     - media-sound/pulseeffects
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
+    - media-tv/popcorntime-bin
     - media-tv/plex-media-server
     - media-video/filebot
     - media-video/flowblade
