@@ -20,6 +20,10 @@ build:
     package:
       mask:
         - dev-db/mariadb-galera
+        - net-analyzer/nagios-core
+        
+      remove:
+        - net-analyzer/nagios-core
 
   # Use ebuilds from the following layman overlays
   overlays:
@@ -42,11 +46,6 @@ build:
     #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
-    - dev-util/gitlab-ci-multi-runner
-    - dev-ruby/oxidized
-    - dev-ruby/oxidized-fetch
-    - dev-ruby/oxidized-script
-    - dev-ruby/oxidized-web
     - dev-ruby/puppetdb-termini
     - net-analyzer/icinga
     - net-analyzer/icinga2
