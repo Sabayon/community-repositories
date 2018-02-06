@@ -20,7 +20,6 @@ build:
     package:
       mask:
         - dev-db/mariadb-galera
-        - net-analyzer/nagios-core
         
       remove:
         - net-analyzer/nagios-core
