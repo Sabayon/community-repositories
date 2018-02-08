@@ -97,6 +97,7 @@ build:
     - app-office/archi::flavour
     - app-office/jstock::sinustrom
     - app-office/onlyoffice::jorgicio
+    - app-office/wps-office
     - app-text/cherrytree::and3k-sunrise
     - app-text/gimagereader::salfter
     - app-text/gist::sk-overlay
