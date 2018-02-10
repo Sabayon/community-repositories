@@ -1,7 +1,7 @@
 repository:
   description: Dotnet packages
-   maintenance:
-     clean_cache: 1
+#  maintenance:
+#    clean_cache: 1
 
 build:
   overlays:
