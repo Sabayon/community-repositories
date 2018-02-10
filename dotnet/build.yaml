@@ -1,0 +1,24 @@
+repository:
+  description: Dotnet packages
+   maintenance:
+     clean_cache: 1
+
+build:
+  overlays:
+    - dotnet
+    - shnurise
+
+  emerge:
+    split_install: 1
+
+  # Packages to be built in this repo
+  target:
+    - 'dev-lang/mono::dotnet'
+    - 'dev-lang/monodevelop::dotnet'
+    - 'www-servers/xsp::dotnet'
+    - 'www-apache/mod_mono::dotnet'
+    - 'app-editors/mypad::shnurise'
+
+  equo:
+    dependency_install:
+      prune_virtuals: 1
