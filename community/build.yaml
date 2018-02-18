@@ -1,5 +1,9 @@
 repository:
    description: Sabayon Community SCR
+   
+   maintenance:
+    clean_cache: 1
+
 build:
   emerge:
     # Install each package separately
