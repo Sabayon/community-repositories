@@ -144,7 +144,7 @@ build:
     - media-gfx/ttfautohint::4nykey
     - media-sound/guitarix2::jorgicio
     - media-sound/lollypop::jorgicio
-    - media-sound/nuvolaplayer::furikake
+    #- media-sound/nuvolaplayer::furikake
     - media-sound/pulseaudio-equalizer::zyrenth
     - media-sound/pulseeffects
     - media-sound/vkaudiosaver::ROKO__
