@@ -14,9 +14,18 @@ build:
   # Packages to be built in this repo
   target:
     - 'dev-lang/mono::dotnet'
-    - 'dev-lang/monodevelop::dotnet'
+    - 'dev-util/nunit'
+    - 'dev-lang/ironscheme'
+    - 'dev-lang/oscript'
+    - 'dev-dotnet/npgsql' 
+    - 'dev-util/gplex-dbremner'
+    - 'dev-util/gppg-dbremner'
+    - 'app-shells/pash'
+    - 'dev-util/monodevelop::dotnet'
     - 'www-servers/xsp::dotnet'
     - 'www-apache/mod_mono::dotnet'
+    - 'net-irc/smuxi'
+    - 'media-gfx/pinta'
     - 'app-editors/mypad::shnurise'
 
   equo:
