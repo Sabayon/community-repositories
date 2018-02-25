@@ -150,7 +150,7 @@ build:
     - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
     - media-tv/popcorntime-bin
-    - media-tv/plex-media-server
+    - media-tv/plex-media-server::gentoo
     - media-video/filebot
     - media-video/flowblade
     - net-im/hipchat::tmacedo
