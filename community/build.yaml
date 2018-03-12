@@ -26,7 +26,6 @@ build:
     - brother-overlay
     - c2p-overlay
     - cynede
-    - Drauthius
     - didactic-duck
     - dlang
     - dev-zero
@@ -106,7 +105,6 @@ build:
     - dev-embedded/arduino
     - dev-embedded/arduino-ide
     - dev-embedded/stlink::swegener
-    - dev-lang/haxe
     - =dev-libs/intel-beignet-9999::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
