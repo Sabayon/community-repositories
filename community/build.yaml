@@ -114,8 +114,6 @@ build:
     - dev-util/phpstorm
     - dev-util/pycharm-community
     - dev-util/pycharm-professional
-    - games-arcade/mars-bin
-    - games-arcade/mars-game::gamerlay
     - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
