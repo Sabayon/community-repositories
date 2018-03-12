@@ -114,7 +114,6 @@ build:
     - dev-util/phpstorm
     - dev-util/pycharm-community
     - dev-util/pycharm-professional
-    - games-arcade/sdl-ball::roslin
     - games-fps/redeclipse::gamerlay
     - games-puzzle/osmos::gamerlay
     - games-sports/maniadrive-bin::zugaina
