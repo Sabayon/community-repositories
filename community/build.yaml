@@ -33,7 +33,6 @@ build:
     - fkmclane
     - flavour
     - furikake
-    - fuverlay
     - gamerlay
     - games-overlay
     - gentoo-htpc
@@ -142,7 +141,7 @@ build:
     - net-im/qtox
     - net-im/skypeforlinux
     - net-im/slack::lmiphay
-    - net-im/telegram-bin::fuverlay
+    - net-im/telegram
     - net-im/zoom-bin::yurij-overlay
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync::jorgicio
