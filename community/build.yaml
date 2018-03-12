@@ -126,7 +126,6 @@ build:
     - gnome-extra/gnome-encfs::ephemeral
     - kde-misc/nowdock-panel::lmiphay
     - media-gfx/brother-dcp145c-bin::brother-overlay
-    - media-gfx/font-manager::sk-overlay
     - media-gfx/lightzone
     - media-gfx/phatch::jtriley
     - media-gfx/pinta
