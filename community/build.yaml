@@ -135,7 +135,6 @@ build:
     - media-sound/pulseaudio-equalizer::zyrenth
     - media-sound/pulseeffects
     - media-tv/peerflix::jorgicio
-    - media-tv/popcorntime-bin
     - media-tv/plex-media-server
     - media-video/filebot
     - media-video/flowblade
