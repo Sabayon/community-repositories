@@ -55,7 +55,6 @@ build:
     - poly-c
     - rasdark
     - robbat2
-    - ROKO__
     - roslin
     - salfter
     - sk-overlay
@@ -135,7 +134,6 @@ build:
     #- media-sound/nuvolaplayer::furikake
     - media-sound/pulseaudio-equalizer::zyrenth
     - media-sound/pulseeffects
-    - media-sound/vkaudiosaver::ROKO__
     - media-tv/peerflix::jorgicio
     - media-tv/popcorntime-bin
     - media-tv/plex-media-server
