@@ -20,7 +20,6 @@ build:
     - and3k-sunrise
     - angelos
     - anyc
-    - axs
     - belak
     - bobwya
     - brother-overlay
@@ -129,7 +128,6 @@ build:
     - media-gfx/lightzone
     - media-gfx/phatch::jtriley
     - media-gfx/pinta
-    - media-gfx/Slic3r-bin::axs
     - media-gfx/sweethome3d-bin::activehome
     - media-gfx/ttfautohint::4nykey
     - media-sound/guitarix2::jorgicio
