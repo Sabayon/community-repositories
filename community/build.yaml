@@ -88,7 +88,7 @@ build:
     - app-editors/atom-bin::jorgicio
     - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
-    - app-emulation/genymotion
+    - app-emulation/genymotion-bin
     - app-emulation/RemoteBox::gentoo-htpc
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
