@@ -8,7 +8,7 @@ inherit eutils qt4-r2
 
 DESCRIPTION="A timetabling software for educational institutions"
 HOMEPAGE="http://lalescu.ro/liviu/fet/"
-SRC_URI="http://lalescu.ro/liviu/fet/download/${P}.tar.bz2"
+SRC_URI="http://lalescu.ro/liviu/fet/download/old/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
