@@ -69,7 +69,6 @@ build:
     - stuff
     - sublime-text
     - swegener
-    - TAJJADA
     - tmacedo
     - trash
     - voyageur
@@ -104,8 +103,8 @@ build:
     - app-text/cherrytree::and3k-sunrise
     - app-text/gimagereader::salfter
     - app-text/gist::sk-overlay
-    - dev-embedded/arduino::TAJJADA
-    - dev-embedded/arduino-ide::TAJJADA
+    - dev-embedded/arduino
+    - dev-embedded/arduino-ide
     - dev-embedded/stlink::swegener
     - dev-lang/haxe
     - =dev-libs/intel-beignet-9999::mrueg
