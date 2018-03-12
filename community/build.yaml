@@ -139,7 +139,7 @@ build:
     - media-video/filebot
     - media-video/flowblade
     - net-im/hipchat::tmacedo
-    - net-im/qtox-bin
+    - net-im/qtox
     - net-im/skypeforlinux
     - net-im/slack::lmiphay
     - net-im/telegram-bin::fuverlay
