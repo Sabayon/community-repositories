@@ -169,6 +169,5 @@ build:
     - x11-misc/iio-sensor-proxy
     - x11-misc/mugshot::y2kbadbug
     - x11-misc/variety
-    - x11-terms/altyo
     - x11-terms/tilix::dlang
     - x11-wm/lumina::poly-c
