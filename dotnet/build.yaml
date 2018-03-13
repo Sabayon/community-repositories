@@ -24,9 +24,10 @@ build:
     - 'dev-util/monodevelop::dotnet'
     - 'www-servers/xsp::dotnet'
     - 'www-apache/mod_mono::dotnet'
-    - 'net-irc/smuxi'
+    - '<=net-irc/smuxi-9000'
     - 'media-gfx/pinta'
-    - 'app-editors/mypad::shnurise'
+    - 'app-editors/mypad'
+    - 'www-apps/orchard-cms'
 
   equo:
     dependency_install:
