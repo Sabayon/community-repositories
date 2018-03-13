@@ -15,6 +15,7 @@ build:
   target:
     - 'dev-lang/mono::dotnet'
     - 'dev-util/nunit'
+    - 'dev-util/mono-packaging-tools'
     - 'dev-lang/ironscheme'
     - 'dev-lang/oscript'
     - 'dev-dotnet/npgsql' 
