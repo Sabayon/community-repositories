@@ -16,7 +16,7 @@ build:
     - 'dev-lang/mono::dotnet'
     - 'dev-util/nunit'
     - 'dev-util/xunit'
-    - 'dev-util/mono-options'
+    - 'dev-dotnet/mono-options'
     - 'dev-util/mono-packaging-tools'
     - 'dev-lang/ironscheme'
     - 'dev-lang/oscript'
