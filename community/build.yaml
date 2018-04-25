@@ -81,6 +81,7 @@ build:
     - app-crypt/veracrypt
     - app-dicts/artha
     - app-editors/atom-bin::jorgicio
+    - app-editors/brackets-bin
     - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
     - app-emulation/genymotion-bin
