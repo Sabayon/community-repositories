@@ -163,7 +163,7 @@ build:
     - sys-fs/ostree::flatpak-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
-    - www-client/palemoon::palemoon
+    - www-client/palemoon-bin::palemoon
     - x11-apps/disper::trash
     - x11-drivers/wizardpen::jorgicio
     - x11-libs/libvdpau-va-gl::sk-overlay
