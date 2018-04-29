@@ -77,6 +77,7 @@ build:
       install:
         - dev-libs/ocl-icd
   target:
+    - app-admin/keepasshttp::np-hardass-overlay
     - app-arch/peazip::c2p-overlay
     - app-arch/rarcrack::robbat2
     - app-crypt/veracrypt
