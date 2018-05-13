@@ -13,24 +13,28 @@ build:
 
   # Packages to be built in this repo
   target:
-    - 'dev-lang/mono::dotnet'
+    - 'dev-dotnet/mono-options'
+    - 'dev-lang/mono'
+    - 'dev-util/mono-packaging-tools'
     - 'dev-util/nunit'
     - 'dev-util/xunit'
-    - 'dev-dotnet/mono-options'
-    - 'dev-util/mono-packaging-tools'
-    - 'dev-lang/ironscheme'
-    - 'dev-lang/oscript'
-    - 'dev-dotnet/npgsql' 
+    - 'app-shells/pash'
+    - 'dev-util/monodevelop'
+    - 'www-servers/xsp'
+    - 'www-apache/mod_mono'
+    - 'dev-dotnet/npgsql'
+    - 'www-apps/orchard-cms'
     - 'dev-util/gplex-dbremner'
     - 'dev-util/gppg-dbremner'
-    - 'app-shells/pash'
-    - 'dev-util/monodevelop::dotnet'
-    - 'www-servers/xsp::dotnet'
-    - 'www-apache/mod_mono::dotnet'
-    - '<net-irc/smuxi-9000'
-    - 'media-gfx/pinta'
+    - 'dev-util/naive-language-tools'
+    - 'app-crypt/mono-letsencrypt'
     - 'app-editors/mypad'
-    - 'www-apps/orchard-cms'
+    - 'media-gfx/pinta'
+    - 'dev-lang/oscript'
+
+# no motivation to fix
+#    - 'dev-lang/ironscheme'
+#    - '<net-irc/smuxi-9000'
 
   equo:
     dependency_install:
