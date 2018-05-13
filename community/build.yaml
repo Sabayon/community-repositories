@@ -163,6 +163,7 @@ build:
     - sys-app/xdg-desktop-portal::flatpak-overlay
     - sys-app/xdg-desktop-portal-gtk::flatpak-overlay
     - sys-cluster/kubectl
+    - sys-cluster/minikube
     - sys-fs/ostree::flatpak-overlay
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
