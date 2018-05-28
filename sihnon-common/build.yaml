@@ -17,6 +17,7 @@ build:
   # Use ebuilds from the following layman overlays
   overlays:
     - fkmclane
+    - frabjous
     - gentoo-zh
     - hacking-gentoo
     - sihnon
@@ -27,6 +28,7 @@ build:
     - app-admin/collectd
     - app-admin/logstash-bin
     - app-crypt/dehydrated
+    - app-admin/consul
     - app-admin/lastpass-cli
     - app-admin/librarianp::sihnon
     - app-admin/librarian-puppet::sihnon
