@@ -9,6 +9,7 @@ repository:
        - app-emulation/genymotion-bin
        - app-emulation/shashlik-bin
        - app-misc/fet
+       - dev-lang/v8
 
 build:
   emerge:
