@@ -10,6 +10,17 @@ repository:
        - app-emulation/shashlik-bin
        - app-misc/fet
        - dev-lang/v8
+       - dev-qt/multimedia
+       - dev-util/cmake-3.7.2
+       - dev-util/kdevelop-5.0.9999
+       - kde-apps/kapptemplate
+       - media-sound/jack_capture
+       - media-sound/vkaudiosaver
+       - net-im/skypeforlinux
+       - net-im/telegram-bin
+       - net-libs/webkit-gtk
+       - x11-libs/vte
+       - x11-misc/discord
 
 build:
   emerge:
@@ -27,6 +38,7 @@ build:
     - and3k-sunrise
     - angelos
     - anyc
+    - backbone
     - belak
     - bobwya
     - brother-overlay
@@ -41,6 +53,7 @@ build:
     - flavour
     - furikake
     - gamerlay
+    - gamerouns
     - games-overlay
     - gentoo-htpc
     - genealogy
@@ -55,6 +68,7 @@ build:
     - miramir
     - mozilla
     - mrueg
+    - mv
     - oboeverlay
     - ohnobinki_overlay
     - pentoo
@@ -62,6 +76,7 @@ build:
     - poly-c
     - rasdark
     - redcore-desktop
+    - rion
     - robbat2
     - roslin
     - salfter
@@ -122,16 +137,16 @@ build:
     - dev-util/phpstorm
     - dev-util/pycharm-community
     - dev-util/pycharm-professional
-    - games-fps/redeclipse::gamerlay
+    - games-fps/redeclipse
     - games-puzzle/osmos::gamerlay
     - games-sports/maniadrive-bin::zugaina
-    - games-strategy/megaglest::games-overlay
+    - games-strategy/megaglest
     - games-strategy/unknown-horizons::gamerlay
-    - games-strategy/zod-engine::games-overlay
+    - games-strategy/zod-engine
     - games-util/fteqcc-xonotic-9999::gamerlay
     - games-util/springlobby::Spring
     - games-util/wiithon::LocalOverlay
-    - gnome-extra/gnome-encfs::ephemeral
+    - gnome-extra/gnome-encfs::gentoo
     - kde-misc/nowdock-panel::lmiphay
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/lightzone
@@ -144,6 +159,7 @@ build:
     #- media-sound/nuvolaplayer::furikake
     - media-sound/pulseaudio-equalizer::zyrenth
     - media-sound/pulseeffects
+    - media-sound/sox::gentoo
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
     - media-video/filebot
@@ -152,7 +168,7 @@ build:
     - net-im/qtox
     - net-im/skypeforlinux
     - net-im/slack::lmiphay
-    - net-im/telegram
+    - net-im/telegram-desktop-bin::gentoo
     - net-im/zoom-bin::yurij-overlay
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync::jorgicio
@@ -164,7 +180,7 @@ build:
     - net-print/brother-genml1-bin::brother-overlay
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
-    - sci-geosciences/googleearth::voyageur
+    - sci-geosciences/googleearth
     - sys-apps/flatpak::flatpak-overlay
     - sys-apps/sift::go-overlay
     - sys-app/xdg-desktop-portal::flatpak-overlay
@@ -177,7 +193,7 @@ build:
     - www-client/palemoon-bin::palemoon
     - x11-apps/disper::trash
     - x11-drivers/wizardpen::jorgicio
-    - x11-libs/libvdpau-va-gl::sk-overlay
+    - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
     - x11-misc/mugshot::y2kbadbug
     - x11-misc/polybar
