@@ -8,6 +8,7 @@ repository:
        - app-emulation/genymotion
        - app-emulation/genymotion-bin
        - app-emulation/shashlik-bin
+       - app-misc/fet
 
 build:
   emerge:
@@ -59,6 +60,7 @@ build:
     - pinkpieea
     - poly-c
     - rasdark
+    - redcore-desktop
     - robbat2
     - roslin
     - salfter
@@ -97,10 +99,10 @@ build:
     - app-laptop/tlp
     - app-misc/anki::sk-overlay
     - app-misc/double-commander
-    - app-misc/fet::LocalOverlay
     - app-misc/gramps::genealogy
     - app-misc/neofetch
     - app-office/archi::flavour
+    - app-office/fet
     - app-office/jstock::sinustrom
     - app-office/wps-office
     - app-text/cherrytree::and3k-sunrise
