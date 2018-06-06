@@ -1,8 +1,12 @@
 repository:
    description: Sabayon Community SCR
    
-   #maintenance:
+   maintenance:
    # clean_cache: 1
+     remove:
+       # gcc-4.9
+       - app-emulation/genymotion
+       - app-emulation/genymotion-bin
 
 build:
   emerge:
@@ -87,7 +91,6 @@ build:
     - app-editors/brackets-bin
     - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
-    - app-emulation/genymotion-bin
     - app-emulation/RemoteBox::gentoo-htpc
     - app-emulation/shashlik-bin::anyc
     - app-eselect/eselect-sublime::sublime-text
