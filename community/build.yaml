@@ -158,7 +158,6 @@ build:
     - net-im/zoom-bin::yurij-overlay
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync::jorgicio
-    - net-misc/miraclecast::angelos
     - =net-misc/gopenvpn-9999::np-hardass-overlay
     - net-misc/cjdns::weuxel
     - net-misc/streamtuner2::stefantalpalaru
