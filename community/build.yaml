@@ -168,13 +168,13 @@ build:
     - net-print/cloudprint::dev-zero
     - net-print/samsung-unified-linux-driver::ohnobinki_overlay
     - sci-geosciences/googleearth
-    - sys-apps/flatpak::flatpak-overlay
+    - sys-apps/flatpak
     - sys-apps/sift::go-overlay
-    - sys-app/xdg-desktop-portal::flatpak-overlay
-    - sys-app/xdg-desktop-portal-gtk::flatpak-overlay
+    - sys-app/xdg-desktop-portal
+    - sys-app/xdg-desktop-portal-gtk
     - sys-cluster/kubectl
     - sys-cluster/minikube
-    - sys-fs/ostree::flatpak-overlay
+    - sys-fs/ostree
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - www-client/palemoon-bin::palemoon
