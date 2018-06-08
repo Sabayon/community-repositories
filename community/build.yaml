@@ -31,6 +31,7 @@ build:
     - dev-zero
     - ephemeral
     - eva
+    - fem-overlay
     - fkmclane
     - flavour
     - furikake
@@ -146,6 +147,7 @@ build:
     - media-sound/sox::gentoo
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
+    - media-video/disper
     - media-video/filebot
     - media-video/flowblade
     - net-im/hipchat::tmacedo
@@ -176,7 +178,6 @@ build:
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - www-client/palemoon-bin::palemoon
-    - x11-apps/disper::trash
     - x11-drivers/wizardpen
     - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
