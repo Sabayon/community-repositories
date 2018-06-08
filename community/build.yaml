@@ -183,4 +183,4 @@ build:
     - x11-misc/polybar
     - x11-misc/variety
     - x11-terms/tilix::dlang
-    - x11-wm/lumina::poly-c
+    - x11-wm/lumina
