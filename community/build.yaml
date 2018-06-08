@@ -3,24 +3,6 @@ repository:
    
    maintenance:
    # clean_cache: 1
-     remove:
-       # gcc-4.9
-       - app-emulation/genymotion
-       - app-emulation/genymotion-bin
-       - app-emulation/shashlik-bin
-       - app-misc/fet
-       - dev-lang/v8
-       - dev-qt/multimedia
-       - dev-util/cmake-3.7.2
-       - dev-util/kdevelop-5.0.9999
-       - kde-apps/kapptemplate
-       - media-sound/jack_capture
-       - media-sound/vkaudiosaver
-       - net-im/skypeforlinux
-       - net-im/telegram-bin
-       - net-libs/webkit-gtk
-       - x11-libs/vte
-       - x11-misc/discord
 
 build:
   emerge:
