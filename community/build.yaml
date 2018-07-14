@@ -119,7 +119,7 @@ build:
     - app-office/wps-office
     - app-text/cherrytree::and3k-sunrise
     - app-text/gimagereader::salfter
-    - app-text/gist::sk-overlay
+    - app-text/gist
     - app-text/simplenote
     - dev-db/etcd::gentoo
     - dev-embedded/arduino
