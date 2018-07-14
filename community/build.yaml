@@ -183,7 +183,7 @@ build:
     - sys-app/xdg-desktop-portal-gtk
     - sys-cluster/kubectl
     - sys-cluster/minikube
-    - sys-fs/ostree
+    - sys-fs/libostree
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
     - www-client/palemoon-bin::palemoon
