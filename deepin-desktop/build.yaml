@@ -1,0 +1,41 @@
+repository:
+  description: Deepin Desktop Repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+    features: assume-digests binpkg-logs compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch preserve-libs protect-owned -sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch usersandbox usersync xattr -userpriv
+  overlays:
+    - dde-base
+    - dde-extra
+  target:
+    - dde-base/dde-account-faces
+    - dde-base/dde-api
+    - dde-base/dde-control-center
+    - dde-base/dde-daemon
+    - dde-base/dde-dock
+    - dde-base/dde-file-manager
+    - dde-base/dde-launcher
+    - dde-base/dde-meta
+    - dde-base/dde-polkit-agent
+    - dde-base/dde-qt-dbus-factory
+    - dde-base/dde-session-ui
+    - dde-base/deepin-anything
+    - dde-base/deepin-artwork-themes
+    - dde-base/deepin-desktop-base
+    - dde-base/deepin-desktop-schemas
+    - dde-base/deepin-file-manager-backend
+    - dde-base/deepin-gettext-tools
+    - dde-base/deepin-gtk-theme
+    - dde-base/deepin-icon-theme
+    - dde-base/deepin-menu
+    - dde-base/deepin-notifications
+    - dde-base/deepin-sound-theme
+    - dde-base/deepin-tool-kit
+    - dde-base/deepin-wallpapers
+    - dde-base/deepin-wm-switcher
+    - dde-base/dtkcore
+    - dde-base/dtksettings
+    - dde-base/dtkwidget
+    - dde-base/dtkwm
+    - dde-base/startdde
