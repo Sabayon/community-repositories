@@ -1,0 +1,49 @@
+repository:
+  description: Elementary Desktop Repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+    features: assume-digests binpkg-logs compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch preserve-libs protect-owned -sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch usersandbox usersync xattr -userpriv
+  overlays:
+    - elementary
+  target:
+    - pantheon-base/cerbere
+    - pantheon-base/pantheon
+    - pantheon-base/pantheon-files
+    - pantheon-base/pantheon-greeter
+    - pantheon-base/pantheon-settings
+    - pantheon-base/pantheon-shell
+    - pantheon-base/plank
+    - pantheon-base/screenshot-tool
+    - pantheon-base/slingshot
+    - pantheon-base/switchboard
+    - pantheon-base/switchboard-plug-about
+    - pantheon-base/switchboard-plug-accessibility
+    - pantheon-base/switchboard-plug-applications
+    - pantheon-base/switchboard-plug-bluetooth
+    - pantheon-base/switchboard-plug-datetime
+    - pantheon-base/switchboard-plug-display
+    - pantheon-base/switchboard-plug-keyboard
+    - pantheon-base/switchboard-plug-locale
+    - pantheon-base/switchboard-plug-mouse-touchpad
+    - pantheon-base/switchboard-plug-network
+    - pantheon-base/switchboard-plug-notifications
+    - pantheon-base/switchboard-plug-onlineaccounts
+    - pantheon-base/switchboard-plug-pantheon-shell
+    - pantheon-base/switchboard-plug-parental-controls
+    - pantheon-base/switchboard-plug-power
+    - pantheon-base/switchboard-plug-printers
+    - pantheon-base/switchboard-plug-security-privacy
+    - pantheon-base/switchboard-plug-sharing
+    - pantheon-base/switchboard-plug-useraccounts
+    - pantheon-base/wingpanel
+    - pantheon-base/wingpanel-indicator-accessibility
+    - pantheon-base/wingpanel-indicator-bluetooth
+    - pantheon-base/wingpanel-indicator-datetime
+    - pantheon-base/wingpanel-indicator-keyboard
+    - pantheon-base/wingpanel-indicator-network
+    - pantheon-base/wingpanel-indicator-notifications
+    - pantheon-base/wingpanel-indicator-power
+    - pantheon-base/wingpanel-indicator-session
+    - pantheon-base/wingpanel-indicator-sound
