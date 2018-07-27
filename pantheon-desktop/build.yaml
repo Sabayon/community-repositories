@@ -1,5 +1,5 @@
 repository:
-  description: Elementary Desktop Repository
+  description: Pantheon Desktop Repository
 build:
   emerge:
     # Install each package separately
