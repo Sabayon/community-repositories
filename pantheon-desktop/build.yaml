@@ -14,7 +14,7 @@ build:
     - pantheon-base/pantheon-files
     - pantheon-base/pantheon-greeter
     - pantheon-base/pantheon-settings
-    - pantheon-base/pantheon-shell
+    - pantheon-base/pantheon-shell[-lightdm,-screensaver]
     - pantheon-base/plank
     - pantheon-base/screenshot-tool
     - pantheon-base/slingshot
