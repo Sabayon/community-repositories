@@ -10,6 +10,7 @@ build:
     - gnome-next
     - unity-gentoo
   target:
+    - dev-lang/vala::gnome-next
     - pantheon-base/cerbere
     - pantheon-base/pantheon
     - pantheon-base/pantheon-files
