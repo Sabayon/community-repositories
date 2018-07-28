@@ -21,25 +21,25 @@ build:
     - pantheon-base/screenshot-tool
     - pantheon-base/slingshot
     - pantheon-base/switchboard::elementary
-    - pantheon-base/switchboard-plug-about
-    - pantheon-base/switchboard-plug-accessibility
-    - pantheon-base/switchboard-plug-applications
-    - pantheon-base/switchboard-plug-bluetooth
-    - pantheon-base/switchboard-plug-datetime
-    - pantheon-base/switchboard-plug-display
-    - pantheon-base/switchboard-plug-keyboard
-    - pantheon-base/switchboard-plug-locale
-    - pantheon-base/switchboard-plug-mouse-touchpad
-    - pantheon-base/switchboard-plug-network
-    - pantheon-base/switchboard-plug-notifications
-    - pantheon-base/switchboard-plug-onlineaccounts
-    - pantheon-base/switchboard-plug-pantheon-shell
-    - pantheon-base/switchboard-plug-parental-controls
-    - pantheon-base/switchboard-plug-power
-    - pantheon-base/switchboard-plug-printers
-    - pantheon-base/switchboard-plug-security-privacy
-    - pantheon-base/switchboard-plug-sharing
-    - pantheon-base/switchboard-plug-useraccounts
+    - pantheon-base/switchboard-plug-about::elementary
+    - pantheon-base/switchboard-plug-accessibility::elementary
+    - pantheon-base/switchboard-plug-applications::elementary
+    - pantheon-base/switchboard-plug-bluetooth::elementary
+    - pantheon-base/switchboard-plug-datetime::elementary
+    - pantheon-base/switchboard-plug-display::elementary
+    - pantheon-base/switchboard-plug-keyboard::elementary
+    - pantheon-base/switchboard-plug-locale::elementary
+    - pantheon-base/switchboard-plug-mouse-touchpad::elementary
+    - pantheon-base/switchboard-plug-network::elementary
+    - pantheon-base/switchboard-plug-notifications::elementary
+    - pantheon-base/switchboard-plug-onlineaccounts::elementary
+    - pantheon-base/switchboard-plug-pantheon-shell::elementary
+    - pantheon-base/switchboard-plug-parental-controls::elementary
+    - pantheon-base/switchboard-plug-power::elementary
+    - pantheon-base/switchboard-plug-printers::elementary
+    - pantheon-base/switchboard-plug-security-privacy::elementary
+    - pantheon-base/switchboard-plug-sharing::elementary
+    - pantheon-base/switchboard-plug-useraccounts::elementary
     - pantheon-base/wingpanel
     - pantheon-base/wingpanel-indicator-accessibility
     - pantheon-base/wingpanel-indicator-bluetooth
