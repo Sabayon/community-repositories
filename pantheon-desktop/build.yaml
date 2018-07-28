@@ -50,3 +50,4 @@ build:
     - pantheon-base/wingpanel-indicator-power
     - pantheon-base/wingpanel-indicator-session
     - pantheon-base/wingpanel-indicator-sound
+    - x11-wm/gala::elementary
