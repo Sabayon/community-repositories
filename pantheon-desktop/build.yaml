@@ -4,7 +4,7 @@ build:
   emerge:
     # Install each package separately
     split_install: 1
-    features: assume-digests binpkg-logs compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch preserve-libs protect-owned -sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch usersandbox usersync xattr -userpriv
+    features: assume-digests binpkg-logs -collision-detect compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch preserve-libs -protect-owned -sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch usersandbox usersync xattr -userpriv
   overlays:
     - elementary
     - gnome-next
