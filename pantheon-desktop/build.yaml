@@ -11,7 +11,6 @@ build:
     - unity-gentoo
   target:
     - dev-lang/vala::gnome-next
-    - x11-libs/granite::elementary
     - pantheon-base/cerbere
     - pantheon-base/pantheon
     - pantheon-base/pantheon-files
