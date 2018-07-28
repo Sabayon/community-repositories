@@ -20,7 +20,7 @@ build:
     - pantheon-base/plank
     - pantheon-base/screenshot-tool
     - pantheon-base/slingshot
-    - pantheon-base/switchboard
+    - pantheon-base/switchboard::elementary
     - pantheon-base/switchboard-plug-about
     - pantheon-base/switchboard-plug-accessibility
     - pantheon-base/switchboard-plug-applications
