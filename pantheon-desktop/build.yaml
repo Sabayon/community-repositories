@@ -8,18 +8,17 @@ build:
   overlays:
     - elementary
     - gnome-next
-    - unity-gentoo
   target:
     - dev-lang/vala::gnome-next
-    - pantheon-base/cerbere
-    - pantheon-base/pantheon
-    - pantheon-base/pantheon-files
-    - pantheon-base/pantheon-greeter
-    - pantheon-base/pantheon-settings
-    - pantheon-base/pantheon-shell[-lightdm,-screensaver]
-    - pantheon-base/plank
-    - pantheon-base/screenshot-tool
-    - pantheon-base/slingshot
+    - pantheon-base/cerbere::elementary
+    - pantheon-base/pantheon::elementary
+    - pantheon-base/pantheon-files::elementary
+    - pantheon-base/pantheon-greeter::elementary
+    - pantheon-base/pantheon-settings::elementary
+    - pantheon-base/pantheon-shell[-lightdm,-screensaver]::elementary
+    - pantheon-base/plank::elementary
+    - pantheon-base/screenshot-tool::elementary
+    - pantheon-base/slingshot::elementary
     - pantheon-base/switchboard::elementary
     - pantheon-base/switchboard-plug-about::elementary
     - pantheon-base/switchboard-plug-accessibility::elementary
@@ -40,14 +39,14 @@ build:
     - pantheon-base/switchboard-plug-security-privacy::elementary
     - pantheon-base/switchboard-plug-sharing::elementary
     - pantheon-base/switchboard-plug-useraccounts::elementary
-    - pantheon-base/wingpanel
-    - pantheon-base/wingpanel-indicator-accessibility
-    - pantheon-base/wingpanel-indicator-bluetooth
-    - pantheon-base/wingpanel-indicator-datetime
-    - pantheon-base/wingpanel-indicator-keyboard
-    - pantheon-base/wingpanel-indicator-network
-    - pantheon-base/wingpanel-indicator-notifications
-    - pantheon-base/wingpanel-indicator-power
-    - pantheon-base/wingpanel-indicator-session
-    - pantheon-base/wingpanel-indicator-sound
+    - pantheon-base/wingpanel::elementary
+    - pantheon-base/wingpanel-indicator-accessibility::elementary
+    - pantheon-base/wingpanel-indicator-bluetooth::elementary
+    - pantheon-base/wingpanel-indicator-datetime::elementary
+    - pantheon-base/wingpanel-indicator-keyboard::elementary
+    - pantheon-base/wingpanel-indicator-network::elementary
+    - pantheon-base/wingpanel-indicator-notifications::elementary
+    - pantheon-base/wingpanel-indicator-power::elementary
+    - pantheon-base/wingpanel-indicator-session::elementary
+    - pantheon-base/wingpanel-indicator-sound::elementary
     - x11-wm/gala::elementary
