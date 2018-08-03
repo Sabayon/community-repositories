@@ -1,4 +1,6 @@
 =pantheon-base/pantheon-9999 **
+=net-libs/gsignond-9999 **
+=net-libs/libgsignon-glib-9999 **
 x11-wm/gala -~amd64
 pantheon-base/switchboard-plug-bluetooth -~amd64
 pantheon-base/wingpanel -~amd64
