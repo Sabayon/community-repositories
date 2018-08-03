@@ -1,6 +1,6 @@
 =pantheon-base/pantheon-9999 **
-=pantheon-base/wingpanel-indicator-accessibility-9999 **
 x11-wm/gala -~amd64
+pantheon-base/switchboard-plug-bluetooth -~amd64
 pantheon-base/wingpanel -~amd64
 pantheon-base/wingpanel-indicator-session -~amd64
 pantheon-base/wingpanel-indicator-notifications -~amd64
