@@ -5,6 +5,10 @@ repository:
   #  clean_cache: 1
 
 build:
+  script:
+    pre:
+      - eselect python set python3.5
+
   emerge:
     # Install each package separately
     split_install: 1
