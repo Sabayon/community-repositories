@@ -40,7 +40,7 @@ build:
     - pantheon-base/switchboard-plug-sharing::elementary
     - pantheon-base/switchboard-plug-useraccounts::elementary
     - pantheon-base/wingpanel::elementary
-    - pantheon-base/wingpanel-indicator-accessibility::elementary
+    # - pantheon-base/wingpanel-indicator-accessibility::elementary
     - pantheon-base/wingpanel-indicator-bluetooth::elementary
     - pantheon-base/wingpanel-indicator-datetime::elementary
     - pantheon-base/wingpanel-indicator-keyboard::elementary
