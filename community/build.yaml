@@ -5,6 +5,10 @@ repository:
     # clean_cache: 1
 
 build:
+  script:
+    pre:
+      - eselect profile set python3.5
+
   equo:
     package:
       install:
