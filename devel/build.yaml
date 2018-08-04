@@ -11,6 +11,7 @@ build:
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
   overlays:
    target:
+    - dev-util/pkgs-checker
     - dev-util/mottainai-agent
     - dev-util/mottainai-cli
     - dev-util/mottainai-server
