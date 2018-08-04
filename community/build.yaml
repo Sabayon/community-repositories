@@ -10,9 +10,21 @@ build:
       - eselect profile set python3.5
 
   equo:
+    repositories:
+      - http://dispatcher.sabayon.org/namespace/entropy-staging/entropy-staging
     package:
       install:
         - dev-libs/ocl-icd
+        # Temporary staging entropy stuff
+        - sys-apps/entropy-9999
+        - sys-apps/entropy-server-9999
+        - app-admin/equo-9999
+        - app-admin/matter-9999
+      unmask:
+        - sys-apps/entropy-9999
+        - sys-apps/entropy-server-9999
+        - app-admin/equo-9999
+        - app-admin/matter-9999
   emerge:
     # Install each package separately
     split_install: 1
