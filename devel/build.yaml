@@ -16,3 +16,4 @@ build:
     - dev-util/mottainai-server
     - app-misc/sabayon-sark
     - app-misc/sabayon-devkit
+    - app-emulation/docker-companion
