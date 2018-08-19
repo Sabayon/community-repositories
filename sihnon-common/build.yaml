@@ -17,6 +17,19 @@ build:
   equo:
     dependency_install:
       prune_virtuals: 1
+    repositories:
+      - https://dispatcher.sabayon.org/sbi/namespace/entropy-staging/
+    package:
+      install:
+        - sys-apps/entropy-9999
+        - sys-apps/entropy-server-9999
+        - app-admin/equo-9999
+        - app/admin/matter-9999
+      unmask:
+        - sys-apps/entropy-9999
+        - sys-apps/entropy-server-9999
+        - app-admin/equo-9999
+        - app/admin/matter-9999
 
   # Use ebuilds from the following layman overlays
   overlays:
