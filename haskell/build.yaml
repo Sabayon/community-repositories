@@ -1,9 +1,19 @@
 repository:
    description: Haskell repository
    maintenance:
+
 build:
+
+  equo:
+    repository: weekly
+
+    # Don't use entropy for dependencies, as it will pull Haskell libraries compiled against the wrong version of GHC.
+    dependency_install:
+        enable: 0
+
   overlays:
     - haskell
+
   target:
     - app-emacs/ghc-mod
     - app-portage/hackport
@@ -15,10 +25,4 @@ build:
     - dev-haskell/stack
     - dev-haskell/yaml
     - dev-lang/ghc
-  equo:
-    # Don't use entropy for dependencies, as it will pull Haskell libraries compiled against the wrong version of GHC.
-    dependency_install:
-        enable: 0
-
-    repository: weekly
 
