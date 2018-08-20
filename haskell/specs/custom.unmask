@@ -1,4 +1,3 @@
-app-emacs/ghc-mod
 dev-haskell/http-client
 dev-haskell/http-client-tls
 dev-haskell/http-conduit
