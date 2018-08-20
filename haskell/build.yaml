@@ -15,7 +15,7 @@ build:
     - haskell
 
   target:
-    - app-emacs/ghc-mod
+    - '>=app-emacs/ghc-mod-5.8.0.0-r2'
     - app-portage/hackport
     - dev-haskell/hasktags
     - dev-haskell/hdevtools
