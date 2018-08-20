@@ -1,5 +1,5 @@
 dev-haskell/http-client-tls
 dev-haskell/http-conduit
 dev-haskell/conduit
-dev-lang/ghc-8.4.3
+=dev-lang/ghc-8.4.3
 
