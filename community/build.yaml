@@ -196,6 +196,7 @@ build:
     - www-apps/hugo::go-overlay
     - www-client/brave-bin
     - www-client/palemoon-bin::palemoon
+    - www-client/qutebrowser
     - x11-drivers/wizardpen
     - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
