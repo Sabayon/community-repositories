@@ -66,6 +66,7 @@ build:
       - ikelos
       - jm-overlay
       - jorgicio
+      - jps-gentoo
       - jtriley
       - k_f
       - lmiphay
@@ -190,6 +191,7 @@ build:
     - sys-fs/libostree
     - sys-fs/zfstools::graaff
     - www-apps/hugo::go-overlay
+    - www-client/brave-bin
     - www-client/palemoon-bin::palemoon
     - x11-drivers/wizardpen
     - x11-libs/libvdpau-va-gl
