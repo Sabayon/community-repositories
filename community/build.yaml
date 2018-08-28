@@ -55,6 +55,7 @@ build:
       - fkmclane
       - flavour
       - furikake
+      - fw-overlay
       - gamerlay
       - gamerouns
       - games-overlay
@@ -176,6 +177,7 @@ build:
     - net-im/zoom-bin::yurij-overlay
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync
+    - net-misc/mailru-cloud
     - =net-misc/gopenvpn-9999::np-hardass-overlay
     - net-misc/cjdns::weuxel
     - net-misc/streamtuner2::stefantalpalaru
