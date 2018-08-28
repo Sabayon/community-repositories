@@ -97,6 +97,7 @@ build:
       - swegener
       - tmacedo
       - trash
+      - vortex
       - voyageur
       - weuxel
       - y2kbadbug
@@ -167,6 +168,7 @@ build:
     - media-video/filebot
     - media-video/flowblade
     - net-im/hipchat::tmacedo
+    - net-im/icq::vortex
     - net-im/qtox
     - net-im/skypeforlinux
     - net-im/slack::lmiphay
