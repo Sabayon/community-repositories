@@ -1,0 +1,15 @@
+repository:
+   description: Rust repository
+   maintenance:
+
+build:
+
+  equo:
+    repository: weekly
+
+  overlays:
+    - rust
+
+  target:
+    - app-portage/cargo-ebuild
+
