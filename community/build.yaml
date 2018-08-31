@@ -29,6 +29,7 @@ build:
     # Install each package separately
     split_install: 1
     preserved_rebuild: 1
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
     remote_overlay:
       - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
       - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
