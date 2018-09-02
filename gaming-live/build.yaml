@@ -3,6 +3,10 @@ repository:
    maintenance:
      clean_cache: 1
 build:
+  equo:
+    package:
+      install:
+        - sys-devel/clang:6
   emerge:
     # Install each package separately
     split_install: 1
