@@ -1,0 +1,23 @@
+repository:
+   description: Devel-9999 channel repository
+build:
+  qa_checks: 1
+  equo:
+    # On sark-localbuild doesn't work direct url repository
+    enman_self: 0
+    dependency_install:
+      enable: 1
+    repositories:
+    package:
+      install:
+        - app-misc/sabayon-live
+      unmask:
+        - app-misc/sabayon-live
+  emerge:
+    remote_overlay:
+    # Install each package separately
+    split_install: 1
+    default_args: --accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+  target:
+    - =app-misc/sabayon-live-9999::sabayon-distro
