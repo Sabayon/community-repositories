@@ -21,6 +21,6 @@ build:
     - sys-kernel/amdgpu-pro-dkms
     - x11-drivers/amdgpu-pro
     - =media-libs/mesa-9999::gentoo
-    - =sys-devel/llvm-9999::gentoo
+    - =sys-devel/llvm-7.0.0_rc3::gentoo
     - =x11-libs/libdrm-9999::gentoo
     - games-util/steam-meta::steam-overlay
