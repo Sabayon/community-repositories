@@ -13,7 +13,7 @@ build:
     - oiledmachine
     - steam-overlay
   target:
-    - sys-devel/clang-9999::gentoo
+    - =sys-devel/clang-9999::gentoo
     - sys-kernel/dkms
     - sys-kernel/amdgpu-pro-dkms
     - x11-drivers/amdgpu-pro
