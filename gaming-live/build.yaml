@@ -9,15 +9,10 @@ build:
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
   overlays:
-    - farmboy0 
     - oiledmachine
-    - steam-overlay
   target:
-    - =sys-devel/clang-9999::gentoo
+    - =sys-devel/clang-7.0.0_rc3::gentoo
+    - =sys-devel/llvm-7.0.0_rc3::gentoo    
     - sys-kernel/dkms
-    - sys-kernel/amdgpu-pro-dkms
-    - x11-drivers/amdgpu-pro
     - =media-libs/mesa-9999::gentoo
-    - =sys-devel/llvm-9999::gentoo
     - =x11-libs/libdrm-9999::gentoo
-    - games-util/steam-meta::steam-overlay
