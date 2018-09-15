@@ -1,4 +1,4 @@
 =media-libs/mesa-9999 **
-=sys-devel/llvm-9999 **
+=sys-devel/llvm-7.0.0_rc3 **
 =x11-libs/libdrm-9999 **
-=sys-devel/clang-9999 **
+=sys-devel/clang-7.0.0_rc3 **
