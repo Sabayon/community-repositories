@@ -11,5 +11,7 @@ build:
   overlays:
   target:
     - =sys-devel/clang-7.0.0_rc3[doc]::gentoo
+    - =sys-devel/clang-runtime-7.0.0_rc3::gentoo
+    - =sys-libs/compiler-rt-sanitizers-7.0.0_rc3::gentoo
     - =sys-devel/llvm-7.0.0_rc3[doc]::gentoo
     - =media-libs/mesa-18.2.0-r1::gentoo
