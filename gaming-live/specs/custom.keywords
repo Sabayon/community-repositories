@@ -3,5 +3,6 @@
 =x11-libs/libdrm-9999 **
 =sys-devel/clang-7.0.0_rc3 **
 =sys-devel/clang-runtime-7.0.0_rc3 **
+=sys-libs/libomp-7.0.0_rc3 **
 =sys-libs/compiler-rt-7.0.0_rc3::gentoo **
 =sys-libs/compiler-rt-sanitizers-7.0.0_rc3 **
