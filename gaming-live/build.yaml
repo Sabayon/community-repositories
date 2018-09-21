@@ -10,10 +10,10 @@ build:
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
   overlays:
   target:
-    - =sys-devel/clang-7.0.0_rc3[doc]::gentoo
-    - =sys-devel/clang-runtime-7.0.0_rc3::gentoo
-    - =sys-libs/libomp-7.0.0_rc3::gentoo
-    - =sys-libs/compiler-rt-7.0.0_rc3::gentoo
-    - =sys-libs/compiler-rt-sanitizers-7.0.0_rc3::gentoo
-    - =sys-devel/llvm-7.0.0_rc3[doc]::gentoo
-    - =media-libs/mesa-18.2.0-r1::gentoo
+    - =sys-devel/clang-9999[doc]::gentoo
+    - =sys-devel/clang-runtime-9999::gentoo
+    - =sys-libs/libomp-9999::gentoo
+    - =sys-libs/compiler-rt-9999::gentoo
+    - =sys-libs/compiler-rt-sanitizers-9999::gentoo
+    - =sys-devel/llvm-9999[doc]::gentoo
+    - =media-libs/mesa-9999::gentoo
