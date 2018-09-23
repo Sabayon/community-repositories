@@ -10,6 +10,7 @@ build:
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
   overlays:
   target:
+    - =dev-util/meson-9999
     - =sys-devel/clang-9999[doc]::gentoo
     - =sys-devel/clang-runtime-9999::gentoo
     - =sys-libs/libomp-9999::gentoo
