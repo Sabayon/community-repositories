@@ -6,3 +6,4 @@
 
 # Circular dependency
 =media-fonts/encodings-1.0.4-r3
+net-dns/avahi
