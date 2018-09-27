@@ -8,12 +8,11 @@ build:
   script:
     pre:
       - eselect profile set python3.5
+      - rm -f /etc/entropy/repositories.conf.d/*entropy-staging*
 
   equo:
     #repositories:
     #  - http://dispatcher.sabayon.org/namespace/entropy-staging/entropy-staging
-    remove_repositories:
-      - entropy-staging
     package:
       install:
         - dev-libs/ocl-icd
