@@ -12,6 +12,8 @@ build:
   equo:
     #repositories:
     #  - http://dispatcher.sabayon.org/namespace/entropy-staging/entropy-staging
+    remove_repositories:
+      - entropy-staging
     package:
       install:
         - dev-libs/ocl-icd
