@@ -17,19 +17,6 @@ build:
   equo:
     dependency_install:
       prune_virtuals: 1
-    repositories:
-      - https://dispatcher.sabayon.org/sbi/namespace/entropy-staging/
-    package:
-      install:
-        - sys-apps/entropy-9999
-        - sys-apps/entropy-server-9999
-        - app-admin/equo-9999
-        - app/admin/matter-9999
-      unmask:
-        - sys-apps/entropy-9999
-        - sys-apps/entropy-server-9999
-        - app-admin/equo-9999
-        - app/admin/matter-9999
 
   # Use ebuilds from the following layman overlays
   overlays:
@@ -49,7 +36,7 @@ build:
     - app-admin/lastpass-cli
     - app-admin/librarianp::sihnon
     - app-admin/librarian-puppet::sihnon
-    - app-admin/puppet-agent::gentoo
+    #- app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
     - app-admin/vault
     - app-vim/puppet-syntax::gentoo
@@ -89,6 +76,8 @@ build:
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
     - net-wireless/rtl-sdr::gentoo
+    - sys-apps/fwupd::gentoo
+    - sys-apps/fwupdate::gentoo
     - sys-auth/google-authenticator::gentoo
     - sys-auth/sssd
     - sys-fs/zfs-auto-snapshot::gentoo-zh
