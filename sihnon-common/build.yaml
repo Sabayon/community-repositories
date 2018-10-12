@@ -36,6 +36,7 @@ build:
     - app-admin/lastpass-cli
     - app-admin/librarianp::sihnon
     - app-admin/librarian-puppet::sihnon
+    - app-admin/mcollective::gentoo
     #- app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
     - app-admin/vault
