@@ -16,7 +16,10 @@ build:
 
   equo:
     dependency_install:
-      prune_virtuals: 1
+      prune_virtuals: 
+    package:
+      remove:
+        - net-libs/libnfsidmap
 
   # Use ebuilds from the following layman overlays
   overlays:
