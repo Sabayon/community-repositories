@@ -25,6 +25,7 @@ build:
       - tlp|git|https://github.com/dywisor/tlp-portage.git
     overlays:
       - 4nykey
+      - ace
       - activehome
       - and3k-sunrise
       - angelos
@@ -129,6 +130,7 @@ build:
     - dev-util/flatpak-builder::flatpak-overlay
     - dev-util/idea-community::ssnb
     - dev-util/phpstorm
+    - dev-util/pdk
     - dev-util/pycharm-community
     - dev-util/pycharm-professional
     - games-fps/redeclipse
