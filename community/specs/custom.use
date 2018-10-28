@@ -8,6 +8,9 @@ games-simulation/vegastrike -ffmpeg
 # pycharm
 >=media-libs/opus-1.2.1 custom-modes
 
+# net-misc/megasync
+>=net-misc/meganz-sdk-3.4.1_pre20180926 qt libuv
+
 media-tv/oscam -reader_irdeto
 net-misc/curl threads
 x11-libs/vte vala
