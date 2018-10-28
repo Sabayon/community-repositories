@@ -98,7 +98,7 @@ build:
       - zugaina
   target:
     - app-admin/keepasshttp::np-hardass-overlay
-    - app-arch/rarcrack::robbat2
+    - app-arch/rarcrack::gerislay
     - app-crypt/veracrypt
     - app-dicts/artha
     - app-editors/atom-bin::jorgicio
