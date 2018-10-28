@@ -166,7 +166,7 @@ build:
     - net-misc/mailru-cloud
     - =net-misc/gopenvpn-9999::np-hardass-overlay
     - net-misc/cjdns::weuxel
-    - net-misc/gdrive
+    - net-misc/gdrive::jm-overlay
     - net-misc/streamtuner2::stefantalpalaru
     - net-misc/screamingfrogseospider::jorgicio
     - net-print/brother-dcp1610w-bin::brother-overlay
