@@ -110,7 +110,6 @@ build:
     - app-misc/double-commander-bin::rasdark
     - app-misc/gramps::genealogy
     - app-misc/neofetch
-    - app-office/archi::flavour
     - app-office/fet
     - app-office/jstock::sinustrom
     - app-office/wps-office
