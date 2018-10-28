@@ -134,7 +134,6 @@ build:
     - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest
     - games-strategy/unknown-horizons::gamerlay
-    - games-strategy/zod-engine
     - games-util/fteqcc-xonotic-9999::gamerlay
     - games-util/springlobby::Spring
     - games-util/wiithon::LocalOverlay
