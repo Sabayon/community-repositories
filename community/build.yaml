@@ -150,7 +150,7 @@ build:
     - media-sound/sox::gentoo
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
-    - media-video/disper
+    - media-video/disper::fem-overlay
     - media-video/filebot
     - media-video/flowblade
     - net-im/hipchat::tmacedo
