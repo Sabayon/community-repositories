@@ -20,3 +20,6 @@ sys-apps/flatpak archive
 sys-apps/xdg-desktop-portal-gtk -wayland
 www-client/palemoon -alsa
 x11-terms/tilix dmd-2_074
+
+# www-client/qutebrowser
+>=dev-python/PyQt5-5.10.1-r1 multimedia
