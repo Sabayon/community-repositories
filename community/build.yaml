@@ -159,7 +159,7 @@ build:
     - net-im/skypeforlinux
     - net-im/slack::lmiphay
     - net-im/telegram-desktop-bin::gentoo
-    - net-im/viber
+    - net-im/viber::calculate
     - net-im/zoom-bin::yurij-overlay
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync
