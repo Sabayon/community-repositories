@@ -98,7 +98,6 @@ build:
       - zugaina
   target:
     - app-admin/keepasshttp::np-hardass-overlay
-    - app-arch/peazip
     - app-arch/rarcrack::robbat2
     - app-crypt/veracrypt
     - app-dicts/artha
