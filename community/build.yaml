@@ -103,7 +103,7 @@ build:
     - app-editors/brackets-bin
     - app-editors/sublime-text::sublime-text
     - app-editors/vscode::atom
-    - app-emulation/RemoteBox::gentoo-htpc
+    - app-emulation/remotebox::poly-c
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
     - app-misc/anki::sk-overlay
