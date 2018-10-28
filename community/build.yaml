@@ -102,7 +102,7 @@ build:
     - app-editors/atom-bin::jorgicio
     - app-editors/brackets-bin
     - app-editors/sublime-text::sublime-text
-    - app-editors/vscode
+    - app-editors/vscode::atom
     - app-emulation/RemoteBox::gentoo-htpc
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
