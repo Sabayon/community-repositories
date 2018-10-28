@@ -151,7 +151,7 @@ build:
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
     - media-video/disper::fem-overlay
-    - media-video/filebot
+    - media-video/filebot::fkmclane
     - media-video/flowblade
     - net-im/hipchat::tmacedo
     - net-im/icq::vortex
