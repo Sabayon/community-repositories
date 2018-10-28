@@ -185,7 +185,7 @@ build:
     - www-client/brave-bin
     - www-client/palemoon-bin::palemoon
     - www-client/qutebrowser
-    - x11-drivers/wizardpen
+    - x11-drivers/xf86-input-wizardpen::jorgicio
     - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
     - x11-misc/polybar
