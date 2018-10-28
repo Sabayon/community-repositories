@@ -7,7 +7,7 @@ repository:
 build:
   script:
     pre:
-      - eselect profile set python3.5
+      - eselect profile set python3.6
 
   equo:
     package:
