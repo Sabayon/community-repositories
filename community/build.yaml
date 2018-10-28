@@ -172,7 +172,7 @@ build:
     - net-print/brother-dcp1610w-bin::brother-overlay
     - net-print/brother-genml1-bin::brother-overlay
     - net-print/samsung-unified-linux-driver::pg_overlay
-    - sci-geosciences/googleearth
+    - sci-geosciences/googleearth::mv
     - sys-apps/flatpak
     - sys-apps/sift::go-overlay
     - sys-app/xdg-desktop-portal
