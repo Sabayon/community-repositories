@@ -5,8 +5,14 @@ dev-python/PyQt5 webchannel webengine widgets
 games-simulation/vegastrike -ffmpeg
 >=media-sound/sox-14.4.2 ladspa
 
+# dev-embedded/arduino
+>=dev-util/astyle-3.1-r2 java
+
 # pycharm
 >=media-libs/opus-1.2.1 custom-modes
+
+# media-video/flowblade
+>=media-gfx/gmic-2.4.0-r2 ffmpeg
 
 # net-misc/megasync
 >=net-misc/meganz-sdk-3.4.1_pre20180926 qt libuv
