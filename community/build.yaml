@@ -140,7 +140,6 @@ build:
     - kde-misc/nowdock-panel::lmiphay
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/lightzone
-    - media-gfx/phatch::jtriley
     - media-gfx/pinta
     - media-gfx/sweethome3d-bin::activehome
     - media-gfx/ttfautohint::4nykey
