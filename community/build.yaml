@@ -171,7 +171,7 @@ build:
     - net-misc/screamingfrogseospider::jorgicio
     - net-print/brother-dcp1610w-bin::brother-overlay
     - net-print/brother-genml1-bin::brother-overlay
-    - net-print/samsung-unified-linux-driver::ohnobinki_overlay
+    - net-print/samsung-unified-linux-driver::pg_overlay
     - sci-geosciences/googleearth
     - sys-apps/flatpak
     - sys-apps/sift::go-overlay
