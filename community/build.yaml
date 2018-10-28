@@ -32,7 +32,6 @@ build:
       - anyc
       - atom
       - backbone
-      - belak
       - bobwya
       - brother-overlay
       - c2p-overlay
@@ -102,7 +101,6 @@ build:
     - app-crypt/veracrypt
     - app-editors/atom-bin::jorgicio
     - app-editors/brackets-bin
-    - app-editors/scribes::belak
     - app-editors/sublime-text::sublime-text
     - app-editors/vscode
     - app-emulation/RemoteBox::gentoo-htpc
