@@ -2,4 +2,5 @@
 */*::np-hardass-overlay
 
 # live ebuilds that get pulled in unintentionally
+>=app-editors/vscode-9999
 >=media-gfx/font-manager-9999
