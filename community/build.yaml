@@ -112,7 +112,7 @@ build:
     - app-misc/neofetch
     - app-office/jstock::sinustrom
     - app-office/wps-office
-    - app-text/cherrytree::and3k-sunrise
+    - app-text/cherrytree
     - app-text/gimagereader::salfter
     - app-text/gist
     - dev-db/etcd::gentoo
