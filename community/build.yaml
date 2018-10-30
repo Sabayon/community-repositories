@@ -127,7 +127,6 @@ build:
     - dev-util/pdk::ace
     - dev-util/pycharm-community
     - dev-util/pycharm-professional
-    - games-fps/redeclipse
     - games-puzzle/osmos::gamerlay
     - games-strategy/megaglest
     - games-strategy/unknown-horizons::gamerlay
