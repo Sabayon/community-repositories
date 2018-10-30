@@ -140,7 +140,6 @@ build:
     - media-sound/guitarix2::jorgicio
     - media-sound/lollypop::jorgicio
     - media-sound/pulseaudio-equalizer::zyrenth
-    - media-sound/pulseeffects
     - media-sound/sox::gentoo
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
