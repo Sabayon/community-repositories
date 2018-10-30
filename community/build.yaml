@@ -131,7 +131,6 @@ build:
     - dev-util/pycharm-professional
     - games-fps/redeclipse
     - games-puzzle/osmos::gamerlay
-    - games-sports/maniadrive-bin::zugaina
     - games-strategy/megaglest
     - games-strategy/unknown-horizons::gamerlay
     - games-util/fteqcc-xonotic-9999::gamerlay
