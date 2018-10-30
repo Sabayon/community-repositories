@@ -150,7 +150,6 @@ build:
     - media-video/flowblade
     - net-im/hipchat::tmacedo
     - net-im/icq::vortex
-    - net-im/qtox
     - net-im/skypeforlinux
     - net-im/slack::lmiphay
     - net-im/telegram-desktop-bin::gentoo
