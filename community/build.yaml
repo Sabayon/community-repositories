@@ -100,12 +100,12 @@ build:
     - app-editors/brackets-bin
     - app-editors/sublime-text::sublime-text
     - app-editors/vscode::atom
-    - app-emulation/remotebox::poly-c
+    - app-emulation/remotebox
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
     - app-misc/anki::sattvik
     - app-misc/double-commander-bin::rasdark
-    - app-misc/gramps::genealogy
+    - app-misc/gramps
     - app-misc/neofetch
     - app-office/wps-office
     - app-text/cherrytree
@@ -114,7 +114,7 @@ build:
     - dev-db/etcd::gentoo
     - dev-embedded/arduino
     - dev-embedded/arduino-ide
-    - dev-embedded/stlink::swegener
+    - dev-embedded/stlink
     - =dev-libs/intel-beignet-9999::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
@@ -158,7 +158,7 @@ build:
     - net-misc/screamingfrogseospider::jorgicio
     - net-print/brother-dcp1610w-bin::brother-overlay
     - net-print/brother-genml1-bin::brother-overlay
-    - net-print/samsung-unified-linux-driver::pg_overlay
+    - net-print/samsung-unified-linux-driver
     - sci-geosciences/googleearth::mv
     - sys-apps/flatpak
     - sys-apps/sift::go-overlay
@@ -168,7 +168,7 @@ build:
     - sys-cluster/minikube
     - sys-fs/libostree
     - sys-fs/zfstools::graaff
-    - www-apps/hugo::go-overlay
+    - www-apps/hugo
     - www-client/brave-bin
     - www-client/palemoon-bin::palemoon
     - www-client/qutebrowser
@@ -176,6 +176,6 @@ build:
     - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
     - x11-misc/polybar
-    - x11-misc/variety::pinkpieea
-    - x11-terms/tilix::dlang
+    - x11-misc/variety
+    - x11-terms/tilix
     - x11-wm/lumina
