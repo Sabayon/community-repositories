@@ -105,7 +105,7 @@ build:
     - app-emulation/remotebox::poly-c
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
-    - app-misc/anki::sk-overlay
+    - app-misc/anki::sattvik
     - app-misc/double-commander-bin::rasdark
     - app-misc/gramps::genealogy
     - app-misc/neofetch
