@@ -122,7 +122,7 @@ build:
     - =dev-libs/intel-beignet-9999::mrueg
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
-    - dev-util/eclipse-sdk-bin::jorgicio
+    - dev-util/eclipse-sdk-bin::ssnb
     - dev-util/flatpak-builder::flatpak-overlay
     - dev-util/idea-community::ssnb
     - dev-util/phpstorm
