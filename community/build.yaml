@@ -81,7 +81,6 @@ build:
       - sk-overlay
       - sinustrom
       - spikyatlinux
-      - Spring
       - ssnb
       - steam-overlay
       - stefantalpalaru
@@ -133,7 +132,7 @@ build:
     - games-strategy/megaglest
     - games-strategy/unknown-horizons::gamerlay
     - games-util/fteqcc-xonotic-9999::gamerlay
-    - games-util/springlobby::Spring
+    - games-util/springlobby
     - kde-misc/nowdock-panel::lmiphay
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/lightzone
