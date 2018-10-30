@@ -129,7 +129,6 @@ build:
     - games-puzzle/osmos::gamerlay
     - games-strategy/megaglest
     - games-strategy/unknown-horizons::gamerlay
-    - games-util/fteqcc-xonotic-9999::gamerlay
     - games-util/springlobby
     - kde-misc/nowdock-panel::lmiphay
     - media-gfx/brother-dcp145c-bin::brother-overlay
