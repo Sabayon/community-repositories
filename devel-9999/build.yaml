@@ -6,7 +6,7 @@ build:
     # On sark-localbuild doesn't work direct url repository
     enman_self: 0
     dependency_install:
-      enable: 1
+      enable: 0
     repositories:
     package:
       install:
@@ -22,6 +22,10 @@ build:
         - app-admin/equo-9999
         - app-admin/matter-9999
   emerge:
+    remove:
+          - sys-apps/entropy
+          - app-admin/matter
+          - sys-apps/entropy-server
     remote_overlay:
     # Install each package separately
     split_install: 1
