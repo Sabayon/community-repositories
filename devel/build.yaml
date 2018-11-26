@@ -12,9 +12,9 @@ build:
   target:
     - dev-util/pkgs-checker
     - dev-util/replicant
-    - dev-util/mottainai-agent
-    - dev-util/mottainai-cli
-    - dev-util/mottainai-server
+    - dev-util/mottainai-agent[lxd]
+    - dev-util/mottainai-cli[lxd]
+    - dev-util/mottainai-server[lxd]
     - app-misc/sabayon-sark
     - app-misc/sabayon-devkit
     - app-emulation/docker-companion
