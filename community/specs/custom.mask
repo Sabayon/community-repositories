@@ -4,3 +4,8 @@
 # live ebuilds that get pulled in unintentionally
 >=app-editors/vscode-9999
 >=media-gfx/font-manager-9999
+
+# Prevent rebuilds which cause circular dependencies
+x11-libs/gtk+
+net-print/cups
+net-dns/avahi
