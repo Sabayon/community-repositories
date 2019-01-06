@@ -44,6 +44,7 @@ build:
 
   injected_target:
     - dev-ruby/puppetdb-termini
+    - dev-qt/qtsql
 
   # Packages to be built in this repo
   target:
