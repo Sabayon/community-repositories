@@ -27,6 +27,8 @@ build:
         
       remove:
         - net-analyzer/nagios-core
+        # Work around missing package from repo
+        - dev-qt/qtsql
 
   # Use ebuilds from the following layman overlays
   overlays:
