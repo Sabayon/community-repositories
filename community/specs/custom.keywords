@@ -1,4 +1,5 @@
 app-misc/zotero **
+=app-emulation/qt-virt-manager-9999 **
 =dev-libs/intel-beignet-9999 **
 =dev-libs/rapidjson-9999 **
 =media-gfx/font-manager-0.7.3 **
