@@ -18,7 +18,7 @@ build:
     - net-firewall/rtsp-conntrack
     - net-firewall/xtables-addons
     - media-video/v4l2loopback
-    - app-laptop/tp_smapi-0.43
+    - app-laptop/tp_smapi
     - app-emulation/virtualbox-guest-additions
     - x11-drivers/nvidia-drivers
     - sys-kernel/spl::gentoo
