@@ -23,10 +23,12 @@ build:
         - app-admin/matter-9999
   emerge:
     remove:
-          - sys-apps/entropy
-          - app-admin/matter
-          - sys-apps/entropy-server
+      - sys-apps/entropy
+      - app-admin/matter
+      - sys-apps/entropy-server
     remote_overlay:
+      - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      - geaaru|git|https://github.com/geaaru/geaaru_overlay
     # Install each package separately
     split_install: 1
     default_args: --accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg
@@ -37,3 +39,5 @@ build:
     - =sys-apps/entropy-server-9999::sabayon
     - =app-admin/equo-9999::sabayon
     - =app-admin/matter-9999::sabayon
+    - =app-emulation/distrobuilder-9999::geaaru
+    - =dev-util/simplestreams-builder-9999::mottainai
