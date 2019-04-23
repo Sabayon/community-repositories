@@ -1,0 +1,27 @@
+repository:
+   description: mudler repository
+build:
+  emerge:
+    # Install each package separately
+    split_install: 1
+    default_args: --accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+  overlays:
+    - go-overlay
+    - earshark
+  target:
+    - www-apps/gogs
+    - www-apps/hugo
+    - app-shells/peco
+    - app-shells/antibody
+    - dev-go/gox
+    - dev-go/goxc
+    - dev-go/ffjson
+    - net-misc/bat
+    - net-p2p/cloud-torrent
+    - x11-misc/noti
+    - www-apps/gotty
+    - dev-go/go-bindata
+    - app-editors/visual-studio-code-bin
+  injected_target:
+    - app-editors/visual-studio-code-bin
