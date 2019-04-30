@@ -32,6 +32,8 @@ build:
         - net-analyzer/nagios-core
         # Work around missing package from repo
         - dev-qt/qtsql
+        # Switch from quassel-core to monolithic package which is more up to date
+        - net-irc/quassel-core
 
   # Use ebuilds from the following layman overlays
   overlays:
@@ -62,7 +64,7 @@ build:
     - net-analyzer/icinga2
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
-    - net-irc/quassel-core::sabayon-distro
+    - net-irc/quassel
     - net-misc/memcached::gentoo
     - net-nds/gss-proxy::gentoo
     - net-nds/phpldapadmin::gentoo

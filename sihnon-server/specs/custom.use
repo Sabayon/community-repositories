@@ -8,6 +8,7 @@ media-video/motion ffmpeg mysql
 net-analyzer/icinga apache2 contrib eventhandler idoutils mysql perl plugins vim-syntax web
 net-analyzer/icinga2 apache2 console mysql mail plugins vim-syntax
 net-analyzer/icinga-web -pnp apache2 mysql
+net-irc/quassel crypt ldap postgres server syslog -dbus -monolithic -X
 net-irc/quassel-core postgres syslog
 net-nds/phpldapadmin vhosts
 # Run headless on servers
