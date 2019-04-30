@@ -12,7 +12,7 @@ repository:
 build:
   script:
     pre:
-      - eselect python set python3.5
+      - eselect python set python3.6
 
   emerge:
     # Install each package separately
