@@ -173,6 +173,7 @@ build:
     - www-client/brave-bin
     - www-client/palemoon-bin::palemoon
     - www-client/qutebrowser
+    - www-plugins/opera-ffmpeg-codecs
     - x11-drivers/xf86-input-wizardpen::jorgicio
     - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
