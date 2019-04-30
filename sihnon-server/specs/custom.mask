@@ -6,3 +6,6 @@ dev-ruby/pry::fkmclane
 net-analyzer/nagios-core
 # Revert to stable
 =net-irc/quassel-core-9999
+# Mask qt 5.12 until mainline repos are updated
+dev-qt/qtcore:5/5.12
+dev-qt/qtsql:5/5.12
