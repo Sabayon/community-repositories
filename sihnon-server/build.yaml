@@ -52,7 +52,7 @@ build:
     #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
-    - dev-qt/qtsql:5.11
+    - dev-qt/qtsql:5/5.11
     - dev-ruby/puppetdb-termini
     - net-analyzer/icinga
     - net-analyzer/icinga2
