@@ -1,8 +1,8 @@
 repository:
   description: Sihnon server packages
   
-  maintenance:
-    clean_cache: 1
+  #maintenance:
+  #  clean_cache: 1
 
 build:
   script:
@@ -30,8 +30,6 @@ build:
         - dev-qt/qtcore
       remove:
         - net-analyzer/nagios-core
-        # Work around missing package from repo
-        - dev-qt/qtsql
         # Switch from quassel-core to monolithic package which is more up to date
         - net-irc/quassel-core
 
@@ -49,16 +47,12 @@ build:
     - sihnon
     - raw
 
-  injected_target:
-    - dev-ruby/puppetdb-termini
-    - dev-qt/qtsql
-
   # Packages to be built in this repo
   target:
     #- app-backup/backuppc
     - dev-db/phppgadmin
     - dev-db/phpmyadmin
-    - dev-qt/qtsql
+    - dev-qt/qtsql:5.11
     - dev-ruby/puppetdb-termini
     - net-analyzer/icinga
     - net-analyzer/icinga2
