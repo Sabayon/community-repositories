@@ -13,6 +13,7 @@ build:
     # Install each package separately
     split_install: 1
     preserved_rebuild: 1
+    default_args: "--accept-properties=-interactive --quiet --oneshot --complete-graph --buildpkg --newuse"
 
   equo:
     repositories:
