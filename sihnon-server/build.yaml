@@ -26,9 +26,6 @@ build:
       mask:
         - dev-db/mariadb-galera
         
-      install:
-        # Ensure latest version to avoid slot conflict when updating qtsql
-        - dev-qt/qtcore
       remove:
         - net-analyzer/nagios-core
         # Switch from quassel-core to monolithic package which is more up to date
