@@ -7,9 +7,11 @@ build:
     default_args: --accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
   overlays:
+    - gerislay
     - go-overlay
     - earshark
   target:
+    - games-action/supertuxkart
     - www-apps/gogs
     - www-apps/hugo
     - app-shells/peco
