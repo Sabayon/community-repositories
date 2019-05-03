@@ -8,11 +8,12 @@ build:
     default_args: --accept-properties=-interactive -t --verbose --nospinner --oneshot --complete-graph --buildpkg
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
   target:
+    - sys-kernel/sabayon-sources
     - sys-kernel/linux-sabayon[dracut]
     - net-vpn/wireguard
     - app-emulation/virtualbox-modules
     - sys-power/bbswitch
-    - sys-power/acpi_callsys-power/acpi_call
+    - sys-power/acpi_call
     - sys-fs/vhba
     - net-wireless/broadcom-sta
     - net-firewall/rtsp-conntrack
