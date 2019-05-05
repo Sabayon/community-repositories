@@ -33,6 +33,7 @@ build:
 
   # Use ebuilds from the following layman overlays
   overlays:
+    - ace
     - awesome
     - barzog-overlay
     - defiance
@@ -57,6 +58,7 @@ build:
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
     - net-irc/quassel
+    - net-misc/choria-bin
     - net-misc/memcached::gentoo
     - net-nds/gss-proxy::gentoo
     - net-nds/phpldapadmin::gentoo
