@@ -43,8 +43,6 @@ build:
 
   # Packages to be built in this repo
   target:
-    #- app-backup/backuppc
-    - dev-db/phppgadmin
     - dev-db/phpmyadmin
     - dev-qt/qtsql
     - dev-ruby/puppetdb-termini
