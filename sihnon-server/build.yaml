@@ -25,11 +25,6 @@ build:
     package:
       mask:
         - dev-db/mariadb-galera
-        
-      remove:
-        - net-analyzer/nagios-core
-        # Switch from quassel-core to monolithic package which is more up to date
-        - net-irc/quassel-core
 
   # Use ebuilds from the following layman overlays
   overlays:
