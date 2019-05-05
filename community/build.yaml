@@ -44,6 +44,7 @@ build:
       - fem-overlay
       - fkmclane
       - flavour
+      - fol4
       - furikake
       - fw-overlay
       - gamerouns
@@ -102,6 +103,7 @@ build:
     - app-editors/vscode::atom
     - =app-emulation/qt-virt-manager-9999
     - app-emulation/remotebox
+    - app-emulation/snapd
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
     - app-misc/anki::sattvik
