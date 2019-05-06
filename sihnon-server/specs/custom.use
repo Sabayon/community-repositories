@@ -16,6 +16,6 @@ net-p2p/deluge -gtk -libnotify
 www-apps/cgit highlight vhosts
 www-apps/dokuwiki gd vhosts
 www-apps/gitlabhq mysql
-www-apps/icingaweb2 apache2 ldap mysql
+www-apps/icingaweb2 apache2 apache2-server ldap mysql
 www-apps/piwik vhosts
 www-apps/wordpress -akismet -themes vhosts
