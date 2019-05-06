@@ -45,8 +45,6 @@ build:
     - app-admin/puppet-lint::gentoo
     - app-admin/vault
     - app-vim/puppet-syntax::gentoo
-    - dev-libs/sihnon-php-lib::sihnon
-    - dev-libs/sihnon-js-lib::sihnon
     - dev-perl/Monitoring-Plugin
     - dev-python/django-haystack::gentoo
     - dev-ruby/hiera-eyaml-gpg::gentoo
@@ -63,20 +61,15 @@ build:
     - dev-ruby/simplecov-rcov::sihnon
     - dev-util/jenkins-bin::gentoo
     - dev-vcs/vcsh::gentoo
-    - mcollective-plugin/mcollective-actionpolicy-auth-master::hacking-gentoo
-    - mcollective-plugin/mcollective-plugin-update-system::hacking-gentoo
-    - mcollective-plugin/mcollective-puppet-agent::sihnon
-    - mcollective-plugin/mcollective-puppetca-agent::sihnon
-    - mcollective-plugin/mcollective-puppetenvsh-agent::sihnon
-    - mcollective-plugin/mcollective-service-agent-master::hacking-gentoo
-    - media-tv/tvheadend
-    - media-tv/xmltv
+    - mcollective-plugin/mcollective-actionpolicy-auth-master
+    - mcollective-plugin/mcollective-plugin-update-system
+    - mcollective-plugin/mcollective-puppet-agent
+    - mcollective-plugin/mcollective-puppetca-agent
+    - mcollective-plugin/mcollective-puppetenvsh-agent
+    - mcollective-plugin/mcollective-service-agent-master
     - net-analyzer/nagios-plugins::gentoo
     - net-analyzer/nagios-plugin-check-scsi-smart
     - net-dns/hash-slinger
-    # Blocked by media-video/subliminal-0.7.4. Needs bumping to 1.1.1 which eliminates the
-    # need to mask babelfish and guessit
-    #- net-misc/flexget::sihnon
     - net-misc/lldpd::gentoo
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
@@ -85,6 +78,6 @@ build:
     - sys-apps/fwupdate::gentoo
     - sys-auth/google-authenticator::gentoo
     - sys-auth/sssd
-    - sys-fs/zfs-auto-snapshot::gentoo-zh
+    - sys-fs/zfs-auto-snapshot
 
 # vim: set ts=2 shiftwidth=2 expandtab :
