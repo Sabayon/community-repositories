@@ -31,6 +31,7 @@ build:
 
   # Use ebuilds from the following layman overlays
   overlays:
+    - ace
     - fkmclane
     - frabjous
     - gentoo-zh
