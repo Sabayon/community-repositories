@@ -36,6 +36,7 @@ build:
     - app-admin/collectd
     - app-admin/logstash-bin
     - app-crypt/dehydrated
+    - net-misc/choria-bin
     - app-admin/consul
     - app-admin/lastpass-cli
     - app-admin/librarianp::sihnon
