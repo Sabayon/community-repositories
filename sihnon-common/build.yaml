@@ -1,8 +1,15 @@
 repository:
   description: Sihnon common packages
 
-  #maintenance:
-  #  clean_cache: 1
+  maintenance:
+    #clean_cache: 1
+    remove:
+      - app-admin/mcollective::gentoo
+      - mcollective-plugin/mcollective-actionpolicy-auth-master
+      - mcollective-plugin/mcollective-plugin-update-system
+      - mcollective-plugin/mcollective-puppet-agent
+      - mcollective-plugin/mcollective-puppetca-agent
+      - mcollective-plugin/mcollective-service-agent-master
 
 build:
   script:
@@ -41,7 +48,6 @@ build:
     - app-admin/lastpass-cli
     - app-admin/librarianp::sihnon
     - app-admin/librarian-puppet::sihnon
-    - app-admin/mcollective::gentoo
     #- app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
     - app-admin/vault
@@ -62,12 +68,6 @@ build:
     - dev-ruby/simplecov-rcov::sihnon
     - dev-util/jenkins-bin::gentoo
     - dev-vcs/vcsh::gentoo
-    - mcollective-plugin/mcollective-actionpolicy-auth-master
-    - mcollective-plugin/mcollective-plugin-update-system
-    - mcollective-plugin/mcollective-puppet-agent
-    - mcollective-plugin/mcollective-puppetca-agent
-    - mcollective-plugin/mcollective-puppetenvsh-agent
-    - mcollective-plugin/mcollective-service-agent-master
     - net-analyzer/nagios-plugins::gentoo
     - net-analyzer/nagios-plugin-check-scsi-smart
     - net-dns/hash-slinger
@@ -75,6 +75,7 @@ build:
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
     - net-wireless/rtl-sdr::gentoo
+    - mcollective-plugin/mcollective-puppetenvsh-agent
     - sys-apps/fwupd::gentoo
     - sys-apps/fwupdate::gentoo
     - sys-auth/google-authenticator::gentoo
