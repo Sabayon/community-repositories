@@ -57,7 +57,6 @@ build:
     - dev-python/django-haystack::gentoo
     - dev-ruby/hiera-eyaml-gpg::gentoo
     - dev-ruby/hiera-puppet-helper::sihnon
-    - dev-ruby/jerakia
     - dev-ruby/puppet-syntax::sihnon
     - dev-ruby/puppet_forge::sihnon
     - dev-ruby/puppetdb-termini
