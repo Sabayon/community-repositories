@@ -2,14 +2,7 @@ repository:
   description: Sihnon common packages
 
   maintenance:
-    #clean_cache: 1
-    remove:
-      - app-admin/mcollective::gentoo
-      - mcollective-plugin/mcollective-actionpolicy-auth-master
-      - mcollective-plugin/mcollective-plugin-update-system
-      - mcollective-plugin/mcollective-puppet-agent
-      - mcollective-plugin/mcollective-puppetca-agent
-      - mcollective-plugin/mcollective-service-agent-master
+    clean_cache: 1
 
 build:
   script:
