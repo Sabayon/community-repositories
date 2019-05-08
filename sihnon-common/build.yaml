@@ -43,6 +43,7 @@ build:
   target:
     - app-admin/collectd
     - app-admin/logstash-bin
+    - app-admin/pdk
     - app-crypt/dehydrated
     - net-misc/choria-bin
     - app-admin/consul
