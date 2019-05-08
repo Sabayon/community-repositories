@@ -41,16 +41,14 @@ build:
 
   # Packages to be built in this repo
   target:
-    - app-admin/collectd
     - app-admin/logstash-bin
     - app-admin/pdk
     - app-crypt/dehydrated
-    - net-misc/choria-bin
+    - app-metrics/collectd
     - app-admin/consul
     - app-admin/lastpass-cli
     - app-admin/librarianp::sihnon
     - app-admin/librarian-puppet::sihnon
-    #- app-admin/puppet-agent::gentoo
     - app-admin/puppet-lint::gentoo
     - app-admin/vault
     - app-vim/puppet-syntax::gentoo
@@ -72,6 +70,7 @@ build:
     - net-analyzer/nagios-plugins::gentoo
     - net-analyzer/nagios-plugin-check-scsi-smart
     - net-dns/hash-slinger
+    - net-misc/choria-bin
     - net-misc/lldpd::gentoo
     - net-misc/openssh::gentoo
     - net-misc/pssh::gentoo
