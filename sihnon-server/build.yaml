@@ -1,8 +1,13 @@
 repository:
   description: Sihnon server packages
   
-  #maintenance:
+  maintenance:
   #  clean_cache: 1
+  
+    remove:
+      - net-misc/choria-bin
+      - dev-ruby/puppetdb-termini
+      - www-apps/cgit
 
 build:
   script:
@@ -46,20 +51,17 @@ build:
   target:
     - dev-db/phpmyadmin
     - dev-qt/qtsql
-    - dev-ruby/puppetdb-termini
     - net-analyzer/icinga
     - net-analyzer/icinga2
     - net-analyzer/icinga-web
     - net-dns/bind-dyndb-ldap
     - net-irc/quassel
-    - net-misc/choria-bin
     - net-misc/memcached::gentoo
     - net-nds/gss-proxy::gentoo
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
     - net-wireless/unifi
-    - www-apps/cgit
     - www-apps/dokuwiki
     - www-apps/icingaweb2
     - www-apps/kibana-bin
