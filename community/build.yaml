@@ -3,6 +3,9 @@ repository:
 
   maintenance:
     # clean_cache: 1
+    remove:
+      - dev-embedded/arduino
+      - net-im/zoom
 
 build:
   script:
@@ -23,6 +26,10 @@ build:
       - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
       - sabayon-community|git|https://github.com/Sabayon/community.git
       - tlp|git|https://github.com/dywisor/tlp-portage.git
+    remove:
+      - dev-embedded/arduino
+      - net-im/zoom
+      - net-im/zoom
 
   overlays:
     - 4nykey
@@ -36,6 +43,7 @@ build:
     - bobwya
     - brother-overlay
     - c2p-overlay
+    - crocket-overlay
     - cynede
     - didactic-duck
     - dlang
@@ -62,6 +70,7 @@ build:
     - jps-gentoo
     - jtriley
     - k_f
+    - linxon
     - lmiphay
     - miramir
     - mozilla
@@ -70,6 +79,7 @@ build:
     - oboeverlay
     - ohnobinki_overlay
     - pentoo
+    - pg_overlay
     - pinkpieea
     - poly-c
     - rasdark
@@ -96,35 +106,32 @@ build:
     - zugaina
   target:
     - app-admin/keepasshttp::np-hardass-overlay
+    - app-admin/remotebox
     - app-arch/rarcrack::gerislay
     - app-crypt/veracrypt
     - app-editors/atom-bin::jorgicio
     - app-editors/brackets-bin
     - app-editors/sublime-text::sublime-text
     - app-editors/vscode::atom
-    - =app-emulation/qt-virt-manager-9999
-    - app-emulation/remotebox
     - app-emulation/snapd
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
-    - app-misc/anki::sattvik
+    - app-misc/anki
     - app-misc/double-commander-bin::rasdark
     - app-misc/gramps
     - app-misc/neofetch
     - app-office/wps-office
     - app-text/cherrytree
-    - app-text/gimagereader::salfter
     - app-text/gist
     - dev-db/etcd::gentoo
-    - dev-embedded/arduino
     - dev-embedded/arduino-ide
     - dev-embedded/stlink
-    - =dev-libs/intel-beignet-9999::mrueg
+    - =dev-libs/intel-beignet-9999
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::ssnb
     - dev-util/flatpak-builder::flatpak-overlay
-    - dev-util/idea-community::ssnb
+    - dev-util/idea-community
     - dev-util/phpstorm
     - dev-util/pdk::ace
     - dev-util/pycharm-community
@@ -133,12 +140,10 @@ build:
     - games-util/springlobby
     - kde-misc/nowdock-panel::lmiphay
     - media-gfx/brother-dcp145c-bin::brother-overlay
-    - media-gfx/lightzone
     - media-gfx/pinta
     - media-gfx/sweethome3d-bin::activehome
     - media-gfx/ttfautohint::4nykey
-    - media-sound/guitarix2::jorgicio
-    - media-sound/lollypop::jorgicio
+    - media-sound/lollypop
     - media-sound/pulseaudio-equalizer::zyrenth
     - media-sound/sox::gentoo
     - media-tv/peerflix::jorgicio
@@ -151,7 +156,7 @@ build:
     - net-im/slack::lmiphay
     - net-im/telegram-desktop-bin::gentoo
     - net-im/viber::calculate
-    - net-im/zoom-bin::yurij-overlay
+    - net-im/zoom-bin
     - net-mail/davmail-bin::pentoo
     - net-misc/megasync
     - net-misc/mailru-cloud
@@ -159,15 +164,14 @@ build:
     - net-misc/cjdns::weuxel
     - net-misc/gdrive::jm-overlay
     - net-misc/streamtuner2::stefantalpalaru
-    - net-misc/screamingfrogseospider::jorgicio
     - net-print/brother-dcp1610w-bin::brother-overlay
     - net-print/brother-genml1-bin::brother-overlay
-    - net-print/samsung-unified-linux-driver
+    - net-print/samsung-unified-driver
     - sci-geosciences/googleearth::mv
     - sys-apps/flatpak
     - sys-apps/sift::go-overlay
-    - sys-app/xdg-desktop-portal::flatpak-overlay
-    - sys-app/xdg-desktop-portal-gtk::flatpak-overlay
+    - sys-apps/xdg-desktop-portal::flatpak-overlay
+    - sys-apps/xdg-desktop-portal-gtk::flatpak-overlay
     - sys-cluster/kubectl
     - sys-cluster/minikube
     - sys-fs/libostree
@@ -181,6 +185,5 @@ build:
     - x11-libs/libvdpau-va-gl
     - x11-misc/iio-sensor-proxy
     - x11-misc/polybar
-    - x11-misc/variety
     - x11-terms/tilix
     - x11-wm/lumina
