@@ -106,14 +106,10 @@ build:
     - zugaina
   target:
     - app-admin/keepasshttp::np-hardass-overlay
-    - app-admin/remotebox
     - app-arch/rarcrack::gerislay
     - app-crypt/veracrypt
     - app-editors/atom-bin::jorgicio
-    - app-editors/brackets-bin
     - app-editors/sublime-text::sublime-text
-    - app-editors/vscode::atom
-    - app-emulation/snapd
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
     - app-misc/anki
