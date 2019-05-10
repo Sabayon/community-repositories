@@ -28,6 +28,9 @@ x11-misc/mugshot webcam
 sys-apps/flatpak archive
 sys-apps/xdg-desktop-portal-gtk -wayland
 www-client/palemoon -alsa
+
+# x11-terms/tilix
+dev-libs/gtkd dmd-2_084
 x11-terms/tilix dmd-2_084
 
 # www-client/qutebrowser
