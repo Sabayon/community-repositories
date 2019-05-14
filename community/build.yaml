@@ -110,6 +110,7 @@ build:
     - app-crypt/veracrypt
     - app-editors/atom-bin::jorgicio
     - app-editors/sublime-text::sublime-text
+    - app-emulation/snapd::fol4
     - app-eselect/eselect-sublime::sublime-text
     - app-laptop/tlp
     - app-misc/anki
