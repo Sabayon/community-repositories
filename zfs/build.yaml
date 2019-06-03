@@ -1,0 +1,19 @@
+repository:
+   description: ZFS Repository
+
+build:
+  script:
+    pre:
+      # Ensure the latest kernel is installed
+      - kernel-switcher switch linux-sabayon
+
+  qa_checks: 1
+
+  emerge:
+    split_install: 1
+    default_args: "--accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg --newuse"
+  
+    target:
+    - sys-fs/zfs
+    - sys-fs/zfs-kmod
+
