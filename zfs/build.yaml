@@ -12,6 +12,10 @@ build:
   emerge:
     split_install: 1
     default_args: "--accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg --newuse"
+
+    package:
+      install:
+        - sys-kernel/sabayon-sources
   
     target:
     - sys-fs/zfs
