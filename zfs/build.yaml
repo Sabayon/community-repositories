@@ -2,8 +2,9 @@ repository:
    description: ZFS Repository
 
 build:
-  #script:
-    #pre:
+  script:
+    pre:
+      - /bin/true
     #  # Ensure the latest kernel is installed
     #  - kernel-switcher switch linux-sabayon
 
