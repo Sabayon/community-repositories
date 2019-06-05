@@ -19,6 +19,8 @@ build:
           # Prevent conflicts between zfs-0.7 with split spl, versus 0.8 with bundled spl
           remove:
               - sys-kernel/spl
+              - "<sys-fs/zfs-0.8"
+              - "<sys-fs/zfs-kmod-0.8"
           mask:
               - sys-kernel/spl
   
