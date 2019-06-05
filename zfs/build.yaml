@@ -14,9 +14,13 @@ build:
     split_install: 1
     default_args: "--accept-properties=-interactive -t --quiet --nospinner --oneshot --complete-graph --buildpkg --newuse"
 
-  package:
-    install:
-        - sys-kernel/sabayon-sources
+  equo:
+      package:
+          # Prevent conflicts between zfs-0.7 with split spl, versus 0.8 with bundled spl
+          remove:
+              - sys-kernel/spl
+          mask:
+              - sys-kernel/spl
   
   target:
     - sys-fs/zfs
