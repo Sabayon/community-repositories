@@ -17,12 +17,16 @@ build:
   equo:
       package:
           # Prevent conflicts between zfs-0.7 with split spl, versus 0.8 with bundled spl
+          install:
+              - sys-kernel/sabayon-sources
           remove:
               - sys-kernel/spl
               - "=sys-fs/zfs-0.7.13"
               - "=sys-fs/zfs-kmod-0.7.13"
           mask:
               - sys-kernel/spl
+              - "<sys-fs/zfs-0.8.0"
+              - "<sys-fs/zfs-kmod-0.8.0"
   
   target:
     - sys-fs/zfs
