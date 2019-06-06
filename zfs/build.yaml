@@ -4,9 +4,8 @@ repository:
 build:
   script:
     pre:
-      - /bin/true
-    #  # Ensure the latest kernel is installed
-    #  - kernel-switcher switch linux-sabayon
+      - eselect kernel set linux-5.0.0-sabayon
+      - kernel-switcher switch linux-sabayon:5.0
 
   qa_checks: 1
 
@@ -17,8 +16,6 @@ build:
   equo:
       package:
           # Prevent conflicts between zfs-0.7 with split spl, versus 0.8 with bundled spl
-          install:
-              - sys-kernel/sabayon-sources
           remove:
               - sys-kernel/spl
               - "=sys-fs/zfs-0.7.13"
