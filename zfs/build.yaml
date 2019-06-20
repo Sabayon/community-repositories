@@ -11,7 +11,7 @@ build:
 
   emerge:
     split_install: 1
-    default_args: "--accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg --newuse"
+    default_args: "--accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg --newuse --update"
     jobs: 2
 
   equo:
