@@ -26,6 +26,8 @@ build:
               - sys-kernel/spl
               - "<sys-fs/zfs-0.8.0"
               - "<sys-fs/zfs-kmod-0.8.0"
+          install:
+              - sys-kernel/linux-sabayon:5.1
   
   target:
     - sys-fs/zfs
