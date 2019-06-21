@@ -4,8 +4,8 @@ repository:
 build:
   script:
     pre:
-      - eselect kernel set linux-5.0.0-sabayon
-      - kernel-switcher switch linux-sabayon:5.0
+      - eselect kernel set linux-5.1.0-sabayon
+      - kernel-switcher switch linux-sabayon:5.1
 
   qa_checks: 1
 
@@ -18,10 +18,10 @@ build:
   equo:
       package:
           # Prevent conflicts between zfs-0.7 with split spl, versus 0.8 with bundled spl
-          remove:
-              - sys-kernel/spl
-              - "=sys-fs/zfs-0.7.13"
-              - "=sys-fs/zfs-kmod-0.7.13"
+          #remove:
+          #    - sys-kernel/spl
+          #    - "=sys-fs/zfs-0.7.13"
+          #    - "=sys-fs/zfs-kmod-0.7.13"
           mask:
               - sys-kernel/spl
               - "<sys-fs/zfs-0.8.0"
