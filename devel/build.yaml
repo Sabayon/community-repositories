@@ -16,6 +16,7 @@ build:
     - dev-util/mottainai-agent[lxd]
     - dev-util/mottainai-cli[lxd]
     - dev-util/mottainai-server[lxd]
+    - dev-util/simplestreams-builder
     - app-misc/sabayon-sark
     - app-misc/sabayon-devkit
     - app-emulation/docker-companion
