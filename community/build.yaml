@@ -144,6 +144,7 @@ build:
     - media-sound/lollypop
     - media-sound/pulseaudio-equalizer::zyrenth
     - media-sound/sox::gentoo
+    - media-sound/strawberry
     - media-tv/peerflix::jorgicio
     - media-tv/plex-media-server
     - media-video/disper::fem-overlay
