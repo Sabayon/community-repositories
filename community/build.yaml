@@ -136,6 +136,7 @@ build:
     - games-strategy/megaglest
     - games-util/springlobby
     - kde-misc/nowdock-panel::lmiphay
+    - mate-extra/mate-tweak
     - media-gfx/brother-dcp145c-bin::brother-overlay
     - media-gfx/pinta
     - media-gfx/sweethome3d-bin::activehome
