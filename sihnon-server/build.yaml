@@ -57,7 +57,7 @@ build:
     - net-dns/bind-dyndb-ldap
     - net-irc/quassel
     - net-misc/memcached::gentoo
-    - net-nds/gss-proxy::gentoo
+    - net-nds/gssproxy::gentoo
     - net-nds/phpldapadmin::gentoo
     - net-p2p/deluge
     - net-wireless/eyefiserver::sihnon
