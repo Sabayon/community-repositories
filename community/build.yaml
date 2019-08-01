@@ -2,7 +2,7 @@ repository:
   description: Sabayon Community SCR
 
   maintenance:
-    # clean_cache: 1
+    clean_cache: 1
     remove:
       - dev-embedded/arduino
       - net-im/zoom
