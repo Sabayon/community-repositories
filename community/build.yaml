@@ -3,9 +3,6 @@ repository:
 
   maintenance:
     clean_cache: 1
-    remove:
-      - dev-embedded/arduino
-      - net-im/zoom
 
 build:
   script:
@@ -26,10 +23,6 @@ build:
       - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
       - sabayon-community|git|https://github.com/Sabayon/community.git
       - tlp|git|https://github.com/dywisor/tlp-portage.git
-    remove:
-      - dev-embedded/arduino
-      - net-im/zoom
-      - net-im/zoom
 
   overlays:
     - 4nykey
