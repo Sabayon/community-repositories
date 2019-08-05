@@ -1,0 +1,15 @@
+repository:
+   description: NodeJS Love repository
+build:
+  qa_checks: 0
+  emerge:
+    remote_overlay:
+      - geaaru|git|https://github.com/geaaru/geaaru_overlay
+    # Install each package separately
+    split_install: 1
+    profile: "default/linux/amd64/17.0"
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
+    jobs: 5
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+  target:
+    - =net-libs/nodejs-10.15.3
