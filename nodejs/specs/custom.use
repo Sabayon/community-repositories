@@ -1,2 +1,2 @@
 net-libs/nodejs icu inspector npm snapshot ssl
-dev-libs/openssl bindist
+dev-libs/openssl -bindist
