@@ -165,6 +165,7 @@ build:
     - net-print/samsung-unified-driver
     - sci-geosciences/googleearth::mv
     - sys-apps/flatpak
+    - sys-apps/hw-probe
     - sys-apps/sift::go-overlay
     - sys-apps/xdg-desktop-portal::flatpak-overlay
     - sys-apps/xdg-desktop-portal-gtk::flatpak-overlay
