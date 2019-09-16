@@ -2,7 +2,8 @@ repository:
   description: Sabayon Community SCR
 
   maintenance:
-    clean_cache: 1
+    remove:
+      - app-misc/neofetch
 
 build:
   script:
@@ -111,7 +112,6 @@ build:
     - app-misc/anki
     - app-misc/double-commander-bin::rasdark
     - app-misc/gramps
-    - app-misc/neofetch
     - app-office/freeoffice
     - app-office/wps-office
     - app-text/cherrytree
