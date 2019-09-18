@@ -47,6 +47,7 @@ build:
     - app-vim/puppet-syntax::gentoo
     - dev-perl/Monitoring-Plugin
     - dev-python/django-haystack::gentoo
+    - dev-python/py-mco-agent
     - dev-ruby/hiera-eyaml-gpg::gentoo
     - dev-ruby/hiera-puppet-helper::sihnon
     - dev-ruby/puppet-syntax::sihnon
