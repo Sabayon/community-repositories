@@ -36,6 +36,7 @@ build:
   target:
     - app-admin/logstash-bin
     - app-admin/pdk
+    - app-admin/puppet-env-manager
     - app-crypt/dehydrated
     - app-metrics/collectd
     - app-admin/consul
