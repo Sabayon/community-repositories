@@ -4,8 +4,8 @@ repository:
 build:
   script:
     pre:
-      - eselect kernel set linux-5.1.0-sabayon
-      - kernel-switcher switch linux-sabayon:5.1
+      - eselect kernel set linux-5.2.0-sabayon
+      - kernel-switcher switch linux-sabayon:5.2
 
   qa_checks: 1
 
@@ -13,7 +13,7 @@ build:
     split_install: 1
     default_args: "--accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg --newuse --update"
     jobs: 2
-    profile: "default/linux/amd64/17.0"
+    profile: "default/linux/amd64/17.1"
 
   equo:
       package:
@@ -27,7 +27,7 @@ build:
               - "<sys-fs/zfs-0.8.0"
               - "<sys-fs/zfs-kmod-0.8.0"
           install:
-              - sys-kernel/linux-sabayon:5.1
+              - sys-kernel/linux-sabayon:5.2
   
   target:
     - sys-fs/zfs
