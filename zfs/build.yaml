@@ -10,10 +10,12 @@ build:
   qa_checks: 1
 
   emerge:
+    # Be consistent with sabayon mainline repositories
+    profile: "default/linux/amd64/17.0/desktop"
+
     split_install: 1
     default_args: "--accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg --newuse --update"
     jobs: 2
-    profile: "default/linux/amd64/17.0"
 
   equo:
       package:
