@@ -1,0 +1,93 @@
+
+
+
+
+build:
+
+  script:
+    pre:
+      
+      - eselect python set python3.6
+      
+      - eselect ruby set ruby24
+      
+
+
+  equo:
+    dependency_install:
+      enable: 1
+      install_atoms: 1
+      # It seems that sometime dependencies calculation
+      # doesn't catch all packages. I will investigate
+      # split_install: 1
+    package:
+
+
+
+      remove:
+
+        - net-libs/libnfsidmap
+
+
+  qa_checks: 0
+  emerge:
+    profile: "default/linux/amd64/17.0/desktop"
+
+    # Install each package separately
+    split_install: 1
+    preserved_rebuild: 1
+    jobs: 3
+
+    default_args: --accept-properties=-interactive -t --complete-graph --newuse --deep --with-bdeps=y --buildpkg --update
+
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+
+
+
+
+  overlays:
+    
+    - ace
+    
+    - fkmclane
+    
+    - frabjous
+    
+    - gentoo-zh
+    
+    - hacking-gentoo
+    
+    - sihnon
+    
+    - swegener
+    
+
+
+
+  target:
+    
+    - app-admin/logstash-bin
+    
+    - app-admin/pdk
+    
+    - app-admin/puppet-env-manager
+    
+    - app-crypt/dehydrated
+    
+    - app-metrics/collectd
+    
+    - app-admin/consul
+    
+    - app-admin/lastpass-cli
+    
+    - app-admin/librarianp::sihnon
+    
+    - app-admin/librarian-puppet::sihnon
+    
+    - app-admin/puppet-lint::gentoo
+    
+    - app-admin/vault
+    
+    - app-vim/puppet-syntax::gentoo
+    
+

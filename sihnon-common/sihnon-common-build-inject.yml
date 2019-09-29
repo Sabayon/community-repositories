@@ -1,0 +1,28 @@
+
+
+build:
+  equo:
+    package:
+
+
+
+
+injector:
+  filter:
+    type: whitelist
+    rules:
+    
+    
+    
+    
+      - description: "Sihnon Common AMD64 Filter URLs"
+        urls:
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging1.yaml
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging2.yaml
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging3.yaml
+        
+    
+

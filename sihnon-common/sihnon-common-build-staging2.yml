@@ -1,0 +1,101 @@
+
+
+
+
+build:
+
+  script:
+    pre:
+      
+      - eselect python set python3.6
+      
+      - eselect ruby set ruby24
+      
+
+
+  equo:
+    dependency_install:
+      enable: 1
+      install_atoms: 1
+      # It seems that sometime dependencies calculation
+      # doesn't catch all packages. I will investigate
+      # split_install: 1
+    package:
+
+
+
+      remove:
+
+        - net-libs/libnfsidmap
+
+
+  qa_checks: 0
+  emerge:
+    profile: "default/linux/amd64/17.0/desktop"
+
+    # Install each package separately
+    split_install: 1
+    preserved_rebuild: 1
+    jobs: 3
+
+    default_args: --accept-properties=-interactive -t --complete-graph --newuse --deep --with-bdeps=y --buildpkg --update
+
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+
+
+
+
+  overlays:
+    
+    - ace
+    
+    - fkmclane
+    
+    - frabjous
+    
+    - gentoo-zh
+    
+    - hacking-gentoo
+    
+    - sihnon
+    
+    - swegener
+    
+
+
+
+  target:
+    
+    - dev-perl/Monitoring-Plugin
+    
+    - dev-python/django-haystack::gentoo
+    
+    - dev-python/py-mco-agent
+    
+    - dev-ruby/hiera-eyaml-gpg::gentoo
+    
+    - dev-ruby/hiera-puppet-helper::sihnon
+    
+    - dev-ruby/puppet-syntax::sihnon
+    
+    - dev-ruby/puppet_forge::sihnon
+    
+    - dev-ruby/puppetdb-termini
+    
+    - dev-ruby/puppetlabs_spec_helper::sihnon
+    
+    - dev-ruby/rspec-puppet::sihnon
+    
+    - dev-ruby/rspec-puppet-utils::sihnon
+    
+    - dev-ruby/simplecov::gentoo
+    
+    - dev-ruby/simplecov-html::gentoo
+    
+    - dev-ruby/simplecov-rcov::sihnon
+    
+    - dev-util/jenkins-bin::gentoo
+    
+    - dev-vcs/vcsh::gentoo
+    
+
