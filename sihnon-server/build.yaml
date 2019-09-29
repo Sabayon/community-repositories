@@ -4,10 +4,6 @@ repository:
   maintenance:
   #  clean_cache: 1
   
-    remove:
-      - net-misc/choria-bin
-      - dev-ruby/puppetdb-termini
-      - www-apps/cgit
 
 build:
   script:
