@@ -14,12 +14,11 @@ build:
       # split_install: 1
     package:
 
+      mask:
 
-      install:
+        - app-text/docbook-xml-simple-dtd-1.0-r2
 
-        - app-text/docbook-xml-simple-dtd
 
-        - app-text/docbook-sgml-utils
 
 
 
