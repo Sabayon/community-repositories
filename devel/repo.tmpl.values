@@ -1,0 +1,29 @@
+# Devel AMD64 Repository packages (splitted in staging tasks)
+values:
+  TargetRepo: "devel"
+  TargetRepoName: "Devel"
+  TargetPrefixRepo: "devel"
+  ExpireDays: 10
+  FilterType: "whitelist"
+  FilterRules:
+    urls:
+      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging1.yaml
+      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging2.yaml
+  stagings:
+    staging1:
+      remote_overlay:
+        - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      target:
+        - dev-util/replicant
+        - dev-util/mottainai-agent[lxd]
+        - dev-util/mottainai-cli[lxd]
+        - dev-util/mottainai-server[lxd]
+        - dev-util/simplestreams-builder
+    staging2:
+      target:
+        - dev-util/pkgs-checker
+        - app-misc/sabayon-sark
+        - app-misc/sabayon-devkit
+        - app-emulation/docker-companion
+
+# vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

@@ -1,0 +1,26 @@
+
+
+build:
+  equo:
+    package:
+
+
+
+
+injector:
+  filter:
+    type: whitelist
+    rules:
+    
+    
+    
+    
+      - description: "Devel AMD64 Filter URLs"
+        urls:
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging1.yaml
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging2.yaml
+        
+    
+
