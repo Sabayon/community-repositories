@@ -14,11 +14,6 @@ build:
       # split_install: 1
     package:
 
-      mask:
-
-        - app-text/docbook-xml-simple-dtd-1.0-r2
-
-
 
 
 
