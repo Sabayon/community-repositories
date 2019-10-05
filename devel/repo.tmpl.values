@@ -5,6 +5,17 @@ values:
   TargetPrefixRepo: "devel"
   ExpireDays: 10
   FilterType: "whitelist"
+  EquoPackagesInstall:
+# TODO: Fix this in entropy
+#
+# Conflicting packages were pulled in:
+#
+#  # app-text/docbook-xml-simple-dtd-1.0-r2@sabayonlinux.org
+#    (required by: app-text/docbook-sgml-utils-0.6.14-r2@sabayonlinux.org)
+#  # app-text/docbook-xml-simple-dtd-4.1.2.4-r3@sabayonlinux.org
+#    (required by: app-text/docbook-sgml-utils-0.6.14-r2@sabayonlinux.org)
+    - app-text/docbook-xml-simple-dtd
+    - app-text/docbook-sgml-utils
   FilterRules:
     urls:
       - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging1.yaml

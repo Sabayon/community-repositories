@@ -15,6 +15,13 @@ build:
     package:
 
 
+      install:
+
+        - app-text/docbook-xml-simple-dtd
+
+        - app-text/docbook-sgml-utils
+
+
 
   qa_checks: 0
   emerge:
