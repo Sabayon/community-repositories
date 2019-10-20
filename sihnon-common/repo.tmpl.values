@@ -5,6 +5,9 @@ values:
   TargetPrefixRepo: "sihnon-common"
   ExpireDays: 10
   FilterType: "whitelist"
+  PreCommands:
+    # Temporary until will be install as a deps of devkit
+    - equo i dev-perl/Sort-Versions
   FilterRules:
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml"
