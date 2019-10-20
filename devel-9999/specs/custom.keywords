@@ -9,3 +9,4 @@
 <app-admin/matter-9999 -~amd64 -amd64 -~arm -arm
 <sys-apps/entropy-server-9999 -~amd64 -amd64 -~arm -arm
 
+=dev-util/simplestreams-builder-9999 **
