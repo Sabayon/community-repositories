@@ -18,9 +18,9 @@ injector:
       - description: "Devel AMD64 Filter URLs"
         urls:
         
-          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging1.yaml
+          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel/devel-build-staging1.yml
         
-          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel/devel-staging2.yaml
+          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel/devel-build-staging2.yml
         
     
 

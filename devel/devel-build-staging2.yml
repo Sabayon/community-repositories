@@ -17,7 +17,7 @@ build:
 
 
 
-  qa_checks: 0
+  qa_checks: 1
   emerge:
     profile: "default/linux/amd64/17.0/desktop"
 
@@ -26,9 +26,11 @@ build:
     preserved_rebuild: 1
     jobs: 3
 
-    default_args: --accept-properties=-interactive -t --complete-graph --newuse --deep --with-bdeps=y --buildpkg --update
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
+
 
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+
 
 
 
