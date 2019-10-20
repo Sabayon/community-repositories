@@ -22,6 +22,7 @@ build:
         - app-admin/equo-9999
         - app-admin/matter-9999
   emerge:
+    profile: "default/linux/amd64/17.0/desktop"
     remove:
       - sys-apps/entropy
       - app-admin/matter
