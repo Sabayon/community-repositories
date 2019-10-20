@@ -6,6 +6,7 @@ values:
   ExpireDays: 1
   EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
   FilterType: "whitelist"
+  Planned: "@weekly"
   PreCommands:
     # Temporary until will be install as a deps of devkit
     - equo i dev-perl/Sort-Versions
