@@ -1,0 +1,41 @@
+
+
+build:
+  equo:
+    package:
+
+
+      install:
+
+        - app-misc/sabayon-live-9999
+
+        - sys-apps/entropy-9999
+
+        - sys-apps/entropy-server-9999
+
+        - app-admin/equo-9999
+
+        - app-admin/matter-9999
+
+
+
+
+injector:
+  filter:
+    type: whitelist
+    rules:
+    
+    
+    
+    
+      - description: "Devel 9999 AMD64 Filter URLs"
+        urls:
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging1.yaml
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging2.yaml
+        
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging3.yaml
+        
+    
+

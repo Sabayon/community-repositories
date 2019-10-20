@@ -1,0 +1,83 @@
+
+
+
+
+build:
+
+
+  equo:
+    dependency_install:
+      enable: 1
+      install_atoms: 1
+      # It seems that sometime dependencies calculation
+      # doesn't catch all packages. I will investigate
+      # split_install: 1
+    package:
+
+
+      unmask:
+
+        - app-misc/sabayon-live-9999
+
+        - sys-apps/entropy-9999
+
+        - sys-apps/entropy-server-9999
+
+        - app-admin/equo-9999
+
+        - app-admin/matter-9999
+
+
+
+      install:
+
+        - app-misc/sabayon-live-9999
+
+        - sys-apps/entropy-9999
+
+        - sys-apps/entropy-server-9999
+
+        - app-admin/equo-9999
+
+        - app-admin/matter-9999
+
+
+
+      remove:
+
+        - net-libs/libnfsidmap
+
+
+  qa_checks: 0
+  emerge:
+    profile: "default/linux/amd64/17.0/desktop"
+
+    # Install each package separately
+    split_install: 1
+    preserved_rebuild: 1
+    jobs: 3
+
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
+
+
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+
+
+
+
+
+
+
+  target:
+    
+    - =app-misc/sabayon-live-9999::sabayon-distro
+    
+    - =sys-apps/entropy-9999::sabayon
+    
+    - =sys-apps/entropy-server-9999::sabayon
+    
+    - =app-admin/equo-9999::sabayon
+    
+    - =app-admin/matter-9999::sabayon
+    
+
