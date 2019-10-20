@@ -31,9 +31,9 @@ injector:
       - description: "Devel 9999 AMD64 Filter URLs"
         urls:
         
-          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-9999/devel-9999-build-staging1.yml
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-9999/devel-9999-build-staging1.yml
         
-          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-9999/devel-9999-build-staging2.yml
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-9999/devel-9999-build-staging2.yml
         
     
 

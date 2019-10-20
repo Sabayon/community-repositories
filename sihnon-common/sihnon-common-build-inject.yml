@@ -18,11 +18,11 @@ injector:
       - description: "Sihnon Common AMD64 Filter URLs"
         urls:
         
-          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml
         
-          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging2.yml
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging2.yml
         
-          - https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging3.yml
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging3.yml
         
     
 

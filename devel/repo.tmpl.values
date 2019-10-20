@@ -12,8 +12,8 @@ values:
     - equo i dev-perl/Sort-Versions
   FilterRules:
     urls:
-      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel/devel-build-staging1.yml
-      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel/devel-build-staging2.yml
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel/devel-build-staging1.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel/devel-build-staging2.yml"
   stagings:
     staging1:
       remote_overlay:
