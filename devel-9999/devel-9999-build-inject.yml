@@ -31,11 +31,9 @@ injector:
       - description: "Devel 9999 AMD64 Filter URLs"
         urls:
         
-          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging1.yaml
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel-9999/devel-9999-staging1.yaml
         
-          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging2.yaml
-        
-          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging3.yaml
+          - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/devel-9999/devel-9999-staging2.yaml
         
     
 
