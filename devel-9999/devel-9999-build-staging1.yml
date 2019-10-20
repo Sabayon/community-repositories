@@ -64,6 +64,13 @@ build:
 
 
 
+    remote_overlay:
+      
+      - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      
+      - geaaru|git|https://github.com/geaaru/geaaru_overlay
+      
+
 
 
 
