@@ -30,5 +30,6 @@ values:
         - app-misc/sabayon-sark
         - app-misc/sabayon-devkit
         - app-emulation/docker-companion
+        - app-emulation/distrobuilder
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

@@ -47,4 +47,6 @@ build:
     
     - app-emulation/docker-companion
     
+    - app-emulation/distrobuilder
+    
 
