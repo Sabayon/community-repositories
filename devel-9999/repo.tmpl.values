@@ -6,11 +6,13 @@ values:
   ExpireDays: 1
   EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
   FilterType: "whitelist"
+  PreCommands:
+    # Temporary until will be install as a deps of devkit
+    - equo i dev-perl/Sort-Versions
   FilterRules:
     urls:
-      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging1.yaml
-      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging2.yaml
-      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging3.yaml
+      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-9999/devel-9999-build-staging1.yml
+      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-9999/devel-9999-build-staging2.yml
   EquoPackagesRemove:
     - net-libs/libnfsidmap
   EquoPackagesUnmask:
