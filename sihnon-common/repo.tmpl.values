@@ -7,9 +7,9 @@ values:
   FilterType: "whitelist"
   FilterRules:
     urls:
-      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging1.yaml
-      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging2.yaml
-      - https://raw.githubusercontent.com/Sabayon/sbi-tasks/master/scr/sihnon-common/sihnon-common-staging3.yaml
+      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml
+      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging2.yml
+      - https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging3.yml
   EquoPackagesRemove:
     - net-libs/libnfsidmap
   stagings:
