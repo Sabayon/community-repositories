@@ -8,6 +8,8 @@ values:
   PreCommands:
     # Temporary until will be install as a deps of devkit
     - equo i dev-perl/Sort-Versions
+  # It's not time now for --newuse, maybe in the future :)
+  EmergeDefaultArgs: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
   FilterRules:
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml"
