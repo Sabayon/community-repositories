@@ -6,7 +6,8 @@ values:
   ExpireDays: 1
   EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
   FilterType: "whitelist"
-  QaCheck: 1
+# Disable qa until a new release of devkit is out
+  QaCheck: 0
   PreCommands:
     # Temporary until will be install as a deps of devkit
     - equo i dev-perl/Sort-Versions

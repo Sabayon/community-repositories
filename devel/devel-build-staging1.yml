@@ -19,7 +19,7 @@ build:
 
 
 
-  qa_checks: 1
+  qa_checks: 0
   emerge:
     profile: "default/linux/amd64/17.0/desktop"
 
