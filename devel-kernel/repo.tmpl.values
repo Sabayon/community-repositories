@@ -1,0 +1,36 @@
+# Devel Kernel AMD64 Repository packages (splitted in staging tasks)
+values:
+  TargetRepo: "devel-kernel"
+  TargetRepoName: "Kernel Devel"
+  TargetPrefixRepo: "devel-kernel"
+  ExpireDays: 5
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
+  FilterType: "whitelist"
+  PreCommands:
+    # Temporary until will be install as a deps of devkit
+    - equo i dev-perl/Sort-Versions
+  FilterRules:
+    urls:
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/devel-kernel/devel-kernel-build-staging1.yml"
+  stagings:
+    staging1:
+      target:
+        - sys-kernel/sabayon-sources
+        - sys-kernel/linux-sabayon[dracut]
+        - net-vpn/wireguard
+        - app-emulation/virtualbox-modules
+        - sys-power/bbswitch
+        - sys-power/acpi_call
+        - sys-fs/vhba
+        - net-wireless/broadcom-sta
+        - net-firewall/rtsp-conntrack
+        - net-firewall/xtables-addons
+        - media-video/v4l2loopback
+        - app-laptop/tp_smapi
+        - app-emulation/virtualbox-guest-additions
+        - x11-drivers/nvidia-drivers
+        - sys-kernel/spl::gentoo
+        - sys-fs/zfs-kmod::gentoo
+        - sys-fs/zfs::gentoo
+
+# vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
