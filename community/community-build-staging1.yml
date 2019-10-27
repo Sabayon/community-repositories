@@ -1,0 +1,246 @@
+
+
+
+
+build:
+
+  script:
+    pre:
+      
+      - eselect python set python3.6
+      
+      - eselect ruby set ruby24
+      
+      - eselect gcc set x86_64-pc-linux-gnu-8.2.0
+      
+      - eselect binutils set x86_64-pc-linux-gnu-2.31.1
+      
+
+
+  equo:
+    dependency_install:
+      enable: 1
+      install_atoms: 1
+      dependency_scan_depth: 2
+      # It seems that sometime dependencies calculation
+      # doesn't catch all packages. I will investigate
+      # split_install: 1
+
+    package:
+
+
+
+
+      remove:
+
+        - app-misc/neofetch
+
+
+  qa_checks: 0
+  emerge:
+    profile: "default/linux/amd64/17.0/desktop"
+
+    # Install each package separately
+    split_install: 1
+    preserved_rebuild: 1
+    jobs: 3
+
+    default_args: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
+
+
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+
+
+
+
+
+  overlays:
+    
+    - 4nykey
+    
+    - ace
+    
+    - activehome
+    
+    - and3k-sunrise
+    
+    - angelos
+    
+    - anyc
+    
+    - atom
+    
+    - backbone
+    
+    - bobwya
+    
+    - brother-overlay
+    
+    - c2p-overlay
+    
+    - crocket-overlay
+    
+    - cynede
+    
+    - didactic-duck
+    
+    - dlang
+    
+    - dev-zero
+    
+    - ephemeral
+    
+    - eva
+    
+    - fem-overlay
+    
+    - fkmclane
+    
+    - flavour
+    
+    - fol4
+    
+    - furikake
+    
+    - fw-overlay
+    
+    - gamerouns
+    
+    - games-overlay
+    
+    - gentoo-htpc
+    
+    - genealogy
+    
+    - go-overlay
+    
+    - graaff
+    
+    - hamper-overlay
+    
+    - haskell
+    
+    - ikelos
+    
+    - jm-overlay
+    
+    - jorgicio
+    
+    - jps-gentoo
+    
+    - jtriley
+    
+    - k_f
+    
+    - linxon
+    
+    - lmiphay
+    
+    - miramir
+    
+    - mozilla
+    
+    - mrueg
+    
+    - mv
+    
+    - oboeverlay
+    
+    - ohnobinki_overlay
+    
+    - pentoo
+    
+    - pg_overlay
+    
+    - pinkpieea
+    
+    - poly-c
+    
+    - rasdark
+    
+    - redcore-desktop
+    
+    - rion
+    
+    - robbat2
+    
+    - roslin
+    
+    - scrill
+    
+    - salfter
+    
+    - sk-overlay
+    
+    - sinustrom
+    
+    - spikyatlinux
+    
+    - ssnb
+    
+    - steam-overlay
+    
+    - stefantalpalaru
+    
+    - stuff
+    
+    - sublime-text
+    
+    - swegener
+    
+    - tmacedo
+    
+    - trash
+    
+    - voyageur
+    
+    - weuxel
+    
+    - y2kbadbug
+    
+    - zugaina
+    
+
+
+
+  target:
+    
+    - app-admin/keepasshttp::np-hardass-overlay
+    
+    - app-arch/rarcrack::gerislay
+    
+    - app-crypt/veracrypt
+    
+    - app-editors/atom-bin::jorgicio
+    
+    - app-editors/sublime-text::sublime-text
+    
+    - app-emulation/snapd::fol4
+    
+    - app-eselect/eselect-sublime::sublime-text
+    
+    - app-laptop/tlp
+    
+    - app-misc/anki
+    
+    - app-misc/double-commander-bin::rasdark
+    
+    - app-misc/gramps
+    
+    - app-office/freeoffice
+    
+    - app-office/wps-office
+    
+    - app-text/cherrytree
+    
+    - app-text/gist
+    
+    - dev-db/etcd::gentoo
+    
+    - dev-embedded/arduino-ide
+    
+    - dev-embedded/stlink
+    
+    - =dev-libs/intel-beignet-9999
+    
+

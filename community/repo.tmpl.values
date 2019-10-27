@@ -1,0 +1,472 @@
+# Community AMD64 Repository packages (splitted in staging tasks)
+values:
+  TargetRepo: "community"
+  TargetRepoName: "Community"
+  TargetPrefixRepo: "community"
+  ExpireDays: 10
+  FilterType: "whitelist"
+  PreCommands:
+    # Temporary until will be install as a deps of devkit
+    - equo i dev-perl/Sort-Versions
+  # It's not time now for --newuse, maybe in the future :)
+  EmergeDefaultArgs: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
+  FilterRules:
+    urls:
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging1.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging2.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging3.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging4.yml"
+
+  EquoPackagesRemove:
+    - app-misc/neofetch
+  stagings:
+
+    staging1:
+      script_pre:
+        - eselect python set python3.6
+        - eselect ruby set ruby24
+        - eselect gcc set x86_64-pc-linux-gnu-8.2.0
+        - eselect binutils set x86_64-pc-linux-gnu-2.31.1
+
+      remote_overlays:
+        - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
+        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
+        - sabayon-community|git|https://github.com/Sabayon/community.git
+        - tlp|git|https://github.com/dywisor/tlp-portage.git
+
+      overlays:
+        - 4nykey
+        - ace
+        - activehome
+        - and3k-sunrise
+        - angelos
+        - anyc
+        - atom
+        - backbone
+        - bobwya
+        - brother-overlay
+        - c2p-overlay
+        - crocket-overlay
+        - cynede
+        - didactic-duck
+        - dlang
+        - dev-zero
+        - ephemeral
+        - eva
+        - fem-overlay
+        - fkmclane
+        - flavour
+        - fol4
+        - furikake
+        - fw-overlay
+        - gamerouns
+        - games-overlay
+        - gentoo-htpc
+        - genealogy
+        - go-overlay
+        - graaff
+        - hamper-overlay
+        - haskell
+        - ikelos
+        - jm-overlay
+        - jorgicio
+        - jps-gentoo
+        - jtriley
+        - k_f
+        - linxon
+        - lmiphay
+        - miramir
+        - mozilla
+        - mrueg
+        - mv
+        - oboeverlay
+        - ohnobinki_overlay
+        - pentoo
+        - pg_overlay
+        - pinkpieea
+        - poly-c
+        - rasdark
+        - redcore-desktop
+        - rion
+        - robbat2
+        - roslin
+        - scrill
+        - salfter
+        - sk-overlay
+        - sinustrom
+        - spikyatlinux
+        - ssnb
+        - steam-overlay
+        - stefantalpalaru
+        - stuff
+        - sublime-text
+        - swegener
+        - tmacedo
+        - trash
+        - voyageur
+        - weuxel
+        - y2kbadbug
+        - zugaina
+
+      target:
+
+        - app-admin/keepasshttp::np-hardass-overlay
+        - app-arch/rarcrack::gerislay
+        - app-crypt/veracrypt
+        - app-editors/atom-bin::jorgicio
+        - app-editors/sublime-text::sublime-text
+        - app-emulation/snapd::fol4
+        - app-eselect/eselect-sublime::sublime-text
+        - app-laptop/tlp
+        - app-misc/anki
+        - app-misc/double-commander-bin::rasdark
+        - app-misc/gramps
+        - app-office/freeoffice
+        - app-office/wps-office
+        - app-text/cherrytree
+        - app-text/gist
+        - dev-db/etcd::gentoo
+        - dev-embedded/arduino-ide
+        - dev-embedded/stlink
+        - =dev-libs/intel-beignet-9999
+
+    staging2:
+
+      script_pre:
+        - eselect python set python3.6
+        - eselect ruby set ruby24
+        - eselect gcc set x86_64-pc-linux-gnu-8.2.0
+        - eselect binutils set x86_64-pc-linux-gnu-2.31.1
+
+      remote_overlays:
+        - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
+        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
+        - sabayon-community|git|https://github.com/Sabayon/community.git
+        - tlp|git|https://github.com/dywisor/tlp-portage.git
+
+      overlays:
+        - 4nykey
+        - ace
+        - activehome
+        - and3k-sunrise
+        - angelos
+        - anyc
+        - atom
+        - backbone
+        - bobwya
+        - brother-overlay
+        - c2p-overlay
+        - crocket-overlay
+        - cynede
+        - didactic-duck
+        - dlang
+        - dev-zero
+        - ephemeral
+        - eva
+        - fem-overlay
+        - fkmclane
+        - flavour
+        - fol4
+        - furikake
+        - fw-overlay
+        - gamerouns
+        - games-overlay
+        - gentoo-htpc
+        - genealogy
+        - go-overlay
+        - graaff
+        - hamper-overlay
+        - haskell
+        - ikelos
+        - jm-overlay
+        - jorgicio
+        - jps-gentoo
+        - jtriley
+        - k_f
+        - linxon
+        - lmiphay
+        - miramir
+        - mozilla
+        - mrueg
+        - mv
+        - oboeverlay
+        - ohnobinki_overlay
+        - pentoo
+        - pg_overlay
+        - pinkpieea
+        - poly-c
+        - rasdark
+        - redcore-desktop
+        - rion
+        - robbat2
+        - roslin
+        - scrill
+        - salfter
+        - sk-overlay
+        - sinustrom
+        - spikyatlinux
+        - ssnb
+        - steam-overlay
+        - stefantalpalaru
+        - stuff
+        - sublime-text
+        - swegener
+        - tmacedo
+        - trash
+        - voyageur
+        - weuxel
+        - y2kbadbug
+        - zugaina
+
+
+      target:
+
+        - dev-tex/mimetex::k_f
+        - dev-util/adobe-air-runtime::steam-overlay
+        - dev-util/eclipse-sdk-bin::ssnb
+        - dev-util/flatpak-builder::flatpak-overlay
+        - dev-util/idea-community
+        - dev-util/phpstorm
+        - dev-util/pdk::ace
+        - dev-util/pycharm-community
+        - dev-util/pycharm-professional
+        - games-strategy/megaglest
+        - games-util/springlobby
+        - kde-misc/nowdock-panel::lmiphay
+        - mate-extra/mate-tweak
+        - media-gfx/brother-dcp145c-bin::brother-overlay
+        - media-gfx/pinta
+        - media-gfx/sweethome3d-bin::activehome
+        - media-gfx/ttfautohint::4nykey
+        - media-sound/lollypop
+        - media-sound/pulseaudio-equalizer::zyrenth
+        - media-sound/sox::gentoo
+        - media-sound/strawberry
+        - media-tv/peerflix::jorgicio
+        - media-tv/plex-media-server
+        - media-video/disper::fem-overlay
+        - media-video/filebot::fkmclane
+        - media-video/flowblade
+    staging3:
+
+      script_pre:
+        - eselect python set python3.6
+        - eselect ruby set ruby24
+        - eselect gcc set x86_64-pc-linux-gnu-8.2.0
+        - eselect binutils set x86_64-pc-linux-gnu-2.31.1
+
+      remote_overlays:
+        - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
+        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
+        - sabayon-community|git|https://github.com/Sabayon/community.git
+        - tlp|git|https://github.com/dywisor/tlp-portage.git
+
+      overlays:
+        - 4nykey
+        - ace
+        - activehome
+        - and3k-sunrise
+        - angelos
+        - anyc
+        - atom
+        - backbone
+        - bobwya
+        - brother-overlay
+        - c2p-overlay
+        - crocket-overlay
+        - cynede
+        - didactic-duck
+        - dlang
+        - dev-zero
+        - ephemeral
+        - eva
+        - fem-overlay
+        - fkmclane
+        - flavour
+        - fol4
+        - furikake
+        - fw-overlay
+        - gamerouns
+        - games-overlay
+        - gentoo-htpc
+        - genealogy
+        - go-overlay
+        - graaff
+        - hamper-overlay
+        - haskell
+        - ikelos
+        - jm-overlay
+        - jorgicio
+        - jps-gentoo
+        - jtriley
+        - k_f
+        - linxon
+        - lmiphay
+        - miramir
+        - mozilla
+        - mrueg
+        - mv
+        - oboeverlay
+        - ohnobinki_overlay
+        - pentoo
+        - pg_overlay
+        - pinkpieea
+        - poly-c
+        - rasdark
+        - redcore-desktop
+        - rion
+        - robbat2
+        - roslin
+        - scrill
+        - salfter
+        - sk-overlay
+        - sinustrom
+        - spikyatlinux
+        - ssnb
+        - steam-overlay
+        - stefantalpalaru
+        - stuff
+        - sublime-text
+        - swegener
+        - tmacedo
+        - trash
+        - voyageur
+        - weuxel
+        - y2kbadbug
+        - zugaina
+
+
+      target:
+
+        - =net-im/dino-9999::gentoo
+        - net-im/hipchat::tmacedo
+        - net-im/skypeforlinux
+        - net-im/slack::lmiphay
+        - net-im/telegram-desktop-bin::gentoo
+        - net-im/viber::calculate
+        - net-im/zoom-bin
+        - net-mail/davmail-bin::pentoo
+        - net-misc/megasync
+        - net-misc/mailru-cloud
+        - =net-misc/gopenvpn-9999::np-hardass-overlay
+        - net-misc/cjdns::weuxel
+        - net-misc/gdrive::jm-overlay
+        - net-misc/streamtuner2::stefantalpalaru
+        - net-print/brother-dcp1610w-bin::brother-overlay
+        - net-print/brother-genml1-bin::brother-overlay
+        - net-print/samsung-unified-driver
+
+    staging4:
+
+      script_pre:
+        - eselect python set python3.6
+        - eselect ruby set ruby24
+        - eselect gcc set x86_64-pc-linux-gnu-8.2.0
+        - eselect binutils set x86_64-pc-linux-gnu-2.31.1
+
+      remote_overlays:
+        - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
+        - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
+        - sabayon-community|git|https://github.com/Sabayon/community.git
+        - tlp|git|https://github.com/dywisor/tlp-portage.git
+
+      overlays:
+        - 4nykey
+        - ace
+        - activehome
+        - and3k-sunrise
+        - angelos
+        - anyc
+        - atom
+        - backbone
+        - bobwya
+        - brother-overlay
+        - c2p-overlay
+        - crocket-overlay
+        - cynede
+        - didactic-duck
+        - dlang
+        - dev-zero
+        - ephemeral
+        - eva
+        - fem-overlay
+        - fkmclane
+        - flavour
+        - fol4
+        - furikake
+        - fw-overlay
+        - gamerouns
+        - games-overlay
+        - gentoo-htpc
+        - genealogy
+        - go-overlay
+        - graaff
+        - hamper-overlay
+        - haskell
+        - ikelos
+        - jm-overlay
+        - jorgicio
+        - jps-gentoo
+        - jtriley
+        - k_f
+        - linxon
+        - lmiphay
+        - miramir
+        - mozilla
+        - mrueg
+        - mv
+        - oboeverlay
+        - ohnobinki_overlay
+        - pentoo
+        - pg_overlay
+        - pinkpieea
+        - poly-c
+        - rasdark
+        - redcore-desktop
+        - rion
+        - robbat2
+        - roslin
+        - scrill
+        - salfter
+        - sk-overlay
+        - sinustrom
+        - spikyatlinux
+        - ssnb
+        - steam-overlay
+        - stefantalpalaru
+        - stuff
+        - sublime-text
+        - swegener
+        - tmacedo
+        - trash
+        - voyageur
+        - weuxel
+        - y2kbadbug
+        - zugaina
+
+
+      target:
+
+        - sci-geosciences/googleearth::mv
+        - sys-apps/flatpak
+        - sys-apps/hw-probe
+        - sys-apps/sift::go-overlay
+        - sys-apps/xdg-desktop-portal::flatpak-overlay
+        - sys-apps/xdg-desktop-portal-gtk::flatpak-overlay
+        - sys-cluster/kubectl
+        - sys-cluster/minikube
+        - sys-fs/libostree
+        - sys-fs/zfstools::graaff
+        - www-apps/hugo
+        - www-client/brave-bin
+        - www-client/palemoon-bin::palemoon
+        - www-client/qutebrowser
+        - www-plugins/opera-ffmpeg-codecs
+        - x11-drivers/xf86-input-wizardpen::jorgicio
+        - x11-libs/libvdpau-va-gl
+        - x11-misc/iio-sensor-proxy
+        - x11-misc/polybar
+        - x11-terms/tilix
+        - x11-wm/lumina
+
+# vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

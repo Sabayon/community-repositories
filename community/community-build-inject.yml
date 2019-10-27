@@ -1,0 +1,30 @@
+
+
+build:
+  equo:
+    package:
+
+
+
+
+injector:
+  filter:
+    type: whitelist
+    rules:
+    
+    
+    
+    
+      - description: "Community AMD64 Filter URLs"
+        urls:
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging1.yml
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging2.yml
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging3.yml
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging4.yml
+        
+    
+
