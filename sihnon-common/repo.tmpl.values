@@ -17,6 +17,7 @@ values:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging3.yml"
   EquoPackagesRemove:
     - net-libs/libnfsidmap
+  EquoDepsInstallScanDepth: 3
   stagings:
 
     staging1:
