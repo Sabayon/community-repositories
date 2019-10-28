@@ -26,7 +26,6 @@ values:
       overlays:
         - ace
         - fkmclane
-        - frabjous
         - gentoo-zh
         - hacking-gentoo
         - sihnon
@@ -52,7 +51,6 @@ values:
       overlays:
         - ace
         - fkmclane
-        - frabjous
         - gentoo-zh
         - hacking-gentoo
         - sihnon
@@ -82,7 +80,6 @@ values:
       overlays:
         - ace
         - fkmclane
-        - frabjous
         - gentoo-zh
         - hacking-gentoo
         - sihnon
