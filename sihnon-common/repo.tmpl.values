@@ -28,7 +28,6 @@ values:
         - ace
         - fkmclane
         - gentoo-zh
-        - hacking-gentoo
         - sihnon
         - swegener
       target:
@@ -53,7 +52,6 @@ values:
         - ace
         - fkmclane
         - gentoo-zh
-        - hacking-gentoo
         - sihnon
         - swegener
       target:
@@ -82,7 +80,6 @@ values:
         - ace
         - fkmclane
         - gentoo-zh
-        - hacking-gentoo
         - sihnon
         - swegener
       target:
