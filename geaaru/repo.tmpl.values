@@ -1,0 +1,57 @@
+# Geaaru AMD64 Repository packages (splitted in staging tasks)
+values:
+  TargetRepo: "geaaru"
+  TargetRepoName: "Geaaru"
+  TargetPrefixRepo: "geaaru"
+  ExpireDays: 1
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph
+  EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
+  FilterType: "whitelist"
+# Disable qa until a new release of devkit is out
+  QaCheck: 0
+  PreCommands:
+    # Temporary until will be install as a deps of devkit
+    - equo i dev-perl/Sort-Versions
+  FilterRules:
+    urls:
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"
+  stagings:
+    staging1:
+      remote_overlay:
+        - geaaru|git|https://github.com/geaaru/geaaru_overlay
+        - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      target:
+        - sys-fs/lxcfs::geaaru
+        - app-emulation/lxc::geaaru
+        - =app-emulation/lxc-templates-3.0.3::geaaru
+        - app-emulation/lxd::geaaru
+        - app-emulation/cri-o
+        - app-admin/ksonnet
+        - app-admin/helm
+        - app-emulation/flannel
+        - =net-libs/dpdk-19.02::geaaru
+        - =dev-python/faucet-1.8.33::geaaru
+        - =app-metrics/prometheus-2.9.2::geaaru
+        - =dev-db/arangodb-3.4.5::geaaru
+    staging2:
+      remote_overlay:
+        - geaaru|git|https://github.com/geaaru/geaaru_overlay
+        - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      target:
+        - dev-python/pyrad::geaaru
+        - dev-python/uvloop
+        - sys-auth/pam_radius
+        - net-dialup/freeradius::geaaru
+        - app-metrics/freeradius_exporter::geaaru
+        - net-dns/noip-updater::geaaru
+        - =app-emulation/distrobuilder-9999::geaaru
+        - =dev-util/simplestreams-builder-9999::mottainai
+        - =dev-db/database-release-manager-9999
+        # Mkdocs mottainai stuff
+        - =www-servers/tornado-5.1
+        - =dev-python/pymdown-extensions-6.0.0::geaaru
+        - =dev-python/mkdocs-material-3.1.0::geaaru
+        - =dev-python/mkdocs-cinder-0.15.0::geaaru
+
+# vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

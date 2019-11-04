@@ -1,0 +1,11 @@
+net-dialup/freeradius kerberos ldap pam python readline ssl -debug -firebird -iodbc -libressl mysql -odbc -oracle -pcap postgres sqlite memcache redis
+app-emulation/lxd daemon dnsmasq ipv6
+app-emulation/lxc examples pam seccomp templates
+dev-db/database-release-manager -mongo -oracle -mysql
+# disable python3.5 for dependency to twisted-web on sabayon
+net-misc/openvswitch -modules monitor ssl -python_targets_python3_5 python_targets_python2_7
+app-admin/salt ldap libvirt mongodb mysql openssl portage profile raet redis zeromq
+# Fox LXD we need lzma extension
+# dev-util/xdelta lzma
+dev-python/jira oauth
+net-wireless/wpa_supplicant ap dbus eap-sim eapol_test fasteap fils hs2-0 macsec p2p qt5 readline wps
