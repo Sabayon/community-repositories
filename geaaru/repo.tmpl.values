@@ -4,7 +4,7 @@ values:
   TargetRepoName: "Geaaru"
   TargetPrefixRepo: "geaaru"
   ExpireDays: 1
-  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
   EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
   FilterType: "whitelist"
 # Disable qa until a new release of devkit is out
@@ -26,11 +26,27 @@ values:
         - app-emulation/lxc::geaaru
         - =app-emulation/lxc-templates-3.0.3::geaaru
         - app-emulation/lxd::geaaru
+        # dependency of cri-o
+        - net-misc/cni-plugins
         - app-emulation/cri-o
         - app-admin/ksonnet
         - app-admin/helm
         - app-emulation/flannel
         - =net-libs/dpdk-19.02::geaaru
+        # dependency of faucet
+        - dev-python/datadiff
+        - dev-python/pytricia
+        - dev-python/arrow
+        - dev-python/jsonext
+        - dev-python/beka
+        - dev-python/prometheus_client
+        - dev-python/influxdb
+        - dev-python/transitions
+        - dev-python/chewie
+        - dev-python/geventhttpclient
+        - dev-python/gevent-websocket
+        - dev-python/tinyrpc
+        - dev-python/ryu
         - =dev-python/faucet-1.8.33::geaaru
         - =app-metrics/prometheus-2.9.2::geaaru
         - =dev-db/arangodb-3.4.5::geaaru
