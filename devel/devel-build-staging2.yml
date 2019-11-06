@@ -30,7 +30,7 @@ build:
     jobs: 3
 
 
-    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg --update
 
 
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict

@@ -4,8 +4,9 @@ values:
   TargetRepoName: "Devel"
   TargetPrefixRepo: "devel"
   ExpireDays: 1
-  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg --update
   FilterType: "whitelist"
+  Planned: "@daily"
 # Disable qa until a new release of devkit is out
   QaCheck: 0
   PreCommands:
