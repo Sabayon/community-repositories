@@ -29,9 +29,7 @@ build:
   overlays:
     - ace
     - fkmclane
-    - frabjous
     - gentoo-zh
-    - hacking-gentoo
     - sihnon
     - swegener
 
