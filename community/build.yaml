@@ -28,7 +28,6 @@ build:
       - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
       - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
       - sabayon-community|git|https://github.com/Sabayon/community.git
-      - tlp|git|https://github.com/dywisor/tlp-portage.git
 
   overlays:
     - 4nykey
@@ -92,7 +91,6 @@ build:
     - app-editors/sublime-text::sublime-text
     - app-emulation/snapd::fol4
     - app-eselect/eselect-sublime::sublime-text
-    - app-laptop/tlp
     - app-misc/anki
     - app-misc/double-commander-bin::rasdark
     - app-misc/gramps
@@ -103,7 +101,6 @@ build:
     - dev-db/etcd::gentoo
     - dev-embedded/arduino-ide
     - dev-embedded/stlink
-    - =dev-libs/intel-beignet-9999
     - dev-tex/mimetex::k_f
     - dev-util/adobe-air-runtime::steam-overlay
     - dev-util/eclipse-sdk-bin::ssnb
