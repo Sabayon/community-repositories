@@ -32,17 +32,14 @@ values:
         - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
         - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
         - sabayon-community|git|https://github.com/Sabayon/community.git
-        - tlp|git|https://github.com/dywisor/tlp-portage.git
 
       overlays:
         - 4nykey
         - ace
         - activehome
         - and3k-sunrise
-        - angelos
         - anyc
         - atom
-        - backbone
         - bobwya
         - brother-overlay
         - c2p-overlay
@@ -50,19 +47,11 @@ values:
         - cynede
         - didactic-duck
         - dlang
-        - dev-zero
-        - ephemeral
-        - eva
         - fem-overlay
         - fkmclane
         - flavour
         - fol4
         - furikake
-        - fw-overlay
-        - gamerouns
-        - games-overlay
-        - gentoo-htpc
-        - genealogy
         - go-overlay
         - graaff
         - hamper-overlay
@@ -70,25 +59,19 @@ values:
         - ikelos
         - jm-overlay
         - jorgicio
-        - jps-gentoo
-        - jtriley
         - k_f
         - linxon
         - lmiphay
         - miramir
         - mozilla
-        - mrueg
         - mv
         - oboeverlay
-        - ohnobinki_overlay
         - pentoo
         - pg_overlay
         - pinkpieea
         - poly-c
         - rasdark
-        - redcore-desktop
         - rion
-        - robbat2
         - roslin
         - scrill
         - salfter
@@ -102,11 +85,9 @@ values:
         - sublime-text
         - swegener
         - tmacedo
-        - trash
-        - voyageur
         - weuxel
-        - y2kbadbug
         - zugaina
+
 
       target:
 
@@ -117,7 +98,6 @@ values:
         - app-editors/sublime-text::sublime-text
         - app-emulation/snapd::fol4
         - app-eselect/eselect-sublime::sublime-text
-        - app-laptop/tlp
         - app-misc/anki
         - app-misc/double-commander-bin::rasdark
         - app-misc/gramps
@@ -128,7 +108,6 @@ values:
         - dev-db/etcd::gentoo
         - dev-embedded/arduino-ide
         - dev-embedded/stlink
-        - =dev-libs/intel-beignet-9999
 
     staging2:
 
@@ -142,17 +121,14 @@ values:
         - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
         - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
         - sabayon-community|git|https://github.com/Sabayon/community.git
-        - tlp|git|https://github.com/dywisor/tlp-portage.git
 
       overlays:
         - 4nykey
         - ace
         - activehome
         - and3k-sunrise
-        - angelos
         - anyc
         - atom
-        - backbone
         - bobwya
         - brother-overlay
         - c2p-overlay
@@ -160,19 +136,11 @@ values:
         - cynede
         - didactic-duck
         - dlang
-        - dev-zero
-        - ephemeral
-        - eva
         - fem-overlay
         - fkmclane
         - flavour
         - fol4
         - furikake
-        - fw-overlay
-        - gamerouns
-        - games-overlay
-        - gentoo-htpc
-        - genealogy
         - go-overlay
         - graaff
         - hamper-overlay
@@ -180,25 +148,19 @@ values:
         - ikelos
         - jm-overlay
         - jorgicio
-        - jps-gentoo
-        - jtriley
         - k_f
         - linxon
         - lmiphay
         - miramir
         - mozilla
-        - mrueg
         - mv
         - oboeverlay
-        - ohnobinki_overlay
         - pentoo
         - pg_overlay
         - pinkpieea
         - poly-c
         - rasdark
-        - redcore-desktop
         - rion
-        - robbat2
         - roslin
         - scrill
         - salfter
@@ -212,12 +174,8 @@ values:
         - sublime-text
         - swegener
         - tmacedo
-        - trash
-        - voyageur
         - weuxel
-        - y2kbadbug
         - zugaina
-
 
       target:
 
@@ -247,6 +205,8 @@ values:
         - media-video/disper::fem-overlay
         - media-video/filebot::fkmclane
         - media-video/flowblade
+
+
     staging3:
 
       script_pre:
@@ -259,17 +219,14 @@ values:
         - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
         - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
         - sabayon-community|git|https://github.com/Sabayon/community.git
-        - tlp|git|https://github.com/dywisor/tlp-portage.git
 
       overlays:
         - 4nykey
         - ace
         - activehome
         - and3k-sunrise
-        - angelos
         - anyc
         - atom
-        - backbone
         - bobwya
         - brother-overlay
         - c2p-overlay
@@ -277,19 +234,11 @@ values:
         - cynede
         - didactic-duck
         - dlang
-        - dev-zero
-        - ephemeral
-        - eva
         - fem-overlay
         - fkmclane
         - flavour
         - fol4
         - furikake
-        - fw-overlay
-        - gamerouns
-        - games-overlay
-        - gentoo-htpc
-        - genealogy
         - go-overlay
         - graaff
         - hamper-overlay
@@ -297,25 +246,19 @@ values:
         - ikelos
         - jm-overlay
         - jorgicio
-        - jps-gentoo
-        - jtriley
         - k_f
         - linxon
         - lmiphay
         - miramir
         - mozilla
-        - mrueg
         - mv
         - oboeverlay
-        - ohnobinki_overlay
         - pentoo
         - pg_overlay
         - pinkpieea
         - poly-c
         - rasdark
-        - redcore-desktop
         - rion
-        - robbat2
         - roslin
         - scrill
         - salfter
@@ -329,10 +272,7 @@ values:
         - sublime-text
         - swegener
         - tmacedo
-        - trash
-        - voyageur
         - weuxel
-        - y2kbadbug
         - zugaina
 
 
@@ -368,17 +308,14 @@ values:
         - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
         - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
         - sabayon-community|git|https://github.com/Sabayon/community.git
-        - tlp|git|https://github.com/dywisor/tlp-portage.git
 
       overlays:
         - 4nykey
         - ace
         - activehome
         - and3k-sunrise
-        - angelos
         - anyc
         - atom
-        - backbone
         - bobwya
         - brother-overlay
         - c2p-overlay
@@ -386,19 +323,11 @@ values:
         - cynede
         - didactic-duck
         - dlang
-        - dev-zero
-        - ephemeral
-        - eva
         - fem-overlay
         - fkmclane
         - flavour
         - fol4
         - furikake
-        - fw-overlay
-        - gamerouns
-        - games-overlay
-        - gentoo-htpc
-        - genealogy
         - go-overlay
         - graaff
         - hamper-overlay
@@ -406,25 +335,19 @@ values:
         - ikelos
         - jm-overlay
         - jorgicio
-        - jps-gentoo
-        - jtriley
         - k_f
         - linxon
         - lmiphay
         - miramir
         - mozilla
-        - mrueg
         - mv
         - oboeverlay
-        - ohnobinki_overlay
         - pentoo
         - pg_overlay
         - pinkpieea
         - poly-c
         - rasdark
-        - redcore-desktop
         - rion
-        - robbat2
         - roslin
         - scrill
         - salfter
@@ -438,12 +361,8 @@ values:
         - sublime-text
         - swegener
         - tmacedo
-        - trash
-        - voyageur
         - weuxel
-        - y2kbadbug
         - zugaina
-
 
       target:
 
