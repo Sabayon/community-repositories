@@ -97,8 +97,6 @@ build:
     
     - dev-ruby/simplecov-rcov::sihnon
     
-    - dev-util/jenkins-bin::gentoo
-    
     - dev-vcs/vcsh::gentoo
     
 

@@ -31,11 +31,10 @@ values:
         - sihnon
         - swegener
       target:
-        - app-admin/logstash-bin
         - app-admin/pdk
-        - app-admin/puppet-env-manager
         - app-crypt/dehydrated
         - app-metrics/collectd
+        - app-admin/puppet-env-manager
         - app-admin/consul
         - app-admin/lastpass-cli
         - app-admin/librarianp::sihnon
@@ -69,7 +68,6 @@ values:
         - dev-ruby/simplecov::gentoo
         - dev-ruby/simplecov-html::gentoo
         - dev-ruby/simplecov-rcov::sihnon
-        - dev-util/jenkins-bin::gentoo
         - dev-vcs/vcsh::gentoo
 
     staging3:
@@ -97,5 +95,21 @@ values:
         - sys-auth/google-authenticator::gentoo
         - sys-auth/sssd
         - sys-fs/zfs-auto-snapshot
+
+    staging4:
+    # logstash-bin inject java and gcc injection.
+    # It's better handle with attention
+      script_pre:
+        - eselect python set python3.6
+        - eselect ruby set ruby24
+      overlays:
+        - ace
+        - fkmclane
+        - gentoo-zh
+        - sihnon
+        - swegener
+      target:
+        - app-admin/logstash-bin
+        - dev-util/jenkins-bin::gentoo
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

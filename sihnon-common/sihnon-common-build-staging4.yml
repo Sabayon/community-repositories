@@ -69,26 +69,8 @@ build:
 
   target:
     
-    - app-admin/pdk
+    - app-admin/logstash-bin
     
-    - app-crypt/dehydrated
-    
-    - app-metrics/collectd
-    
-    - app-admin/puppet-env-manager
-    
-    - app-admin/consul
-    
-    - app-admin/lastpass-cli
-    
-    - app-admin/librarianp::sihnon
-    
-    - app-admin/librarian-puppet::sihnon
-    
-    - app-admin/puppet-lint::gentoo
-    
-    - app-admin/vault
-    
-    - app-vim/puppet-syntax::gentoo
+    - dev-util/jenkins-bin::gentoo
     
 
