@@ -26,7 +26,7 @@ values:
         - eselect python set python3.6
         - eselect ruby set ruby24
         - eselect gcc set x86_64-pc-linux-gnu-8.2.0
-        - eselect binutils set x86_64-pc-linux-gnu-2.31.1
+        - eselect binutils set x86_64-pc-linux-gnu-2.32
 
       remote_overlays:
         - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
