@@ -102,4 +102,6 @@ build:
     
     - =dev-db/arangodb-3.4.5::geaaru
     
+    - app-emulation/container-diff::geaaru
+    
 
