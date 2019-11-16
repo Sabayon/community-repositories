@@ -58,4 +58,6 @@ build:
     
     - app-emulation/distrobuilder::geaaru
     
+    - app-emulation/container-diff::geaaru
+    
 
