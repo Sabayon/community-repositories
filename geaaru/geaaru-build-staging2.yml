@@ -58,6 +58,8 @@ build:
     
     - net-dialup/freeradius::geaaru
     
+    - dev-go/dep::geaaru
+    
     - app-metrics/freeradius_exporter::geaaru
     
     - net-dns/noip-updater::geaaru
