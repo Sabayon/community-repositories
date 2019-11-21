@@ -1,0 +1,57 @@
+
+
+
+
+
+build:
+
+
+  equo:
+    dependency_install:
+      enable: 1
+      install_atoms: 1
+      dependency_scan_depth: 2
+      # It seems that sometime dependencies calculation
+      # doesn't catch all packages. I will investigate
+      # split_install: 1
+
+    package:
+
+
+
+
+  qa_checks: 0
+  emerge:
+    profile: "default/linux/amd64/17.0/desktop"
+
+    # Install each package separately
+    split_install: 1
+    preserved_rebuild: 1
+    jobs: 3
+
+
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
+
+
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
+
+
+
+    remote_overlay:
+      
+      - geaaru|git|https://github.com/geaaru/geaaru_overlay
+      
+      - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      
+
+
+
+
+
+  target:
+    
+    - dev-lang/erlang
+    
+    - net-misc/rabbitmq-server
+    
+

@@ -17,6 +17,8 @@ values:
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging3.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging4.yml"
   stagings:
     staging1:
       remote_overlay:
@@ -72,5 +74,13 @@ values:
         - =dev-python/pymdown-extensions-6.0.0::geaaru
         - =dev-python/mkdocs-material-3.1.0::geaaru
         - =dev-python/mkdocs-cinder-0.15.0::geaaru
+
+    staging3:
+      remote_overlay:
+        - geaaru|git|https://github.com/geaaru/geaaru_overlay
+        - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      target:
+        - dev-lang/erlang
+        - net-misc/rabbitmq-server
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

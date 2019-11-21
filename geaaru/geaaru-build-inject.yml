@@ -22,5 +22,9 @@ injector:
         
           - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml
         
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging3.yml
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging4.yml
+        
     
 
