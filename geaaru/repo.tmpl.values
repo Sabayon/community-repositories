@@ -14,6 +14,8 @@ values:
     # Temporary until will be install as a deps of devkit
     - equo i dev-perl/Sort-Versions
   FilterRules:
+    pkgs:
+      - dev-lang/elixir
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"
@@ -79,7 +81,7 @@ values:
         - geaaru|git|https://github.com/geaaru/geaaru_overlay
         - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
       target:
-        - dev-lang/erlang
+        - =dev-lang/erlang-22.1.4
         - net-misc/rabbitmq-server
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

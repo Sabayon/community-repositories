@@ -50,7 +50,7 @@ build:
 
   target:
     
-    - dev-lang/erlang
+    - =dev-lang/erlang-22.1.4
     
     - net-misc/rabbitmq-server
     

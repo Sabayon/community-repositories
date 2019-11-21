@@ -14,6 +14,12 @@ injector:
     
     
     
+      - description: "Geaaru AMD64 Filter Packages"
+        pkgs:
+        
+          - dev-lang/elixir
+        
+    
     
       - description: "Geaaru AMD64 Filter URLs"
         urls:
