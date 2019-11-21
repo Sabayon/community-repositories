@@ -18,7 +18,6 @@ values:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging3.yml"
-      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging4.yml"
   stagings:
     staging1:
       remote_overlay:
