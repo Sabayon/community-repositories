@@ -60,6 +60,8 @@ build:
     
     - dev-go/dep::geaaru
     
+    - dev-go/yq::geaaru
+    
     - app-metrics/freeradius_exporter::geaaru
     
     - net-dns/noip-updater::geaaru
