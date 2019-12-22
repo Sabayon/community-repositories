@@ -4,6 +4,7 @@ repository:
   maintenance:
     remove:
       - app-misc/neofetch
+    keep_previous_versions: 1
 
 build:
   script:
