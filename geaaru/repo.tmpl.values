@@ -22,9 +22,10 @@ values:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging3.yml"
   stagings:
     staging1:
-      remote_overlay:
+      remote_overlay: &overlays
         - geaaru|git|https://github.com/geaaru/geaaru_overlay
         - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+        - sabayon|git|https://github.com/Sabayon/for-gentoo.git
       target:
         - sys-fs/lxcfs::geaaru
         - app-emulation/lxc::geaaru
@@ -56,9 +57,7 @@ values:
         - =dev-db/arangodb-3.4.5::geaaru
         - app-emulation/container-diff::geaaru
     staging2:
-      remote_overlay:
-        - geaaru|git|https://github.com/geaaru/geaaru_overlay
-        - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      remote_overlay: *overlays
       target:
         - dev-python/pyrad::geaaru
         - dev-python/uvloop
@@ -78,9 +77,7 @@ values:
         - =dev-python/mkdocs-cinder-0.15.0::geaaru
 
     staging3:
-      remote_overlay:
-        - geaaru|git|https://github.com/geaaru/geaaru_overlay
-        - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      remote_overlay: *overlays
       target:
         - =dev-lang/erlang-22.1.4
         - net-misc/rabbitmq-server

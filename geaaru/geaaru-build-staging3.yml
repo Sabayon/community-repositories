@@ -43,6 +43,8 @@ build:
       
       - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
       
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
+      
 
 
 
