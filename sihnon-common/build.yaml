@@ -2,6 +2,7 @@ repository:
   description: Sihnon common packages
 
   maintenance:
+    keep_previous_versions: 1
     #clean_cache: 1
 
 build:

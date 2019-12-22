@@ -2,7 +2,8 @@ repository:
   description: Sihnon server packages
   
   maintenance:
-  #  clean_cache: 1
+    keep_previous_versions: 1
+    #clean_cache: 1
   
 
 build:
