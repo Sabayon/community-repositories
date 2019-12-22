@@ -100,7 +100,7 @@ build:
     
     - =dev-python/faucet-1.8.33::geaaru
     
-    - =app-metrics/prometheus-2.9.2::geaaru
+    - app-metrics/prometheus::geaaru
     
     - =dev-db/arangodb-3.4.5::geaaru
     
