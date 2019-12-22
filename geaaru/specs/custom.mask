@@ -1,1 +1,2 @@
 app-metrics/prometheus::gentoo
+www-apps/grafana-bin::gentoo

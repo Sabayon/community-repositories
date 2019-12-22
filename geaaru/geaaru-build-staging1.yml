@@ -102,6 +102,8 @@ build:
     
     - app-metrics/prometheus::geaaru
     
+    - www-apps/grafana-bin::geaaru
+    
     - =dev-db/arangodb-3.4.5::geaaru
     
     - app-emulation/container-diff::geaaru
