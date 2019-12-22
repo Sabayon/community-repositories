@@ -7,6 +7,10 @@ build:
   equo:
     repository: weekly
 
+  emerge:
+    remote_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
+
   overlays:
     - rust
 

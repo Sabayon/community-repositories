@@ -29,6 +29,7 @@ build:
       - flatpak-overlay|git|https://github.com/fosero/flatpak-overlay.git
       - np-hardass-overlay|git|https://github.com/NP-Hardass/np-hardass-overlay.git
       - sabayon-community|git|https://github.com/Sabayon/community.git
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
 
   overlays:
     - 4nykey

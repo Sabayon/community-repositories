@@ -5,6 +5,7 @@ build:
   emerge:
     remote_overlay:
       - geaaru|git|https://github.com/geaaru/geaaru_overlay
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
     # Install each package separately
     split_install: 1
     profile: "default/linux/amd64/17.0"

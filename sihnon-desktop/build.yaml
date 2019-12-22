@@ -23,6 +23,9 @@ build:
     split_install: 1
     preserved_rebuild: 1
 
+    remote_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
+
   # Use ebuilds from the following layman overlays
   overlays:
     - jkolo

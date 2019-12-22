@@ -10,6 +10,8 @@ build:
 
   emerge:
     split_install: 1
+    remote_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
 
   # Packages to be built in this repo
   target:

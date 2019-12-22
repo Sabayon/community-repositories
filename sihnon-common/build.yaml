@@ -19,6 +19,9 @@ build:
     split_install: 1
     preserved_rebuild: 1
 
+    remote_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
+
   equo:
     dependency_install:
       prune_virtuals: 

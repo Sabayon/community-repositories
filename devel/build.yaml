@@ -4,7 +4,8 @@ build:
   qa_checks: 1
   emerge:
     remote_overlay:
-           - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
     # Install each package separately
     split_install: 1
     profile: "default/linux/amd64/17.0"

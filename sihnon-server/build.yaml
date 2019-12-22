@@ -20,6 +20,8 @@ build:
     split_install: 1
     preserved_rebuild: 1
     default_args: "--accept-properties=-interactive --quiet --oneshot --complete-graph --buildpkg --newuse"
+    remove_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
 
   equo:
     repositories:

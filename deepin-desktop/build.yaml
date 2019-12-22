@@ -5,6 +5,8 @@ build:
     # Install each package separately
     split_install: 1
     features: assume-digests binpkg-logs compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch preserve-libs protect-owned -sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch usersandbox usersync xattr -userpriv
+    remote_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
   overlays:
     - deepin
   target:

@@ -11,6 +11,10 @@ build:
     dependency_install:
         enable: 0
 
+  emerge:
+    remote_overlay:
+      - sabayon|git|https://github.com/Sabayon/for-gentoo.git
+
   overlays:
     - haskell
 
