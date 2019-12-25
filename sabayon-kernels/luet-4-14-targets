@@ -1,0 +1,16 @@
+
+
+
+
+net-vpn-4.14/wireguard
+app-emulation-4.14/virtualbox-modules
+app-emulation-4.14/virtualbox-guest-additions
+app-laptop-4.14/tp_smapi
+net-firewall-4.14/rtsp-conntrack
+sys-power-4.14/bbswitch
+sys-power-4.14/acpi_call
+sys-fs-4.14/vhba
+net-wireless-4.14/broadcom-sta
+net-firewall-4.14/xtables-addons
+x11-drivers-4.14/nvidia-drivers
+sys-fs-4.14/zfs-kmod

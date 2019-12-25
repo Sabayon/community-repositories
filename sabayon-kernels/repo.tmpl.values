@@ -9,30 +9,56 @@ values:
 #  Planned: "@daily"
 # Disable qa until a new release of devkit is out
   QaCheck: 0
-  FilterRules:
-    urls:
-      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sabayon-kernels/sabayon-kernels-build-staging1.yml"
-      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sabayon-kernels/sabayon-kernels-build-staging2.yml"
-  stagings:
-    staging1:
-      target:
-        - sys-kernel/sabayon-sources:4.9
-        - sys-kernel/linux-sabayon[dracut]:4.9
-        - net-vpn/wireguard
-        - app-emulation/virtualbox-modules
-        - sys-power/bbswitch
-        - sys-power/acpi_call
-        - sys-fs/vhba
-        - net-wireless/broadcom-sta
-        - net-firewall/rtsp-conntrack
-        - net-firewall/xtables-addons
-        - media-video/v4l2loopback
-        - app-laptop/tp_smapi
-        - app-emulation/virtualbox-guest-additions
-        - x11-drivers/nvidia-drivers
-        - sys-kernel/spl::gentoo
-        - sys-fs/zfs-kmod::gentoo
-        - sys-fs/zfs::gentoo
+  commons:
+    - net-vpn/wireguard
+    - app-emulation/virtualbox-modules
+    - app-emulation/virtualbox-guest-additions
+    - app-laptop/tp_smapi
+    - net-firewall/rtsp-conntrack
+    - sys-power/bbswitch
+    - sys-power/acpi_call
+    - sys-fs/vhba
+    - net-wireless/broadcom-sta
+    - net-firewall/xtables-addons
+    - x11-drivers/nvidia-drivers
+    - sys-fs/zfs-kmod
 
+  FilterRules:
+    pkgs:
+      - sys-kernel/sabayon-sources
+      - sys-kernel/linux-sabayon
+
+#- media-video/v4l2loopback
+
+  stagings:
+    4-4:
+      target:
+        - ">=sys-kernel/sabayon-sources-4.4:4.4"
+        - ">=sys-kernel/linux-sabayon-4.4:4.4[dracut]"
+
+    4-9:
+      target:
+        - ">=sys-kernel/sabayon-sources-4.9:4.9"
+        - ">=sys-kernel/linux-sabayon-4.9:4.9[dracut]"
+
+    4-14:
+      target:
+        - ">=sys-kernel/sabayon-sources-4.14:4.14"
+        - ">=sys-kernel/linux-sabayon-4.14:4.14[dracut]"
+
+    4-19:
+      target:
+        - ">=sys-kernel/sabayon-sources-4.19:4.19"
+        - ">=sys-kernel/linux-sabayon-4.19:4.19[dracut]"
+
+    5-3:
+      target:
+        - ">=sys-kernel/sabayon-sources-5.3:5.3"
+        - ">=sys-kernel/linux-sabayon-5.3:5.3[dracut]"
+
+    5-4:
+      target:
+        - ">=sys-kernel/sabayon-sources-5.4:5.4"
+        - ">=sys-kernel/linux-sabayon-5.4:5.4[dracut]"
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

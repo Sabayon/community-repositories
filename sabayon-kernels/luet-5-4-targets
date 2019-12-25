@@ -1,0 +1,16 @@
+
+
+
+
+net-vpn-5.4/wireguard
+app-emulation-5.4/virtualbox-modules
+app-emulation-5.4/virtualbox-guest-additions
+app-laptop-5.4/tp_smapi
+net-firewall-5.4/rtsp-conntrack
+sys-power-5.4/bbswitch
+sys-power-5.4/acpi_call
+sys-fs-5.4/vhba
+net-wireless-5.4/broadcom-sta
+net-firewall-5.4/xtables-addons
+x11-drivers-5.4/nvidia-drivers
+sys-fs-5.4/zfs-kmod

@@ -1,0 +1,55 @@
+{{ $staging := index .stagings .StagingPhase }}
+{{ $hasFilter := hasKey . "FilterRules" }}
+build:
+  equo:
+    package:
+{{ if .EquoPackageUnmask }}
+      unmask:
+{{ range $index, $p := .EquoPackageUnmask }}
+        - {{ $p }}
+{{ end }}
+{{ end }}
+{{ if .EquoPackagesInstall }}
+      install:
+{{ range $index, $p := .EquoPackagesInstall }}
+        - {{ $p }}
+{{ end }}
+{{ end }}
+{{ if $hasFilter }}
+{{ $rules := getKeys .FilterRules }}
+injector:
+  filter:
+    type: {{ .FilterType }}
+    rules:
+    {{ if has "categories" $rules }}{{ $filter_categories := index .FilterRules "categories" }}
+      - description: "{{ .TargetRepoName }} ARM Filter Categories"
+        categories:
+        {{ range $entry := $filter_categories }}
+          - {{ $entry }}
+        {{ end }}
+    {{ end }}
+    {{ if has "files" $rules }}{{ $filter_files := index .FilterRules "files" }}
+      - description: "{{ .TargetRepoName }} ARM Filter Files"
+        files:
+        {{ range $entry := $filter_files }}
+          - {{ $entry }}
+        {{ end }}
+    {{ end }}
+    {{ if has "pkgs" $rules }}{{ $filter_packages := index .FilterRules "pkgs" }}
+      - description: "{{ .TargetRepoName }} ARM Filter Packages"
+        pkgs:
+        {{ range $entry := $filter_packages }}
+          - {{ $entry }}
+        {{ end }}
+        {{ range $entry := .commons }}
+          - {{ $entry }}
+        {{ end }}
+    {{ end }}
+    {{ if has "urls" $rules }}{{ $filter_urls := index .FilterRules "urls" }}
+      - description: "{{ .TargetRepoName }} ARM Filter URLs"
+        urls:
+        {{ range $entry := $filter_urls }}
+          - {{ $entry }}
+        {{ end }}
+    {{ end }}
+{{ end }}

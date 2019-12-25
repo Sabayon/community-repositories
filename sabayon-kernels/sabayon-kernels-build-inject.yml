@@ -14,13 +14,38 @@ injector:
     
     
     
+      - description: "Sabayon Kernels ARM Filter Packages"
+        pkgs:
+        
+          - sys-kernel/sabayon-sources
+        
+          - sys-kernel/linux-sabayon
+        
+        
+          - net-vpn/wireguard
+        
+          - app-emulation/virtualbox-modules
+        
+          - app-emulation/virtualbox-guest-additions
+        
+          - app-laptop/tp_smapi
+        
+          - net-firewall/rtsp-conntrack
+        
+          - sys-power/bbswitch
+        
+          - sys-power/acpi_call
+        
+          - sys-fs/vhba
+        
+          - net-wireless/broadcom-sta
+        
+          - net-firewall/xtables-addons
+        
+          - x11-drivers/nvidia-drivers
+        
+          - sys-fs/zfs-kmod
+        
     
-      - description: "Sabayon Kernels AMD64 Filter URLs"
-        urls:
-        
-          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sabayon-kernels/sabayon-kernels-build-staging1.yml
-        
-          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sabayon-kernels/sabayon-kernels-build-staging2.yml
-        
     
 
