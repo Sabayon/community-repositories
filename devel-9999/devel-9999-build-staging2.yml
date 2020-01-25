@@ -68,6 +68,11 @@ build:
 
 
 
+    remote_overlay:
+      
+      - geaaru|git|https://github.com/geaaru/geaaru_overlay
+      
+
 
 
 

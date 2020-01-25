@@ -40,6 +40,8 @@ values:
         - =dev-util/simplestreams-builder-9999::mottainai
 
     staging2:
+      remote_overlay:
+        - geaaru|git|https://github.com/geaaru/geaaru_overlay
       target:
         - =app-misc/sabayon-live-9999::sabayon-distro
 #        - =sys-apps/entropy-9999::sabayon
