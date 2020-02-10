@@ -74,6 +74,8 @@ build:
     
     - =dev-db/database-release-manager-9999
     
+    - =app-office/hamster-time-tracker-3.0_beta
+    
     - =www-servers/tornado-5.1
     
     - =dev-python/pymdown-extensions-6.0.0::geaaru

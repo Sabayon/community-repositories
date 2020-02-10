@@ -104,7 +104,7 @@ build:
     
     - www-apps/grafana-bin::geaaru
     
-    - =dev-db/arangodb-3.4.5::geaaru
+    - =dev-db/arangodb-3.4.8::geaaru
     
     - app-emulation/container-diff::geaaru
     
