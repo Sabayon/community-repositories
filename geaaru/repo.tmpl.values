@@ -16,6 +16,13 @@ values:
   FilterRules:
     pkgs:
       - dev-lang/elixir
+      # For Freeradius
+      - acct-group/radius
+      - acct-user/radius
+      - dev-libs/hiredis
+      # postgresql-12 is not available in sabayonlinux.org
+      - dev-db/postgresql
+      - sys-libs/talloc
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"

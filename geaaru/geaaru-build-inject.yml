@@ -19,6 +19,16 @@ injector:
         
           - dev-lang/elixir
         
+          - acct-group/radius
+        
+          - acct-user/radius
+        
+          - dev-libs/hiredis
+        
+          - dev-db/postgresql
+        
+          - sys-libs/talloc
+        
     
     
       - description: "Geaaru AMD64 Filter URLs"
