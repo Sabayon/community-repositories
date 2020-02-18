@@ -23,6 +23,8 @@ values:
       # postgresql-12 is not available in sabayonlinux.org
       - dev-db/postgresql
       - sys-libs/talloc
+      # deps of cri-o
+      - app-emulation/conmon
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"

@@ -29,6 +29,8 @@ injector:
         
           - sys-libs/talloc
         
+          - app-emulation/conmon
+        
     
     
       - description: "Geaaru AMD64 Filter URLs"
