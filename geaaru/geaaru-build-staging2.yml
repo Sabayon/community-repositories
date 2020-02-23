@@ -84,4 +84,6 @@ build:
     
     - =dev-python/mkdocs-cinder-0.15.0::geaaru
     
+    - dev-python/falcon::geaaru
+    
 
