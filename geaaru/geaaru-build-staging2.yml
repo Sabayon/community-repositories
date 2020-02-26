@@ -66,6 +66,8 @@ build:
     
     - app-metrics/freeradius_exporter::geaaru
     
+    - app-metrics/memcached_exporter::geaaru
+    
     - net-dns/noip-updater::geaaru
     
     - =app-emulation/distrobuilder-9999::geaaru
@@ -74,7 +76,7 @@ build:
     
     - =dev-db/database-release-manager-9999
     
-    - =app-office/hamster-time-tracker-3.0_beta
+    - =app-office/hamster-time-tracker-3.0::geaaru
     
     - =www-servers/tornado-5.1
     
