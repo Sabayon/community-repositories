@@ -66,6 +66,8 @@ values:
         - www-apps/grafana-bin::geaaru
         - =dev-db/arangodb-3.4.8::geaaru
         - app-emulation/container-diff::geaaru
+
+        - dev-java/openjdk-bin:11
     staging2:
       remote_overlay: *overlays
       target:

@@ -108,4 +108,6 @@ build:
     
     - app-emulation/container-diff::geaaru
     
+    - dev-java/openjdk-bin:11
+    
 
