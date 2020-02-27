@@ -78,12 +78,12 @@ values:
         - app-metrics/freeradius_exporter::geaaru
         - app-metrics/memcached_exporter::geaaru
         - net-dns/noip-updater::geaaru
-        - =app-emulation/distrobuilder-9999::geaaru
+        - =app-emulation/distrobuilder-0.0_pre20191021::geaaru
         - =dev-util/simplestreams-builder-9999::mottainai
         - =dev-db/database-release-manager-9999
         - =app-office/hamster-time-tracker-3.0::geaaru
         # Mkdocs mottainai stuff
-        - =www-servers/tornado-5.1
+        #- =www-servers/tornado-5.1
         - =dev-python/pymdown-extensions-6.0.0::geaaru
         - =dev-python/mkdocs-material-3.1.0::geaaru
         - =dev-python/mkdocs-cinder-0.15.0::geaaru
