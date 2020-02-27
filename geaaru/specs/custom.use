@@ -9,3 +9,6 @@ app-admin/salt ldap libvirt mongodb mysql openssl portage profile raet redis zer
 # dev-util/xdelta lzma
 dev-python/jira oauth
 net-wireless/wpa_supplicant ap dbus eap-sim eapol_test fasteap fils hs2-0 macsec p2p qt5 readline wps
+
+# app-arch/unzip[natspec] require libnatspec (with py2.7)
+dev-libs/libnatspec python_single_target_python2_7 python
