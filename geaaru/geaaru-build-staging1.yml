@@ -64,8 +64,6 @@ build:
     
     - app-emulation/cri-o
     
-    - app-admin/ksonnet
-    
     - app-admin/helm
     
     - app-emulation/flannel
@@ -104,7 +102,7 @@ build:
     
     - www-apps/grafana-bin::geaaru
     
-    - =dev-db/arangodb-3.4.8::geaaru
+    - dev-db/arangodb::geaaru
     
     - app-emulation/container-diff::geaaru
     

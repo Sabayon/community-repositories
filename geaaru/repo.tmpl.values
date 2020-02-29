@@ -43,7 +43,6 @@ values:
         # dependency of cri-o
         - net-misc/cni-plugins
         - app-emulation/cri-o
-        - app-admin/ksonnet
         - app-admin/helm
         - app-emulation/flannel
         - =net-libs/dpdk-19.02::geaaru
@@ -64,7 +63,7 @@ values:
         - =dev-python/faucet-1.8.33::geaaru
         - app-metrics/prometheus::geaaru
         - www-apps/grafana-bin::geaaru
-        - =dev-db/arangodb-3.4.8::geaaru
+        - dev-db/arangodb::geaaru
         - app-emulation/container-diff::geaaru
 
         - dev-java/openjdk-bin:11
