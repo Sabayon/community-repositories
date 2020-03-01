@@ -60,7 +60,7 @@ values:
         - dev-python/gevent-websocket
         - dev-python/tinyrpc
         - dev-python/ryu
-        - =dev-python/faucet-1.8.33::geaaru
+        - dev-python/faucet::geaaru
         - app-metrics/prometheus::geaaru
         - www-apps/grafana-bin::geaaru
         - dev-db/arangodb::geaaru
