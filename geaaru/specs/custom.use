@@ -12,3 +12,4 @@ net-wireless/wpa_supplicant ap dbus eap-sim eapol_test fasteap fils hs2-0 macsec
 
 # app-arch/unzip[natspec] require libnatspec (with py2.7)
 dev-libs/libnatspec python_single_target_python2_7 python
+dev-java/openjdk alsa cups nsplugin webstart -doc -examples gentoo-vm
