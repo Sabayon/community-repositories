@@ -39,7 +39,7 @@ build:
 
   qa_checks: 0
   emerge:
-    profile: "default/linux/amd64/17.0/desktop"
+    profile: "default/linux/amd64/17.1/desktop"
 
     # Install each package separately
     split_install: 1
