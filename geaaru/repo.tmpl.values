@@ -10,11 +10,9 @@ values:
   FilterType: "whitelist"
 # Disable qa until a new release of devkit is out
   QaCheck: 0
-  PreCommands:
+#PreCommands:
     # Temporary until will be install as a deps of devkit
-    - equo i dev-perl/Sort-Versions
-    # this block install of the deps
-    - equo mask net-fs/samba-4.9.18@sabayonlinux.org
+#    - equo i dev-perl/Sort-Versions
   FilterRules:
     pkgs:
       - dev-lang/elixir
