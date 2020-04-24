@@ -95,7 +95,13 @@ values:
     staging3:
       remote_overlay: *overlays
       target:
-        - =dev-lang/erlang-22.1.4
-        - net-misc/rabbitmq-server
+         - =dev-lang/go-1.14.2
+#        - =dev-lang/erlang-22.1.4
+#        - net-misc/rabbitmq-server
 
+    staging4:
+      remote_overlay: *overlays
+      target:
+         - =dev-java/openjdk-bin-11.0.6_p10
+         - =dev-java/openjdk-jre-bin-11.0.6_p10
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
