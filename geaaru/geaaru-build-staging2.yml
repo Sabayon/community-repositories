@@ -86,4 +86,6 @@ build:
     
     - dev-python/falcon::geaaru
     
+    - dev-python/j2cli::geaaru
+    
 

@@ -89,6 +89,7 @@ values:
         - =dev-python/mkdocs-material-3.1.0::geaaru
         - =dev-python/mkdocs-cinder-0.15.0::geaaru
         - dev-python/falcon::geaaru
+        - dev-python/j2cli::geaaru
 
     staging3:
       remote_overlay: *overlays
