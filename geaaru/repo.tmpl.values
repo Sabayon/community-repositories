@@ -62,6 +62,7 @@ values:
         - dev-python/ryu
         - dev-python/faucet::geaaru
         - app-metrics/prometheus::geaaru
+        - app-metrics/alertmanager
         - www-apps/grafana-bin::geaaru
         - dev-db/arangodb::geaaru
         - app-emulation/container-diff::geaaru

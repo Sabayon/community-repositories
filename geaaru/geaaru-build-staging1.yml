@@ -100,6 +100,8 @@ build:
     
     - app-metrics/prometheus::geaaru
     
+    - app-metrics/alertmanager
+    
     - www-apps/grafana-bin::geaaru
     
     - dev-db/arangodb::geaaru
