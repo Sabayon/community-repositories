@@ -44,11 +44,11 @@ values:
         - geaaru|git|https://github.com/geaaru/geaaru_overlay
       target:
         - =app-misc/sabayon-live-9999::sabayon-distro
-#        - =sys-apps/entropy-9999::sabayon
-        - =sys-apps/entropy-9999::geaaru
+        - =sys-apps/entropy-9999::sabayon
+#        - =sys-apps/entropy-9999::geaaru
         - =sys-apps/entropy-server-9999::sabayon
-#- =app-admin/equo-9999::sabayon
-        - =app-admin/equo-9999::geaaru
-        - =app-admin/matter-9999::sabayon
+        - =app-admin/equo-9999::sabayon
+#        - =app-admin/equo-9999::geaaru
+#- =app-admin/matter-9999::sabayon
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
