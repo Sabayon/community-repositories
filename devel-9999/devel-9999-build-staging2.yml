@@ -22,27 +22,11 @@ build:
 
         - app-misc/sabayon-live-9999
 
-        - sys-apps/entropy-9999
-
-        - sys-apps/entropy-server-9999
-
-        - app-admin/equo-9999
-
-        - app-admin/matter-9999
-
 
 
       install:
 
         - app-misc/sabayon-live-9999
-
-        - sys-apps/entropy-9999
-
-        - sys-apps/entropy-server-9999
-
-        - app-admin/equo-9999
-
-        - app-admin/matter-9999
 
 
 
@@ -64,7 +48,7 @@ build:
     default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
 
 
-    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
 
 
 
@@ -80,11 +64,5 @@ build:
   target:
     
     - =app-misc/sabayon-live-9999::sabayon-distro
-    
-    - =sys-apps/entropy-9999::sabayon
-    
-    - =sys-apps/entropy-server-9999::sabayon
-    
-    - =app-admin/equo-9999::sabayon
     
 
