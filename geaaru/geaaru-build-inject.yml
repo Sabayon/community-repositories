@@ -31,6 +31,8 @@ injector:
         
           - app-emulation/conmon
         
+          - dev-python/msgpack
+        
     
     
       - description: "Geaaru AMD64 Filter URLs"

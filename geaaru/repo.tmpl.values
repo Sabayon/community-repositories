@@ -25,6 +25,10 @@ values:
       - sys-libs/talloc
       # deps of cri-o
       - app-emulation/conmon
+
+      # fix installation of influxdb
+      - dev-python/msgpack
+
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging2.yml"
