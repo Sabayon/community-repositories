@@ -9,107 +9,53 @@ values:
     # Temporary until will be install as a deps of devkit
     - equo i dev-perl/Sort-Versions
   # It's not time now for --newuse, maybe in the future :)
-  EmergeDefaultArgs: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
+  EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
   FilterRules:
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging2.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging3.yml"
-  EquoPackagesRemove:
-    - net-libs/libnfsidmap
   EquoDepsInstallScanDepth: 3
   stagings:
 
     staging1:
       script_pre:
         - eselect python set python3.6
-        - eselect ruby set ruby24
+        - eselect ruby set ruby25
       overlays:
         - ace
-        - fkmclane
-        - gentoo-zh
         - sihnon
-        - swegener
       target:
-        - app-admin/pdk
-        - app-crypt/dehydrated
-        - app-metrics/collectd
-        - app-admin/puppet-env-manager
-        - app-admin/consul
-        - app-admin/lastpass-cli
-        - app-admin/librarianp::sihnon
-        - app-admin/librarian-puppet::sihnon
-        - app-admin/puppet-lint::gentoo
-        - app-admin/vault
+        - app-crypt/dehydrated::gentoo
+        - app-admin/puppet-env-manager::sihnon
         - app-vim/puppet-syntax::gentoo
+        - dev-python/py-mco-agent::sihnon
+        - dev-ruby/puppetdb-termini::gentoo
+        - net-misc/choria-bin::ace
 
     staging2:
-      script_pre:
-        - eselect python set python3.6
-        - eselect ruby set ruby24
-      overlays:
-        - ace
-        - fkmclane
-        - gentoo-zh
-        - sihnon
-        - swegener
       target:
-        - dev-perl/Monitoring-Plugin
-        - dev-python/django-haystack::gentoo
-        - dev-python/py-mco-agent
-        - dev-ruby/hiera-eyaml-gpg::gentoo
-        - dev-ruby/hiera-puppet-helper::sihnon
-        - dev-ruby/puppet-syntax::sihnon
-        - dev-ruby/puppet_forge::sihnon
-        - dev-ruby/puppetdb-termini
-        - dev-ruby/puppetlabs_spec_helper::sihnon
-        - dev-ruby/rspec-puppet::sihnon
-        - dev-ruby/rspec-puppet-utils::sihnon
-        - dev-ruby/simplecov::gentoo
-        - dev-ruby/simplecov-html::gentoo
-        - dev-ruby/simplecov-rcov::sihnon
+        - app-admin/consul::gentoo
+        - app-admin/lastpass-cli::gentoo
+        - app-admin/vault::gentoo
         - dev-vcs/vcsh::gentoo
 
     staging3:
       script_pre:
         - eselect python set python3.6
-        - eselect ruby set ruby24
       overlays:
-        - ace
-        - fkmclane
-        - gentoo-zh
         - sihnon
         - swegener
       target:
+        - dev-perl/Monitoring-Plugin::gentoo
         - net-analyzer/nagios-plugins::gentoo
-        - net-analyzer/nagios-plugin-check-scsi-smart
-        - net-dns/hash-slinger
-        - net-misc/choria-bin
+        - net-analyzer/nagios-plugin-check-scsi-smart::sihnon
+        - net-dns/hash-slinger::gentoo
         - net-misc/lldpd::gentoo
         - net-misc/openssh::gentoo
         - net-misc/pssh::gentoo
-        - net-wireless/rtl-sdr::gentoo
-        - mcollective-plugin/mcollective-puppetenvsh-agent
-        - sys-apps/fwupd::gentoo
-        - sys-apps/fwupdate::gentoo
-        - sys-auth/google-authenticator::gentoo
-        - sys-auth/sssd
-        - sys-fs/zfs-auto-snapshot
-
-    staging4:
-    # logstash-bin inject java and gcc injection.
-    # It's better handle with attention
-      script_pre:
-        - eselect python set python3.6
-        - eselect ruby set ruby24
-      overlays:
-        - ace
-        - fkmclane
-        - gentoo-zh
-        - sihnon
-        - swegener
-      target:
-        - app-admin/logstash-bin
-        - dev-util/jenkins-bin::gentoo
+        - sys-auth/sssd::gentoo
+        - sys-fs/zfs-auto-snapshot::gentoo
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

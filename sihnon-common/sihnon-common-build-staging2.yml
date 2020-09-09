@@ -5,14 +5,6 @@
 
 build:
 
-  script:
-    pre:
-      
-      - eselect python set python3.6
-      
-      - eselect ruby set ruby24
-      
-
 
   equo:
     dependency_install:
@@ -28,11 +20,6 @@ build:
 
 
 
-      remove:
-
-        - net-libs/libnfsidmap
-
-
   qa_checks: 0
   emerge:
     profile: "default/linux/amd64/17.1/desktop"
@@ -43,59 +30,24 @@ build:
     jobs: 3
 
 
-    default_args: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
 
 
-    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
 
 
 
 
-
-  overlays:
-    
-    - ace
-    
-    - fkmclane
-    
-    - gentoo-zh
-    
-    - sihnon
-    
-    - swegener
-    
 
 
 
   target:
     
-    - dev-perl/Monitoring-Plugin
+    - app-admin/consul::gentoo
     
-    - dev-python/django-haystack::gentoo
+    - app-admin/lastpass-cli::gentoo
     
-    - dev-python/py-mco-agent
-    
-    - dev-ruby/hiera-eyaml-gpg::gentoo
-    
-    - dev-ruby/hiera-puppet-helper::sihnon
-    
-    - dev-ruby/puppet-syntax::sihnon
-    
-    - dev-ruby/puppet_forge::sihnon
-    
-    - dev-ruby/puppetdb-termini
-    
-    - dev-ruby/puppetlabs_spec_helper::sihnon
-    
-    - dev-ruby/rspec-puppet::sihnon
-    
-    - dev-ruby/rspec-puppet-utils::sihnon
-    
-    - dev-ruby/simplecov::gentoo
-    
-    - dev-ruby/simplecov-html::gentoo
-    
-    - dev-ruby/simplecov-rcov::sihnon
+    - app-admin/vault::gentoo
     
     - dev-vcs/vcsh::gentoo
     

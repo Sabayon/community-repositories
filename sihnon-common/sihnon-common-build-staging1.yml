@@ -10,7 +10,7 @@ build:
       
       - eselect python set python3.6
       
-      - eselect ruby set ruby24
+      - eselect ruby set ruby25
       
 
 
@@ -28,11 +28,6 @@ build:
 
 
 
-      remove:
-
-        - net-libs/libnfsidmap
-
-
   qa_checks: 0
   emerge:
     profile: "default/linux/amd64/17.1/desktop"
@@ -43,10 +38,10 @@ build:
     jobs: 3
 
 
-    default_args: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
 
 
-    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
 
 
 
@@ -56,39 +51,23 @@ build:
     
     - ace
     
-    - fkmclane
-    
-    - gentoo-zh
-    
     - sihnon
-    
-    - swegener
     
 
 
 
   target:
     
-    - app-admin/pdk
+    - app-crypt/dehydrated::gentoo
     
-    - app-crypt/dehydrated
-    
-    - app-metrics/collectd
-    
-    - app-admin/puppet-env-manager
-    
-    - app-admin/consul
-    
-    - app-admin/lastpass-cli
-    
-    - app-admin/librarianp::sihnon
-    
-    - app-admin/librarian-puppet::sihnon
-    
-    - app-admin/puppet-lint::gentoo
-    
-    - app-admin/vault
+    - app-admin/puppet-env-manager::sihnon
     
     - app-vim/puppet-syntax::gentoo
+    
+    - dev-python/py-mco-agent::sihnon
+    
+    - dev-ruby/puppetdb-termini::gentoo
+    
+    - net-misc/choria-bin::ace
     
 

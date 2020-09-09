@@ -10,8 +10,6 @@ build:
       
       - eselect python set python3.6
       
-      - eselect ruby set ruby24
-      
 
 
   equo:
@@ -28,11 +26,6 @@ build:
 
 
 
-      remove:
-
-        - net-libs/libnfsidmap
-
-
   qa_checks: 0
   emerge:
     profile: "default/linux/amd64/17.1/desktop"
@@ -43,22 +36,16 @@ build:
     jobs: 3
 
 
-    default_args: --accept-properties=-interactive -t --complete-graph --deep --with-bdeps=y --buildpkg --update
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
 
 
-    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict
+    features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
 
 
 
 
 
   overlays:
-    
-    - ace
-    
-    - fkmclane
-    
-    - gentoo-zh
     
     - sihnon
     
@@ -69,13 +56,13 @@ build:
 
   target:
     
+    - dev-perl/Monitoring-Plugin::gentoo
+    
     - net-analyzer/nagios-plugins::gentoo
     
-    - net-analyzer/nagios-plugin-check-scsi-smart
+    - net-analyzer/nagios-plugin-check-scsi-smart::sihnon
     
-    - net-dns/hash-slinger
-    
-    - net-misc/choria-bin
+    - net-dns/hash-slinger::gentoo
     
     - net-misc/lldpd::gentoo
     
@@ -83,18 +70,8 @@ build:
     
     - net-misc/pssh::gentoo
     
-    - net-wireless/rtl-sdr::gentoo
+    - sys-auth/sssd::gentoo
     
-    - mcollective-plugin/mcollective-puppetenvsh-agent
-    
-    - sys-apps/fwupd::gentoo
-    
-    - sys-apps/fwupdate::gentoo
-    
-    - sys-auth/google-authenticator::gentoo
-    
-    - sys-auth/sssd
-    
-    - sys-fs/zfs-auto-snapshot
+    - sys-fs/zfs-auto-snapshot::gentoo
     
 
