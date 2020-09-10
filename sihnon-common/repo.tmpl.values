@@ -35,6 +35,9 @@ values:
         - net-misc/choria-bin::ace
 
     staging2:
+      script_pre
+        # Work around missing go>=1.14.7 in sl.org
+        - equo install --nodeps app-admin/vault
       target:
         - app-admin/consul::gentoo
         - app-admin/lastpass-cli::gentoo
@@ -44,10 +47,13 @@ values:
     staging3:
       script_pre:
         - eselect python set python3.6
+        - equo install --nodeps net-misc/lldpd
+        - equo remove hash_slinger
       overlays:
         - sihnon
-        - swegener
       target:
+        - acct-user/lldpd::gentoo
+        - acct-group/lldpd::gentoo
         - dev-perl/Monitoring-Plugin::gentoo
         - net-analyzer/nagios-plugins::gentoo
         - net-analyzer/nagios-plugin-check-scsi-smart::sihnon
@@ -56,6 +62,7 @@ values:
         - net-misc/openssh::gentoo
         - net-misc/pssh::gentoo
         - sys-auth/sssd::gentoo
-        - sys-fs/zfs-auto-snapshot::gentoo
+        - sys-fs/zfs-auto-snapshot::gentooo
+        - virtual/pam::gentoo
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
