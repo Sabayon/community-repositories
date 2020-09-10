@@ -10,6 +10,10 @@ build:
       
       - eselect python set python3.6
       
+      - equo install --nodeps net-misc/lldpd
+      
+      - equo remove hash_slinger
+      
 
 
   equo:
@@ -49,12 +53,14 @@ build:
     
     - sihnon
     
-    - swegener
-    
 
 
 
   target:
+    
+    - acct-user/lldpd::gentoo
+    
+    - acct-group/lldpd::gentoo
     
     - dev-perl/Monitoring-Plugin::gentoo
     
@@ -72,6 +78,8 @@ build:
     
     - sys-auth/sssd::gentoo
     
-    - sys-fs/zfs-auto-snapshot::gentoo
+    - sys-fs/zfs-auto-snapshot::gentooo
+    
+    - virtual/pam::gentoo
     
 

@@ -5,6 +5,12 @@
 
 build:
 
+  script:
+    pre:
+      
+      - equo install --nodeps app-admin/vault
+      
+
 
   equo:
     dependency_install:

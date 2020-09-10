@@ -35,9 +35,9 @@ values:
         - net-misc/choria-bin::ace
 
     staging2:
-      script_pre
+      script_pre:
         # Work around missing go>=1.14.7 in sl.org
-        - equo install --nodeps app-admin/vault
+        - "equo install --nodeps app-admin/vault"
       target:
         - app-admin/consul::gentoo
         - app-admin/lastpass-cli::gentoo
@@ -47,7 +47,7 @@ values:
     staging3:
       script_pre:
         - eselect python set python3.6
-        - equo install --nodeps net-misc/lldpd
+        - "equo install --nodeps net-misc/lldpd"
         - equo remove hash_slinger
       overlays:
         - sihnon
