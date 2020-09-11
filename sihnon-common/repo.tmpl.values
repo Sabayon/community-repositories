@@ -35,13 +35,11 @@ values:
         - net-misc/choria-bin::ace
 
     staging2:
-      script_pre:
-        # Work around missing go>=1.14.7 in sl.org
-        - "equo install --nodeps app-admin/vault"
       target:
         - app-admin/consul::gentoo
         - app-admin/lastpass-cli::gentoo
-        - app-admin/vault::gentoo
+        # Temprary until >=dev-lang/go-1.14.7 is available
+        - "<=app-admin/vault-1.5.0::gentoo"
         - dev-vcs/vcsh::gentoo
 
     staging3:
