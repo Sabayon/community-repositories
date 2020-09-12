@@ -46,7 +46,7 @@ values:
       script_pre:
         - eselect python set python3.6
         - "equo install --nodeps net-misc/lldpd"
-        - equo remove hash_slinger
+        - equo remove net-dns/hash_slinger sys-fs/zfs-auto-snapshot
       overlays:
         - sihnon
       target:
@@ -61,6 +61,5 @@ values:
         - net-misc/pssh::gentoo
         - sys-auth/sssd::gentoo
         - sys-fs/zfs-auto-snapshot::gentooo
-        - virtual/pam::gentoo
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
