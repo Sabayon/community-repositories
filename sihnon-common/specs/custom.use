@@ -1,5 +1,5 @@
 app-admin/puppet-agent puppetdb
-net-analyzer/nagios-plugins mysql nagios-dns nagios-ntp nagios-ping nagios-ssh postgres radius samba smart snmp sudo ups
+net-analyzer/nagios-plugins mysql nagios-dns nagios-ntp nagios-ping nagios-ssh postgres smart snmp sudo ups
 net-misc/lldpd snmp
 net-misc/openssh -hpn ldap
-sys-auth/sssd autofs netlink nfsv4 samba ssh sudo
+sys-auth/sssd autofs netlink nfsv4 ssh sudo
