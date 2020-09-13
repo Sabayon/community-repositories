@@ -41,7 +41,7 @@ values:
       overlays:
         - ace
         # Required by puppet-env-manager (indirectly dns-python)
-        - fkmclane
+        - tgbugs-overlay
         - sihnon
       target:
         - app-crypt/dehydrated::gentoo
