@@ -17,6 +17,12 @@ injector:
       - description: "Sihnon Common AMD64 Filter Packages"
         pkgs:
         
+          - dev-python/git-python
+        
+          - dev-python/gitdb2
+        
+          - dev-python/smmap2
+        
           - dev-lang/python
         
           - dev-python/certifi

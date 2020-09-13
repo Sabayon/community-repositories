@@ -20,6 +20,10 @@ values:
       - acct-group
       - acct-user
     pkgs:
+      # Required by puppet-env-manager
+      - dev-python/git-python
+      - dev-python/gitdb2
+      - dev-python/smmap2
       # Required by dev-python/py-mco-agent
       - dev-lang/python
       - dev-python/certifi
