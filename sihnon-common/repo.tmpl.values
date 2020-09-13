@@ -1,5 +1,6 @@
 # Sihnon Common AMD64 Repository packages (splitted in staging tasks)
 values:
+  Amd64Queue: "scr"
   TargetRepo: "sihnon-common"
   TargetRepoName: "Sihnon Common"
   TargetPrefixRepo: "sihnon-common"
