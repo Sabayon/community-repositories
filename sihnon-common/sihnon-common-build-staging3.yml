@@ -10,10 +10,6 @@ build:
       
       - eselect python set python3.6
       
-      - equo install --nodeps net-misc/lldpd
-      
-      - equo remove net-dns/hash_slinger sys-fs/zfs-auto-snapshot
-      
 
 
   equo:
@@ -40,7 +36,7 @@ build:
     jobs: 3
 
 
-    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
+    default_args: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update --newuse
 
 
     features: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
@@ -78,6 +74,6 @@ build:
     
     - sys-auth/sssd::gentoo
     
-    - sys-fs/zfs-auto-snapshot::gentooo
+    - sys-fs/zfs-auto-snapshot::gentoo
     
 

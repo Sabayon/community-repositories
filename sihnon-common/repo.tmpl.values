@@ -10,9 +10,23 @@ values:
     # Temporary until will be install as a deps of devkit
     - equo i dev-perl/Sort-Versions
   # It's not time now for --newuse, maybe in the future :)
-  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update --newuse
   EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
+  FilterType: "whitelist"
   FilterRules:
+    category:
+      - acct-group
+      - acct-user
+    pkgs:
+      # Required by dev-python/py-mco-agent
+      - dev-lang/python
+      - dev-python/certifi
+      - dev-python/setuptools
+      - dev-python/setuptools_scm
+      # Required by app-admin/vault
+      - dev-lang/go
+      # Required by net-misc/lldpd
+      - dev-libs/libevent
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging2.yml"
@@ -26,6 +40,8 @@ values:
         - eselect ruby set ruby25
       overlays:
         - ace
+        # Required by puppet-env-manager (indirectly dns-python)
+        - fkmclane
         - sihnon
       target:
         - app-crypt/dehydrated::gentoo
@@ -36,9 +52,6 @@ values:
         - net-misc/choria-bin::ace
 
     staging2:
-      script_pre:
-        # Work around missing go>=1.14.7 in sl.org
-        - "equo install --nodeps app-admin/vault"
       target:
         - app-admin/consul::gentoo
         - app-admin/lastpass-cli::gentoo
@@ -48,8 +61,6 @@ values:
     staging3:
       script_pre:
         - eselect python set python3.6
-        - "equo install --nodeps net-misc/lldpd"
-        - equo remove net-dns/hash_slinger sys-fs/zfs-auto-snapshot
       overlays:
         - sihnon
       target:
@@ -63,6 +74,6 @@ values:
         - net-misc/openssh::gentoo
         - net-misc/pssh::gentoo
         - sys-auth/sssd::gentoo
-        - sys-fs/zfs-auto-snapshot::gentooo
+        - sys-fs/zfs-auto-snapshot::gentoo
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
