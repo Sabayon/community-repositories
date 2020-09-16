@@ -45,10 +45,6 @@ build:
     
     - app-admin/consul::gentoo
     
-    - app-admin/lastpass-cli::gentoo
-    
     - app-admin/vault::gentoo
-    
-    - dev-vcs/vcsh::gentoo
     
 

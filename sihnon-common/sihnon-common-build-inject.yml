@@ -33,8 +33,6 @@ injector:
         
           - dev-lang/go
         
-          - dev-libs/libevent
-        
     
     
       - description: "Sihnon Common AMD64 Filter URLs"

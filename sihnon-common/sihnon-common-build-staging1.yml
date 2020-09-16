@@ -64,11 +64,7 @@ build:
     
     - app-admin/puppet-env-manager::sihnon
     
-    - app-vim/puppet-syntax::gentoo
-    
     - dev-python/py-mco-agent::sihnon
-    
-    - dev-ruby/puppetdb-termini::gentoo
     
     - net-misc/choria-bin::ace
     

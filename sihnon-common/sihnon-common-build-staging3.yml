@@ -54,26 +54,14 @@ build:
 
   target:
     
-    - acct-user/lldpd::gentoo
-    
-    - acct-group/lldpd::gentoo
-    
     - dev-perl/Monitoring-Plugin::gentoo
     
     - net-analyzer/nagios-plugins::gentoo
     
     - net-analyzer/nagios-plugin-check-scsi-smart::sihnon
     
-    - net-dns/hash-slinger::gentoo
-    
-    - net-misc/lldpd::gentoo
-    
     - net-misc/openssh::gentoo
     
-    - net-misc/pssh::gentoo
-    
     - sys-auth/sssd::gentoo
-    
-    - sys-fs/zfs-auto-snapshot::gentoo
     
 

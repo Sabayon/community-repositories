@@ -31,8 +31,6 @@ values:
       - dev-python/setuptools_scm
       # Required by app-admin/vault
       - dev-lang/go
-      # Required by net-misc/lldpd
-      - dev-libs/libevent
     urls:
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging1.yml"
       - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-common/sihnon-common-build-staging2.yml"
@@ -52,17 +50,13 @@ values:
       target:
         - app-crypt/dehydrated::gentoo
         - app-admin/puppet-env-manager::sihnon
-        - app-vim/puppet-syntax::gentoo
         - dev-python/py-mco-agent::sihnon
-        - dev-ruby/puppetdb-termini::gentoo
         - net-misc/choria-bin::ace
 
     staging2:
       target:
         - app-admin/consul::gentoo
-        - app-admin/lastpass-cli::gentoo
         - app-admin/vault::gentoo
-        - dev-vcs/vcsh::gentoo
 
     staging3:
       script_pre:
@@ -70,16 +64,10 @@ values:
       overlays:
         - sihnon
       target:
-        - acct-user/lldpd::gentoo
-        - acct-group/lldpd::gentoo
         - dev-perl/Monitoring-Plugin::gentoo
         - net-analyzer/nagios-plugins::gentoo
         - net-analyzer/nagios-plugin-check-scsi-smart::sihnon
-        - net-dns/hash-slinger::gentoo
-        - net-misc/lldpd::gentoo
         - net-misc/openssh::gentoo
-        - net-misc/pssh::gentoo
         - sys-auth/sssd::gentoo
-        - sys-fs/zfs-auto-snapshot::gentoo
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
