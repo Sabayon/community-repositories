@@ -1,8 +1,0 @@
-# Was masked due to lack of php[xlst], no longer the case
-# Will fix upstream, but more expedient to do so here.
-dev-php/phing
-net-analyzer/icinga-web
-# https://bugs.gentoo.org/show_bug.cgi?id=475120
-=media-video/motion-4.0
-# libgit2 is masked for atom, but don't care about that, need newer for oxidized
-=dev-libs/libgit2-0.25.1
