@@ -1,0 +1,26 @@
+
+
+build:
+  equo:
+    package:
+
+
+
+
+injector:
+  filter:
+    type: whitelist
+    rules:
+    
+    
+    
+    
+      - description: "Sihnon Server AMD64 Filter URLs"
+        urls:
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging1.yml
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging2.yml
+        
+    
+

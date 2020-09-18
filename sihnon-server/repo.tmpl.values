@@ -1,0 +1,47 @@
+# Sihnon Server AMD64 Repository packages (splitted in staging tasks)
+values:
+  Amd64Queue: "scr"
+  Amd64QueueInjector: "scr"
+  Amd64QueueStaging: "scr"
+  TargetRepo: "sihnon-server"
+  TargetRepoName: "Sihnon Server"
+  TargetPrefixRepo: "sihnon-server"
+  ExpireDays: 10
+  FilterType: "whitelist"
+  EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update --newuse
+  EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
+  FilterType: "whitelist"
+  FilterRules:
+    category:
+      - acct-group
+      - acct-user
+    #pkgs: []
+    urls:
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging1.yml"
+      - "buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging2.yml"
+  EquoDepsInstallScanDepth: 3
+  stagings:
+
+    staging1:
+      overlays:
+        - sihnon
+      target:
+        - dev-db/phpmyadmin::gentoo
+        - net-analyzer/icinga2::gentoo
+        - net-dns/bind::gentoo
+        - net-dns/bind-dyndb-ldap::sihnon
+        - net-nds/gssproxy::gentoo
+        - net-p2p/deluge::gentoo
+        - www-apps/dokuwiki::gentoo
+        - www-apps/icingaweb2::gentoo
+        - www-apps/wordpress::gentoo
+        - www-misc/shellinabox::gentoo
+
+    staging2:
+      overlays:
+        - sihnon
+      target:
+        - dev-qt/qtsql::gentoo
+        - net-irc/quassel::gentoo
+
+# vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
