@@ -5,12 +5,6 @@
 
 build:
 
-  script:
-    pre:
-      
-      - eselect python set python3.6
-      
-
 
   equo:
     dependency_install:

@@ -39,9 +39,6 @@ values:
   stagings:
 
     staging1:
-      script_pre:
-        - eselect python set python3.6
-        - eselect ruby set ruby25
       overlays:
         - ace
         # Required by puppet-env-manager (indirectly dns-python)
@@ -59,8 +56,6 @@ values:
         - app-admin/vault::gentoo
 
     staging3:
-      script_pre:
-        - eselect python set python3.6
       overlays:
         - sihnon
       target:
