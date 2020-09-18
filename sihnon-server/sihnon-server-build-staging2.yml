@@ -41,6 +41,8 @@ build:
 
   overlays:
     
+    - sabayon-distro
+    
     - sihnon
     
 
@@ -50,6 +52,6 @@ build:
     
     - dev-qt/qtsql::gentoo
     
-    - net-irc/quassel::gentoo
+    - net-irc/quassel-core::sabayon-distro
     
 

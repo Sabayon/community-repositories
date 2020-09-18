@@ -39,9 +39,10 @@ values:
 
     staging2:
       overlays:
+        - sabayon-distro
         - sihnon
       target:
         - dev-qt/qtsql::gentoo
-        - net-irc/quassel::gentoo
+        - net-irc/quassel-core::sabayon-distro
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
