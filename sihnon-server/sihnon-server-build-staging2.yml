@@ -52,6 +52,6 @@ build:
     
     - dev-qt/qtsql::gentoo
     
-    - net-irc/quassel-core::sabayon-distro
+    - net-irc/quassel-core::sabayon-sihnon
     
 
