@@ -3,7 +3,7 @@ dev-db/phpmyadmin vhosts
 dev-qt/qtsql postgres
 
 # Required by icingaweb2
-media-gfx/imagemagick-7.0.10.28 -openmp
+media-gfx/imagemagick -openmp
 
 net-analyzer/icinga2 apache2 console mysql mail plugins vim-syntax
 net-irc/quassel crypt ldap postgres server syslog -dbus -monolithic -X
