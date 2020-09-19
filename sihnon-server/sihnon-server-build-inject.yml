@@ -14,6 +14,14 @@ injector:
     
     
     
+      - description: "Sihnon Server AMD64 Filter Packages"
+        pkgs:
+        
+          - dev-php/pecl-imagick
+        
+          - media-gfx/imagemagick
+        
+    
     
       - description: "Sihnon Server AMD64 Filter URLs"
         urls:
