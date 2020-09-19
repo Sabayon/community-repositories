@@ -42,7 +42,7 @@ values:
         - sabayon-distro
         - sihnon
       target:
-        - dev-qt/qtsql::gentoo
+        - =dev-qt/qtsql-5.15.0::gentoo
         - net-irc/quassel-core::sihnon
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

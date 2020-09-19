@@ -50,7 +50,7 @@ build:
 
   target:
     
-    - dev-qt/qtsql::gentoo
+    - =dev-qt/qtsql-5.15.0::gentoo
     
     - net-irc/quassel-core::sihnon
     
