@@ -12,6 +12,14 @@ injector:
     type: whitelist
     rules:
     
+      - description: "Sihnon Server AMD64 Filter Categories"
+        categories:
+        
+          - acct-group
+        
+          - acct-user
+        
+    
     
     
       - description: "Sihnon Server AMD64 Filter Packages"

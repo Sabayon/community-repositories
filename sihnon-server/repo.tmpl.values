@@ -12,7 +12,7 @@ values:
   EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
   FilterType: "whitelist"
   FilterRules:
-    category:
+    categories:
       - acct-group
       - acct-user
     pkgs:

@@ -12,6 +12,14 @@ injector:
     type: whitelist
     rules:
     
+      - description: "Sihnon Common AMD64 Filter Categories"
+        categories:
+        
+          - acct-group
+        
+          - acct-user
+        
+    
     
     
       - description: "Sihnon Common AMD64 Filter Packages"
