@@ -1,6 +1,7 @@
 net-dialup/freeradius kerberos ldap pam python readline ssl -debug -firebird -iodbc -libressl mysql -odbc -oracle -pcap postgres sqlite memcache redis
 app-emulation/lxd daemon dnsmasq ipv6
-app-emulation/lxc examples pam seccomp templates
+#app-emulation/lxc examples pam seccomp templates
+app-emulation/lxc examples pam seccomp -templates
 dev-db/database-release-manager -mongo -oracle -mysql
 # disable python3.5 for dependency to twisted-web on sabayon
 net-misc/openvswitch -modules monitor ssl -python_targets_python3_5 python_targets_python2_7
