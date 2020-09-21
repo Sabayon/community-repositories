@@ -88,7 +88,7 @@ values:
         - =app-emulation/distrobuilder-0.0_pre20191021::geaaru
         - =dev-util/simplestreams-builder-9999::mottainai
         - =dev-db/database-release-manager-9999
-        - =app-office/hamster-time-tracker-3.0.2::geaaru
+        - =app-office/hamster-time-tracker-3.0.2-r1::geaaru
         # Mkdocs mottainai stuff
         #- =www-servers/tornado-5.1
         - =dev-python/pymdown-extensions-6.0.0::geaaru
