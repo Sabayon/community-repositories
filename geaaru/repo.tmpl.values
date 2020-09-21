@@ -43,7 +43,7 @@ values:
       target:
         - sys-fs/lxcfs::geaaru
         - app-emulation/lxc::geaaru
-        - =app-emulation/lxc-templates-3.0.3::geaaru
+        - app-emulation/lxc-templates::geaaru
         - app-emulation/lxd::geaaru
         # dependency of cri-o
         - net-misc/cni-plugins
