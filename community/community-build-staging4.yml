@@ -5,18 +5,6 @@
 
 build:
 
-  script:
-    pre:
-      
-      - eselect python set python3.6
-      
-      - eselect ruby set ruby24
-      
-      - eselect gcc set x86_64-pc-linux-gnu-8.2.0
-      
-      - eselect binutils set x86_64-pc-linux-gnu-2.32
-      
-
 
   equo:
     dependency_install:
@@ -60,12 +48,6 @@ build:
     
     - 4nykey
     
-    - ace
-    
-    - activehome
-    
-    - and3k-sunrise
-    
     - anyc
     
     - atom
@@ -74,35 +56,13 @@ build:
     
     - brother-overlay
     
-    - c2p-overlay
-    
-    - crocket-overlay
-    
-    - cynede
-    
-    - didactic-duck
-    
     - dlang
     
     - fem-overlay
     
     - fkmclane
     
-    - flavour
-    
-    - fol4
-    
-    - furikake
-    
     - go-overlay
-    
-    - graaff
-    
-    - hamper-overlay
-    
-    - haskell
-    
-    - ikelos
     
     - jm-overlay
     
@@ -110,66 +70,34 @@ build:
     
     - k_f
     
-    - linxon
-    
-    - lmiphay
-    
-    - miramir
-    
-    - mozilla
-    
     - mv
-    
-    - oboeverlay
     
     - pentoo
     
-    - pg_overlay
-    
-    - pinkpieea
-    
-    - poly-c
-    
     - rasdark
     
-    - rion
-    
-    - roslin
-    
-    - scrill
-    
-    - salfter
-    
-    - sk-overlay
-    
-    - sinustrom
-    
-    - spikyatlinux
-    
-    - ssnb
+    - snapd
     
     - steam-overlay
     
     - stefantalpalaru
     
-    - stuff
-    
     - sublime-text
     
-    - swegener
-    
-    - tmacedo
-    
     - weuxel
-    
-    - zugaina
     
 
 
 
   target:
     
-    - sci-geosciences/googleearth::mv
+    - app-admin/keepasshttp::np-hardass-overlay
+    
+    - app-arch/rarcrack::gerislay
+    
+    - dev-util/flatpak-builder::flatpak-overlay
+    
+    - mate-extra/mate-tweak
     
     - sys-apps/flatpak
     
@@ -181,34 +109,6 @@ build:
     
     - sys-apps/xdg-desktop-portal-gtk::flatpak-overlay
     
-    - sys-cluster/kubectl
-    
-    - sys-cluster/minikube
-    
-    - sys-fs/libostree
-    
-    - sys-fs/zfstools::graaff
-    
-    - www-apps/hugo
-    
-    - www-client/brave-bin
-    
-    - www-client/palemoon-bin::palemoon
-    
-    - www-client/qutebrowser
-    
-    - www-plugins/opera-ffmpeg-codecs
-    
-    - x11-drivers/xf86-input-wizardpen::jorgicio
-    
-    - x11-libs/libvdpau-va-gl
-    
-    - x11-misc/iio-sensor-proxy
-    
-    - x11-misc/polybar
-    
-    - x11-terms/tilix
-    
-    - x11-wm/lumina
+    - sys-fs/libostree::flatpak-overlay
     
 

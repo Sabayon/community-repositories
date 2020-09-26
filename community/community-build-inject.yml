@@ -26,5 +26,7 @@ injector:
         
           - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging4.yml
         
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/community/community-build-staging5.yml
+        
     
 

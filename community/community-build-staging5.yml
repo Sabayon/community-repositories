@@ -91,34 +91,24 @@ build:
 
   target:
     
-    - app-editors/atom-bin::jorgicio
+    - app-office/freeoffice
     
-    - app-editors/sublime-text::sublime-text
+    - app-office/wps-office
     
-    - app-emulation/snapd::snapd
+    - www-client/brave-bin
     
-    - app-eselect/eselect-sublime::sublime-text
+    - www-client/palemoon-bin::palemoon
     
-    - app-misc/anki
+    - www-client/qutebrowser
     
-    - app-misc/double-commander-bin::rasdark
+    - www-plugins/opera-ffmpeg-codecs
     
-    - dev-util/idea-community
+    - x11-drivers/xf86-input-wizardpen::jorgicio
     
-    - dev-util/phpstorm
+    - x11-libs/libvdpau-va-gl
     
-    - dev-util/pycharm-community
+    - x11-terms/tilix
     
-    - dev-util/pycharm-professional
-    
-    - dev-db/etcd::gentoo
-    
-    - dev-embedded/arduino-ide
-    
-    - dev-embedded/stlink
-    
-    - dev-tex/mimetex::k_f
-    
-    - www-apps/hugo
+    - x11-wm/lumina
     
 

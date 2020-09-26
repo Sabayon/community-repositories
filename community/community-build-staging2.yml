@@ -5,18 +5,6 @@
 
 build:
 
-  script:
-    pre:
-      
-      - eselect python set python3.6
-      
-      - eselect ruby set ruby24
-      
-      - eselect gcc set x86_64-pc-linux-gnu-8.2.0
-      
-      - eselect binutils set x86_64-pc-linux-gnu-2.32
-      
-
 
   equo:
     dependency_install:
@@ -60,12 +48,6 @@ build:
     
     - 4nykey
     
-    - ace
-    
-    - activehome
-    
-    - and3k-sunrise
-    
     - anyc
     
     - atom
@@ -74,35 +56,13 @@ build:
     
     - brother-overlay
     
-    - c2p-overlay
-    
-    - crocket-overlay
-    
-    - cynede
-    
-    - didactic-duck
-    
     - dlang
     
     - fem-overlay
     
     - fkmclane
     
-    - flavour
-    
-    - fol4
-    
-    - furikake
-    
     - go-overlay
-    
-    - graaff
-    
-    - hamper-overlay
-    
-    - haskell
-    
-    - ikelos
     
     - jm-overlay
     
@@ -110,104 +70,38 @@ build:
     
     - k_f
     
-    - linxon
-    
-    - lmiphay
-    
-    - miramir
-    
-    - mozilla
-    
     - mv
-    
-    - oboeverlay
     
     - pentoo
     
-    - pg_overlay
-    
-    - pinkpieea
-    
-    - poly-c
-    
     - rasdark
     
-    - rion
-    
-    - roslin
-    
-    - scrill
-    
-    - salfter
-    
-    - sk-overlay
-    
-    - sinustrom
-    
-    - spikyatlinux
-    
-    - ssnb
+    - snapd
     
     - steam-overlay
     
     - stefantalpalaru
     
-    - stuff
-    
     - sublime-text
     
-    - swegener
-    
-    - tmacedo
-    
     - weuxel
-    
-    - zugaina
     
 
 
 
   target:
     
-    - dev-tex/mimetex::k_f
-    
     - dev-util/adobe-air-runtime::steam-overlay
     
-    - dev-util/eclipse-sdk-bin::ssnb
+    - net-misc/megasync
     
-    - dev-util/flatpak-builder::flatpak-overlay
-    
-    - dev-util/idea-community
-    
-    - dev-util/phpstorm
-    
-    - dev-util/pdk::ace
-    
-    - dev-util/pycharm-community
-    
-    - dev-util/pycharm-professional
-    
-    - games-strategy/megaglest
-    
-    - games-util/springlobby
-    
-    - kde-misc/nowdock-panel::lmiphay
-    
-    - mate-extra/mate-tweak
-    
-    - media-gfx/brother-dcp145c-bin::brother-overlay
+    - net-misc/streamtuner2::stefantalpalaru
     
     - media-gfx/pinta
     
-    - media-gfx/sweethome3d-bin::activehome
-    
     - media-gfx/ttfautohint::4nykey
     
-    - media-sound/lollypop
-    
     - media-sound/pulseaudio-equalizer::zyrenth
-    
-    - media-sound/sox::gentoo
     
     - media-sound/strawberry
     
@@ -217,8 +111,8 @@ build:
     
     - media-video/disper::fem-overlay
     
-    - media-video/filebot::fkmclane
+    - media-video/filebot::bobwya
     
-    - media-video/flowblade
+    - media-video/flowblade::jorgicio
     
 
