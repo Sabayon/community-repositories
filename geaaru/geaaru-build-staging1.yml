@@ -84,6 +84,8 @@ build:
     
     - dev-python/influxdb
     
+    - dev-python/graphviz
+    
     - dev-python/transitions
     
     - dev-python/chewie
