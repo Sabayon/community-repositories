@@ -54,4 +54,6 @@ build:
     
     - =dev-lang/go-1.15.2
     
+    - dev-db/arangodb::geaaru
+    
 

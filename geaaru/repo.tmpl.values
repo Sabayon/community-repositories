@@ -70,7 +70,6 @@ values:
         - app-metrics/prometheus::geaaru
         - app-metrics/alertmanager
         - www-apps/grafana-bin::geaaru
-        - dev-db/arangodb::geaaru
         - app-emulation/container-diff::geaaru
 
         - dev-java/openjdk-bin:11
@@ -105,6 +104,7 @@ values:
          - =dev-lang/go-1.15.2
 #        - =dev-lang/erlang-22.1.4
 #        - net-misc/rabbitmq-server
+         - dev-db/arangodb::geaaru
 
     staging4:
       remote_overlay: *overlays
