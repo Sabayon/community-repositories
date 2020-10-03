@@ -48,6 +48,7 @@ values:
         - app-crypt/dehydrated::gentoo
         - app-admin/puppet-env-manager::sihnon
         - dev-python/py-mco-agent::sihnon
+        - dev-util/pdk::ace
         - net-misc/choria-bin::ace
 
     staging2:

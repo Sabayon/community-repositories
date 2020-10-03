@@ -58,6 +58,8 @@ build:
     
     - dev-python/py-mco-agent::sihnon
     
+    - dev-util/pdk::ace
+    
     - net-misc/choria-bin::ace
     
 
