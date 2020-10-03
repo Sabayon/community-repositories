@@ -30,13 +30,13 @@ tasks:
       - wget https://raw.githubusercontent.com/Sabayon/devkit/develop/builder -O /usr/sbin/builder
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localbuild -O /usr/bin/sark-localbuild
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localcreaterepo -O /usr/bin/sark-localcreaterepo
-      - wget https://dispatcher.sabayon.org/sbi/namespace/pkgs-checker-cross-bin/pkgs-checker-latest-linux-amd64 -O /usr/bin/pkgs-checker
+      - wget https://downloads.svc.sabayon.org/namespace/pkgs-checker-cross-bin/pkgs-checker-latest-linux-amd64 -O /usr/bin/pkgs-checker
       - chmod a+x /usr/sbin/builder
       - chmod a+x /usr/bin/sark-localcreaterepo
       - chmod a+x /usr/bin/sark-localbuild
       - chmod a+x /usr/bin/pkgs-checker
       - eselect python set python3.6
-      - enman add https://dispatcher.sabayon.org/sbi/namespace/devel/devel
+      - enman add https://downloads.svc.sabayon.org/namespace/devel/devel
       - equo up && equo upgrade
       - sark-localbuild
       - eval 'rm artifacts/build_*.log || true'
@@ -82,13 +82,13 @@ tasks:
       - wget https://raw.githubusercontent.com/Sabayon/devkit/develop/builder -O /usr/sbin/builder
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localbuild -O /usr/bin/sark-localbuild
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localcreaterepo -O /usr/bin/sark-localcreaterepo
-      - wget https://dispatcher.sabayon.org/sbi/namespace/pkgs-checker-cross-bin/pkgs-checker-latest-linux-amd64 -O /usr/bin/pkgs-checker
+      - wget https://downloads.svc.sabayon.org/namespace/pkgs-checker-cross-bin/pkgs-checker-latest-linux-amd64 -O /usr/bin/pkgs-checker
       - chmod a+x /usr/sbin/builder
       - chmod a+x /usr/bin/sark-localcreaterepo
       - chmod a+x /usr/bin/sark-localbuild
       - chmod a+x /usr/bin/pkgs-checker
       - eselect python set python3.6
-      - enman add https://dispatcher.sabayon.org/sbi/namespace/devel/devel
+      - enman add https://downloads.svc.sabayon.org/namespace/devel/devel
       - equo up && equo upgrade
       - sark-localbuild
       - eval 'rm artifacts/build_*.log || true'
@@ -139,7 +139,7 @@ tasks:
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localbuild -O /usr/bin/sark-localbuild
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localcreaterepo -O /usr/bin/sark-localcreaterepo
       - wget https://raw.githubusercontent.com/Sabayon/sabayon-sark/develop/sark-localinjector -O /usr/bin/sark-localinjector
-      - wget https://dispatcher.sabayon.org/sbi/namespace/pkgs-checker-cross-bin/pkgs-checker-latest-linux-amd64 -O /usr/bin/pkgs-checker
+      - wget https://downloads.svc.sabayon.org/namespace/pkgs-checker-cross-bin/pkgs-checker-latest-linux-amd64 -O /usr/bin/pkgs-checker
       - chmod a+x /usr/sbin/builder
       - chmod a+x /usr/bin/sark-localcreaterepo
       - chmod a+x /usr/bin/sark-localbuild
@@ -148,7 +148,7 @@ tasks:
       - eselect python set python3.6
       # Force py3.6 on eit
       - sed -e 's:python2.7:python:g' -i /usr/bin/eit
-      - enman add https://dispatcher.sabayon.org/sbi/namespace/devel/devel
+      - enman add https://downloads.svc.sabayon.org/namespace/devel/devel
       - equo up && equo upgrade
       - sark-localinjector
       - eval 'rm artifacts/build_*.log || true'
