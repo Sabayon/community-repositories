@@ -3,7 +3,7 @@ values:
   TargetRepo: "devel-kernel"
   TargetRepoName: "Kernel Devel"
   TargetPrefixRepo: "devel-kernel"
-  Planned: "@daily"
+#Planned: "@daily"
   ExpireDays: 5
   EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --buildpkg
   FilterType: "whitelist"
