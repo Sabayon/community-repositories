@@ -25,6 +25,7 @@ values:
   EquoDepsInstallScanDepth: 3
   stagings:
 
+    # Infrastructure apps
     staging1:
       overlays:
         - sihnon
@@ -40,6 +41,7 @@ values:
         - www-apps/wordpress::gentoo
         - www-misc/shellinabox::gentoo
 
+    # Communication apps
     staging2:
       overlays:
         - sabayon-distro
@@ -47,5 +49,10 @@ values:
       target:
         - =dev-qt/qtsql-5.15.0::gentoo
         - net-irc/quassel-core::sihnon
+
+    # Storage apps
+    staging3:
+      target:
+        - sys-block/targetcli-fb
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml
