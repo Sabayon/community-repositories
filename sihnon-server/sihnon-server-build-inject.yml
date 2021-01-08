@@ -29,6 +29,10 @@ injector:
         
           - media-gfx/imagemagick
         
+          - dev-python/rtslib-fb
+        
+          - dev-python/configshell-fb
+        
     
     
       - description: "Sihnon Server AMD64 Filter URLs"
@@ -37,6 +41,8 @@ injector:
           - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging1.yml
         
           - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging2.yml
+        
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/sihnon-server/sihnon-server-build-staging3.yml
         
     
 
