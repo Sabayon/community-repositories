@@ -60,6 +60,6 @@ build:
     
     - dev-util/pdk::ace
     
-    - net-misc/choria-bin::ace
+    - net-misc/choria-bin::sihnon
     
 
