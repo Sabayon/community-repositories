@@ -49,7 +49,7 @@ values:
         - app-admin/puppet-env-manager::sihnon
         - dev-python/py-mco-agent::sihnon
         - dev-util/pdk::ace
-        - net-misc/choria-bin::ace
+        - net-misc/choria-bin::sihnon
 
     staging2:
       target:
