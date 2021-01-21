@@ -52,7 +52,7 @@ build:
 
   target:
     
-    - =dev-lang/go-1.15.2
+    - =dev-lang/go-1.15.5
     
     - dev-db/arangodb::geaaru
     

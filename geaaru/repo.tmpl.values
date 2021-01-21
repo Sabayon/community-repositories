@@ -101,7 +101,7 @@ values:
     staging3:
       remote_overlay: *overlays
       target:
-         - =dev-lang/go-1.15.2
+         - =dev-lang/go-1.15.5
 #        - =dev-lang/erlang-22.1.4
 #        - net-misc/rabbitmq-server
          - dev-db/arangodb::geaaru
