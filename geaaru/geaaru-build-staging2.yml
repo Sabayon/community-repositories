@@ -72,7 +72,7 @@ build:
     
     - net-dns/noip-updater::geaaru
     
-    - =app-emulation/distrobuilder-0.0_pre20191021::geaaru
+    - =app-emulation/distrobuilder-20201118::geaaru
     
     - =dev-util/simplestreams-builder-9999::mottainai
     
