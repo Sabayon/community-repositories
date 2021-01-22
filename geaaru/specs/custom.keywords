@@ -4,4 +4,4 @@ app-admin/salt::gentoo -amd64 -~amd64
 
 <=dev-lang/erlang-22.1.7 **
 
-dev/lang/go ~amd64
+dev-lang/go ~amd64
