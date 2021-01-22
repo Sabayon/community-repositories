@@ -5,6 +5,7 @@ values:
   TargetPrefixRepo: "geaaru"
   ExpireDays: 1
   Planned: "@weekly"
+  EmergePreservedRebuild: "0"
   EmergeDefaultArgs: --accept-properties=-interactive -t --nospinner --oneshot --complete-graph --update
   EmergeFeatures: assume-digests binpkg-logs -userpriv config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict -network-sandbox buildpkg
   FilterType: "whitelist"
@@ -101,7 +102,7 @@ values:
     staging3:
       remote_overlay: *overlays
       target:
-         - =dev-lang/go-1.15.5
+         - dev-lang/go
 #        - =dev-lang/erlang-22.1.4
 #        - net-misc/rabbitmq-server
          - dev-db/arangodb::geaaru
