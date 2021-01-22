@@ -104,12 +104,11 @@ values:
       target:
          - dev-lang/go
 #        - =dev-lang/erlang-22.1.4
-#        - net-misc/rabbitmq-server
          - dev-db/arangodb::geaaru
 
     staging4:
       remote_overlay: *overlays
       target:
-         - dev-java/openjdk-bin:11
-         - dev-java/openjdk-jre-bin:11
+         - net-misc/rabbitmq-server
+
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

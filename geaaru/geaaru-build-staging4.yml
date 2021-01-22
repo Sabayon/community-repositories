@@ -52,8 +52,6 @@ build:
 
   target:
     
-    - dev-java/openjdk-bin:11
-    
-    - dev-java/openjdk-jre-bin:11
+    - net-misc/rabbitmq-server
     
 
