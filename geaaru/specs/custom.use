@@ -1,5 +1,5 @@
 net-dialup/freeradius kerberos ldap pam python readline ssl -debug -firebird -iodbc -libressl mysql -odbc -oracle -pcap postgres sqlite memcache redis
-app-emulation/lxd daemon dnsmasq ipv6
+app-emulation/lxd daemon dnsmasq ipv6 tools
 #app-emulation/lxc examples pam seccomp templates
 app-emulation/lxc examples pam seccomp -templates
 dev-db/database-release-manager -mongo -oracle -mysql
