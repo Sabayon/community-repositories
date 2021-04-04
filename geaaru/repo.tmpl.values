@@ -43,10 +43,6 @@ values:
         - mottainai|git|https://github.com/MottainaiCI/gentoo-overlay
         - sabayon|git|https://github.com/Sabayon/for-gentoo.git
       target:
-        - sys-fs/lxcfs::geaaru
-        - app-emulation/lxc::geaaru
-        - app-emulation/lxc-templates::geaaru
-        - app-emulation/lxd::geaaru
         # dependency of cri-o
         - net-misc/cni-plugins
         - app-emulation/cri-o
@@ -111,5 +107,13 @@ values:
       remote_overlay: *overlays
       target:
          - net-misc/rabbitmq-server
+
+    staging5:
+      remote_overlay: *overlays
+      target:
+        - sys-fs/lxcfs::geaaru
+        - app-emulation/lxc::geaaru
+        - app-emulation/lxc-templates::geaaru
+        - app-emulation/lxd::geaaru
 
 # vim: set ts=2 shiftwidth=2 expandtab filetype=yaml

@@ -52,54 +52,12 @@ build:
 
   target:
     
-    - net-misc/cni-plugins
+    - sys-fs/lxcfs::geaaru
     
-    - app-emulation/cri-o
+    - app-emulation/lxc::geaaru
     
-    - app-admin/helm
+    - app-emulation/lxc-templates::geaaru
     
-    - app-emulation/flannel
-    
-    - =net-libs/dpdk-19.02::geaaru
-    
-    - dev-python/datadiff
-    
-    - dev-python/pytricia
-    
-    - dev-python/arrow
-    
-    - dev-python/jsonext
-    
-    - dev-python/beka
-    
-    - dev-python/prometheus_client
-    
-    - dev-python/influxdb
-    
-    - dev-python/graphviz
-    
-    - dev-python/transitions
-    
-    - dev-python/chewie
-    
-    - dev-python/geventhttpclient
-    
-    - dev-python/gevent-websocket
-    
-    - dev-python/tinyrpc
-    
-    - dev-python/ryu
-    
-    - dev-python/faucet::geaaru
-    
-    - app-metrics/prometheus::geaaru
-    
-    - app-metrics/alertmanager
-    
-    - www-apps/grafana-bin::geaaru
-    
-    - app-emulation/container-diff::geaaru
-    
-    - dev-java/openjdk-bin:11
+    - app-emulation/lxd::geaaru
     
 
