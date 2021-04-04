@@ -46,5 +46,7 @@ injector:
         
           - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging4.yml
         
+          - buildfile|https://raw.githubusercontent.com/Sabayon/community-repositories/master/geaaru/geaaru-build-staging5.yml
+        
     
 
