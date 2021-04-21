@@ -40,6 +40,7 @@ build:
     - atom
     - bobwya
     - brother-overlay
+    - bgo-overlay
     - c2p-overlay
     - crocket-overlay
     - cynede
