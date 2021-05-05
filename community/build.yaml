@@ -147,7 +147,7 @@ build:
     - net-print/brother-genml1-bin::brother-overlay
     - net-print/samsung-unified-driver
     - sci-geosciences/googleearth::mv
-    - sys-apps/flatpak
+    - sys-apps/flatpak::flatpak-overlay
     - sys-apps/hw-probe
     - sys-apps/sift::go-overlay
     - sys-apps/xdg-desktop-portal::flatpak-overlay
